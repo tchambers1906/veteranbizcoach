@@ -125,6 +125,50 @@ Next.js 16 App Router project with TypeScript, Tailwind CSS v4, PWA (Serwist), a
 - [x] All 3 locales (en, id, es) — no em dashes
 - [x] Compliance: "Amazon Bestselling Author" in full, no income promises
 
+## Completed (Meet the Team)
+- [x] White bg, navy eyebrow bar, 2x2 grid cards
+- [x] TC Chambers with real headshot, Rita Rosita (RR), Tami Rini (TR) with avatar initials
+- [x] "Join the Team" placeholder card (dashed border, muted, + icon)
+- [x] Gold expertise tags (badge style), teal titles, navy names
+- [x] All 3 locales (en, id, es) — no em dashes
+
+## Completed (Testimonials)
+- [x] Off-white bg, filter tabs (All + 5 pillars), active=teal underline
+- [x] 3 placeholder cards (marked with code comment for replacement)
+- [x] Avatar initials, name, business type, italic quote, teal result badge
+- [x] Testimonial disclaimer at bottom
+- [x] "See All Testimonials" teal CTA → /testimonials
+- [x] All 3 locales (en, id, es) — no em dashes
+
+## Completed (Lead Magnet — Resources)
+- [x] Navy bg, two-column (copy left + form right), stacked mobile
+- [x] Gold eyebrow, white headline, 5 teal-checkmark bullet points
+- [x] Educational disclaimer below bullets
+- [x] Form: First Name + Email with labels, gold "Send Me the Blueprint" button
+- [x] Privacy line, success/error states
+- [x] POST /api/lead-magnet: validation, sanitization, rate limiting, Resend integration
+- [x] Analytics: track('lead_magnet_submitted', {...}) on success
+- [x] All 3 locales (en, id, es) — no em dashes
+
+## Completed (Business Readiness Quiz)
+- [x] Off-white bg, 6-question multi-step quiz
+- [x] Progress bar (teal fill, charcoal track)
+- [x] Quiz routing logic: maps answers → 6 possible pillars with CTA links
+- [x] Result card: navy bg, gold heading, teal CTA button
+- [x] Optional email capture after result → POST /api/quiz-lead
+- [x] "Take the quiz again" restart option
+- [x] POST /api/quiz-lead: validation, rate limiting, Resend integration
+- [x] Analytics: track('quiz_completed', {...}) on completion, track('cta_clicked', {...}) on CTA
+- [x] All 3 locales (en, id, es) — no em dashes
+
+## API Endpoints
+- [x] POST /api/footer-email — email validation, rate limiting, Resend (2 emails)
+- [x] POST /api/lead-magnet — firstName+email validation, rate limiting, Resend (2 emails)
+- [x] POST /api/quiz-lead — email validation, rate limiting, Resend (2 emails)
+- All endpoints: RESEND_API_KEY env var required for email sending
+
 ## Next Steps
-- Build out static page content (/about, /team, /quiz, etc.)
-- Implement lead magnet form functionality
+- Add RESEND_API_KEY and LEAD_MAGNET_PDF_URL for live email functionality
+- Build out static page content (/about full page, /testimonials, etc.)
+- Configure PostHog and GA4 analytics SDKs
+- Replace placeholder testimonials with real ones

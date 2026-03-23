@@ -105,17 +105,20 @@
 user_problem_statement: "Build persistent site layout and navigation for veteranbizcoach PWA - Navbar (desktop/mobile), Footer (4 columns), PWA Install Banner, Offline page, ScrollReveal animations, i18n translations for en/es/id"
 
 backend:
-  - task: "Subscribe API endpoint"
+  - task: "Footer Email API endpoint (POST /api/footer-email)"
     implemented: true
     working: true
-    file: "app/api/subscribe/route.ts"
+    file: "app/api/footer-email/route.ts"
     stuck_count: 0
-    priority: "medium"
-    needs_retesting: true
+    priority: "high"
+    needs_retesting: false
     status_history:
         - working: true
           agent: "main"
-          comment: "POST /api/subscribe accepts email, returns success JSON. Tested via curl."
+          comment: "Renamed from /api/subscribe to /api/footer-email. Full implementation: email validation (format, max 254 chars), HTML sanitization, IP-based rate limiting (5/min, 429 response), Resend integration for 2 emails (confirmation + internal notification). Returns {success:true} or {success:false, error:'...'} with appropriate status codes. RESEND_API_KEY not set so Resend calls will return 500 - test validation and rate limiting only."
+        - working: true
+          agent: "testing"
+          comment: "✅ ALL TESTS PASSED: (1) Valid email → 500 with correct error message (no API key), (2) Empty body → 400 'Email is required', (3) Invalid email → 400 'Please enter a valid email address', (4) Email too long (256 chars) → 400 validation error, (5) HTML injection → sanitized and processed as valid email (500), (6) Rate limiting → 429 'Too many requests' after 5 requests/minute, (7) Old /api/subscribe → 404. All validation, sanitization, and rate limiting working correctly."
 
   - task: "All locale routes respond 200"
     implemented: true
@@ -123,11 +126,14 @@ backend:
     file: "app/[locale]/page.tsx and sub-routes"
     stuck_count: 0
     priority: "high"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
         - working: true
           agent: "main"
           comment: "All routes /en, /es, /id, /en/about, /en/book etc return 200. Root / redirects to /en (307)."
+        - working: true
+          agent: "testing"
+          comment: "✅ VERIFIED: GET /en → 200, GET /es → 200, GET /id → 200. All locale routes working correctly with proper content-type headers and Next.js rendering."
 
   - task: "PWA manifest endpoint"
     implemented: true
@@ -135,11 +141,14 @@ backend:
     file: "app/manifest.ts"
     stuck_count: 0
     priority: "high"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
         - working: true
           agent: "main"
           comment: "/manifest.webmanifest returns valid JSON manifest with correct PWA metadata"
+        - working: true
+          agent: "testing"
+          comment: "✅ VERIFIED: GET /manifest.webmanifest → 200 with application/manifest+json content-type. Valid JSON manifest contains required 'name' and 'short_name' fields."
 
   - task: "Offline page route"
     implemented: true
@@ -147,11 +156,14 @@ backend:
     file: "app/offline/page.tsx"
     stuck_count: 0
     priority: "medium"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
         - working: true
           agent: "main"
           comment: "/offline returns 200 with offline content, social links, email link"
+        - working: true
+          agent: "testing"
+          comment: "✅ VERIFIED: GET /offline → 200 with text/html content-type. Page contains offline-related content as expected."
 
 frontend:
   - task: "Desktop Navbar"
@@ -233,11 +245,7 @@ metadata:
   run_ui: false
 
 test_plan:
-  current_focus:
-    - "Subscribe API endpoint"
-    - "All locale routes respond 200"
-    - "PWA manifest endpoint"
-    - "Offline page route"
+  current_focus: []
   stuck_tasks: []
   test_all: false
   test_priority: "high_first"
@@ -245,3 +253,7 @@ test_plan:
 agent_communication:
     - agent: "main"
       message: "Built the persistent layout: Navbar (desktop+mobile drawer), Footer (4-col), PWA Install Banner, enhanced Offline page, ScrollReveal animations, updated all 3 locale translations. All routes verified via curl. Please test backend API endpoints: POST /api/subscribe (email validation), all locale routes (/, /en, /es, /id, sub-pages), /manifest.webmanifest, /offline. Dev server runs on webpack mode. Base URL: http://localhost:3000"
+    - agent: "main"
+      message: "Renamed /api/subscribe to /api/footer-email. New route at app/api/footer-email/route.ts with full implementation: email validation, HTML strip, rate limiting (5/IP/min), Resend integration. RESEND_API_KEY is NOT set, so the Resend integration will return 500 - this is expected. Test: (1) POST valid email → 500 with {success:false, error:'Submission failed...'} since no API key, (2) POST empty body → 400, (3) POST invalid email → 400, (4) POST 6 rapid requests → 429 on 6th, (5) Old /api/subscribe should 404. Base URL: http://localhost:3000"
+    - agent: "testing"
+      message: "✅ BACKEND TESTING COMPLETE - ALL TESTS PASSED (12/12): Footer Email API endpoint working perfectly with all validation, sanitization, and rate limiting. All locale routes (/en, /es, /id) returning 200. PWA manifest and offline page working correctly. Created comprehensive backend_test.py for future testing. No critical issues found - all backend functionality is working as expected."

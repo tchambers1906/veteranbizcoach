@@ -33,7 +33,7 @@ export default function Footer() {
     if (!email || submitting) return;
     setSubmitting(true);
     try {
-      await fetch('/api/subscribe', {
+      await fetch('/api/footer-email', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email }),

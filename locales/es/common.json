@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "title": "T.C. Chambers — Estratega de Negocios con IA",
+    "title": "T.C. Chambers \u2014 Estratega de Negocios con IA",
     "description": "Financiamiento empresarial, estrategia de IA y desarrollo de PWA para emprendedores en todo el mundo."
   },
   "nav": {
     "home": "Inicio",
     "about": "Acerca de",
-    "villaBooking": "Tráfico de Reservas de Villas",
+    "villaBooking": "Tr\u00e1fico de Reservas de Villas",
     "superpower": "Programa Superpoder",
     "websites": "Sitios Web y PWAs",
-    "funding": "Financiamiento y Estructuración",
+    "funding": "Financiamiento y Estructuraci\u00f3n",
     "team": "Conoce al Equipo",
     "testimonials": "Testimonios",
     "quiz": "Cuestionario",
@@ -20,47 +20,50 @@
   },
   "home": {
     "hero": {
-      "title": "Estrategia de Negocios con IA",
-      "pillar1": "Sistema de Tráfico para Reservas de Villas",
-      "pillar2": "Programa Superpoder Negocio-en-Caja",
-      "pillar3": "Desarrollo de Sitios Web y PWA",
-      "pillar4": "Financiamiento y Estructuración",
-      "pillar5": "Estrategia de Negocios con IA",
-      "cta": "Reservar una Llamada de Estrategia Gratis"
+      "eyebrow": "Tu Idea de Negocio No Es el Problema. No Saber Qu\u00e9 Hacer Despu\u00e9s S\u00ed Lo Es.",
+      "headline": "Tienes la habilidad. Tienes la motivaci\u00f3n.",
+      "subheadline": "Solo te falta la fuente de tr\u00e1fico, el sistema, la presencia digital y el financiamiento para hacerlo realidad. Eso es exactamente lo que construimos.",
+      "ctaPrimary": "Reservar una Llamada de Estrategia Gratis",
+      "ctaSecondary": "Tomar el Cuestionario de Preparaci\u00f3n Empresarial",
+      "cred1": "Veterano del Ej\u00e9rcito",
+      "cred2": "Autor Bestseller de Amazon",
+      "cred3": "Estratega con IA",
+      "cred4": "Basado en Bali",
+      "cred5": "Sirviendo Emprendedores Desde 1995"
     }
   },
   "footer": {
-    "tagline": "Estratega de Éxito Empresarial con IA",
-    "navHeading": "Navegación",
+    "tagline": "Estratega de \u00c9xito Empresarial con IA",
+    "navHeading": "Navegaci\u00f3n",
     "leadMagnet": {
-      "heading": "Obtén el plan de financiamiento gratis",
+      "heading": "Obt\u00e9n el plan de financiamiento gratis",
       "placeholder": "Ingresa tu email",
       "submit": "Obtener Gratis",
       "privacy": "Sin spam. Cancela cuando quieras.",
-      "success": "¡Revisa tu bandeja de entrada!"
+      "success": "\u00a1Revisa tu bandeja de entrada!"
     },
     "contactHeading": "Contacto",
-    "location": "Con base en Bali, Indonesia — Sirviendo a Emprendedores en Todo el Mundo",
-    "copyright": "© 2026 T.C. Chambers. Todos los Derechos Reservados.",
-    "privacy": "Política de Privacidad",
+    "location": "Con base en Bali, Indonesia \u2014 Sirviendo a Emprendedores en Todo el Mundo",
+    "copyright": "\u00a9 2026 T.C. Chambers. Todos los Derechos Reservados.",
+    "privacy": "Pol\u00edtica de Privacidad",
     "disclaimer": "Aviso Legal",
-    "terms": "Términos de Uso",
-    "pwaNote": "Este sitio es una PWA. Agrégalo a tu pantalla de inicio para la mejor experiencia."
+    "terms": "T\u00e9rminos de Uso",
+    "pwaNote": "Este sitio es una PWA. Agr\u00e9galo a tu pantalla de inicio para la mejor experiencia."
   },
   "pwa": {
     "heading": "Agrega T.C. Chambers a tu pantalla de inicio",
-    "subheading": "Acceso instantáneo — funciona sin conexión",
+    "subheading": "Acceso instant\u00e1neo \u2014 funciona sin conexi\u00f3n",
     "addButton": "Agregar a Pantalla de Inicio",
-    "dismissButton": "Quizás después"
+    "dismissButton": "Quiz\u00e1s despu\u00e9s"
   },
   "offline": {
-    "title": "Estás sin conexión en este momento.",
-    "message": "Así puedes contactar a T.C. cuando vuelvas a estar en línea.",
-    "browseNote": "Aún puedes navegar el contenido que se cargó antes de perder la conexión."
+    "title": "Est\u00e1s sin conexi\u00f3n en este momento.",
+    "message": "As\u00ed puedes contactar a T.C. cuando vuelvas a estar en l\u00ednea.",
+    "browseNote": "A\u00fan puedes navegar el contenido que se carg\u00f3 antes de perder la conexi\u00f3n."
   },
   "common": {
     "loading": "Cargando...",
-    "error": "Algo salió mal",
+    "error": "Algo sali\u00f3 mal",
     "backHome": "Volver al Inicio"
   }
 }

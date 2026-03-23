@@ -27,6 +27,27 @@ Next.js 16 App Router project with TypeScript, Tailwind CSS v4, PWA (Serwist), a
 - [x] .env.local.example with all required variables
 - [x] React Compiler (babel-plugin-react-compiler)
 
+## Completed (Persistent Layout & Nav)
+- [x] Desktop Navbar — gold logo, 5 center links, EN|ES|ID toggle, "Book a Call" CTA
+- [x] Mobile Navbar — hamburger menu with full-screen drawer (close, language, links, CTA, social icons)
+- [x] Footer — 4-column (Brand+Social, Navigation, Lead Magnet form, Contact) + Legal strip
+- [x] PWA Install Banner — 30s timer / 2nd visit trigger, localStorage 7-day suppress
+- [x] Enhanced offline page — social links, email, browse note
+- [x] ScrollReveal animations with prefers-reduced-motion
+- [x] Subscribe API endpoint at /api/subscribe
+
+## Completed (Hero Section)
+- [x] Full-bleed navy background with CSS grain texture + radial gradient glows
+- [x] Two-column layout (text left, photo right) / stacked mobile
+- [x] Eyebrow: gold, Montserrat 600, uppercase, tracking-widest
+- [x] Headline: white, Montserrat 800, 60px desktop / 36px mobile, word stagger animation
+- [x] Subheadline: off-white, Source Sans 3, 20px desktop / 17px mobile, max-w 560px
+- [x] CTA Group: Primary (gold bg) + Secondary (gold border), 44px min tap target
+- [x] Photo: TC initials placeholder (auto-switches to real image if available)
+- [x] Credibility bar: charcoal bg, 5 items with gold dots, horizontal scroll on mobile
+- [x] Full animation sequence: eyebrow → headline words → subheadline → CTAs → credibility
+- [x] prefers-reduced-motion: all animations disabled
+
 ## Routes
 - `/` → redirects to `/en`
 - `/[locale]` → Home page (en/es/id)

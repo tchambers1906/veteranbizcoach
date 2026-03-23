@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "T.C. Chambers — Ahli Strategi Bisnis Berbasis AI",
+    "title": "T.C. Chambers \u2014 Ahli Strategi Bisnis Berbasis AI",
     "description": "Pendanaan bisnis, strategi AI, dan pengembangan PWA untuk pengusaha di seluruh dunia."
   },
   "nav": {
@@ -20,13 +20,16 @@
   },
   "home": {
     "hero": {
-      "title": "Strategi Bisnis Berbasis AI",
-      "pillar1": "Sistem Lalu Lintas Pemesanan Vila",
-      "pillar2": "Program Kekuatan Super Bisnis-dalam-Kotak",
-      "pillar3": "Pengembangan Website & PWA",
-      "pillar4": "Pendanaan & Strukturisasi",
-      "pillar5": "Strategi Bisnis Berbasis AI",
-      "cta": "Pesan Panggilan Strategi Gratis"
+      "eyebrow": "Ide Bisnis Anda Bukan Masalahnya. Tidak Tahu Langkah Selanjutnya yang Jadi Masalah.",
+      "headline": "Anda punya keahlian. Anda punya semangat.",
+      "subheadline": "Anda hanya kurang sumber lalu lintas, sistem, kehadiran digital, dan pendanaan untuk mewujudkannya. Itulah yang kami bangun.",
+      "ctaPrimary": "Pesan Panggilan Strategi Gratis",
+      "ctaSecondary": "Ikuti Kuis Kesiapan Bisnis",
+      "cred1": "Veteran Militer",
+      "cred2": "Penulis Bestseller Amazon",
+      "cred3": "Ahli Strategi Berbasis AI",
+      "cred4": "Berbasis di Bali",
+      "cred5": "Melayani Pengusaha Sejak 1995"
     }
   },
   "footer": {
@@ -40,8 +43,8 @@
       "success": "Periksa kotak masuk Anda!"
     },
     "contactHeading": "Kontak",
-    "location": "Berbasis di Bali, Indonesia — Melayani Pengusaha di Seluruh Dunia",
-    "copyright": "© 2026 T.C. Chambers. Hak Cipta Dilindungi.",
+    "location": "Berbasis di Bali, Indonesia \u2014 Melayani Pengusaha di Seluruh Dunia",
+    "copyright": "\u00a9 2026 T.C. Chambers. Hak Cipta Dilindungi.",
     "privacy": "Kebijakan Privasi",
     "disclaimer": "Disclaimer",
     "terms": "Syarat Penggunaan",
@@ -49,7 +52,7 @@
   },
   "pwa": {
     "heading": "Tambahkan T.C. Chambers ke layar utama",
-    "subheading": "Akses instan — berfungsi offline juga",
+    "subheading": "Akses instan \u2014 berfungsi offline juga",
     "addButton": "Tambahkan ke Layar Utama",
     "dismissButton": "Nanti saja"
   },

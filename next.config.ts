@@ -12,7 +12,7 @@ const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 
 const nextConfig: NextConfig = {
   reactCompiler: true,
-  allowedDevOrigins: ['biz-coach-next16.cluster-0.preview.emergentcf.cloud', 'biz-coach-next16.preview.emergentagent.com'],
+  allowedDevOrigins: ['biz-coach-next16.cluster-0.preview.emergentcf.cloud', 'biz-coach-next16.cluster-12.preview.emergentcf.cloud', 'biz-coach-next16.preview.emergentagent.com'],
   images: {
     unoptimized: true,
   },

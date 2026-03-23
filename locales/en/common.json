@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "T.C. Chambers — AI-First Business Strategist",
+    "title": "T.C. Chambers \u2014 AI-First Business Strategist",
     "description": "Business funding, AI strategy, and PWA development for entrepreneurs worldwide."
   },
   "nav": {
@@ -20,13 +20,16 @@
   },
   "home": {
     "hero": {
-      "title": "AI-First Business Strategy",
-      "pillar1": "Villa Booking Traffic System",
-      "pillar2": "Superpower Business-in-a-Box Program",
-      "pillar3": "Websites & PWA Development",
-      "pillar4": "Funding & Structuring",
-      "pillar5": "AI-First Business Strategy",
-      "cta": "Book a Free Strategy Call"
+      "eyebrow": "Your Business Idea Is Not the Problem. Not Knowing What to Do Next Is.",
+      "headline": "You have the skill. You have the drive.",
+      "subheadline": "You\u2019re just missing the traffic source, the system, the digital presence, and the funding to make it real. That\u2019s exactly what we build.",
+      "ctaPrimary": "Book a Free Strategy Call",
+      "ctaSecondary": "Take the Business Readiness Quiz",
+      "cred1": "Army Veteran",
+      "cred2": "Amazon Bestselling Author",
+      "cred3": "AI-First Strategist",
+      "cred4": "Bali-Based",
+      "cred5": "Serving Entrepreneurs Since 1995"
     }
   },
   "footer": {
@@ -40,8 +43,8 @@
       "success": "Check your inbox!"
     },
     "contactHeading": "Contact",
-    "location": "Based in Bali, Indonesia — Serving Entrepreneurs Worldwide",
-    "copyright": "© 2026 T.C. Chambers. All Rights Reserved.",
+    "location": "Based in Bali, Indonesia \u2014 Serving Entrepreneurs Worldwide",
+    "copyright": "\u00a9 2026 T.C. Chambers. All Rights Reserved.",
     "privacy": "Privacy Policy",
     "disclaimer": "Disclaimer",
     "terms": "Terms of Use",
@@ -49,7 +52,7 @@
   },
   "pwa": {
     "heading": "Add T.C. Chambers to your home screen",
-    "subheading": "Get instant access — works offline too",
+    "subheading": "Get instant access \u2014 works offline too",
     "addButton": "Add to Home Screen",
     "dismissButton": "Maybe later"
   },

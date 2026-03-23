@@ -233,6 +233,182 @@
     },
     "readMore": "Baca cerita lengkapnya"
   },
+  "team": {
+    "eyebrowBar": "Orang-orang di balik strategi, operasi, dan pengalaman tamu.",
+    "headline": "Kenali Tim Kami",
+    "m1": {
+      "name": "T.C. Chambers",
+      "title": "Pendiri & Direktur Teknis",
+      "bio": "T.C. membangun aplikasi web yang berfungsi. Dia telah meluncurkan platform untuk bisnis perhotelan, praktisi kesehatan, dan pengecer online di seluruh Asia Tenggara dan Amerika Utara. Dia mengkhususkan diri dalam mengambil ide dan mengubahnya menjadi produk live dalam hitungan minggu. T.C. beroperasi dari Bali dan bekerja dengan klien yang menghargai kecepatan dan hasil.",
+      "tags": ["Pengembangan Web & PWA", "Strategi Berbasis AI", "Teknologi Perhotelan", "Asia Tenggara & Amerika Utara"]
+    },
+    "m2": {
+      "name": "Rita Rosita",
+      "title": "Operasi & Pengembangan Bisnis",
+      "bio": "Rita menghabiskan 15 tahun memperbaiki apa yang rusak ketika bisnis mencoba berkembang. Dia telah mengelola pengadaan dan inventaris untuk merek F&B, menegosiasikan kontrak pemasok, mengendalikan biaya di berbagai lokasi, dan melatih tim garis depan untuk hasil yang konsisten. Dia berbicara bahasa Inggris dan Indonesia.",
+      "tags": ["Manajemen Operasi", "Pengembangan Bisnis", "F&B & Perhotelan", "Bilingual EN/ID"]
+    },
+    "m3": {
+      "name": "Tami Rini",
+      "title": "Pengalaman Tamu & Operasi",
+      "bio": "Tami telah menghabiskan lima tahun di operasi front desk dan penjualan di Bali, Lombok, dan Malaysia. Dia saat ini menjabat sebagai Sales Executive di Mandala Eco Resort Lombok. Di SiteFlow AI, Tami meninjau alur kerja perjalanan tamu dari pertanyaan hingga checkout dan mengidentifikasi titik gesekan yang merugikan konversi operator vila.",
+      "tags": ["Pengalaman Tamu", "Operasi OTA & Pemesanan", "Penjualan Vila & Resort", "Pasar Bali/Lombok"]
+    },
+    "placeholder": {
+      "name": "Bergabung dengan Tim",
+      "title": "Posisi Terbuka",
+      "bio": "Kami sedang berkembang. Detail segera hadir.",
+      "tags": ["Segera Hadir"]
+    }
+  },
+  "testimonials": {
+    "headline": "Hasil dari Orang Nyata",
+    "filters": {
+      "all": "Semua",
+      "villa": "Lalu Lintas Pemesanan Vila",
+      "superpower": "Program Superpower",
+      "websites": "Website & PWA",
+      "funding": "Pendanaan & Penataan",
+      "strategy": "Strategi Bisnis"
+    },
+    "placeholders": {
+      "p1": {
+        "name": "Nama Klien",
+        "business": "Pemilik Vila, Bali",
+        "quote": "Kutipan testimoni akan muncul di sini.",
+        "result": "Hasil: Menunggu"
+      },
+      "p2": {
+        "name": "Nama Klien",
+        "business": "Bisnis Online, USA",
+        "quote": "Kutipan testimoni akan muncul di sini.",
+        "result": "Hasil: Menunggu"
+      },
+      "p3": {
+        "name": "Nama Klien",
+        "business": "Merek Kesehatan, Asia Tenggara",
+        "quote": "Kutipan testimoni akan muncul di sini.",
+        "result": "Hasil: Menunggu"
+      }
+    },
+    "disclaimer": "Testimoni mencerminkan pengalaman individu dan bukan jaminan hasil di masa depan. Hasil bervariasi berdasarkan upaya individu, pengalaman, dan kondisi pasar.",
+    "cta": "Lihat Semua Testimoni"
+  },
+  "leadMagnet": {
+    "eyebrow": "Sumber Daya Gratis",
+    "headline": "Blueprint Pendanaan Bisnis 5 Langkah",
+    "subheadline": "Cara mengakses modal untuk bisnis Anda. Unduh PDF instan.",
+    "bullets": {
+      "b1": "Struktur pendanaan yang tepat yang digunakan T.C. untuk membangun kembali setelah kebangkrutan",
+      "b2": "Cara mengakses modal bunga 0% (langkah demi langkah)",
+      "b3": "Pengaturan entitas bisnis untuk pendanaan maksimal",
+      "b4": "Strategi posisi kredit yang dilewatkan kebanyakan pemilik bisnis",
+      "b5": "Cara beralih dari aplikasi ke pendanaan dalam 14 hingga 30 hari"
+    },
+    "disclaimer": "Hanya untuk tujuan pendidikan. Hasil bervariasi berdasarkan keadaan individu.",
+    "form": {
+      "firstNameLabel": "Nama Depan",
+      "firstNamePlaceholder": "Nama depan Anda",
+      "emailLabel": "Alamat Email",
+      "emailPlaceholder": "anda@contoh.com",
+      "button": "Kirimkan Blueprint",
+      "sending": "Mengirim...",
+      "privacy": "Tanpa spam. Berhenti berlangganan kapan saja."
+    },
+    "successHeading": "Periksa inbox Anda.",
+    "successBody": "Blueprint Anda sedang dalam perjalanan.",
+    "errorMessage": "Terjadi kesalahan. Silakan coba lagi."
+  },
+  "quiz": {
+    "headline": "Di Mana Bisnis Anda Sekarang?",
+    "subheadline": "Ikuti Kuis Kesiapan Bisnis 60 Detik",
+    "progress": "Pertanyaan {current} dari {total}",
+    "complete": "Kuis selesai",
+    "questions": {
+      "q1": {
+        "text": "Di tahap apa bisnis Anda?",
+        "a": "Tahap Ide",
+        "b": "Baru Diluncurkan",
+        "c": "Mapan",
+        "d": "Berkembang"
+      },
+      "q2": {
+        "text": "Apa tantangan terbesar Anda saat ini?",
+        "a": "Mendapatkan kejelasan",
+        "b": "Mendapatkan pendanaan",
+        "c": "Membangun kehadiran digital",
+        "d": "Menggunakan AI",
+        "e": "Semua di atas"
+      },
+      "q3": {
+        "text": "Apakah Anda memiliki entitas bisnis yang sudah dibentuk?",
+        "a": "Ya",
+        "b": "Tidak",
+        "c": "Tidak yakin"
+      },
+      "q4": {
+        "text": "Apakah Anda memiliki website atau aplikasi?",
+        "a": "Ya, mengkonversi dengan baik",
+        "b": "Ya, tapi kurang optimal",
+        "c": "Tidak"
+      },
+      "q5": {
+        "text": "Apakah Anda menggunakan alat AI dalam bisnis Anda?",
+        "a": "Ya, secara rutin",
+        "b": "Sedikit",
+        "c": "Tidak, tapi saya ingin",
+        "d": "Tidak, saya tidak tahu harus mulai dari mana"
+      },
+      "q6": {
+        "text": "Apa tujuan #1 Anda dalam 90 hari ke depan?",
+        "a": "Meluncurkan bisnis saya",
+        "b": "Mendapatkan pendanaan",
+        "c": "Membangun kehadiran digital",
+        "d": "Mengintegrasikan AI",
+        "e": "Semua di atas"
+      }
+    },
+    "results": {
+      "superpower": {
+        "heading": "Langkah selanjutnya: kejelasan dan posisi.",
+        "body": "Anda memiliki keahlian. Sekarang Anda perlu mendefinisikan, memvalidasi, dan mengemasnya. Program Superpower dirancang untuk membantu Anda melakukan hal itu dalam 8 minggu.",
+        "cta": "Bergabung Daftar Tunggu Superpower"
+      },
+      "funding": {
+        "heading": "Langkah selanjutnya: akses modal.",
+        "body": "Anda memiliki fondasi. Sekarang Anda memerlukan struktur pendanaan yang tepat. T.C. dapat memandu Anda melalui strategi yang telah membantu pengusaha mengakses modal dalam 14 hingga 30 hari.",
+        "cta": "Pesan Panggilan Penemuan Pendanaan"
+      },
+      "website": {
+        "heading": "Langkah selanjutnya: kehadiran digital yang mengkonversi.",
+        "body": "Anda memerlukan website atau aplikasi yang bekerja untuk bisnis Anda 24/7. T.C. membangun PWA bertenaga AI untuk bisnis perhotelan, kesehatan, dan e-commerce.",
+        "cta": "Pesan Panggilan Penemuan Website/PWA"
+      },
+      "ai": {
+        "heading": "Langkah selanjutnya: integrasi AI.",
+        "body": "AI bukan lagi opsional. T.C. dapat membantu Anda mengidentifikasi di mana AI cocok dalam bisnis Anda dan membangun alat yang membuatnya bekerja.",
+        "cta": "Pesan Sesi Strategi AI"
+      },
+      "villa": {
+        "heading": "Langkah selanjutnya: lalu lintas pemesanan langsung.",
+        "body": "Regulasi baru mengubah permainan untuk pemilik vila. T.C. dapat membantu Anda membangun sistem pemesanan langsung yang mengurangi ketergantungan OTA.",
+        "cta": "Pesan Panggilan Strategi Lalu Lintas Vila"
+      },
+      "strategy": {
+        "heading": "Langkah selanjutnya: panggilan strategi.",
+        "body": "Anda memiliki beberapa prioritas. Panggilan strategi akan membantu T.C. memahami situasi Anda dan merekomendasikan titik awal yang tepat.",
+        "cta": "Pesan Panggilan Strategi Gratis"
+      }
+    },
+    "emailPrompt": "Ingin T.C. meninjau hasil Anda secara pribadi? Masukkan email Anda.",
+    "emailLabel": "Alamat Email",
+    "emailPlaceholder": "anda@contoh.com",
+    "emailButton": "Kirim Hasil Saya",
+    "emailSending": "Mengirim...",
+    "emailSuccess": "Terkirim. T.C. akan meninjau hasil Anda dan menindaklanjuti.",
+    "emailError": "Terjadi kesalahan. Silakan coba lagi.",
+    "restart": "Ikuti kuis lagi"
+  },
   "footer": {
     "tagline": "Ahli Strategi Sukses Bisnis Berbasis AI",
     "navHeading": "Navigasi",

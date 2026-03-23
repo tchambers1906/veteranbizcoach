@@ -233,6 +233,182 @@
     },
     "readMore": "Lee la historia completa"
   },
+  "team": {
+    "eyebrowBar": "Las personas detr\u00e1s de la estrategia, las operaciones y la experiencia del hu\u00e9sped.",
+    "headline": "Conoce al Equipo",
+    "m1": {
+      "name": "T.C. Chambers",
+      "title": "Fundador y Director T\u00e9cnico",
+      "bio": "T.C. construye aplicaciones web que funcionan. Ha lanzado plataformas para negocios de hospitalidad, profesionales del bienestar y minoristas en l\u00ednea en el Sudeste Asi\u00e1tico y Norteam\u00e9rica. Se especializa en tomar una idea y convertirla en un producto en vivo en semanas. T.C. opera desde Bali y trabaja con clientes que valoran la velocidad y los resultados.",
+      "tags": ["Desarrollo Web y PWA", "Estrategia con IA", "Tecnolog\u00eda Hotelera", "SE Asia y Norteam\u00e9rica"]
+    },
+    "m2": {
+      "name": "Rita Rosita",
+      "title": "Operaciones y Desarrollo de Negocios",
+      "bio": "Rita pas\u00f3 15 a\u00f1os arreglando lo que se rompe cuando los negocios intentan escalar. Ha gestionado adquisiciones e inventario para marcas de alimentos y bebidas, negociado contratos con proveedores, controlado costos en m\u00faltiples ubicaciones y capacitado equipos de primera l\u00ednea para resultados consistentes. Habla ingl\u00e9s e indonesio.",
+      "tags": ["Gesti\u00f3n de Operaciones", "Desarrollo de Negocios", "F&B y Hospitalidad", "Biling\u00fce EN/ID"]
+    },
+    "m3": {
+      "name": "Tami Rini",
+      "title": "Experiencia del Hu\u00e9sped y Operaciones",
+      "bio": "Tami ha pasado cinco a\u00f1os en operaciones de recepci\u00f3n y ventas en Bali, Lombok y Malasia. Actualmente se desempe\u00f1a como Ejecutiva de Ventas en Mandala Eco Resort Lombok. En SiteFlow AI, Tami revisa los flujos de trabajo del viaje del hu\u00e9sped desde la consulta hasta el checkout e identifica puntos de fricci\u00f3n que cuestan conversiones a los operadores de villas.",
+      "tags": ["Experiencia del Hu\u00e9sped", "Operaciones OTA y Reservas", "Ventas de Villas y Resorts", "Mercado Bali/Lombok"]
+    },
+    "placeholder": {
+      "name": "\u00danete al Equipo",
+      "title": "Posici\u00f3n Abierta",
+      "bio": "Estamos creciendo. Detalles pr\u00f3ximamente.",
+      "tags": ["Pr\u00f3ximamente"]
+    }
+  },
+  "testimonials": {
+    "headline": "Resultados de Personas Reales",
+    "filters": {
+      "all": "Todos",
+      "villa": "Tr\u00e1fico de Reservas de Villas",
+      "superpower": "Programa Superpoder",
+      "websites": "Sitios Web y PWAs",
+      "funding": "Financiamiento y Estructuraci\u00f3n",
+      "strategy": "Estrategia de Negocios"
+    },
+    "placeholders": {
+      "p1": {
+        "name": "Nombre del Cliente",
+        "business": "Due\u00f1o de Villa, Bali",
+        "quote": "La cita del testimonio aparecer\u00e1 aqu\u00ed.",
+        "result": "Resultado: Pendiente"
+      },
+      "p2": {
+        "name": "Nombre del Cliente",
+        "business": "Negocio en L\u00ednea, EE.UU.",
+        "quote": "La cita del testimonio aparecer\u00e1 aqu\u00ed.",
+        "result": "Resultado: Pendiente"
+      },
+      "p3": {
+        "name": "Nombre del Cliente",
+        "business": "Marca de Bienestar, SE Asia",
+        "quote": "La cita del testimonio aparecer\u00e1 aqu\u00ed.",
+        "result": "Resultado: Pendiente"
+      }
+    },
+    "disclaimer": "Los testimonios reflejan experiencias individuales y no son una garant\u00eda de resultados futuros. Los resultados var\u00edan seg\u00fan el esfuerzo individual, la experiencia y las condiciones del mercado.",
+    "cta": "Ver Todos los Testimonios"
+  },
+  "leadMagnet": {
+    "eyebrow": "Recurso Gratuito",
+    "headline": "El Blueprint de Financiamiento de Negocios en 5 Pasos",
+    "subheadline": "C\u00f3mo acceder a capital para tu negocio. Descarga PDF instant\u00e1nea.",
+    "bullets": {
+      "b1": "La estructura exacta de financiamiento que T.C. us\u00f3 para reconstruir despu\u00e9s de la bancarrota",
+      "b2": "C\u00f3mo acceder a capital al 0% de inter\u00e9s (paso a paso)",
+      "b3": "Configuraci\u00f3n de entidad empresarial para m\u00e1xima financiabilidad",
+      "b4": "Estrategias de posicionamiento crediticio que la mayor\u00eda de los due\u00f1os de negocios omiten",
+      "b5": "C\u00f3mo pasar de la solicitud a ser financiado en 14 a 30 d\u00edas"
+    },
+    "disclaimer": "Solo para fines educativos. Los resultados var\u00edan seg\u00fan las circunstancias individuales.",
+    "form": {
+      "firstNameLabel": "Nombre",
+      "firstNamePlaceholder": "Tu nombre",
+      "emailLabel": "Correo Electr\u00f3nico",
+      "emailPlaceholder": "tu@ejemplo.com",
+      "button": "Env\u00edame el Blueprint",
+      "sending": "Enviando...",
+      "privacy": "Sin spam. Cancela en cualquier momento."
+    },
+    "successHeading": "Revisa tu bandeja de entrada.",
+    "successBody": "Tu blueprint est\u00e1 en camino.",
+    "errorMessage": "Algo sali\u00f3 mal. Por favor intenta de nuevo."
+  },
+  "quiz": {
+    "headline": "\u00bfD\u00f3nde Est\u00e1 Tu Negocio Ahora?",
+    "subheadline": "Toma el Quiz de Preparaci\u00f3n Empresarial de 60 Segundos",
+    "progress": "Pregunta {current} de {total}",
+    "complete": "Quiz completado",
+    "questions": {
+      "q1": {
+        "text": "\u00bfEn qu\u00e9 etapa est\u00e1 tu negocio?",
+        "a": "Etapa de Idea",
+        "b": "Reci\u00e9n Lanzado",
+        "c": "Establecido",
+        "d": "En Crecimiento"
+      },
+      "q2": {
+        "text": "\u00bfCu\u00e1l es tu mayor desaf\u00edo ahora?",
+        "a": "Obtener claridad",
+        "b": "Obtener financiamiento",
+        "c": "Construir presencia digital",
+        "d": "Usar IA",
+        "e": "Todo lo anterior"
+      },
+      "q3": {
+        "text": "\u00bfTienes una entidad empresarial establecida?",
+        "a": "S\u00ed",
+        "b": "No",
+        "c": "No estoy seguro"
+      },
+      "q4": {
+        "text": "\u00bfTienes un sitio web o aplicaci\u00f3n?",
+        "a": "S\u00ed, convierte bien",
+        "b": "S\u00ed, pero no rinde",
+        "c": "No"
+      },
+      "q5": {
+        "text": "\u00bfEst\u00e1s usando herramientas de IA en tu negocio?",
+        "a": "S\u00ed, regularmente",
+        "b": "Un poco",
+        "c": "No, pero quiero",
+        "d": "No, no s\u00e9 por d\u00f3nde empezar"
+      },
+      "q6": {
+        "text": "\u00bfCu\u00e1l es tu meta #1 en los pr\u00f3ximos 90 d\u00edas?",
+        "a": "Lanzar mi negocio",
+        "b": "Obtener financiamiento",
+        "c": "Construir presencia digital",
+        "d": "Integrar IA",
+        "e": "Todo lo anterior"
+      }
+    },
+    "results": {
+      "superpower": {
+        "heading": "Tu pr\u00f3ximo paso: claridad y posicionamiento.",
+        "body": "Tienes las habilidades. Ahora necesitas definirlas, validarlas y empaquetarlas. El Programa Superpoder est\u00e1 dise\u00f1ado para ayudarte a hacer exactamente eso en 8 semanas.",
+        "cta": "\u00danete a la Lista de Espera del Superpoder"
+      },
+      "funding": {
+        "heading": "Tu pr\u00f3ximo paso: acceso a capital.",
+        "body": "Tienes la base. Ahora necesitas la estructura de financiamiento correcta. T.C. puede guiarte a trav\u00e9s de las estrategias que han ayudado a emprendedores a acceder a capital en 14 a 30 d\u00edas.",
+        "cta": "Reserva una Llamada de Descubrimiento de Financiamiento"
+      },
+      "website": {
+        "heading": "Tu pr\u00f3ximo paso: una presencia digital que convierte.",
+        "body": "Necesitas un sitio web o aplicaci\u00f3n que trabaje para tu negocio 24/7. T.C. construye PWAs con IA para negocios de hospitalidad, bienestar y comercio electr\u00f3nico.",
+        "cta": "Reserva una Llamada de Descubrimiento Web/PWA"
+      },
+      "ai": {
+        "heading": "Tu pr\u00f3ximo paso: integraci\u00f3n de IA.",
+        "body": "La IA ya no es opcional. T.C. puede ayudarte a identificar d\u00f3nde encaja la IA en tu negocio y construir las herramientas que la hagan funcionar.",
+        "cta": "Reserva una Sesi\u00f3n de Estrategia de IA"
+      },
+      "villa": {
+        "heading": "Tu pr\u00f3ximo paso: tr\u00e1fico de reservas directas.",
+        "body": "Las nuevas regulaciones est\u00e1n cambiando el juego para los due\u00f1os de villas. T.C. puede ayudarte a construir un sistema de reservas directas que reduzca la dependencia de OTAs.",
+        "cta": "Reserva una Llamada de Estrategia de Tr\u00e1fico para Villas"
+      },
+      "strategy": {
+        "heading": "Tu pr\u00f3ximo paso: una llamada de estrategia.",
+        "body": "Tienes m\u00faltiples prioridades. Una llamada de estrategia ayudar\u00e1 a T.C. a entender tu situaci\u00f3n y recomendar el punto de partida correcto.",
+        "cta": "Reserva una Llamada de Estrategia Gratuita"
+      }
+    },
+    "emailPrompt": "\u00bfQuieres que T.C. revise tu resultado personalmente? Deja tu correo.",
+    "emailLabel": "Correo Electr\u00f3nico",
+    "emailPlaceholder": "tu@ejemplo.com",
+    "emailButton": "Enviar Mi Resultado",
+    "emailSending": "Enviando...",
+    "emailSuccess": "Enviado. T.C. revisar\u00e1 tu resultado y dar\u00e1 seguimiento.",
+    "emailError": "Algo sali\u00f3 mal. Por favor intenta de nuevo.",
+    "restart": "Tomar el quiz de nuevo"
+  },
   "footer": {
     "tagline": "Estratega de \u00c9xito Empresarial con IA",
     "navHeading": "Navegaci\u00f3n",

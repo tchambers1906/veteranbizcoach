@@ -289,31 +289,361 @@ class BackendTester:
         except Exception as e:
             self.log_result("Offline page → 200", False, f"Exception: {str(e)}")
     
+    # ===== NEW API ENDPOINTS TESTS =====
+    
+    def test_lead_magnet_valid_no_api_key(self):
+        """Test POST /api/lead-magnet with valid body - should return 500 (no RESEND_API_KEY)"""
+        try:
+            url = f"{BASE_URL}/api/lead-magnet"
+            payload = {
+                "firstName": "John",
+                "email": "test@example.com",
+                "magnet": "funding-blueprint",
+                "locale": "en"
+            }
+            
+            response = self.session.post(url, json=payload, timeout=10)
+            
+            if response.status_code == 500:
+                data = response.json()
+                if (data.get("success") == False and 
+                    "Submission failed. Please try again." in data.get("error", "")):
+                    self.log_result("Lead magnet valid → 500", True, 
+                                  f"Status: {response.status_code}, Response: {data}")
+                else:
+                    self.log_result("Lead magnet valid → 500", False, 
+                                  f"Wrong response format. Got: {data}")
+            else:
+                self.log_result("Lead magnet valid → 500", False, 
+                              f"Expected 500, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Lead magnet valid → 500", False, f"Exception: {str(e)}")
+    
+    def test_lead_magnet_missing_firstname(self):
+        """Test POST /api/lead-magnet missing firstName - should return 400"""
+        try:
+            url = f"{BASE_URL}/api/lead-magnet"
+            payload = {"email": "test@example.com"}
+            
+            response = self.session.post(url, json=payload, timeout=10)
+            
+            if response.status_code == 400:
+                data = response.json()
+                if (data.get("success") == False and 
+                    "First name is required." in data.get("error", "")):
+                    self.log_result("Lead magnet missing firstName → 400", True, 
+                                  f"Status: {response.status_code}, Response: {data}")
+                else:
+                    self.log_result("Lead magnet missing firstName → 400", False, 
+                                  f"Wrong error message. Got: {data}")
+            else:
+                self.log_result("Lead magnet missing firstName → 400", False, 
+                              f"Expected 400, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Lead magnet missing firstName → 400", False, f"Exception: {str(e)}")
+    
+    def test_lead_magnet_missing_email(self):
+        """Test POST /api/lead-magnet missing email - should return 400"""
+        try:
+            url = f"{BASE_URL}/api/lead-magnet"
+            payload = {"firstName": "John"}
+            
+            response = self.session.post(url, json=payload, timeout=10)
+            
+            if response.status_code == 400:
+                data = response.json()
+                if (data.get("success") == False and 
+                    "Email is required." in data.get("error", "")):
+                    self.log_result("Lead magnet missing email → 400", True, 
+                                  f"Status: {response.status_code}, Response: {data}")
+                else:
+                    self.log_result("Lead magnet missing email → 400", False, 
+                                  f"Wrong error message. Got: {data}")
+            else:
+                self.log_result("Lead magnet missing email → 400", False, 
+                              f"Expected 400, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Lead magnet missing email → 400", False, f"Exception: {str(e)}")
+    
+    def test_lead_magnet_invalid_email(self):
+        """Test POST /api/lead-magnet with invalid email - should return 400"""
+        try:
+            url = f"{BASE_URL}/api/lead-magnet"
+            payload = {"firstName": "John", "email": "notvalid"}
+            
+            response = self.session.post(url, json=payload, timeout=10)
+            
+            if response.status_code == 400:
+                data = response.json()
+                if (data.get("success") == False and 
+                    "Please enter a valid email address." in data.get("error", "")):
+                    self.log_result("Lead magnet invalid email → 400", True, 
+                                  f"Status: {response.status_code}, Response: {data}")
+                else:
+                    self.log_result("Lead magnet invalid email → 400", False, 
+                                  f"Wrong error message. Got: {data}")
+            else:
+                self.log_result("Lead magnet invalid email → 400", False, 
+                              f"Expected 400, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Lead magnet invalid email → 400", False, f"Exception: {str(e)}")
+    
+    def test_lead_magnet_firstname_too_long(self):
+        """Test POST /api/lead-magnet with firstName too long - should return 400"""
+        try:
+            url = f"{BASE_URL}/api/lead-magnet"
+            long_name = "a" * 101  # Over 100 char limit
+            payload = {"firstName": long_name, "email": "test@example.com"}
+            
+            response = self.session.post(url, json=payload, timeout=10)
+            
+            if response.status_code == 400:
+                data = response.json()
+                if (data.get("success") == False and 
+                    "Please enter a valid first name." in data.get("error", "")):
+                    self.log_result("Lead magnet firstName too long → 400", True, 
+                                  f"Status: {response.status_code}, Response: {data}")
+                else:
+                    self.log_result("Lead magnet firstName too long → 400", False, 
+                                  f"Wrong error message. Got: {data}")
+            else:
+                self.log_result("Lead magnet firstName too long → 400", False, 
+                              f"Expected 400, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Lead magnet firstName too long → 400", False, f"Exception: {str(e)}")
+    
+    def test_lead_magnet_empty_body(self):
+        """Test POST /api/lead-magnet with empty body - should return 400"""
+        try:
+            url = f"{BASE_URL}/api/lead-magnet"
+            
+            response = self.session.post(url, json={}, timeout=10)
+            
+            if response.status_code == 400:
+                data = response.json()
+                if (data.get("success") == False and 
+                    "First name is required." in data.get("error", "")):
+                    self.log_result("Lead magnet empty body → 400", True, 
+                                  f"Status: {response.status_code}, Response: {data}")
+                else:
+                    self.log_result("Lead magnet empty body → 400", False, 
+                                  f"Wrong error message. Got: {data}")
+            else:
+                self.log_result("Lead magnet empty body → 400", False, 
+                              f"Expected 400, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Lead magnet empty body → 400", False, f"Exception: {str(e)}")
+    
+    def test_lead_magnet_rate_limiting(self):
+        """Test POST /api/lead-magnet rate limiting - 6th request should return 429"""
+        try:
+            url = f"{BASE_URL}/api/lead-magnet"
+            payload = {
+                "firstName": "RateTest",
+                "email": "ratelimit@example.com",
+                "magnet": "funding-blueprint",
+                "locale": "en"
+            }
+            
+            # Send 6 rapid requests
+            responses = []
+            for i in range(6):
+                response = self.session.post(url, json=payload, timeout=10)
+                responses.append((i+1, response.status_code, response.json() if response.headers.get('content-type', '').startswith('application/json') else response.text))
+                time.sleep(0.1)  # Small delay to avoid overwhelming
+            
+            # First 5 should be 500 (no API key), 6th should be 429
+            rate_limited = False
+            for i, (req_num, status, data) in enumerate(responses):
+                if status == 429:
+                    if (isinstance(data, dict) and data.get("success") == False and 
+                        "Too many requests. Please try again shortly." in data.get("error", "")):
+                        rate_limited = True
+                        self.log_result("Lead magnet rate limiting → 429", True, 
+                                      f"Request {req_num} got 429 with correct message: {data}")
+                        break
+                    else:
+                        self.log_result("Lead magnet rate limiting → 429", False, 
+                                      f"Request {req_num} got 429 but wrong message: {data}")
+                        return
+            
+            if not rate_limited:
+                self.log_result("Lead magnet rate limiting → 429", False, 
+                              f"No 429 response found. All responses: {responses}")
+                
+        except Exception as e:
+            self.log_result("Lead magnet rate limiting → 429", False, f"Exception: {str(e)}")
+    
+    def test_quiz_lead_valid_no_api_key(self):
+        """Test POST /api/quiz-lead with valid body - should return 500 (no RESEND_API_KEY)"""
+        try:
+            url = f"{BASE_URL}/api/quiz-lead"
+            payload = {
+                "email": "test2@example.com",
+                "result_pillar": "superpower",
+                "locale": "en"
+            }
+            
+            response = self.session.post(url, json=payload, timeout=10)
+            
+            if response.status_code == 500:
+                data = response.json()
+                if (data.get("success") == False and 
+                    "Submission failed. Please try again." in data.get("error", "")):
+                    self.log_result("Quiz lead valid → 500", True, 
+                                  f"Status: {response.status_code}, Response: {data}")
+                else:
+                    self.log_result("Quiz lead valid → 500", False, 
+                                  f"Wrong response format. Got: {data}")
+            else:
+                self.log_result("Quiz lead valid → 500", False, 
+                              f"Expected 500, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Quiz lead valid → 500", False, f"Exception: {str(e)}")
+    
+    def test_quiz_lead_missing_email(self):
+        """Test POST /api/quiz-lead missing email - should return 400"""
+        try:
+            url = f"{BASE_URL}/api/quiz-lead"
+            payload = {"result_pillar": "superpower"}
+            
+            response = self.session.post(url, json=payload, timeout=10)
+            
+            if response.status_code == 400:
+                data = response.json()
+                if (data.get("success") == False and 
+                    "Email is required." in data.get("error", "")):
+                    self.log_result("Quiz lead missing email → 400", True, 
+                                  f"Status: {response.status_code}, Response: {data}")
+                else:
+                    self.log_result("Quiz lead missing email → 400", False, 
+                                  f"Wrong error message. Got: {data}")
+            else:
+                self.log_result("Quiz lead missing email → 400", False, 
+                              f"Expected 400, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Quiz lead missing email → 400", False, f"Exception: {str(e)}")
+    
+    def test_quiz_lead_invalid_email(self):
+        """Test POST /api/quiz-lead with invalid email - should return 400"""
+        try:
+            url = f"{BASE_URL}/api/quiz-lead"
+            payload = {"email": "bad", "result_pillar": "superpower"}
+            
+            response = self.session.post(url, json=payload, timeout=10)
+            
+            if response.status_code == 400:
+                data = response.json()
+                if (data.get("success") == False and 
+                    "Please enter a valid email address." in data.get("error", "")):
+                    self.log_result("Quiz lead invalid email → 400", True, 
+                                  f"Status: {response.status_code}, Response: {data}")
+                else:
+                    self.log_result("Quiz lead invalid email → 400", False, 
+                                  f"Wrong error message. Got: {data}")
+            else:
+                self.log_result("Quiz lead invalid email → 400", False, 
+                              f"Expected 400, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Quiz lead invalid email → 400", False, f"Exception: {str(e)}")
+    
+    def test_quiz_lead_empty_body(self):
+        """Test POST /api/quiz-lead with empty body - should return 400"""
+        try:
+            url = f"{BASE_URL}/api/quiz-lead"
+            
+            response = self.session.post(url, json={}, timeout=10)
+            
+            if response.status_code == 400:
+                data = response.json()
+                if (data.get("success") == False and 
+                    "Email is required." in data.get("error", "")):
+                    self.log_result("Quiz lead empty body → 400", True, 
+                                  f"Status: {response.status_code}, Response: {data}")
+                else:
+                    self.log_result("Quiz lead empty body → 400", False, 
+                                  f"Wrong error message. Got: {data}")
+            else:
+                self.log_result("Quiz lead empty body → 400", False, 
+                              f"Expected 400, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Quiz lead empty body → 400", False, f"Exception: {str(e)}")
+    
+    def test_quiz_lead_rate_limiting(self):
+        """Test POST /api/quiz-lead rate limiting - 6th request should return 429"""
+        try:
+            url = f"{BASE_URL}/api/quiz-lead"
+            payload = {
+                "email": "quizratelimit@example.com",
+                "result_pillar": "superpower",
+                "locale": "en"
+            }
+            
+            # Send 6 rapid requests
+            responses = []
+            for i in range(6):
+                response = self.session.post(url, json=payload, timeout=10)
+                responses.append((i+1, response.status_code, response.json() if response.headers.get('content-type', '').startswith('application/json') else response.text))
+                time.sleep(0.1)  # Small delay to avoid overwhelming
+            
+            # First 5 should be 500 (no API key), 6th should be 429
+            rate_limited = False
+            for i, (req_num, status, data) in enumerate(responses):
+                if status == 429:
+                    if (isinstance(data, dict) and data.get("success") == False and 
+                        "Too many requests. Please try again shortly." in data.get("error", "")):
+                        rate_limited = True
+                        self.log_result("Quiz lead rate limiting → 429", True, 
+                                      f"Request {req_num} got 429 with correct message: {data}")
+                        break
+                    else:
+                        self.log_result("Quiz lead rate limiting → 429", False, 
+                                      f"Request {req_num} got 429 but wrong message: {data}")
+                        return
+            
+            if not rate_limited:
+                self.log_result("Quiz lead rate limiting → 429", False, 
+                              f"No 429 response found. All responses: {responses}")
+                
+        except Exception as e:
+            self.log_result("Quiz lead rate limiting → 429", False, f"Exception: {str(e)}")
+    
     def run_all_tests(self):
         """Run all backend tests"""
         print(f"🚀 Starting Backend API Tests for {BASE_URL}")
         print("=" * 60)
         
-        # Footer email API tests (main focus)
-        print("\n📧 Testing Footer Email API (/api/footer-email)")
-        print("-" * 40)
-        self.test_footer_email_valid_no_api_key()
-        self.test_footer_email_empty_body()
-        self.test_footer_email_invalid_email()
-        self.test_footer_email_too_long()
-        self.test_footer_email_html_injection()
-        self.test_footer_email_rate_limiting()
-        self.test_old_subscribe_endpoint_404()
+        # NEW API ENDPOINTS - MAIN FOCUS
+        print("\n🎯 Testing NEW API Endpoints (MAIN FOCUS)")
+        print("-" * 50)
         
-        # Other backend routes
-        print("\n🌐 Testing Locale Routes")
+        print("\n📋 Testing Lead Magnet API (/api/lead-magnet)")
         print("-" * 40)
-        self.test_locale_routes()
+        self.test_lead_magnet_valid_no_api_key()
+        self.test_lead_magnet_missing_firstname()
+        self.test_lead_magnet_missing_email()
+        self.test_lead_magnet_invalid_email()
+        self.test_lead_magnet_firstname_too_long()
+        self.test_lead_magnet_empty_body()
+        self.test_lead_magnet_rate_limiting()
         
-        print("\n📱 Testing PWA & Offline Routes")
+        print("\n🧠 Testing Quiz Lead API (/api/quiz-lead)")
         print("-" * 40)
-        self.test_manifest_endpoint()
-        self.test_offline_page()
+        self.test_quiz_lead_valid_no_api_key()
+        self.test_quiz_lead_missing_email()
+        self.test_quiz_lead_invalid_email()
+        self.test_quiz_lead_empty_body()
+        self.test_quiz_lead_rate_limiting()
         
         # Summary
         print("\n" + "=" * 60)

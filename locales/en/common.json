@@ -233,6 +233,182 @@
     },
     "readMore": "Read the full story"
   },
+  "team": {
+    "eyebrowBar": "The people behind the strategy, the operations, and the guest experience.",
+    "headline": "Meet the Team",
+    "m1": {
+      "name": "T.C. Chambers",
+      "title": "Founder & Technical Director",
+      "bio": "T.C. builds web applications that work. He has launched platforms for hospitality businesses, wellness practitioners, and online retailers across Southeast Asia and North America. He specializes in taking an idea and turning it into a live product in weeks. T.C. operates from Bali and works with clients who value speed and results.",
+      "tags": ["Web & PWA Development", "AI-First Strategy", "Hospitality Tech", "SE Asia & North America"]
+    },
+    "m2": {
+      "name": "Rita Rosita",
+      "title": "Operations & Business Development",
+      "bio": "Rita spent 15 years fixing what breaks when businesses try to scale. She has managed procurement and inventory for F&B brands, negotiated supplier contracts, controlled costs across multiple locations, and trained frontline teams for consistent results. She speaks English and Indonesian.",
+      "tags": ["Operations Management", "Business Development", "F&B & Hospitality", "Bilingual EN/ID"]
+    },
+    "m3": {
+      "name": "Tami Rini",
+      "title": "Guest Experience & Operations",
+      "bio": "Tami has spent five years in front desk operations and sales across Bali, Lombok, and Malaysia. She currently serves as Sales Executive at Mandala Eco Resort Lombok. At SiteFlow AI, Tami reviews guest journey workflows from inquiry to checkout and identifies friction points that cost villa operators conversions.",
+      "tags": ["Guest Experience", "OTA & Booking Operations", "Villa & Resort Sales", "Bali/Lombok Market"]
+    },
+    "placeholder": {
+      "name": "Join the Team",
+      "title": "Position Open",
+      "bio": "We're growing. Details coming soon.",
+      "tags": ["Coming Soon"]
+    }
+  },
+  "testimonials": {
+    "headline": "Results From Real People",
+    "filters": {
+      "all": "All",
+      "villa": "Villa Booking Traffic",
+      "superpower": "Superpower Program",
+      "websites": "Websites & PWAs",
+      "funding": "Funding & Structuring",
+      "strategy": "Business Strategy"
+    },
+    "placeholders": {
+      "p1": {
+        "name": "Client Name",
+        "business": "Villa Owner, Bali",
+        "quote": "Testimonial quote will appear here.",
+        "result": "Result: Pending"
+      },
+      "p2": {
+        "name": "Client Name",
+        "business": "Online Business, USA",
+        "quote": "Testimonial quote will appear here.",
+        "result": "Result: Pending"
+      },
+      "p3": {
+        "name": "Client Name",
+        "business": "Wellness Brand, SE Asia",
+        "quote": "Testimonial quote will appear here.",
+        "result": "Result: Pending"
+      }
+    },
+    "disclaimer": "Testimonials reflect individual experiences and are not a guarantee of future results. Results vary based on individual effort, experience, and market conditions.",
+    "cta": "See All Testimonials"
+  },
+  "leadMagnet": {
+    "eyebrow": "Free Resource",
+    "headline": "The 5-Step Business Funding Blueprint",
+    "subheadline": "How to access capital for your business. Instant PDF download.",
+    "bullets": {
+      "b1": "The exact funding structure T.C. used to rebuild after bankruptcy",
+      "b2": "How to access 0% interest capital (step-by-step)",
+      "b3": "Business entity setup for maximum fundability",
+      "b4": "Credit positioning strategies most business owners skip",
+      "b5": "How to move from application to funded in 14 to 30 days"
+    },
+    "disclaimer": "For educational purposes only. Results vary based on individual circumstances.",
+    "form": {
+      "firstNameLabel": "First Name",
+      "firstNamePlaceholder": "Your first name",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "you@example.com",
+      "button": "Send Me the Blueprint",
+      "sending": "Sending...",
+      "privacy": "No spam. Unsubscribe anytime."
+    },
+    "successHeading": "Check your inbox.",
+    "successBody": "Your blueprint is on its way.",
+    "errorMessage": "Something went wrong. Please try again."
+  },
+  "quiz": {
+    "headline": "Where Is Your Business Right Now?",
+    "subheadline": "Take the 60-second Business Readiness Quiz",
+    "progress": "Question {current} of {total}",
+    "complete": "Quiz complete",
+    "questions": {
+      "q1": {
+        "text": "What stage is your business in?",
+        "a": "Idea Stage",
+        "b": "Just Launched",
+        "c": "Established",
+        "d": "Scaling"
+      },
+      "q2": {
+        "text": "What's your biggest challenge right now?",
+        "a": "Getting clarity",
+        "b": "Getting funded",
+        "c": "Building a digital presence",
+        "d": "Using AI",
+        "e": "All of the above"
+      },
+      "q3": {
+        "text": "Do you have a business entity set up?",
+        "a": "Yes",
+        "b": "No",
+        "c": "Not sure"
+      },
+      "q4": {
+        "text": "Do you have a website or app?",
+        "a": "Yes, it converts well",
+        "b": "Yes, but it underperforms",
+        "c": "No"
+      },
+      "q5": {
+        "text": "Are you using AI tools in your business?",
+        "a": "Yes, regularly",
+        "b": "Somewhat",
+        "c": "No, but I want to",
+        "d": "No, I don't know where to start"
+      },
+      "q6": {
+        "text": "What's your #1 goal in the next 90 days?",
+        "a": "Launch my business",
+        "b": "Get funded",
+        "c": "Build a digital presence",
+        "d": "Integrate AI",
+        "e": "All of the above"
+      }
+    },
+    "results": {
+      "superpower": {
+        "heading": "Your next step: clarity and positioning.",
+        "body": "You have the skills. Now you need to define, validate, and package them. The Superpower Program is designed to help you do exactly that in 8 weeks.",
+        "cta": "Join the Superpower Waitlist"
+      },
+      "funding": {
+        "heading": "Your next step: capital access.",
+        "body": "You have the foundation. Now you need the right funding structure. T.C. can walk you through the strategies that have helped entrepreneurs access capital in 14 to 30 days.",
+        "cta": "Book a Funding Discovery Call"
+      },
+      "website": {
+        "heading": "Your next step: a digital presence that converts.",
+        "body": "You need a website or app that works for your business 24/7. T.C. builds AI-powered PWAs for hospitality, wellness, and e-commerce businesses.",
+        "cta": "Book a Website/PWA Discovery Call"
+      },
+      "ai": {
+        "heading": "Your next step: AI integration.",
+        "body": "AI is not optional anymore. T.C. can help you identify where AI fits in your business and build the tools that make it work.",
+        "cta": "Book an AI Strategy Session"
+      },
+      "villa": {
+        "heading": "Your next step: direct booking traffic.",
+        "body": "New regulations are changing the game for villa owners. T.C. can help you build a direct booking system that reduces OTA dependency.",
+        "cta": "Book a Villa Traffic Strategy Call"
+      },
+      "strategy": {
+        "heading": "Your next step: a strategy call.",
+        "body": "You have multiple priorities. A strategy call will help T.C. understand your situation and recommend the right starting point.",
+        "cta": "Book a Free Strategy Call"
+      }
+    },
+    "emailPrompt": "Want T.C. to review your result personally? Drop your email.",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "you@example.com",
+    "emailButton": "Send My Result",
+    "emailSending": "Sending...",
+    "emailSuccess": "Sent. T.C. will review your result and follow up.",
+    "emailError": "Something went wrong. Please try again.",
+    "restart": "Take the quiz again"
+  },
   "footer": {
     "tagline": "AI-First Business Success Strategist",
     "navHeading": "Navigation",

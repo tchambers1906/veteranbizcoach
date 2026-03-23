@@ -4,6 +4,10 @@ import SuperpowerSection from '@/components/sections/SuperpowerSection';
 import WebsitesPwasSection from '@/components/sections/WebsitesPwasSection';
 import FundingSection from '@/components/sections/FundingSection';
 import AboutSection from '@/components/sections/AboutSection';
+import TeamSection from '@/components/sections/TeamSection';
+import TestimonialsSection from '@/components/sections/TestimonialsSection';
+import LeadMagnetSection from '@/components/sections/LeadMagnetSection';
+import QuizSection from '@/components/sections/QuizSection';
 
 export default function HomePage() {
   return (
@@ -14,6 +18,10 @@ export default function HomePage() {
       <WebsitesPwasSection />
       <FundingSection />
       <AboutSection />
+      <TeamSection />
+      <TestimonialsSection />
+      <LeadMagnetSection />
+      <QuizSection />
     </>
   );
 }

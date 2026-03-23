@@ -409,6 +409,158 @@
     "emailError": "Algo sali\u00f3 mal. Por favor intenta de nuevo.",
     "restart": "Tomar el quiz de nuevo"
   },
+  "faq": {
+    "headline": "Preguntas Frecuentes",
+    "categories": {
+      "villa": "Tr\u00e1fico de Reservas de Villas",
+      "superpower": "Programa Superpoder",
+      "websites": "Sitios Web y PWAs",
+      "funding": "Financiamiento y Estructuraci\u00f3n",
+      "working": "Trabajar con T.C."
+    },
+    "items": {
+      "villa": {
+        "q1": {
+          "q": "\u00bfCu\u00e1les son las nuevas regulaciones indonesias que afectan las reservas de villas?",
+          "a": "Los nuevos marcos regulatorios en Indonesia est\u00e1n restringiendo qu\u00e9 propiedades califican para plataformas OTA importantes como Airbnb y Booking.com. Los propietarios de villas que no cumplan con los nuevos criterios de elegibilidad pueden perder acceso a estos canales. Recomendamos consultar a un asesor legal local para orientaci\u00f3n espec\u00edfica de su propiedad. T.C. puede ayudarle a establecer un canal de tr\u00e1fico de reservas directas como alternativa."
+        },
+        "q2": {
+          "q": "\u00bfQu\u00e9 es Meta Traffic y c\u00f3mo reemplaza el tr\u00e1fico OTA?",
+          "a": "Meta Traffic utiliza publicidad pagada en redes sociales (principalmente Facebook e Instagram) para llegar a sus hu\u00e9spedes ideales directamente, por inter\u00e9s, ubicaci\u00f3n, comportamiento de viaje y presupuesto. A diferencia de las plataformas OTA, no hay reglas de elegibilidad, no hay comisiones por reserva, y usted es due\u00f1o de la relaci\u00f3n con el hu\u00e9sped desde el primer clic."
+        },
+        "q3": {
+          "q": "\u00bfQu\u00e9 tan r\u00e1pido pueden ver resultados los propietarios de villas con Meta Traffic?",
+          "a": "Los plazos var\u00edan seg\u00fan su propiedad, mercado y presupuesto. La mayor\u00eda de los propietarios de villas comienzan a ver tr\u00e1fico dentro del primer per\u00edodo de campa\u00f1a. Los resultados no est\u00e1n garantizados y dependen de m\u00faltiples factores incluyendo configuraci\u00f3n de campa\u00f1a, segmentaci\u00f3n y atractivo de la propiedad."
+        },
+        "q4": {
+          "q": "\u00bfFunciona para propiedades de alquiler a corto plazo en EE.UU.?",
+          "a": "S\u00ed. Aunque el enfoque principal son los propietarios de villas indonesios, este servicio tambi\u00e9n est\u00e1 disponible para hosts de Airbnb y alquileres a corto plazo en EE.UU. que quieran reducir la dependencia de OTAs."
+        }
+      },
+      "superpower": {
+        "q1": {
+          "q": "\u00bfPara qui\u00e9n est\u00e1 dise\u00f1ado este programa?",
+          "a": "Emprendedores y due\u00f1os de negocios en cualquier etapa que quieran identificar su habilidad central comercializable, construir un negocio estructurado a su alrededor, y lanzar con un sitio web real y una herramienta de IA personalizada, sin necesitar un trasfondo t\u00e9cnico."
+        },
+        "q2": {
+          "q": "\u00bfEs en l\u00ednea o presencial?",
+          "a": "100% en l\u00ednea. Ocho sesiones de video en vivo semanales. Puedes unirte desde cualquier parte del mundo. Solo necesitas una laptop y conexi\u00f3n a internet."
+        },
+        "q3": {
+          "q": "\u00bfQu\u00e9 pasa si me pierdo una sesi\u00f3n?",
+          "a": "Las sesiones se graban. Perder una sesi\u00f3n significa perder la interacci\u00f3n en vivo, pero el contenido estar\u00e1 disponible. La asistencia consistente te da los mejores resultados."
+        },
+        "q4": {
+          "q": "\u00bfNecesito habilidades t\u00e9cnicas?",
+          "a": "No. El programa incluye vibe coding, construyendo tu sitio web usando herramientas de IA e instrucci\u00f3n guiada. No se requiere experiencia previa en programaci\u00f3n."
+        }
+      },
+      "websites": {
+        "q1": {
+          "q": "\u00bfCu\u00e1l es la diferencia entre un sitio web y una PWA?",
+          "a": "Una Progressive Web App (PWA) es un sitio web que se comporta como una aplicaci\u00f3n m\u00f3vil. Es instalable en tu pantalla de inicio, funciona sin conexi\u00f3n, carga m\u00e1s r\u00e1pido y puede enviar notificaciones push. Para la mayor\u00eda de los negocios de hospitalidad y servicios, una PWA supera a un sitio web est\u00e1ndar en m\u00f3vil, donde llega la mayor\u00eda del tr\u00e1fico de hu\u00e9spedes."
+        },
+        "q2": {
+          "q": "\u00bfCu\u00e1nto tiempo toma una construcci\u00f3n?",
+          "a": "La mayor\u00eda de los proyectos se completan en 2 a 6 semanas dependiendo del alcance y la preparaci\u00f3n del contenido. Primero la llamada de descubrimiento, luego se confirma el cronograma."
+        },
+        "q3": {
+          "q": "\u00bfNecesito mantenerlo yo mismo despu\u00e9s del lanzamiento?",
+          "a": "No. Opciones de soporte continuo est\u00e1n disponibles. El CMS est\u00e1 dise\u00f1ado para que puedas actualizar contenido sin tocar c\u00f3digo si prefieres gestionarlo t\u00fa mismo."
+        }
+      },
+      "funding": {
+        "q1": {
+          "q": "\u00bfRealmente puedo obtener financiamiento en 14 a 30 d\u00edas?",
+          "a": "Ese plazo se basa en la experiencia personal de T.C. y resultados de clientes selectos. Los resultados individuales var\u00edan seg\u00fan tu perfil crediticio, tipo de negocio, monto de financiamiento y criterios del prestamista. Nada aqu\u00ed garantiza un resultado o plazo espec\u00edfico. Este es contenido educativo."
+        },
+        "q2": {
+          "q": "\u00bfQu\u00e9 tipo de financiamiento ayudas a obtener?",
+          "a": "Cr\u00e9dito empresarial, estrategias de financiamiento al 0% de inter\u00e9s, y estructuraci\u00f3n de entidades para m\u00e1xima financiabilidad. T.C. se enfoca en las estrategias que ha usado y probado personalmente, no marcos te\u00f3ricos."
+        },
+        "q3": {
+          "q": "\u00bfNecesito buen cr\u00e9dito personal?",
+          "a": "No necesariamente. Parte de la estrategia involucra posicionamiento crediticio, construcci\u00f3n de cr\u00e9dito empresarial y estructura que reduce la dependencia de puntajes de cr\u00e9dito personal. Esto se cubre en detalle durante una llamada de descubrimiento."
+        }
+      },
+      "working": {
+        "q1": {
+          "q": "\u00bfD\u00f3nde est\u00e1s basado y trabajas remotamente?",
+          "a": "T.C. est\u00e1 basado en Bali, Indonesia y trabaja con clientes globalmente. Todas las sesiones se realizan en l\u00ednea por videollamada."
+        },
+        "q2": {
+          "q": "\u00bfOfreces consultor\u00eda \u00fanica o soporte continuo?",
+          "a": "Ambos. Sesiones de estrategia \u00fanicas est\u00e1n disponibles. Relaciones de asesor\u00eda continua tambi\u00e9n est\u00e1n disponibles dependiendo del pilar de servicio. Los detalles se discuten en la llamada de estrategia."
+        },
+        "q3": {
+          "q": "No soy t\u00e9cnico. \u00bfA\u00fan puedes ayudarme?",
+          "a": "S\u00ed. T.C. y el equipo se especializan en trabajar con due\u00f1os de negocios no t\u00e9cnicos. El Programa Superpoder en particular est\u00e1 dise\u00f1ado para personas sin trasfondo t\u00e9cnico."
+        }
+      }
+    }
+  },
+  "book": {
+    "headline": "Reserva Tu Sesi\u00f3n de Estrategia",
+    "subheadline": "Esto no es una llamada de ventas. Es una sesi\u00f3n de estrategia. Ven listo para hablar de tu negocio. T.C. vendr\u00e1 listo con ideas.",
+    "tabs": {
+      "strategy": "Llamada de Estrategia Gratuita 30 Min",
+      "villa": "Consulta de Tr\u00e1fico de Reservas de Villas",
+      "ai-strategy": "Deep Dive de Estrategia IA",
+      "website": "Kick-Off de Proyecto Web/PWA",
+      "funding": "Llamada de Descubrimiento de Financiamiento"
+    },
+    "placeholder": {
+      "heading": "Calendario pr\u00f3ximamente.",
+      "body": "Reserva por correo electr\u00f3nico a tc@veteranbizcoach.com",
+      "cta": "Email a T.C."
+    },
+    "footnote": "Todas las sesiones se realizan por videollamada. Programaci\u00f3n consciente de zona horaria. Sirviendo clientes en el Sudeste Asi\u00e1tico, Norteam\u00e9rica y todo el mundo."
+  },
+  "chatbot": {
+    "toggleLabel": "Abrir asistente de chat",
+    "header": "Asistente IA de T.C.",
+    "close": "Cerrar chat",
+    "greeting": "\u00a1Hola! Soy el asistente IA de T.C. \u00bfQu\u00e9 te trae por aqu\u00ed hoy?",
+    "quickReplies": {
+      "business": "Iniciar un Negocio",
+      "funded": "Obtener Financiamiento",
+      "website": "Sitio Web/PWA",
+      "villa": "Reservas de Villas",
+      "other": "Algo M\u00e1s"
+    },
+    "responses": {
+      "business": {
+        "text": "El Programa Superpoder est\u00e1 construido exactamente para eso. 8 semanas, 6 entregables, 100% en l\u00ednea. \u00bfQuieres unirte a la lista de espera?",
+        "btn1": "\u00danete a la Lista",
+        "btn2": "Cu\u00e9ntame M\u00e1s"
+      },
+      "funded": {
+        "text": "T.C. ha ayudado a emprendedores a acceder a capital en 14 a 30 d\u00edas usando estrategias de 0% de inter\u00e9s que prob\u00f3 personalmente. \u00bfQuieres hablar de tu situaci\u00f3n?",
+        "btn1": "Reservar Llamada de Financiamiento",
+        "btn2": "Aprender M\u00e1s"
+      },
+      "website": {
+        "text": "T.C. construye sitios web y PWAs con IA para negocios de hospitalidad y servicios. \u00bfQuieres iniciar una llamada de descubrimiento?",
+        "btn1": "Reservar Llamada de Descubrimiento",
+        "btn2": "Ver Ejemplos"
+      },
+      "villa": {
+        "text": "Si tu villa est\u00e1 afectada por las nuevas regulaciones OTA de Indonesia, Meta Traffic es tu alternativa de reservas directas. \u00bfQuieres revisar tus opciones?",
+        "btn1": "Reservar Llamada de Villa",
+        "btn2": "Aprender M\u00e1s"
+      },
+      "other": {
+        "text": "No hay problema. El mejor pr\u00f3ximo paso es una llamada de estrategia gratuita de 30 minutos. T.C. viene preparado con ideas.",
+        "btn1": "Reservar Llamada Gratuita"
+      }
+    },
+    "emailPrompt": "\u00bfQuieres un resumen enviado a tu correo?",
+    "emailLabel": "Correo Electr\u00f3nico",
+    "emailPlaceholder": "tu@ejemplo.com",
+    "emailButton": "Enviar Resumen",
+    "emailError": "Algo sali\u00f3 mal. Por favor intenta de nuevo.",
+    "emailConfirmation": "Recibido. T.C. dar\u00e1 seguimiento pronto."
+  },
   "footer": {
     "tagline": "Estratega de \u00c9xito Empresarial con IA",
     "navHeading": "Navegaci\u00f3n",

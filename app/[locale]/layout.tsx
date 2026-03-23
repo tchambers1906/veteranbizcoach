@@ -5,6 +5,7 @@ import { routing } from '@/src/i18n/routing';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import PwaInstallBanner from '@/components/layout/PwaInstallBanner';
+import ChatbotWidget from '@/components/ChatbotWidget';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -33,6 +34,7 @@ export default async function LocaleLayout({
         {children}
       </main>
       <Footer />
+      <ChatbotWidget />
     </NextIntlClientProvider>
   );
 }

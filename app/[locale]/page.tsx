@@ -8,6 +8,7 @@ import TeamSection from '@/components/sections/TeamSection';
 import TestimonialsSection from '@/components/sections/TestimonialsSection';
 import LeadMagnetSection from '@/components/sections/LeadMagnetSection';
 import QuizSection from '@/components/sections/QuizSection';
+import FaqSection from '@/components/sections/FaqSection';
 
 export default function HomePage() {
   return (
@@ -22,6 +23,7 @@ export default function HomePage() {
       <TestimonialsSection />
       <LeadMagnetSection />
       <QuizSection />
+      <FaqSection />
     </>
   );
 }

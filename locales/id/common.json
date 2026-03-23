@@ -409,6 +409,158 @@
     "emailError": "Terjadi kesalahan. Silakan coba lagi.",
     "restart": "Ikuti kuis lagi"
   },
+  "faq": {
+    "headline": "Pertanyaan yang Sering Diajukan",
+    "categories": {
+      "villa": "Lalu Lintas Pemesanan Vila",
+      "superpower": "Program Superpower",
+      "websites": "Website & PWA",
+      "funding": "Pendanaan & Penataan",
+      "working": "Bekerja dengan T.C."
+    },
+    "items": {
+      "villa": {
+        "q1": {
+          "q": "Apa regulasi baru Indonesia yang memengaruhi pemesanan vila?",
+          "a": "Kerangka regulasi baru di Indonesia membatasi properti mana yang memenuhi syarat untuk platform OTA besar seperti Airbnb dan Booking.com. Pemilik vila yang tidak memenuhi kriteria kelayakan baru mungkin kehilangan akses ke kanal ini. Kami merekomendasikan untuk berkonsultasi dengan penasihat hukum lokal untuk panduan khusus properti Anda. T.C. dapat membantu Anda menyiapkan kanal lalu lintas pemesanan langsung sebagai alternatif."
+        },
+        "q2": {
+          "q": "Apa itu Meta Traffic dan bagaimana cara menggantikan lalu lintas OTA?",
+          "a": "Meta Traffic menggunakan iklan media sosial berbayar (terutama Facebook dan Instagram) untuk menjangkau tamu ideal Anda secara langsung, berdasarkan minat, lokasi, perilaku perjalanan, dan anggaran. Tidak seperti platform OTA, tidak ada aturan kelayakan, tidak ada komisi per pemesanan, dan Anda memiliki hubungan tamu dari klik pertama."
+        },
+        "q3": {
+          "q": "Seberapa cepat pemilik vila bisa melihat hasil dari Meta Traffic?",
+          "a": "Jadwal bervariasi berdasarkan properti, pasar, dan anggaran Anda. Kebanyakan pemilik vila mulai melihat lalu lintas dalam periode kampanye pertama. Hasil tidak dijamin dan bergantung pada banyak faktor termasuk pengaturan kampanye, penargetan, dan daya tarik properti."
+        },
+        "q4": {
+          "q": "Apakah ini berlaku untuk properti sewa jangka pendek berbasis AS?",
+          "a": "Ya. Meskipun fokus utama adalah pemilik vila Indonesia, layanan ini juga tersedia untuk host Airbnb dan sewa jangka pendek berbasis AS yang ingin mengurangi ketergantungan OTA."
+        }
+      },
+      "superpower": {
+        "q1": {
+          "q": "Untuk siapa program ini dirancang?",
+          "a": "Pengusaha dan pemilik bisnis di tahap apapun yang ingin mengidentifikasi keahlian inti mereka yang bisa dipasarkan, membangun bisnis terstruktur di sekitarnya, dan meluncurkan dengan website nyata dan alat AI khusus, tanpa memerlukan latar belakang teknis."
+        },
+        "q2": {
+          "q": "Apakah online atau tatap muka?",
+          "a": "100% online. Delapan sesi video live mingguan. Anda bisa bergabung dari mana saja di dunia. Yang Anda butuhkan hanyalah laptop dan koneksi internet."
+        },
+        "q3": {
+          "q": "Bagaimana jika saya melewatkan satu sesi?",
+          "a": "Sesi direkam. Melewatkan sesi berarti melewatkan interaksi langsung, tetapi konten akan tersedia. Kehadiran konsisten memberikan hasil terbaik."
+        },
+        "q4": {
+          "q": "Apakah saya memerlukan keterampilan teknis?",
+          "a": "Tidak. Program ini mencakup vibe coding, membangun website Anda menggunakan alat AI dan instruksi terpandu. Tidak diperlukan pengalaman coding sebelumnya."
+        }
+      },
+      "websites": {
+        "q1": {
+          "q": "Apa perbedaan antara website dan PWA?",
+          "a": "Progressive Web App (PWA) adalah website yang berperilaku seperti aplikasi mobile. Bisa diinstal di home screen Anda, berfungsi offline, dimuat lebih cepat, dan bisa mengirim notifikasi push. Untuk kebanyakan bisnis perhotelan dan layanan, PWA mengungguli website standar di mobile, tempat sebagian besar lalu lintas tamu tiba."
+        },
+        "q2": {
+          "q": "Berapa lama proses pembangunan?",
+          "a": "Kebanyakan proyek selesai dalam 2 hingga 6 minggu tergantung pada cakupan dan kesiapan konten. Panggilan penemuan terlebih dahulu, kemudian jadwal dikonfirmasi."
+        },
+        "q3": {
+          "q": "Apakah saya perlu memeliharanya sendiri setelah peluncuran?",
+          "a": "Tidak. Opsi dukungan berkelanjutan tersedia. CMS dirancang agar Anda bisa memperbarui konten tanpa menyentuh kode jika Anda lebih memilih mengelolanya sendiri."
+        }
+      },
+      "funding": {
+        "q1": {
+          "q": "Bisakah saya benar-benar mendapatkan pendanaan dalam 14 hingga 30 hari?",
+          "a": "Jadwal tersebut berdasarkan pengalaman pribadi T.C. dan hasil klien tertentu. Hasil individu bervariasi berdasarkan profil kredit, jenis bisnis, jumlah pendanaan, dan kriteria pemberi pinjaman Anda. Tidak ada yang di sini menjamin hasil atau jadwal tertentu. Ini adalah konten pendidikan."
+        },
+        "q2": {
+          "q": "Jenis pendanaan apa yang Anda bantu?",
+          "a": "Kredit bisnis, strategi pendanaan bunga 0%, dan penataan entitas untuk pendanaan maksimal. T.C. berfokus pada strategi yang telah dia gunakan dan uji secara pribadi, bukan kerangka teoritis."
+        },
+        "q3": {
+          "q": "Apakah saya memerlukan kredit pribadi yang baik?",
+          "a": "Tidak harus. Bagian dari strategi melibatkan posisi kredit, membangun kredit bisnis dan struktur yang mengurangi ketergantungan pada skor kredit pribadi. Ini dibahas secara detail selama panggilan penemuan."
+        }
+      },
+      "working": {
+        "q1": {
+          "q": "Di mana Anda berbasis dan apakah Anda bekerja jarak jauh?",
+          "a": "T.C. berbasis di Bali, Indonesia dan bekerja dengan klien secara global. Semua sesi dilakukan online melalui panggilan video."
+        },
+        "q2": {
+          "q": "Apakah Anda menawarkan konsultasi satu kali atau dukungan berkelanjutan?",
+          "a": "Keduanya. Sesi strategi satu kali tersedia. Hubungan penasihat berkelanjutan juga tersedia tergantung pada pilar layanan. Detail dibahas pada panggilan strategi."
+        },
+        "q3": {
+          "q": "Saya tidak teknis. Bisakah Anda tetap membantu saya?",
+          "a": "Ya. T.C. dan tim mengkhususkan diri bekerja dengan pemilik bisnis non-teknis. Program Superpower khususnya dirancang untuk orang tanpa latar belakang teknis."
+        }
+      }
+    }
+  },
+  "book": {
+    "headline": "Pesan Sesi Strategi Anda",
+    "subheadline": "Ini bukan panggilan penjualan. Ini adalah sesi strategi. Datang siap untuk membicarakan bisnis Anda. T.C. akan datang siap dengan ide-ide.",
+    "tabs": {
+      "strategy": "Panggilan Strategi Gratis 30 Menit",
+      "villa": "Konsultasi Lalu Lintas Pemesanan Vila",
+      "ai-strategy": "Deep Dive Strategi AI",
+      "website": "Kick-Off Proyek Website/PWA",
+      "funding": "Panggilan Penemuan Pendanaan"
+    },
+    "placeholder": {
+      "heading": "Kalender segera hadir.",
+      "body": "Pesan melalui email di tc@veteranbizcoach.com",
+      "cta": "Email T.C."
+    },
+    "footnote": "Semua sesi dilakukan melalui panggilan video. Penjadwalan sadar zona waktu. Melayani klien di Asia Tenggara, Amerika Utara, dan di mana saja."
+  },
+  "chatbot": {
+    "toggleLabel": "Buka asisten chat",
+    "header": "Asisten AI T.C.",
+    "close": "Tutup chat",
+    "greeting": "Hai! Saya asisten AI T.C. Apa yang membawa Anda ke sini hari ini?",
+    "quickReplies": {
+      "business": "Memulai Bisnis",
+      "funded": "Mendapatkan Pendanaan",
+      "website": "Website/PWA",
+      "villa": "Pemesanan Vila",
+      "other": "Lainnya"
+    },
+    "responses": {
+      "business": {
+        "text": "Program Superpower dibangun untuk hal itu. 8 minggu, 6 hasil kerja, 100% online. Ingin bergabung dengan daftar tunggu?",
+        "btn1": "Bergabung Daftar Tunggu",
+        "btn2": "Ceritakan Lebih Lanjut"
+      },
+      "funded": {
+        "text": "T.C. telah membantu pengusaha mengakses modal dalam 14 hingga 30 hari menggunakan strategi bunga 0% yang dia uji secara pribadi. Ingin membahas situasi Anda?",
+        "btn1": "Pesan Panggilan Pendanaan",
+        "btn2": "Pelajari Lebih Lanjut"
+      },
+      "website": {
+        "text": "T.C. membangun website dan PWA bertenaga AI untuk bisnis perhotelan dan layanan. Ingin memulai panggilan penemuan?",
+        "btn1": "Pesan Panggilan Penemuan",
+        "btn2": "Lihat Contoh"
+      },
+      "villa": {
+        "text": "Jika vila Anda terpengaruh regulasi OTA baru Indonesia, Meta Traffic adalah alternatif pemesanan langsung Anda. Ingin meninjau opsi Anda?",
+        "btn1": "Pesan Panggilan Vila",
+        "btn2": "Pelajari Lebih Lanjut"
+      },
+      "other": {
+        "text": "Tidak masalah. Langkah terbaik berikutnya adalah panggilan strategi gratis 30 menit. T.C. datang siap dengan ide-ide.",
+        "btn1": "Pesan Panggilan Gratis"
+      }
+    },
+    "emailPrompt": "Ingin rekap dikirim ke email Anda?",
+    "emailLabel": "Alamat Email",
+    "emailPlaceholder": "anda@contoh.com",
+    "emailButton": "Kirim Rekap",
+    "emailError": "Terjadi kesalahan. Silakan coba lagi.",
+    "emailConfirmation": "Diterima. T.C. akan menindaklanjuti segera."
+  },
   "footer": {
     "tagline": "Ahli Strategi Sukses Bisnis Berbasis AI",
     "navHeading": "Navigasi",

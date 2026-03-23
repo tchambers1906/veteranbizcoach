@@ -618,6 +618,220 @@ class BackendTester:
         except Exception as e:
             self.log_result("Quiz lead rate limiting → 429", False, f"Exception: {str(e)}")
     
+    # ===== CHATBOT LEAD API TESTS =====
+    
+    def test_chatbot_lead_valid_no_api_key(self):
+        """Test POST /api/chatbot-lead with valid body - should return 500 (no RESEND_API_KEY)"""
+        try:
+            url = f"{BASE_URL}/api/chatbot-lead"
+            payload = {
+                "email": "chattest@example.com",
+                "context": "business",
+                "locale": "en"
+            }
+            
+            response = self.session.post(url, json=payload, timeout=10)
+            
+            if response.status_code == 500:
+                data = response.json()
+                if (data.get("success") == False and 
+                    "Submission failed. Please try again." in data.get("error", "")):
+                    self.log_result("Chatbot lead valid → 500", True, 
+                                  f"Status: {response.status_code}, Response: {data}")
+                else:
+                    self.log_result("Chatbot lead valid → 500", False, 
+                                  f"Wrong response format. Got: {data}")
+            else:
+                self.log_result("Chatbot lead valid → 500", False, 
+                              f"Expected 500, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Chatbot lead valid → 500", False, f"Exception: {str(e)}")
+    
+    def test_chatbot_lead_missing_email(self):
+        """Test POST /api/chatbot-lead missing email - should return 400"""
+        try:
+            url = f"{BASE_URL}/api/chatbot-lead"
+            payload = {"context": "business"}
+            
+            response = self.session.post(url, json=payload, timeout=10)
+            
+            if response.status_code == 400:
+                data = response.json()
+                if (data.get("success") == False and 
+                    "Email is required." in data.get("error", "")):
+                    self.log_result("Chatbot lead missing email → 400", True, 
+                                  f"Status: {response.status_code}, Response: {data}")
+                else:
+                    self.log_result("Chatbot lead missing email → 400", False, 
+                                  f"Wrong error message. Got: {data}")
+            else:
+                self.log_result("Chatbot lead missing email → 400", False, 
+                              f"Expected 400, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Chatbot lead missing email → 400", False, f"Exception: {str(e)}")
+    
+    def test_chatbot_lead_invalid_email(self):
+        """Test POST /api/chatbot-lead with invalid email - should return 400"""
+        try:
+            url = f"{BASE_URL}/api/chatbot-lead"
+            payload = {"email": "bad", "context": "website"}
+            
+            response = self.session.post(url, json=payload, timeout=10)
+            
+            if response.status_code == 400:
+                data = response.json()
+                if (data.get("success") == False and 
+                    "Please enter a valid email address." in data.get("error", "")):
+                    self.log_result("Chatbot lead invalid email → 400", True, 
+                                  f"Status: {response.status_code}, Response: {data}")
+                else:
+                    self.log_result("Chatbot lead invalid email → 400", False, 
+                                  f"Wrong error message. Got: {data}")
+            else:
+                self.log_result("Chatbot lead invalid email → 400", False, 
+                              f"Expected 400, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Chatbot lead invalid email → 400", False, f"Exception: {str(e)}")
+    
+    def test_chatbot_lead_empty_body(self):
+        """Test POST /api/chatbot-lead with empty body - should return 400"""
+        try:
+            url = f"{BASE_URL}/api/chatbot-lead"
+            
+            response = self.session.post(url, json={}, timeout=10)
+            
+            if response.status_code == 400:
+                data = response.json()
+                if (data.get("success") == False and 
+                    "Email is required." in data.get("error", "")):
+                    self.log_result("Chatbot lead empty body → 400", True, 
+                                  f"Status: {response.status_code}, Response: {data}")
+                else:
+                    self.log_result("Chatbot lead empty body → 400", False, 
+                                  f"Wrong error message. Got: {data}")
+            else:
+                self.log_result("Chatbot lead empty body → 400", False, 
+                              f"Expected 400, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Chatbot lead empty body → 400", False, f"Exception: {str(e)}")
+    
+    def test_chatbot_lead_rate_limiting(self):
+        """Test POST /api/chatbot-lead rate limiting - 6th request should return 429"""
+        try:
+            url = f"{BASE_URL}/api/chatbot-lead"
+            payload = {
+                "email": "chatratelimit@example.com",
+                "context": "business",
+                "locale": "en"
+            }
+            
+            # Send 6 rapid requests
+            responses = []
+            for i in range(6):
+                response = self.session.post(url, json=payload, timeout=10)
+                responses.append((i+1, response.status_code, response.json() if response.headers.get('content-type', '').startswith('application/json') else response.text))
+                time.sleep(0.1)  # Small delay to avoid overwhelming
+            
+            # First 5 should be 500 (no API key), 6th should be 429
+            rate_limited = False
+            for i, (req_num, status, data) in enumerate(responses):
+                if status == 429:
+                    if (isinstance(data, dict) and data.get("success") == False and 
+                        "Too many requests. Please try again shortly." in data.get("error", "")):
+                        rate_limited = True
+                        self.log_result("Chatbot lead rate limiting → 429", True, 
+                                      f"Request {req_num} got 429 with correct message: {data}")
+                        break
+                    else:
+                        self.log_result("Chatbot lead rate limiting → 429", False, 
+                                      f"Request {req_num} got 429 but wrong message: {data}")
+                        return
+            
+            if not rate_limited:
+                self.log_result("Chatbot lead rate limiting → 429", False, 
+                              f"No 429 response found. All responses: {responses}")
+                
+        except Exception as e:
+            self.log_result("Chatbot lead rate limiting → 429", False, f"Exception: {str(e)}")
+    
+    # ===== BOOK PAGE ROUTE TESTS =====
+    
+    def test_book_page_with_session(self):
+        """Test GET /en/book?session=villa - should return 200"""
+        try:
+            url = f"{BASE_URL}/en/book?session=villa"
+            response = self.session.get(url, timeout=30)  # Increased timeout
+            
+            if response.status_code == 200:
+                self.log_result("GET /en/book?session=villa → 200", True, 
+                              f"Status: {response.status_code}")
+            else:
+                self.log_result("GET /en/book?session=villa → 200", False, 
+                              f"Expected 200, got {response.status_code}")
+                
+        except Exception as e:
+            self.log_result("GET /en/book?session=villa → 200", False, f"Exception: {str(e)}")
+    
+    def test_book_page_without_session(self):
+        """Test GET /en/book - should return 200"""
+        try:
+            url = f"{BASE_URL}/en/book"
+            response = self.session.get(url, timeout=30)  # Increased timeout
+            
+            if response.status_code == 200:
+                self.log_result("GET /en/book → 200", True, 
+                              f"Status: {response.status_code}")
+            else:
+                self.log_result("GET /en/book → 200", False, 
+                              f"Expected 200, got {response.status_code}")
+                
+        except Exception as e:
+            self.log_result("GET /en/book → 200", False, f"Exception: {str(e)}")
+    
+    def run_chatbot_lead_tests(self):
+        """Run only chatbot-lead API tests as requested"""
+        print(f"🚀 Starting Chatbot Lead API Tests for {BASE_URL}")
+        print("=" * 60)
+        
+        # CHATBOT LEAD API - MAIN FOCUS
+        print("\n🎯 Testing Chatbot Lead API (/api/chatbot-lead)")
+        print("-" * 50)
+        self.test_chatbot_lead_valid_no_api_key()
+        self.test_chatbot_lead_missing_email()
+        self.test_chatbot_lead_invalid_email()
+        self.test_chatbot_lead_empty_body()
+        self.test_chatbot_lead_rate_limiting()
+        
+        # BOOK PAGE ROUTES
+        print("\n📖 Testing Book Page Routes")
+        print("-" * 30)
+        self.test_book_page_with_session()
+        self.test_book_page_without_session()
+        
+        # Summary
+        print("\n" + "=" * 60)
+        print("📊 TEST SUMMARY")
+        print("=" * 60)
+        
+        passed = sum(1 for r in self.results if r["success"])
+        total = len(self.results)
+        
+        print(f"Total Tests: {total}")
+        print(f"Passed: {passed}")
+        print(f"Failed: {total - passed}")
+        
+        if total - passed > 0:
+            print("\n❌ FAILED TESTS:")
+            for result in self.results:
+                if not result["success"]:
+                    print(f"  - {result['test']}: {result['details']}")
+        
+        return passed == total
+    
     def run_all_tests(self):
         """Run all backend tests"""
         print(f"🚀 Starting Backend API Tests for {BASE_URL}")
@@ -645,6 +859,19 @@ class BackendTester:
         self.test_quiz_lead_empty_body()
         self.test_quiz_lead_rate_limiting()
         
+        print("\n💬 Testing Chatbot Lead API (/api/chatbot-lead)")
+        print("-" * 40)
+        self.test_chatbot_lead_valid_no_api_key()
+        self.test_chatbot_lead_missing_email()
+        self.test_chatbot_lead_invalid_email()
+        self.test_chatbot_lead_empty_body()
+        self.test_chatbot_lead_rate_limiting()
+        
+        print("\n📖 Testing Book Page Routes")
+        print("-" * 30)
+        self.test_book_page_with_session()
+        self.test_book_page_without_session()
+        
         # Summary
         print("\n" + "=" * 60)
         print("📊 TEST SUMMARY")
@@ -667,5 +894,6 @@ class BackendTester:
 
 if __name__ == "__main__":
     tester = BackendTester()
-    success = tester.run_all_tests()
+    # Run only chatbot-lead tests as requested
+    success = tester.run_chatbot_lead_tests()
     sys.exit(0 if success else 1)

@@ -409,6 +409,158 @@
     "emailError": "Something went wrong. Please try again.",
     "restart": "Take the quiz again"
   },
+  "faq": {
+    "headline": "Frequently Asked Questions",
+    "categories": {
+      "villa": "Villa Booking Traffic",
+      "superpower": "Superpower Program",
+      "websites": "Websites & PWAs",
+      "funding": "Funding & Structuring",
+      "working": "Working with T.C."
+    },
+    "items": {
+      "villa": {
+        "q1": {
+          "q": "What are the new Indonesian regulations affecting villa bookings?",
+          "a": "New regulatory frameworks in Indonesia are restricting which properties qualify for major OTA platforms like Airbnb and Booking.com. Villa owners who do not meet the new eligibility criteria may lose access to these channels. We recommend consulting a local legal advisor for guidance specific to your property. T.C. can help you set up a direct booking traffic channel as an alternative."
+        },
+        "q2": {
+          "q": "What is Meta Traffic and how does it replace OTA traffic?",
+          "a": "Meta Traffic uses paid social media advertising (primarily Facebook and Instagram) to reach your ideal guests directly, by interest, location, travel behavior, and budget. Unlike OTA platforms, there are no eligibility rules, no commissions per booking, and you own the guest relationship from the first click."
+        },
+        "q3": {
+          "q": "How quickly can villa owners see results from Meta Traffic?",
+          "a": "Timelines vary based on your property, market, and budget. Most villa owners begin seeing traffic within the first campaign period. Results are not guaranteed and depend on multiple factors including campaign setup, targeting, and property appeal."
+        },
+        "q4": {
+          "q": "Does this work for US-based short-term rental properties?",
+          "a": "Yes. While the primary focus is Indonesian villa owners, this service is also available for US-based Airbnb and short-term rental hosts who want to reduce OTA dependence."
+        }
+      },
+      "superpower": {
+        "q1": {
+          "q": "Who is this program designed for?",
+          "a": "Entrepreneurs and business owners at any stage who want to identify their core marketable skill, build a structured business around it, and launch with a real website and a custom AI tool, without needing a technical background."
+        },
+        "q2": {
+          "q": "Is it online or in-person?",
+          "a": "100% online. Eight weekly live video sessions. You can join from anywhere in the world. All you need is a laptop and an internet connection."
+        },
+        "q3": {
+          "q": "What if I miss a session?",
+          "a": "Sessions are recorded. Missing a session means missing the live interaction, but the content will be available. Consistent attendance gives you the best results."
+        },
+        "q4": {
+          "q": "Do I need technical skills?",
+          "a": "No. The program includes vibe coding, building your website using AI tools and guided instruction. No prior coding experience required."
+        }
+      },
+      "websites": {
+        "q1": {
+          "q": "What is the difference between a website and a PWA?",
+          "a": "A Progressive Web App (PWA) is a website that behaves like a mobile app. It is installable on your home screen, works offline, loads faster, and can send push notifications. For most hospitality and service businesses, a PWA outperforms a standard website on mobile, where most guest traffic arrives."
+        },
+        "q2": {
+          "q": "How long does a build take?",
+          "a": "Most projects are completed in 2 to 6 weeks depending on scope and content readiness. Discovery call first, then timeline is confirmed."
+        },
+        "q3": {
+          "q": "Do I need to maintain it myself after launch?",
+          "a": "No. Ongoing support options are available. The CMS is designed so you can update content without touching code if you prefer to manage it yourself."
+        }
+      },
+      "funding": {
+        "q1": {
+          "q": "Can I really get funded in 14 to 30 days?",
+          "a": "That timeline is based on T.C.'s personal experience and select client outcomes. Individual results vary based on your credit profile, business type, funding amount, and lender criteria. Nothing here guarantees a specific outcome or timeline. This is educational content."
+        },
+        "q2": {
+          "q": "What type of funding do you help with?",
+          "a": "Business credit, 0% interest funding strategies, and entity structuring for maximum fundability. T.C. focuses on the strategies he has personally used and tested, not theoretical frameworks."
+        },
+        "q3": {
+          "q": "Do I need good personal credit?",
+          "a": "Not necessarily. Part of the strategy involves credit positioning, building business credit and structure that reduces dependence on personal credit scores. This is covered in detail during a discovery call."
+        }
+      },
+      "working": {
+        "q1": {
+          "q": "Where are you based and do you work remotely?",
+          "a": "T.C. is based in Bali, Indonesia and works with clients globally. All sessions are conducted online via video call."
+        },
+        "q2": {
+          "q": "Do you offer one-time consulting or ongoing support?",
+          "a": "Both. One-time strategy sessions are available. Ongoing advisory relationships are also available depending on the service pillar. Details are discussed on the strategy call."
+        },
+        "q3": {
+          "q": "I'm not technical. Can you still help me?",
+          "a": "Yes. T.C. and the team specialize in working with non-technical business owners. The Superpower Program in particular is designed for people with no technical background."
+        }
+      }
+    }
+  },
+  "book": {
+    "headline": "Book Your Strategy Session",
+    "subheadline": "This is not a sales call. It is a strategy session. Come ready to talk about your business. T.C. will come ready with ideas.",
+    "tabs": {
+      "strategy": "Free 30-Min Strategy Call",
+      "villa": "Villa Booking Traffic Consultation",
+      "ai-strategy": "AI Strategy Deep Dive",
+      "website": "Website/PWA Project Kick-Off",
+      "funding": "Funding Discovery Call"
+    },
+    "placeholder": {
+      "heading": "Calendar coming soon.",
+      "body": "Book via email at tc@veteranbizcoach.com",
+      "cta": "Email T.C."
+    },
+    "footnote": "All sessions conducted via video call. Timezone-aware scheduling. Serving clients in Southeast Asia, North America, and everywhere in between."
+  },
+  "chatbot": {
+    "toggleLabel": "Open chat assistant",
+    "header": "T.C.'s AI Assistant",
+    "close": "Close chat",
+    "greeting": "Hey! I'm T.C.'s AI assistant. What brings you here today?",
+    "quickReplies": {
+      "business": "Starting a Business",
+      "funded": "Getting Funded",
+      "website": "Website/PWA",
+      "villa": "Villa Bookings",
+      "other": "Something Else"
+    },
+    "responses": {
+      "business": {
+        "text": "The Superpower Program is built for exactly that. 8 weeks, 6 deliverables, 100% online. Want to join the waitlist?",
+        "btn1": "Join Waitlist",
+        "btn2": "Tell Me More"
+      },
+      "funded": {
+        "text": "T.C. has helped entrepreneurs access capital in 14 to 30 days using 0% interest strategies he personally tested. Want to talk through your situation?",
+        "btn1": "Book a Funding Call",
+        "btn2": "Learn More"
+      },
+      "website": {
+        "text": "T.C. builds AI-powered websites and PWAs for hospitality and service businesses. Want to kick off a discovery call?",
+        "btn1": "Book Discovery Call",
+        "btn2": "See Examples"
+      },
+      "villa": {
+        "text": "If your villa is affected by Indonesia's new OTA regulations, Meta Traffic is your direct booking alternative. Want to review your options?",
+        "btn1": "Book Villa Call",
+        "btn2": "Learn More"
+      },
+      "other": {
+        "text": "No problem. The best next step is a free 30-minute strategy call. T.C. comes prepared with ideas.",
+        "btn1": "Book Free Call"
+      }
+    },
+    "emailPrompt": "Want a recap sent to your email?",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "you@example.com",
+    "emailButton": "Send Recap",
+    "emailError": "Something went wrong. Please try again.",
+    "emailConfirmation": "Got it. T.C. will follow up shortly."
+  },
   "footer": {
     "tagline": "AI-First Business Success Strategist",
     "navHeading": "Navigation",

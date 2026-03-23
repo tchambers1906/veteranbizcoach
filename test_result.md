@@ -268,10 +268,25 @@ frontend:
           agent: "testing"
           comment: "✅ ALL TESTS PASSED (5/5): (1) Valid body → 500 with correct error message (no API key), (2) Missing email → 400 'Email is required.', (3) Invalid email → 400 'Please enter a valid email address.', (4) Empty body → 400 'Email is required.', (5) Rate limiting → 429 'Too many requests' after 5 requests/minute. All validation and rate limiting working correctly."
 
+  - task: "Chatbot Lead API endpoint (POST /api/chatbot-lead)"
+    implemented: true
+    working: true
+    file: "app/api/chatbot-lead/route.ts"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+        - working: "NA"
+          agent: "main"
+          comment: "New endpoint. Validates email (required, valid format, max 254). Sanitizes HTML. Rate limits 5/IP/min. Sends 2 emails via Resend. RESEND_API_KEY not set so will 500 on valid input."
+        - working: true
+          agent: "testing"
+          comment: "✅ ALL TESTS PASSED (5/5): (1) Valid body {email:'chattest@example.com', context:'business', locale:'en'} → 500 with correct error message (no API key), (2) Missing email {context:'business'} → 400 'Email is required.', (3) Invalid email {email:'bad', context:'website'} → 400 'Please enter a valid email address.', (4) Empty body {} → 400 'Email is required.', (5) Rate limiting → 429 'Too many requests' after 5 requests/minute. All validation and rate limiting working correctly. Also verified GET /en/book?session=villa → 200 and GET /en/book → 200."
+
 metadata:
   created_by: "main_agent"
   version: "1.0"
-  test_sequence: 2
+  test_sequence: 3
   run_ui: false
 
 test_plan:
@@ -309,3 +324,18 @@ POST /api/quiz-lead:
 DO NOT modify any code. Only test."
     - agent: "testing"
       message: "✅ NEW API ENDPOINTS TESTING COMPLETE - ALL TESTS PASSED (12/12): Both POST /api/lead-magnet and POST /api/quiz-lead working perfectly. All validation scenarios tested: (1) Valid requests → 500 (expected, no RESEND_API_KEY), (2) Missing required fields → 400 with correct error messages, (3) Invalid email formats → 400, (4) firstName too long → 400, (5) Empty bodies → 400, (6) Rate limiting → 429 after 5 requests/minute. All validation, sanitization, and rate limiting working correctly. Updated backend_test.py with comprehensive test suite for both endpoints."
+    - agent: "main"
+      message: "Added POST /api/chatbot-lead endpoint. Test ONLY this endpoint. Base URL: http://localhost:3000
+
+POST /api/chatbot-lead:
+(1) Valid body {email:'test@example.com', context:'business', locale:'en'} → 500 (no RESEND_API_KEY, expected)
+(2) Missing email → 400 {error:'Email is required.'}
+(3) Invalid email {email:'bad'} → 400 {error:'Please enter a valid email address.'}
+(4) Empty body → 400
+(5) 6 rapid valid requests → 429 on 6th
+
+Also verify /en/book?session=villa returns 200.
+
+DO NOT modify any code. Only test."
+    - agent: "testing"
+      message: "✅ CHATBOT LEAD API TESTING COMPLETE - ALL TESTS PASSED (7/7): POST /api/chatbot-lead working perfectly with all validation and rate limiting. Test results: (1) Valid body {email:'chattest@example.com', context:'business', locale:'en'} → 500 with correct error message (no RESEND_API_KEY), (2) Missing email {context:'business'} → 400 'Email is required.', (3) Invalid email {email:'bad', context:'website'} → 400 'Please enter a valid email address.', (4) Empty body {} → 400 'Email is required.', (5) Rate limiting → 429 'Too many requests' after 5 requests/minute. Also verified book page routes: GET /en/book?session=villa → 200 and GET /en/book → 200. All backend functionality working as expected."

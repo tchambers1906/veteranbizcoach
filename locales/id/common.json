@@ -163,6 +163,76 @@
     },
     "disclaimer": "Program Superpower adalah program pendidikan. Partisipasi tidak menjamin hasil bisnis tertentu, tingkat pendapatan, atau penghasilan pribadi. Hasil bergantung pada upaya individu, kondisi pasar, dan faktor lain di luar kendali kami."
   },
+  "websites": {
+    "eyebrow": "Pilar Layanan 03",
+    "headline": "Website dan PWA Bertenaga AI yang Dibangun untuk Mengkonversi",
+    "subheadline": "Untuk bisnis perhotelan, kesehatan, F&B, dan e-commerce di Bali, Asia Tenggara, dan Amerika Utara.",
+    "cards": {
+      "c1": {
+        "heading": "Arsitektur Progressive Web App",
+        "body": "Dapat diinstal, berfungsi offline, seperti aplikasi di ponsel."
+      },
+      "c2": {
+        "heading": "Fitur Bertenaga AI",
+        "body": "Chatbot, sistem pemesanan, dan alat penangkap prospek sudah terintegrasi."
+      },
+      "c3": {
+        "heading": "Analisis Konversi SiteFlow AI",
+        "body": "Menunjukkan dengan tepat di mana pengunjung pergi, apa yang menghentikan pemesanan, dan perubahan apa yang menggerakkan hasil."
+      },
+      "c4": {
+        "heading": "Mobile-First, Pembangunan Bilingual",
+        "body": "EN/ID sebagai standar untuk proyek pasar Bali."
+      }
+    },
+    "cta": {
+      "button": "Pesan Panggilan Penemuan Website/PWA"
+    }
+  },
+  "funding": {
+    "eyebrow": "Pilar Layanan 04",
+    "headline": "Akses Modal Bisnis dalam 14 hingga 30 Hari",
+    "subheadline": "Penataan entitas bisnis, strategi pendanaan bunga 0%, pembangunan kredit, dan efisiensi pajak. Diuji dan terbukti secara pribadi.",
+    "proofCards": {
+      "p1": {
+        "heading": "Rekam Jejak Pendanaan 14 hingga 30 Hari",
+        "body": "Strategi pendanaan terstruktur yang bergerak secepat bisnis."
+      },
+      "p2": {
+        "heading": "Strategi Pendanaan Bunga 0%",
+        "body": "Metode akses modal yang dirancang untuk meminimalkan biaya dan memaksimalkan runway."
+      },
+      "p3": {
+        "heading": "Penataan LLC, Corp & Kredit",
+        "body": "Pembentukan entitas, pembangunan kredit, dan struktur efisien pajak."
+      }
+    },
+    "bodyCopy": "T.C. telah menavigasi kebangkrutan, tagihan IRS lima digit, dan membangun kembali menggunakan strategi yang sama persis yang dia ajarkan. Sebagai COO Alpha & Omega Legacy Group dan Penulis Bestseller Amazon tentang strategi sukses bisnis, dia membawa rekam jejak, bukan teori.",
+    "cta": {
+      "button": "Dapatkan Roadmap Pendanaan Anda. Pesan Panggilan."
+    },
+    "disclaimer": "Jadwal pendanaan yang direferensikan didasarkan pada pengalaman pribadi T.C. Chambers dan hasil klien tertentu. Hasil individu akan bervariasi berdasarkan profil kredit, jenis bisnis, jumlah pendanaan, dan kriteria pemberi pinjaman. Tidak ada yang di sini merupakan jaminan persetujuan pendanaan, jadwal tertentu, atau jumlah tertentu. Konten ini hanya untuk tujuan pendidikan."
+  },
+  "about": {
+    "eyebrow": "Tentang T.C. Chambers",
+    "headline": "Dibangun dari Nol. Dibangun Kembali dari Bawah.",
+    "p1": "T.C. Chambers tumbuh di Philadelphia. Dia menghabiskan 8 tahun sebagai Perwira Angkatan Darat AS sebelum memasuki dunia korporat dan membangun bisnis pertamanya pada tahun 1995.",
+    "p2": "Pada tahun 1996, dia menabrak tembok yang tidak pernah dibicarakan kebanyakan pengusaha. Kebangkrutan. Tagihan IRS lima digit. Semua yang dia bangun, hilang. Dia membangun kembali melalui mentorship, menguasai struktur pendanaan yang tidak pernah dipelajari kebanyakan orang, dan mengakses modal dengan bunga 0%. Kemudian dia menulis buku tentang itu. Sebuah Bestseller Amazon.",
+    "p3": "Selama dua dekade berikutnya, dia membantu pengusaha menemukan modal, menata entitas mereka, dan membangun bisnis mereka. Kemudian AI mengubah apa yang mungkin. Dia menghabiskan bertahun-tahun mempelajarinya bukan sebagai alat tetapi sebagai sistem bisnis inti, membangun platform bertenaga AI, GPT khusus, dan PWA untuk klien di seluruh Asia Tenggara dan Amerika Utara.",
+    "p4": "Pada Januari 2023, dia pindah ke Bali, Indonesia. Dia sekarang menjalankan Program Superpower online untuk pengusaha di seluruh dunia, membangun website dan PWA untuk bisnis perhotelan dan kesehatan, memberi saran kepada pemilik vila tentang lalu lintas pemesanan langsung, dan masih membantu pengusaha mengakses pendanaan dalam 14 hingga 30 hari.",
+    "mission": "Mendemistifikasi proses pengembangan bisnis dan memberdayakan pengusaha untuk memanfaatkan keahlian mereka dan modal eksternal, sehingga mereka dapat membangun bisnis yang memungkinkan mereka menjalani hidup sesuai keinginan mereka.",
+    "credentials": {
+      "heading": "Kredensial",
+      "c1": "Perwira Angkatan Darat AS (8 tahun)",
+      "c2": "Penulis Bestseller Amazon",
+      "c3": "Ahli Pendanaan Bisnis, rekam jejak 14 hingga 30 hari",
+      "c4": "Ahli Strategi Bisnis Berbasis AI",
+      "c5": "Pengembang Web & PWA (Bali, Asia Tenggara, Amerika Utara)",
+      "c6": "COO, Alpha & Omega Legacy Group",
+      "c7": "Fasilitator Program Superpower"
+    },
+    "readMore": "Baca cerita lengkapnya"
+  },
   "footer": {
     "tagline": "Ahli Strategi Sukses Bisnis Berbasis AI",
     "navHeading": "Navigasi",

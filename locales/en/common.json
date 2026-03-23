@@ -163,6 +163,76 @@
     },
     "disclaimer": "The Superpower Program is an educational program. Participation does not guarantee any specific business outcome, revenue level, or personal income. Results depend on individual effort, market conditions, and other factors outside our control."
   },
+  "websites": {
+    "eyebrow": "Service Pillar 03",
+    "headline": "AI-Powered Websites and PWAs Built to Convert",
+    "subheadline": "For hospitality, wellness, F&B, and e-commerce businesses in Bali, Southeast Asia, and North America.",
+    "cards": {
+      "c1": {
+        "heading": "Progressive Web App Architecture",
+        "body": "Installable, offline-capable, app-like on mobile."
+      },
+      "c2": {
+        "heading": "AI-Powered Features",
+        "body": "Chatbots, booking systems, and lead capture tools built in."
+      },
+      "c3": {
+        "heading": "SiteFlow AI Conversion Analysis",
+        "body": "Shows exactly where visitors leave, what stops bookings, and which changes move the needle."
+      },
+      "c4": {
+        "heading": "Mobile-First, Bilingual Builds",
+        "body": "EN/ID as standard for Bali market projects."
+      }
+    },
+    "cta": {
+      "button": "Book a Website/PWA Discovery Call"
+    }
+  },
+  "funding": {
+    "eyebrow": "Service Pillar 04",
+    "headline": "Access Business Capital in 14 to 30 Days",
+    "subheadline": "Business entity structuring, 0% interest funding strategies, credit building, and tax efficiency. Personally tested and proven.",
+    "proofCards": {
+      "p1": {
+        "heading": "14 to 30 Day Funding Track Record",
+        "body": "Structured funding strategies that move at the speed of business."
+      },
+      "p2": {
+        "heading": "0% Interest Funding Strategies",
+        "body": "Capital access methods designed to minimize cost and maximize runway."
+      },
+      "p3": {
+        "heading": "LLC, Corp & Credit Structuring",
+        "body": "Entity formation, credit building, and tax-efficient structures."
+      }
+    },
+    "bodyCopy": "T.C. has navigated bankruptcy, a five-figure IRS bill, and rebuilt using the exact strategies he teaches. As COO of Alpha & Omega Legacy Group and an Amazon Bestselling Author on business success strategy, he brings a track record, not a theory.",
+    "cta": {
+      "button": "Get Your Funding Roadmap. Book a Call."
+    },
+    "disclaimer": "Funding timelines referenced are based on T.C. Chambers' personal experience and select client outcomes. Individual results will vary based on credit profile, business type, funding amount, and lender criteria. Nothing here constitutes a guarantee of funding approval, a specific timeline, or a specific amount. This content is for educational purposes only."
+  },
+  "about": {
+    "eyebrow": "About T.C. Chambers",
+    "headline": "Built from the Ground Up. Rebuilt from the Bottom.",
+    "p1": "T.C. Chambers grew up in Philadelphia. He spent 8 years as a U.S. Army Officer before entering the corporate world and building his first businesses in 1995.",
+    "p2": "In 1996, he hit a wall most entrepreneurs never talk about. Bankruptcy. A five-figure IRS bill. Everything he had built, gone. He rebuilt through mentorship, mastered funding structures most people never learn, and accessed capital at 0% interest. Then he wrote a book about it. An Amazon Bestseller.",
+    "p3": "For the next two decades, he helped entrepreneurs find capital, structure their entities, and build their businesses. Then AI changed what was possible. He spent years learning it not as a tool but as a core business system, building AI-powered platforms, custom GPTs, and PWAs for clients across Southeast Asia and North America.",
+    "p4": "In January 2023, he moved to Bali, Indonesia. He now runs the Superpower Program online for entrepreneurs worldwide, builds websites and PWAs for hospitality and wellness businesses, advises villa owners on direct booking traffic, and still helps entrepreneurs access funding in 14 to 30 days.",
+    "mission": "To demystify the business development process and empower entrepreneurs to leverage their expertise and external capital, so they can build businesses that let them live life on their own terms.",
+    "credentials": {
+      "heading": "Credentials",
+      "c1": "U.S. Army Officer (8 years)",
+      "c2": "Amazon Bestselling Author",
+      "c3": "Business Funding Expert, 14 to 30 day track record",
+      "c4": "AI-First Business Strategist",
+      "c5": "Web & PWA Developer (Bali, SE Asia, North America)",
+      "c6": "COO, Alpha & Omega Legacy Group",
+      "c7": "Superpower Program Facilitator"
+    },
+    "readMore": "Read the full story"
+  },
   "footer": {
     "tagline": "AI-First Business Success Strategist",
     "navHeading": "Navigation",

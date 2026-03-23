@@ -1,6 +1,9 @@
 import HeroSection from '@/components/sections/HeroSection';
 import VillaBookingSection from '@/components/sections/VillaBookingSection';
 import SuperpowerSection from '@/components/sections/SuperpowerSection';
+import WebsitesPwasSection from '@/components/sections/WebsitesPwasSection';
+import FundingSection from '@/components/sections/FundingSection';
+import AboutSection from '@/components/sections/AboutSection';
 
 export default function HomePage() {
   return (
@@ -8,6 +11,9 @@ export default function HomePage() {
       <HeroSection />
       <VillaBookingSection />
       <SuperpowerSection />
+      <WebsitesPwasSection />
+      <FundingSection />
+      <AboutSection />
     </>
   );
 }

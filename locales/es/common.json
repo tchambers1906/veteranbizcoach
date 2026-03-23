@@ -163,6 +163,76 @@
     },
     "disclaimer": "El Programa Superpoder es un programa educativo. La participaci\u00f3n no garantiza ning\u00fan resultado comercial espec\u00edfico, nivel de ingresos o ingreso personal. Los resultados dependen del esfuerzo individual, las condiciones del mercado y otros factores fuera de nuestro control."
   },
+  "websites": {
+    "eyebrow": "Pilar de Servicio 03",
+    "headline": "Sitios Web y PWAs con IA Construidos para Convertir",
+    "subheadline": "Para negocios de hospitalidad, bienestar, alimentos y bebidas, y comercio electr\u00f3nico en Bali, el Sudeste Asi\u00e1tico y Norteam\u00e9rica.",
+    "cards": {
+      "c1": {
+        "heading": "Arquitectura Progressive Web App",
+        "body": "Instalable, funciona sin conexi\u00f3n, como una app en el m\u00f3vil."
+      },
+      "c2": {
+        "heading": "Funciones con IA",
+        "body": "Chatbots, sistemas de reservas y herramientas de captura de prospectos integrados."
+      },
+      "c3": {
+        "heading": "An\u00e1lisis de Conversi\u00f3n SiteFlow AI",
+        "body": "Muestra exactamente d\u00f3nde se van los visitantes, qu\u00e9 detiene las reservas y qu\u00e9 cambios mueven la aguja."
+      },
+      "c4": {
+        "heading": "Mobile-First, Construcci\u00f3n Biling\u00fce",
+        "body": "EN/ID como est\u00e1ndar para proyectos del mercado de Bali."
+      }
+    },
+    "cta": {
+      "button": "Reservar Llamada de Descubrimiento Web/PWA"
+    }
+  },
+  "funding": {
+    "eyebrow": "Pilar de Servicio 04",
+    "headline": "Accede a Capital de Negocio en 14 a 30 D\u00edas",
+    "subheadline": "Estructuraci\u00f3n de entidades empresariales, estrategias de financiamiento al 0% de inter\u00e9s, construcci\u00f3n de cr\u00e9dito y eficiencia fiscal. Probado y comprobado personalmente.",
+    "proofCards": {
+      "p1": {
+        "heading": "Historial de Financiamiento de 14 a 30 D\u00edas",
+        "body": "Estrategias de financiamiento estructuradas que se mueven a la velocidad del negocio."
+      },
+      "p2": {
+        "heading": "Estrategias de Financiamiento al 0% de Inter\u00e9s",
+        "body": "M\u00e9todos de acceso a capital dise\u00f1ados para minimizar costos y maximizar el recorrido."
+      },
+      "p3": {
+        "heading": "Estructuraci\u00f3n de LLC, Corp y Cr\u00e9dito",
+        "body": "Formaci\u00f3n de entidades, construcci\u00f3n de cr\u00e9dito y estructuras eficientes en impuestos."
+      }
+    },
+    "bodyCopy": "T.C. ha navegado la bancarrota, una deuda de cinco cifras con el IRS, y se reconstruy\u00f3 usando las mismas estrategias que ense\u00f1a. Como COO de Alpha & Omega Legacy Group y Autor Bestseller de Amazon en estrategia de \u00e9xito empresarial, trae un historial comprobado, no una teor\u00eda.",
+    "cta": {
+      "button": "Obt\u00e9n Tu Hoja de Ruta de Financiamiento. Reserva una Llamada."
+    },
+    "disclaimer": "Los plazos de financiamiento referenciados se basan en la experiencia personal de T.C. Chambers y resultados de clientes selectos. Los resultados individuales variar\u00e1n seg\u00fan el perfil crediticio, tipo de negocio, monto de financiamiento y criterios del prestamista. Nada aqu\u00ed constituye una garant\u00eda de aprobaci\u00f3n de financiamiento, un plazo espec\u00edfico o un monto espec\u00edfico. Este contenido es solo para fines educativos."
+  },
+  "about": {
+    "eyebrow": "Sobre T.C. Chambers",
+    "headline": "Construido desde Cero. Reconstruido desde Abajo.",
+    "p1": "T.C. Chambers creci\u00f3 en Filadelfia. Pas\u00f3 8 a\u00f1os como Oficial del Ej\u00e9rcito de EE.UU. antes de entrar al mundo corporativo y construir sus primeros negocios en 1995.",
+    "p2": "En 1996, choc\u00f3 contra un muro del que la mayor\u00eda de los emprendedores nunca hablan. Bancarrota. Una deuda de cinco cifras con el IRS. Todo lo que hab\u00eda construido, desaparecido. Se reconstruy\u00f3 a trav\u00e9s de mentor\u00eda, domin\u00f3 estructuras de financiamiento que la mayor\u00eda nunca aprende, y accedi\u00f3 a capital al 0% de inter\u00e9s. Luego escribi\u00f3 un libro sobre ello. Un Bestseller de Amazon.",
+    "p3": "Durante las siguientes dos d\u00e9cadas, ayud\u00f3 a emprendedores a encontrar capital, estructurar sus entidades y construir sus negocios. Luego la IA cambi\u00f3 lo que era posible. Pas\u00f3 a\u00f1os aprendi\u00e9ndola no como una herramienta sino como un sistema central de negocios, construyendo plataformas con IA, GPTs personalizados y PWAs para clientes en el Sudeste Asi\u00e1tico y Norteam\u00e9rica.",
+    "p4": "En enero de 2023, se mud\u00f3 a Bali, Indonesia. Ahora dirige el Programa Superpoder en l\u00ednea para emprendedores de todo el mundo, construye sitios web y PWAs para negocios de hospitalidad y bienestar, asesora a due\u00f1os de villas sobre tr\u00e1fico de reservas directas, y a\u00fan ayuda a emprendedores a acceder a financiamiento en 14 a 30 d\u00edas.",
+    "mission": "Desmitificar el proceso de desarrollo empresarial y empoderar a los emprendedores para aprovechar su experiencia y capital externo, para que puedan construir negocios que les permitan vivir la vida en sus propios t\u00e9rminos.",
+    "credentials": {
+      "heading": "Credenciales",
+      "c1": "Oficial del Ej\u00e9rcito de EE.UU. (8 a\u00f1os)",
+      "c2": "Autor Bestseller de Amazon",
+      "c3": "Experto en Financiamiento Empresarial, historial de 14 a 30 d\u00edas",
+      "c4": "Estratega de Negocios con IA",
+      "c5": "Desarrollador Web y PWA (Bali, SE Asia, Norteam\u00e9rica)",
+      "c6": "COO, Alpha & Omega Legacy Group",
+      "c7": "Facilitador del Programa Superpoder"
+    },
+    "readMore": "Lee la historia completa"
+  },
   "footer": {
     "tagline": "Estratega de \u00c9xito Empresarial con IA",
     "navHeading": "Navegaci\u00f3n",

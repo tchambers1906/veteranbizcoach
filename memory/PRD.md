@@ -94,6 +94,37 @@ Next.js 16 App Router project with TypeScript, Tailwind CSS v4, PWA (Serwist), a
 - [x] All 3 locales translated (en, id, es) — no em dashes
 - [x] Compliance: no income promises, no guarantees, disclaimer present
 
+## Completed (Websites & PWAs — Service Pillar 03)
+- [x] Off-white background (#F8F9FA)
+- [x] Teal eyebrow, navy headline, text-secondary subheadline
+- [x] 4 feature cards in 2x2 grid desktop / single column mobile
+  - White bg, gold icons (Smartphone, Cpu, BarChart3, Globe), navy headings, teal hover border
+- [x] Teal CTA: "Book a Website/PWA Discovery Call" → /book?session=website
+- [x] Analytics tracking on CTA
+- [x] All 3 locales (en, id, es) — no em dashes
+
+## Completed (Funding & Structuring — Service Pillar 04)
+- [x] Deep navy background (#0A1628)
+- [x] Gold eyebrow, white headline, off-white subheadline
+- [x] 3 proof point cards in row (charcoal bg, gold headings, white body)
+- [x] Body copy with "Amazon Bestselling Author" in full
+- [x] Gold CTA: "Get Your Funding Roadmap. Book a Call." → /book?session=funding
+- [x] Required funding disclaimer (gold text, small print)
+- [x] Analytics tracking on CTA
+- [x] All 3 locales (en, id, es) — no em dashes
+- [x] Compliance: no income promises, disclaimer present
+
+## Completed (About T.C. Chambers)
+- [x] Off-white background, two-column desktop / stacked mobile
+- [x] Left: teal eyebrow, navy headline, 4 narrative paragraphs
+- [x] Mission callout: navy bg, gold left border, white italic text
+- [x] Right: Credentials sidebar (charcoal bg, gold heading, 7 items with teal checkmarks)
+- [x] Social links: Instagram, Facebook, LinkedIn (gold icons, new tab)
+- [x] "Read the full story" teal link → /about
+- [x] Analytics tracking on CTA
+- [x] All 3 locales (en, id, es) — no em dashes
+- [x] Compliance: "Amazon Bestselling Author" in full, no income promises
+
 ## Next Steps
-- Build "Websites & PWAs" service pillar section
-- Build "Funding & Structuring" service pillar section
+- Build out static page content (/about, /team, /quiz, etc.)
+- Implement lead magnet form functionality

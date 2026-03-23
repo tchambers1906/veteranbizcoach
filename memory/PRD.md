@@ -165,10 +165,38 @@ Next.js 16 App Router project with TypeScript, Tailwind CSS v4, PWA (Serwist), a
 - [x] POST /api/footer-email — email validation, rate limiting, Resend (2 emails)
 - [x] POST /api/lead-magnet — firstName+email validation, rate limiting, Resend (2 emails)
 - [x] POST /api/quiz-lead — email validation, rate limiting, Resend (2 emails)
+- [x] POST /api/chatbot-lead — email+context validation, rate limiting, Resend (2 emails)
 - All endpoints: RESEND_API_KEY env var required for email sending
 
+## Completed (FAQ Section)
+- [x] White bg, 5 categories, 17 Q&A items
+- [x] Accordion: one open at a time, chevron rotation, smooth animation
+- [x] prefers-reduced-motion respected
+- [x] All 3 locales (en, id, es) — no em dashes
+- [x] Compliance: no income promises, funding disclaimer language in FAQ answers
+
+## Completed (Book Page — /book)
+- [x] Navy bg, session type tabs pre-selected from ?session= URL param
+- [x] 5 session types: strategy, villa, ai-strategy, website, funding
+- [x] Calendly iframe (uses NEXT_PUBLIC_CALENDLY_URL env var) with loading skeleton
+- [x] Placeholder state when no Calendly URL: "Calendar coming soon" + email CTA
+- [x] Analytics: track('booking_page_viewed', {...}) on page load
+- [x] All 3 locales (en, id, es) — no em dashes
+
+## Completed (AI Chatbot Widget)
+- [x] Fixed bottom-right, z-999, every page via root layout
+- [x] Collapsed: 56px teal circle, MessageCircle icon, pulse animation (motion-safe)
+- [x] Auto-expand: 15s timer OR 50% scroll depth, session dismiss
+- [x] Expanded: 380px navy card, gold header, close button, ESC key
+- [x] 5 quick reply buttons with static response map (Phase 1)
+- [x] Email capture after response → POST /api/chatbot-lead
+- [x] Focus trap, keyboard accessible, aria-label, aria-expanded
+- [x] Analytics: chatbot_opened, cta_clicked, chatbot_lead_captured
+- [x] All 3 locales (en, id, es) — no em dashes
+
 ## Next Steps
-- Add RESEND_API_KEY and LEAD_MAGNET_PDF_URL for live email functionality
+- Add RESEND_API_KEY, LEAD_MAGNET_PDF_URL, NEXT_PUBLIC_CALENDLY_URL env vars
 - Build out static page content (/about full page, /testimonials, etc.)
 - Configure PostHog and GA4 analytics SDKs
 - Replace placeholder testimonials with real ones
+- Add JSON-LD FAQPage schema to homepage

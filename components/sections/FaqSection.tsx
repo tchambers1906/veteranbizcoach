@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { useTranslations } from 'next-intl';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import { ChevronDown } from 'lucide-react';
@@ -21,8 +21,34 @@ export default function FaqSection() {
     setOpenItem((prev) => (prev === id ? null : id));
   };
 
+  // Build JSON-LD FAQPage schema
+  const jsonLd = useMemo(() => {
+    const mainEntity: { '@type': string; name: string; acceptedAnswer: { '@type': string; text: string } }[] = [];
+    for (const cat of CATEGORIES) {
+      for (let i = 1; i <= cat.count; i++) {
+        mainEntity.push({
+          '@type': 'Question',
+          name: t(`items.${cat.key}.q${i}.q`),
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: t(`items.${cat.key}.q${i}.a`),
+          },
+        });
+      }
+    }
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity,
+    };
+  }, [t]);
+
   return (
     <section id="faq" className="bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-20">
         <ScrollReveal>
           <h2 className="font-heading font-extrabold text-[28px] lg:text-[42px] leading-[1.1] text-navy text-center mb-12">

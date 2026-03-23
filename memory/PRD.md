@@ -34,7 +34,11 @@ Next.js 16 App Router project with TypeScript, Tailwind CSS v4, PWA (Serwist), a
 - [x] PWA Install Banner — 30s timer / 2nd visit trigger, localStorage 7-day suppress
 - [x] Enhanced offline page — social links, email, browse note
 - [x] ScrollReveal animations with prefers-reduced-motion
-- [x] Subscribe API endpoint at /api/subscribe
+- [x] Footer Email API endpoint at POST /api/footer-email (renamed from /api/subscribe)
+  - Email validation (format, max 254 chars), HTML sanitization
+  - IP-based rate limiting (5 req/min, 429 response)
+  - Resend integration: confirmation email to subscriber + internal notification
+  - Requires RESEND_API_KEY env var to send emails
 
 ## Completed (Hero Section)
 - [x] Full-bleed navy background with CSS grain texture + radial gradient glows
@@ -65,9 +69,31 @@ Next.js 16 App Router project with TypeScript, Tailwind CSS v4, PWA (Serwist), a
 - `/offline` — PWA offline fallback
 - `/manifest.webmanifest` — PWA manifest
 
+## Completed (Villa Booking Traffic — Service Pillar 01)
+- [x] Section header: "Service Pillar 01" eyebrow + headline
+- [x] 5 content blocks: Problem, Cost of Inaction, Solution, Why It Works (2x2 grid), Who It's For
+- [x] Alternating backgrounds: off-white, white, navy, off-white, white
+- [x] Regulatory disclaimer at bottom
+- [x] CTA: "Book a Villa Traffic Strategy Call" → /book?session=villa
+- [x] Analytics tracking: track('cta_clicked', {...}) on CTA
+- [x] All 3 locales translated (en, id, es) — no em dashes
+- [x] Compliance: no income promises, disclaimer present
+
+## Completed (Superpower Program — Service Pillar 02)
+- [x] Deep navy background (#0A1628) with white/off-white text
+- [x] Stats bar: gold bg, navy text, 6 items, horizontal scroll on mobile
+- [x] 6 Deliverable cards: 3x2 grid desktop / single column mobile
+  - Charcoal bg (#1A1A2E), gold number (Montserrat 800, 48px), teal hover border
+  - Framed as "designed to produce" / "participants work toward"
+- [x] Week-by-week table: 8 rows, alternating navy/charcoal, gold weeks, teal deliverables
+- [x] How It Works block: session structure, requirements
+- [x] Enrollment CTA (waitlist mode): "Join the Waitlist" → /resources?waitlist=superpower
+  - Heading: 100 participant limit, subtext, gold button, note
+- [x] Educational disclaimer at bottom
+- [x] Analytics tracking: track('cta_clicked', {...}) on CTA
+- [x] All 3 locales translated (en, id, es) — no em dashes
+- [x] Compliance: no income promises, no guarantees, disclaimer present
+
 ## Next Steps
-- Build UI components and page layouts
-- Integrate Calendly for booking
-- Set up PostHog and GA4 analytics
-- Configure Resend for transactional emails
-- Add lead magnet functionality
+- Build "Websites & PWAs" service pillar section
+- Build "Funding & Structuring" service pillar section

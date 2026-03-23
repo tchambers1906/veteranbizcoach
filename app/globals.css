@@ -116,3 +116,14 @@ body {
 .credibility-scroll::-webkit-scrollbar {
   display: none;
 }
+
+/* Hide scrollbar utility (stats bar, etc.) */
+.scrollbar-hide {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

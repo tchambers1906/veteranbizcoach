@@ -66,6 +66,103 @@
       "note": "Consulta gratuita de 30 minutos. Sin compromiso."
     }
   },
+  "superpower": {
+    "eyebrow": "Pilar de Servicio 02",
+    "headline": "Convierte Tu Habilidad #1 en un Negocio que Funcione Online",
+    "subheadline": "Un programa en vivo de 8 semanas dise\u00f1ado para ayudarte a identificar tu habilidad m\u00e1s comercializable, construir un ecosistema de ofertas a su alrededor, y lanzar con un sitio web funcional y una herramienta de coaching con IA personalizada.",
+    "stats": {
+      "weeks": "8 Semanas",
+      "sessions": "8 Sesiones en Vivo",
+      "hours": "3 Horas Por Sesi\u00f3n",
+      "participants": "M\u00e1x 100 Participantes",
+      "deliverables": "6 Entregables",
+      "online": "100% Online"
+    },
+    "deliverablesHeading": "Lo que los Participantes Trabajan Para Lograr",
+    "deliverables": {
+      "d1": {
+        "heading": "Superpoder Identificado y Validado",
+        "body": "Tu habilidad #1 m\u00e1s comercializable, definida y posicionada. Dise\u00f1ado para producir claridad sobre lo que vendes y por qu\u00e9 importa."
+      },
+      "d2": {
+        "heading": "Perfil de Cliente Ideal",
+        "body": "Construido a partir de conversaciones reales, no suposiciones. Los participantes trabajan hacia un perfil psicogr\u00e1fico y demogr\u00e1fico completo."
+      },
+      "d3": {
+        "heading": "Ecosistema de Ofertas de 3 Niveles",
+        "body": "Tres productos a tres puntos de precio, listos para vender. Dise\u00f1ado para producir un camino de ingresos estructurado desde el primer d\u00eda."
+      },
+      "d4": {
+        "heading": "Hoja de Ruta de Lanzamiento de 90 D\u00edas",
+        "body": "Con fechas reales en el calendario, no hitos vagos. Los participantes trabajan hacia un plan de lanzamiento completo de 12 semanas."
+      },
+      "d5": {
+        "heading": "GPT de Coaching con IA Personalizado",
+        "body": "Activo y funcionando 24/7, entrenado con tu experiencia. Dise\u00f1ado para producir una herramienta de IA personal que apoye a tus clientes."
+      },
+      "d6": {
+        "heading": "Sitio Web de Negocios Publicado",
+        "body": "Mobile-first, en vivo en internet. Los participantes trabajan hacia un sitio completamente funcional construido durante el programa."
+      }
+    },
+    "scheduleHeading": "Desglose Semana a Semana",
+    "tableWeek": "Semana",
+    "tableTopic": "Tema",
+    "tableDeliverable": "Entregable",
+    "schedule": {
+      "w1": {
+        "week": "Semana 1",
+        "topic": "Descubrimiento del Superpoder",
+        "deliverable": "Top 3 Superpoderes Comercializables Identificados"
+      },
+      "w2": {
+        "week": "Semana 2",
+        "topic": "Perfil de Cliente Ideal",
+        "deliverable": "ICP Completo + Perfil Psicogr\u00e1fico"
+      },
+      "w3": {
+        "week": "Semana 3",
+        "topic": "Arquitectura de Ofertas",
+        "deliverable": "Ecosistema de Ofertas de 3 Niveles Dise\u00f1ado"
+      },
+      "w4": {
+        "week": "Semana 4",
+        "topic": "Estrategia de Lanzamiento de 90 D\u00edas",
+        "deliverable": "Hoja de Ruta de Lanzamiento de 12 Semanas Completa"
+      },
+      "w5": {
+        "week": "Semana 5",
+        "topic": "Construye Tu GPT Superpoder",
+        "deliverable": "Herramienta de Coaching IA Personalizada Activa"
+      },
+      "w6": {
+        "week": "Semana 6",
+        "topic": "Refinamiento de GPT + Preparaci\u00f3n de Lanzamiento",
+        "deliverable": "GPT Probado + Activos de Pre-Lanzamiento"
+      },
+      "w7": {
+        "week": "Semana 7",
+        "topic": "Vibe Coding: Sitio Web Parte 1",
+        "deliverable": "Estructura del Sitio + P\u00e1ginas Principales Construidas"
+      },
+      "w8": {
+        "week": "Semana 8",
+        "topic": "Vibe Coding: Sitio Web Parte 2",
+        "deliverable": "Sitio Web en Vivo + Negocio Listo para Lanzar"
+      }
+    },
+    "howItWorks": {
+      "heading": "C\u00f3mo Funciona",
+      "body": "Una sesi\u00f3n en vivo por semana. Tres horas cada una. Tareas estructuradas entre sesiones. Acceso a la comunidad grupal durante todo el programa. Necesitas una laptop y disposici\u00f3n para hacer el trabajo. No se requiere experiencia t\u00e9cnica."
+    },
+    "cta": {
+      "heading": "Los asientos del grupo est\u00e1n limitados a 100 participantes.",
+      "subtext": "La fecha del pr\u00f3ximo grupo se est\u00e1 confirmando. \u00danete a la lista de espera y ser\u00e1s el primero en saberlo - con acceso prioritario para reservar tu lugar.",
+      "button": "\u00danete a la Lista de Espera",
+      "note": "M\u00e1ximo 100 participantes por grupo. Este l\u00edmite es estructural, no una t\u00e1ctica de marketing."
+    },
+    "disclaimer": "El Programa Superpoder es un programa educativo. La participaci\u00f3n no garantiza ning\u00fan resultado comercial espec\u00edfico, nivel de ingresos o ingreso personal. Los resultados dependen del esfuerzo individual, las condiciones del mercado y otros factores fuera de nuestro control."
+  },
   "footer": {
     "tagline": "Estratega de \u00c9xito Empresarial con IA",
     "navHeading": "Navegaci\u00f3n",

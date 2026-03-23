@@ -66,6 +66,103 @@
       "note": "Free 30-minute consultation. No obligation."
     }
   },
+  "superpower": {
+    "eyebrow": "Service Pillar 02",
+    "headline": "Turn Your #1 Skill Into a Business That Works Online",
+    "subheadline": "An 8-week live program designed to help you identify your strongest marketable skill, build an offer ecosystem around it, and launch with a working website and a custom AI coaching tool.",
+    "stats": {
+      "weeks": "8 Weeks",
+      "sessions": "8 Live Sessions",
+      "hours": "3 Hours Per Session",
+      "participants": "Max 100 Participants",
+      "deliverables": "6 Deliverables",
+      "online": "100% Online"
+    },
+    "deliverablesHeading": "What Participants Work Toward",
+    "deliverables": {
+      "d1": {
+        "heading": "Named, Validated Superpower",
+        "body": "Your #1 marketable skill, defined and positioned. Designed to produce clarity on what you sell and why it matters."
+      },
+      "d2": {
+        "heading": "Ideal Client Profile",
+        "body": "Built from real conversations, not guesswork. Participants work toward a complete psychographic and demographic profile."
+      },
+      "d3": {
+        "heading": "3-Tier Offer Ecosystem",
+        "body": "Three products at three price points, ready to sell. Designed to produce a structured revenue path from day one."
+      },
+      "d4": {
+        "heading": "90-Day Launch Roadmap",
+        "body": "With real calendar dates, not vague milestones. Participants work toward a full 12-week launch plan."
+      },
+      "d5": {
+        "heading": "Custom AI Coaching GPT",
+        "body": "Live and working 24/7, trained on your expertise. Designed to produce a personal AI tool that supports your clients."
+      },
+      "d6": {
+        "heading": "Published Business Website",
+        "body": "Mobile-first, live on the internet. Participants work toward a fully functional site built during the program."
+      }
+    },
+    "scheduleHeading": "Week-by-Week Breakdown",
+    "tableWeek": "Week",
+    "tableTopic": "Topic",
+    "tableDeliverable": "Deliverable",
+    "schedule": {
+      "w1": {
+        "week": "Week 1",
+        "topic": "Superpower Discovery",
+        "deliverable": "Top 3 Marketable Superpowers Identified"
+      },
+      "w2": {
+        "week": "Week 2",
+        "topic": "Ideal Client Profile",
+        "deliverable": "Complete ICP + Psychographic Profile"
+      },
+      "w3": {
+        "week": "Week 3",
+        "topic": "Offer Architecture",
+        "deliverable": "3-Tier Offer Ecosystem Designed"
+      },
+      "w4": {
+        "week": "Week 4",
+        "topic": "90-Day Launch Strategy",
+        "deliverable": "Full 12-Week Launch Roadmap"
+      },
+      "w5": {
+        "week": "Week 5",
+        "topic": "Build Your Superpower GPT",
+        "deliverable": "Custom AI Coaching Tool Live"
+      },
+      "w6": {
+        "week": "Week 6",
+        "topic": "GPT Refinement + Launch Prep",
+        "deliverable": "Tested GPT + Pre-Launch Assets"
+      },
+      "w7": {
+        "week": "Week 7",
+        "topic": "Vibe Coding: Website Part 1",
+        "deliverable": "Site Structure + Core Pages Built"
+      },
+      "w8": {
+        "week": "Week 8",
+        "topic": "Vibe Coding: Website Part 2",
+        "deliverable": "Live Website + Business Launch-Ready"
+      }
+    },
+    "howItWorks": {
+      "heading": "How It Works",
+      "body": "One live session per week. Three hours each. Structured homework between sessions. Group community access throughout. You need a laptop and a willingness to do the work. No technical background required."
+    },
+    "cta": {
+      "heading": "Cohort seats are limited to 100 participants.",
+      "subtext": "The next cohort date is being confirmed. Join the waitlist and you'll be first to know - with priority access to reserve your seat.",
+      "button": "Join the Waitlist",
+      "note": "Maximum 100 participants per cohort. This limit is structural, not a marketing tactic."
+    },
+    "disclaimer": "The Superpower Program is an educational program. Participation does not guarantee any specific business outcome, revenue level, or personal income. Results depend on individual effort, market conditions, and other factors outside our control."
+  },
   "footer": {
     "tagline": "AI-First Business Success Strategist",
     "navHeading": "Navigation",

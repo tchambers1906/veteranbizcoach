@@ -66,6 +66,103 @@
       "note": "Konsultasi gratis 30 menit. Tanpa kewajiban."
     }
   },
+  "superpower": {
+    "eyebrow": "Pilar Layanan 02",
+    "headline": "Ubah Keahlian #1 Anda Menjadi Bisnis yang Berjalan Online",
+    "subheadline": "Program live 8 minggu yang dirancang untuk membantu Anda mengidentifikasi keahlian terkuat Anda, membangun ekosistem penawaran di sekitarnya, dan meluncurkan dengan website yang berfungsi dan alat coaching AI khusus.",
+    "stats": {
+      "weeks": "8 Minggu",
+      "sessions": "8 Sesi Live",
+      "hours": "3 Jam Per Sesi",
+      "participants": "Maks 100 Peserta",
+      "deliverables": "6 Hasil Kerja",
+      "online": "100% Online"
+    },
+    "deliverablesHeading": "Apa yang Dikerjakan Peserta",
+    "deliverables": {
+      "d1": {
+        "heading": "Superpower yang Teridentifikasi dan Tervalidasi",
+        "body": "Keahlian #1 Anda yang paling bisa dipasarkan, didefinisikan dan diposisikan. Dirancang untuk menghasilkan kejelasan tentang apa yang Anda jual dan mengapa itu penting."
+      },
+      "d2": {
+        "heading": "Profil Klien Ideal",
+        "body": "Dibangun dari percakapan nyata, bukan tebakan. Peserta bekerja menuju profil psikografis dan demografis yang lengkap."
+      },
+      "d3": {
+        "heading": "Ekosistem Penawaran 3 Tingkat",
+        "body": "Tiga produk pada tiga titik harga, siap dijual. Dirancang untuk menghasilkan jalur pendapatan terstruktur sejak hari pertama."
+      },
+      "d4": {
+        "heading": "Roadmap Peluncuran 90 Hari",
+        "body": "Dengan tanggal kalender nyata, bukan tonggak yang samar. Peserta bekerja menuju rencana peluncuran 12 minggu penuh."
+      },
+      "d5": {
+        "heading": "GPT Coaching AI Khusus",
+        "body": "Aktif dan bekerja 24/7, dilatih berdasarkan keahlian Anda. Dirancang untuk menghasilkan alat AI personal yang mendukung klien Anda."
+      },
+      "d6": {
+        "heading": "Website Bisnis yang Terpublikasi",
+        "body": "Mobile-first, live di internet. Peserta bekerja menuju situs yang berfungsi penuh yang dibangun selama program."
+      }
+    },
+    "scheduleHeading": "Rincian Minggu per Minggu",
+    "tableWeek": "Minggu",
+    "tableTopic": "Topik",
+    "tableDeliverable": "Hasil Kerja",
+    "schedule": {
+      "w1": {
+        "week": "Minggu 1",
+        "topic": "Penemuan Superpower",
+        "deliverable": "3 Superpower Teratas Teridentifikasi"
+      },
+      "w2": {
+        "week": "Minggu 2",
+        "topic": "Profil Klien Ideal",
+        "deliverable": "ICP Lengkap + Profil Psikografis"
+      },
+      "w3": {
+        "week": "Minggu 3",
+        "topic": "Arsitektur Penawaran",
+        "deliverable": "Ekosistem Penawaran 3 Tingkat Dirancang"
+      },
+      "w4": {
+        "week": "Minggu 4",
+        "topic": "Strategi Peluncuran 90 Hari",
+        "deliverable": "Roadmap Peluncuran 12 Minggu Penuh"
+      },
+      "w5": {
+        "week": "Minggu 5",
+        "topic": "Bangun Superpower GPT Anda",
+        "deliverable": "Alat Coaching AI Khusus Aktif"
+      },
+      "w6": {
+        "week": "Minggu 6",
+        "topic": "Penyempurnaan GPT + Persiapan Peluncuran",
+        "deliverable": "GPT Teruji + Aset Pra-Peluncuran"
+      },
+      "w7": {
+        "week": "Minggu 7",
+        "topic": "Vibe Coding: Website Bagian 1",
+        "deliverable": "Struktur Situs + Halaman Utama Dibangun"
+      },
+      "w8": {
+        "week": "Minggu 8",
+        "topic": "Vibe Coding: Website Bagian 2",
+        "deliverable": "Website Live + Bisnis Siap Diluncurkan"
+      }
+    },
+    "howItWorks": {
+      "heading": "Cara Kerjanya",
+      "body": "Satu sesi live per minggu. Tiga jam setiap sesi. Tugas terstruktur antar sesi. Akses komunitas grup sepanjang program. Anda memerlukan laptop dan kemauan untuk bekerja. Tidak diperlukan latar belakang teknis."
+    },
+    "cta": {
+      "heading": "Kursi kohort dibatasi hingga 100 peserta.",
+      "subtext": "Tanggal kohort berikutnya sedang dikonfirmasi. Bergabunglah dengan daftar tunggu dan Anda akan menjadi yang pertama tahu - dengan akses prioritas untuk memesan kursi Anda.",
+      "button": "Bergabung Daftar Tunggu",
+      "note": "Maksimum 100 peserta per kohort. Batas ini struktural, bukan taktik pemasaran."
+    },
+    "disclaimer": "Program Superpower adalah program pendidikan. Partisipasi tidak menjamin hasil bisnis tertentu, tingkat pendapatan, atau penghasilan pribadi. Hasil bergantung pada upaya individu, kondisi pasar, dan faktor lain di luar kendali kami."
+  },
   "footer": {
     "tagline": "Ahli Strategi Sukses Bisnis Berbasis AI",
     "navHeading": "Navigasi",

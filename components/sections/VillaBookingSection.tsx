@@ -1,11 +1,22 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/src/i18n/navigation';
 import ScrollReveal from '@/components/ui/ScrollReveal';
+import { track } from '@/lib/analytics';
 
 export default function VillaBookingSection() {
   const t = useTranslations('villa');
+  const locale = useLocale();
+
+  const handleCtaClick = (ctaLabel: string) => {
+    track('cta_clicked', {
+      cta_label: ctaLabel,
+      section_id: 'villa-booking-traffic',
+      pillar: 'villa',
+      locale,
+    });
+  };
 
   return (
     <section id="villa-booking-traffic" className="bg-off-white">
@@ -115,6 +126,7 @@ export default function VillaBookingSection() {
             </h3>
             <Link
               href="/book?session=villa"
+              onClick={() => handleCtaClick('Book a Villa Traffic Strategy Call')}
               className="inline-flex items-center justify-center font-heading font-semibold text-base bg-gold text-navy px-8 py-4 rounded-[var(--radius-button)] min-h-[44px] hover:brightness-110 transition-all"
             >
               {t('cta.button')}

@@ -32,6 +32,40 @@
       "cred5": "Melayani Pengusaha Sejak 1995"
     }
   },
+  "villa": {
+    "eyebrow": "Pilar Layanan 01",
+    "headline": "Regulasi Baru Indonesia Memblokir Villa Anda dari Airbnb dan Booking.com. Ini Solusinya.",
+    "problem": {
+      "heading": "Apa yang Berubah",
+      "body": "Regulasi baru Indonesia membatasi properti mana yang memenuhi syarat untuk platform OTA utama. Pemilik vila di Bali dan sekitarnya kehilangan akses ke Airbnb, Booking.com, dan kanal serupa - tanpa alternatif yang jelas. Jika properti Anda terkena dampak, menunggu bukanlah strategi."
+    },
+    "cost": {
+      "heading": "Biaya dari Tidak Bertindak",
+      "bodyBefore": "Platform OTA menghasilkan sebagian besar pemesanan untuk kebanyakan vila. Tanpa sumber lalu lintas pengganti, ",
+      "highlight": "pendapatan itu menghilang",
+      "bodyAfter": ". Pemilik yang bergerak lebih dulu akan memiliki keunggulan signifikan dibanding yang menunggu."
+    },
+    "solution": {
+      "heading": "Meta Traffic: Kanal Pemesanan Langsung Anda",
+      "body": "Meta Traffic menjangkau tamu berdasarkan minat, lokasi, perilaku perjalanan, dan anggaran - tanpa bergantung pada kelayakan platform OTA. Ini menempatkan properti Anda di depan orang yang tepat, sesuai ketentuan Anda."
+    },
+    "whyWorks": {
+      "card1": "Bayar untuk jangkauan, bukan komisi",
+      "card2": "Miliki hubungan dengan tamu sejak klik pertama",
+      "card3": "Tanpa aturan kelayakan platform",
+      "card4": "Berkembang seiring properti Anda"
+    },
+    "whoFor": {
+      "body": "Layanan ini untuk pemilik vila dan penyewaan jangka pendek di Bali dan seluruh Indonesia yang menghadapi pembatasan OTA, atau yang ingin mengurangi ketergantungan pada komisi platform sebelum pembatasan tiba.",
+      "secondary": "Juga tersedia untuk tuan rumah Airbnb dan penyewaan jangka pendek di Amerika Serikat."
+    },
+    "disclaimer": "Informasi regulasi diberikan untuk kesadaran umum berdasarkan perkembangan yang dilaporkan secara publik. Regulasi dapat berubah. Konsultasikan dengan penasihat hukum lokal untuk panduan spesifik tentang properti Anda.",
+    "cta": {
+      "heading": "Siap melindungi pemesanan villa Anda?",
+      "button": "Pesan Panggilan Strategi Lalu Lintas Villa",
+      "note": "Konsultasi gratis 30 menit. Tanpa kewajiban."
+    }
+  },
   "footer": {
     "tagline": "Ahli Strategi Sukses Bisnis Berbasis AI",
     "navHeading": "Navigasi",

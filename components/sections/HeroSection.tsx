@@ -7,21 +7,20 @@ import { Link } from '@/src/i18n/navigation';
 const CREDIBILITY_KEYS = ['cred1', 'cred2', 'cred3', 'cred4', 'cred5'] as const;
 
 /** Photo with fallback to styled "TC" initials placeholder */
-function PhotoPlaceholder({ imgLoaded, onImgLoad }: { imgLoaded: boolean; onImgLoad: () => void }) {
+function PhotoPlaceholder({ imgFailed, onImgError }: { imgFailed: boolean; onImgError: () => void }) {
   return (
     <div className="relative w-[180px] h-[180px] lg:w-[420px] lg:h-[500px] rounded-full lg:rounded-2xl overflow-hidden border-2 border-gold/40 shadow-[0_0_60px_rgba(201,168,76,0.15)]">
-      {/* Try loading real image in background */}
+      {/* Real headshot — visible by default, hidden on error */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src="/images/tc-headshot.jpg"
-        alt="T.C. Chambers"
-        onLoad={onImgLoad}
-        onError={() => {}} // silently fail
-        className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ${imgLoaded ? 'opacity-100' : 'opacity-0'}`}
+        alt="T.C. Chambers — AI-First Business Success Strategist"
+        onError={onImgError}
+        className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ${imgFailed ? 'opacity-0' : 'opacity-100'}`}
       />
-      {/* Placeholder — visible until real image loads */}
+      {/* Fallback placeholder — hidden by default, shown on error */}
       <div
-        className={`absolute inset-0 bg-navy flex items-center justify-center transition-opacity duration-500 ${imgLoaded ? 'opacity-0' : 'opacity-100'}`}
+        className={`absolute inset-0 bg-navy flex items-center justify-center transition-opacity duration-500 ${imgFailed ? 'opacity-100' : 'opacity-0'}`}
       >
         <span className="font-heading font-extrabold text-gold text-5xl lg:text-7xl select-none">
           TC
@@ -36,7 +35,7 @@ export default function HeroSection() {
   const [mounted, setMounted] = useState(false);
   const [reduced, setReduced] = useState(false);
   const [stage, setStage] = useState(0);
-  const [imgLoaded, setImgLoaded] = useState(false);
+  const [imgFailed, setImgFailed] = useState(false);
 
   const headlineWords = t('headline').split(' ');
   const headlineDuration = headlineWords.length * 50 + 400;
@@ -97,14 +96,14 @@ export default function HeroSection() {
           <div className="order-1">
             {/* Eyebrow */}
             <p
-              className="font-heading font-semibold text-[14px] text-gold uppercase tracking-widest mb-6"
+              className="font-heading font-semibold text-[21px] text-gold uppercase tracking-widest mb-6"
               style={vis(1)}
             >
               {t('eyebrow')}
             </p>
 
             {/* Headline */}
-            <h1 className="font-heading font-extrabold text-[36px] lg:text-[60px] leading-[1.05] text-white mb-6">
+            <h1 className="font-heading font-extrabold text-[25px] lg:text-[42px] leading-[1.05] text-white mb-6">
               {headlineWords.map((word, i) => (
                 <span key={i} className="mr-[0.3em]" style={wordVis(i)}>
                   {word}
@@ -114,7 +113,7 @@ export default function HeroSection() {
 
             {/* Subheadline */}
             <p
-              className="font-body font-normal text-[17px] lg:text-[20px] leading-[1.6] text-off-white max-w-[560px] mb-10"
+              className="font-heading font-semibold text-[22px] lg:text-[26px] leading-[1.6] text-gold max-w-[560px] mb-10"
               style={vis(2)}
             >
               {t('subheadline')}
@@ -150,7 +149,7 @@ export default function HeroSection() {
                 aria-hidden="true"
               />
               {/* Photo container — placeholder (replace with Image when headshot available) */}
-              <PhotoPlaceholder imgLoaded={imgLoaded} onImgLoad={() => setImgLoaded(true)} />
+              <PhotoPlaceholder imgFailed={imgFailed} onImgError={() => setImgFailed(true)} />
             </div>
           </div>
         </div>

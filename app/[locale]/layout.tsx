@@ -2,6 +2,9 @@ import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/src/i18n/routing';
+import Navbar from '@/components/layout/Navbar';
+import Footer from '@/components/layout/Footer';
+import PwaInstallBanner from '@/components/layout/PwaInstallBanner';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -24,7 +27,12 @@ export default async function LocaleLayout({
 
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
-      {children}
+      <Navbar />
+      <PwaInstallBanner />
+      <main className="min-h-[calc(100vh-4rem)]">
+        {children}
+      </main>
+      <Footer />
     </NextIntlClientProvider>
   );
 }

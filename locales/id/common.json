@@ -7,26 +7,56 @@
     "home": "Beranda",
     "about": "Tentang",
     "villaBooking": "Lalu Lintas Pemesanan Vila",
-    "superpower": "Kekuatan Super",
+    "superpower": "Program Kekuatan Super",
     "websites": "Website & PWA",
     "funding": "Pendanaan & Strukturisasi",
-    "team": "Tim",
+    "team": "Kenali Tim",
     "testimonials": "Testimoni",
     "quiz": "Kuis",
     "resources": "Sumber Daya",
     "faq": "FAQ",
-    "book": "Pesan Panggilan"
+    "book": "Pesan Panggilan",
+    "bookStrategy": "Pesan Panggilan Strategi"
   },
   "home": {
     "hero": {
       "title": "Strategi Bisnis Berbasis AI",
-      "subtitle": "Pendanaan bisnis, strategi AI, dan pengembangan PWA untuk pengusaha di seluruh dunia.",
+      "pillar1": "Sistem Lalu Lintas Pemesanan Vila",
+      "pillar2": "Program Kekuatan Super Bisnis-dalam-Kotak",
+      "pillar3": "Pengembangan Website & PWA",
+      "pillar4": "Pendanaan & Strukturisasi",
+      "pillar5": "Strategi Bisnis Berbasis AI",
       "cta": "Pesan Panggilan Strategi Gratis"
     }
   },
+  "footer": {
+    "tagline": "Ahli Strategi Sukses Bisnis Berbasis AI",
+    "navHeading": "Navigasi",
+    "leadMagnet": {
+      "heading": "Dapatkan cetak biru pendanaan gratis",
+      "placeholder": "Masukkan email Anda",
+      "submit": "Dapatkan Gratis",
+      "privacy": "Tanpa spam. Berhenti kapan saja.",
+      "success": "Periksa kotak masuk Anda!"
+    },
+    "contactHeading": "Kontak",
+    "location": "Berbasis di Bali, Indonesia — Melayani Pengusaha di Seluruh Dunia",
+    "copyright": "© 2026 T.C. Chambers. Hak Cipta Dilindungi.",
+    "privacy": "Kebijakan Privasi",
+    "disclaimer": "Disclaimer",
+    "terms": "Syarat Penggunaan",
+    "pwaNote": "Situs ini adalah PWA. Tambahkan ke layar utama untuk pengalaman terbaik."
+  },
+  "pwa": {
+    "heading": "Tambahkan T.C. Chambers ke layar utama",
+    "subheading": "Akses instan — berfungsi offline juga",
+    "addButton": "Tambahkan ke Layar Utama",
+    "dismissButton": "Nanti saja"
+  },
   "offline": {
-    "title": "Anda Offline",
-    "message": "Silakan periksa koneksi internet Anda dan coba lagi."
+    "title": "Anda sedang offline.",
+    "message": "Berikut cara menghubungi T.C. saat Anda kembali online.",
+    "browseNote": "Anda masih bisa menjelajahi konten yang dimuat sebelum Anda offline."
   },
   "common": {
     "loading": "Memuat...",

@@ -7,26 +7,56 @@
     "home": "Home",
     "about": "About",
     "villaBooking": "Villa Booking Traffic",
-    "superpower": "Superpower",
+    "superpower": "Superpower Program",
     "websites": "Websites & PWAs",
     "funding": "Funding & Structuring",
-    "team": "Team",
+    "team": "Meet the Team",
     "testimonials": "Testimonials",
     "quiz": "Quiz",
     "resources": "Resources",
     "faq": "FAQ",
-    "book": "Book a Call"
+    "book": "Book a Call",
+    "bookStrategy": "Book a Strategy Call"
   },
   "home": {
     "hero": {
       "title": "AI-First Business Strategy",
-      "subtitle": "Business funding, AI strategy, and PWA development for entrepreneurs worldwide.",
+      "pillar1": "Villa Booking Traffic System",
+      "pillar2": "Superpower Business-in-a-Box Program",
+      "pillar3": "Websites & PWA Development",
+      "pillar4": "Funding & Structuring",
+      "pillar5": "AI-First Business Strategy",
       "cta": "Book a Free Strategy Call"
     }
   },
+  "footer": {
+    "tagline": "AI-First Business Success Strategist",
+    "navHeading": "Navigation",
+    "leadMagnet": {
+      "heading": "Get the free funding blueprint",
+      "placeholder": "Enter your email",
+      "submit": "Get It Free",
+      "privacy": "No spam. Unsubscribe anytime.",
+      "success": "Check your inbox!"
+    },
+    "contactHeading": "Contact",
+    "location": "Based in Bali, Indonesia — Serving Entrepreneurs Worldwide",
+    "copyright": "© 2026 T.C. Chambers. All Rights Reserved.",
+    "privacy": "Privacy Policy",
+    "disclaimer": "Disclaimer",
+    "terms": "Terms of Use",
+    "pwaNote": "This site is a PWA. Add it to your home screen for the best experience."
+  },
+  "pwa": {
+    "heading": "Add T.C. Chambers to your home screen",
+    "subheading": "Get instant access — works offline too",
+    "addButton": "Add to Home Screen",
+    "dismissButton": "Maybe later"
+  },
   "offline": {
-    "title": "You're Offline",
-    "message": "Please check your internet connection and try again."
+    "title": "You're offline right now.",
+    "message": "Here's how to reach T.C. when you're back online.",
+    "browseNote": "You can still browse content that was loaded before you went offline."
   },
   "common": {
     "loading": "Loading...",

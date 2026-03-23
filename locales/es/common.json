@@ -7,26 +7,56 @@
     "home": "Inicio",
     "about": "Acerca de",
     "villaBooking": "Tráfico de Reservas de Villas",
-    "superpower": "Superpoder",
+    "superpower": "Programa Superpoder",
     "websites": "Sitios Web y PWAs",
     "funding": "Financiamiento y Estructuración",
-    "team": "Equipo",
+    "team": "Conoce al Equipo",
     "testimonials": "Testimonios",
     "quiz": "Cuestionario",
     "resources": "Recursos",
     "faq": "Preguntas Frecuentes",
-    "book": "Reservar una Llamada"
+    "book": "Reservar una Llamada",
+    "bookStrategy": "Reservar Llamada de Estrategia"
   },
   "home": {
     "hero": {
       "title": "Estrategia de Negocios con IA",
-      "subtitle": "Financiamiento empresarial, estrategia de IA y desarrollo de PWA para emprendedores en todo el mundo.",
+      "pillar1": "Sistema de Tráfico para Reservas de Villas",
+      "pillar2": "Programa Superpoder Negocio-en-Caja",
+      "pillar3": "Desarrollo de Sitios Web y PWA",
+      "pillar4": "Financiamiento y Estructuración",
+      "pillar5": "Estrategia de Negocios con IA",
       "cta": "Reservar una Llamada de Estrategia Gratis"
     }
   },
+  "footer": {
+    "tagline": "Estratega de Éxito Empresarial con IA",
+    "navHeading": "Navegación",
+    "leadMagnet": {
+      "heading": "Obtén el plan de financiamiento gratis",
+      "placeholder": "Ingresa tu email",
+      "submit": "Obtener Gratis",
+      "privacy": "Sin spam. Cancela cuando quieras.",
+      "success": "¡Revisa tu bandeja de entrada!"
+    },
+    "contactHeading": "Contacto",
+    "location": "Con base en Bali, Indonesia — Sirviendo a Emprendedores en Todo el Mundo",
+    "copyright": "© 2026 T.C. Chambers. Todos los Derechos Reservados.",
+    "privacy": "Política de Privacidad",
+    "disclaimer": "Aviso Legal",
+    "terms": "Términos de Uso",
+    "pwaNote": "Este sitio es una PWA. Agrégalo a tu pantalla de inicio para la mejor experiencia."
+  },
+  "pwa": {
+    "heading": "Agrega T.C. Chambers a tu pantalla de inicio",
+    "subheading": "Acceso instantáneo — funciona sin conexión",
+    "addButton": "Agregar a Pantalla de Inicio",
+    "dismissButton": "Quizás después"
+  },
   "offline": {
-    "title": "Estás sin conexión",
-    "message": "Por favor, verifica tu conexión a internet e intenta de nuevo."
+    "title": "Estás sin conexión en este momento.",
+    "message": "Así puedes contactar a T.C. cuando vuelvas a estar en línea.",
+    "browseNote": "Aún puedes navegar el contenido que se cargó antes de perder la conexión."
   },
   "common": {
     "loading": "Cargando...",

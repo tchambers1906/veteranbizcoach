@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #0A1628;
+  --color-charcoal: #1A1A2E;
+  --color-gold: #C9A84C;
+  --color-gold-light: #E8C97A;
+  --color-teal: #00B4A6;
+  --color-teal-dark: #008F84;
+  --color-off-white: #F8F9FA;
+  --color-white: #FFFFFF;
+  --color-text-primary: #0A1628;
+  --color-text-secondary: #4A5568;
+  --color-text-inverse: #F8F9FA;
+  --color-border: #E2E8F0;
+  --color-error: #E53E3E;
+  --color-success: #38A169;
+
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+  --spacing-10: 40px;
+  --spacing-12: 48px;
+  --spacing-16: 64px;
+  --spacing-20: 80px;
+  --spacing-24: 96px;
+  --spacing-32: 128px;
+
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Source Sans 3', sans-serif;
+
+  --radius-card: 12px;
+  --radius-button: 8px;
+}

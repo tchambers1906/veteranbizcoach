@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "title": "T.C. Chambers — AI-First Business Strategist",
+    "description": "Business funding, AI strategy, and PWA development for entrepreneurs worldwide."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "villaBooking": "Villa Booking Traffic",
+    "superpower": "Superpower",
+    "websites": "Websites & PWAs",
+    "funding": "Funding & Structuring",
+    "team": "Team",
+    "testimonials": "Testimonials",
+    "quiz": "Quiz",
+    "resources": "Resources",
+    "faq": "FAQ",
+    "book": "Book a Call"
+  },
+  "home": {
+    "hero": {
+      "title": "AI-First Business Strategy",
+      "subtitle": "Business funding, AI strategy, and PWA development for entrepreneurs worldwide.",
+      "cta": "Book a Free Strategy Call"
+    }
+  },
+  "offline": {
+    "title": "You're Offline",
+    "message": "Please check your internet connection and try again."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "backHome": "Back to Home"
+  }
+}

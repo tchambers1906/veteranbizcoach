@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "title": "T.C. Chambers — Ahli Strategi Bisnis Berbasis AI",
+    "description": "Pendanaan bisnis, strategi AI, dan pengembangan PWA untuk pengusaha di seluruh dunia."
+  },
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "villaBooking": "Lalu Lintas Pemesanan Vila",
+    "superpower": "Kekuatan Super",
+    "websites": "Website & PWA",
+    "funding": "Pendanaan & Strukturisasi",
+    "team": "Tim",
+    "testimonials": "Testimoni",
+    "quiz": "Kuis",
+    "resources": "Sumber Daya",
+    "faq": "FAQ",
+    "book": "Pesan Panggilan"
+  },
+  "home": {
+    "hero": {
+      "title": "Strategi Bisnis Berbasis AI",
+      "subtitle": "Pendanaan bisnis, strategi AI, dan pengembangan PWA untuk pengusaha di seluruh dunia.",
+      "cta": "Pesan Panggilan Strategi Gratis"
+    }
+  },
+  "offline": {
+    "title": "Anda Offline",
+    "message": "Silakan periksa koneksi internet Anda dan coba lagi."
+  },
+  "common": {
+    "loading": "Memuat...",
+    "error": "Terjadi kesalahan",
+    "backHome": "Kembali ke Beranda"
+  }
+}

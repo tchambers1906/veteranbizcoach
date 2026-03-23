@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "title": "T.C. Chambers — Estratega de Negocios con IA",
+    "description": "Financiamiento empresarial, estrategia de IA y desarrollo de PWA para emprendedores en todo el mundo."
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "villaBooking": "Tráfico de Reservas de Villas",
+    "superpower": "Superpoder",
+    "websites": "Sitios Web y PWAs",
+    "funding": "Financiamiento y Estructuración",
+    "team": "Equipo",
+    "testimonials": "Testimonios",
+    "quiz": "Cuestionario",
+    "resources": "Recursos",
+    "faq": "Preguntas Frecuentes",
+    "book": "Reservar una Llamada"
+  },
+  "home": {
+    "hero": {
+      "title": "Estrategia de Negocios con IA",
+      "subtitle": "Financiamiento empresarial, estrategia de IA y desarrollo de PWA para emprendedores en todo el mundo.",
+      "cta": "Reservar una Llamada de Estrategia Gratis"
+    }
+  },
+  "offline": {
+    "title": "Estás sin conexión",
+    "message": "Por favor, verifica tu conexión a internet e intenta de nuevo."
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Algo salió mal",
+    "backHome": "Volver al Inicio"
+  }
+}

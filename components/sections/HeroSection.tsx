@@ -96,14 +96,14 @@ export default function HeroSection() {
           <div className="order-1">
             {/* Eyebrow */}
             <p
-              className="font-heading font-semibold text-[21px] text-gold uppercase tracking-widest mb-6"
+              className="font-heading font-semibold text-[13px] text-gold uppercase tracking-[0.2em] mb-4"
               style={vis(1)}
             >
               {t('eyebrow')}
             </p>
 
             {/* Headline */}
-            <h1 className="font-heading font-extrabold text-[25px] lg:text-[42px] leading-[1.05] text-white mb-6">
+            <h1 className="font-heading font-extrabold text-[34px] lg:text-[54px] leading-[1.05] text-white mb-6">
               {headlineWords.map((word, i) => (
                 <span key={i} className="mr-[0.3em]" style={wordVis(i)}>
                   {word}
@@ -113,7 +113,7 @@ export default function HeroSection() {
 
             {/* Subheadline */}
             <p
-              className="font-heading font-semibold text-[22px] lg:text-[26px] leading-[1.6] text-gold max-w-[560px] mb-10"
+              className="font-body font-normal text-[17px] lg:text-[20px] leading-[1.7] text-off-white max-w-[560px] mb-10"
               style={vis(2)}
             >
               {t('subheadline')}
@@ -132,7 +132,7 @@ export default function HeroSection() {
               </Link>
               <Link
                 href="/quiz"
-                className="inline-flex items-center justify-center font-heading font-semibold text-base bg-transparent text-gold border-2 border-gold px-8 py-4 rounded-[var(--radius-button)] min-h-[44px] hover:bg-gold/10 transition-all"
+                className="inline-flex items-center justify-center font-heading font-semibold text-base bg-transparent text-white border-2 border-white px-8 py-4 rounded-[var(--radius-button)] min-h-[44px] hover:bg-white/[0.08] transition-all"
               >
                 {t('ctaSecondary')}
               </Link>

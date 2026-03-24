@@ -120,6 +120,14 @@ export default function WebsitesPwasSection() {
               >
                 {t('cta.button')}
               </Link>
+              <div className="mt-3">
+                <Link
+                  href="/quiz/website"
+                  className="font-body font-medium text-[14px] text-navy hover:underline transition-colors"
+                >
+                  Audit Your Website
+                </Link>
+              </div>
             </ScrollReveal>
           </div>
         </div>

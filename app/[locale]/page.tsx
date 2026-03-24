@@ -11,6 +11,8 @@ import QuizSection from '@/components/sections/QuizSection';
 import FaqSection from '@/components/sections/FaqSection';
 
 export default function HomePage() {
+  const pdfUrl = process.env.LEAD_MAGNET_PDF_URL || '';
+
   return (
     <>
       <HeroSection />
@@ -21,7 +23,7 @@ export default function HomePage() {
       <AboutSection />
       <TeamSection />
       <TestimonialsSection />
-      <LeadMagnetSection />
+      <LeadMagnetSection pdfUrl={pdfUrl} />
       <QuizSection />
       <FaqSection />
     </>

@@ -167,6 +167,14 @@ export default function VillaBookingSection() {
             >
               {t('cta.button')}
             </Link>
+            <div className="mt-3">
+              <Link
+                href="/quiz/villa"
+                className="font-body font-medium text-[14px] text-teal hover:underline transition-colors"
+              >
+                Take the Villa Readiness Quiz
+              </Link>
+            </div>
             <p className="font-body text-[14px] text-text-secondary mt-4">
               {t('cta.note')}
             </p>

@@ -74,6 +74,14 @@ export default function FundingSection() {
           >
             {t('cta.button')}
           </Link>
+          <div className="mt-3">
+            <Link
+              href="/quiz/funding"
+              className="font-body font-medium text-[14px] text-teal hover:underline transition-colors"
+            >
+              Check Your Funding Readiness
+            </Link>
+          </div>
         </ScrollReveal>
       </div>
 

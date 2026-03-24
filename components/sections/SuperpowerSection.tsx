@@ -180,6 +180,14 @@ export default function SuperpowerSection() {
           >
             {t('cta.button')}
           </Link>
+          <div className="mt-3">
+            <Link
+              href="/quiz/superpower"
+              className="font-body font-medium text-[14px] text-teal hover:underline transition-colors"
+            >
+              Discover Your Superpower
+            </Link>
+          </div>
           <p className="font-body text-[14px] text-off-white/60 mt-5">
             {t('cta.note')}
           </p>

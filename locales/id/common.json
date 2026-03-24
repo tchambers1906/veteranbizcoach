@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "T.C. Chambers \u2014 Ahli Strategi Bisnis Berbasis AI",
+    "title": "T.C. Chambers — Ahli Strategi Bisnis Berbasis AI",
     "description": "Pendanaan bisnis, strategi AI, dan pengembangan PWA untuk pengusaha di seluruh dunia."
   },
   "nav": {
@@ -240,25 +240,46 @@
       "name": "T.C. Chambers",
       "title": "Pendiri & Direktur Teknis",
       "bio": "[NEEDS_TRANSLATION] T.C. spent 8 years as a U.S. Army officer before launching his first business. After navigating bankruptcy and rebuilding through mentorship, he turned those lessons into a repeatable framework. He now helps entrepreneurs identify their strongest marketable skill, package it into a real business, and get it live in 8 weeks. He builds web applications for hospitality businesses, wellness practitioners, and online retailers across Southeast Asia and North America. He operates from Bali and works with clients who value speed and results over process.",
-      "tags": ["[NEEDS_TRANSLATION] Web & PWA Development", "[NEEDS_TRANSLATION] AI-First Strategy", "[NEEDS_TRANSLATION] Business Mentorship", "[NEEDS_TRANSLATION] SE Asia & North America"]
+      "tags": [
+        "[NEEDS_TRANSLATION] Web & PWA Development",
+        "[NEEDS_TRANSLATION] AI-First Strategy",
+        "[NEEDS_TRANSLATION] Business Mentorship",
+        "[NEEDS_TRANSLATION] SE Asia & North America"
+      ]
     },
     "m2": {
       "name": "Rita Rosita",
       "title": "Operasi & Pengembangan Bisnis",
       "bio": "Rita menghabiskan 15 tahun memperbaiki apa yang rusak ketika bisnis mencoba berkembang. Dia telah mengelola pengadaan dan inventaris untuk merek F&B, menegosiasikan kontrak pemasok, mengendalikan biaya di berbagai lokasi, dan melatih tim garis depan untuk hasil yang konsisten. Dia berbicara bahasa Inggris dan Indonesia.",
-      "tags": ["Manajemen Operasi", "Pengembangan Bisnis", "F&B & Perhotelan", "Bilingual EN/ID"]
+      "tags": [
+        "Manajemen Operasi",
+        "Pengembangan Bisnis",
+        "F&B & Perhotelan",
+        "Bilingual EN/ID"
+      ]
     },
     "m3": {
       "name": "Tami Rini",
       "title": "Pengalaman Tamu & Operasi",
       "bio": "[NEEDS_TRANSLATION] Tami has spent five years in front desk operations and sales across Bali, Lombok, and Malaysia. She currently serves as Sales Executive at Mandala Eco Resort Lombok. Tami reviews guest journey workflows from inquiry to checkout and identifies friction points that cost villa operators conversions.",
-      "tags": ["Pengalaman Tamu", "Operasi OTA & Pemesanan", "Penjualan Vila & Resort", "Pasar Bali/Lombok"]
+      "tags": [
+        "Pengalaman Tamu",
+        "Operasi OTA & Pemesanan",
+        "Penjualan Vila & Resort",
+        "Pasar Bali/Lombok"
+      ]
     },
     "m4": {
       "name": "Tobias Kaiuth",
       "title": "[NEEDS_TRANSLATION] Meta Traffic & Conversion Architect",
       "bio": "[NEEDS_TRANSLATION] With a proven track record creating 7-figure Meta Ads campaigns for his clients and his own brands, Tobias is a performance marketing strategist known for turning ad spend into predictable, scalable profit. He is now bringing that expertise to Indonesia, partnering with villa owners and hospitality managers to build direct-booking systems on Meta.",
-      "tags": ["[NEEDS_TRANSLATION] Meta Ads", "[NEEDS_TRANSLATION] Performance Marketing", "[NEEDS_TRANSLATION] Direct Booking", "[NEEDS_TRANSLATION] Villa & Hospitality", "[NEEDS_TRANSLATION] Conversion Optimization"]
+      "tags": [
+        "[NEEDS_TRANSLATION] Meta Ads",
+        "[NEEDS_TRANSLATION] Performance Marketing",
+        "[NEEDS_TRANSLATION] Direct Booking",
+        "[NEEDS_TRANSLATION] Villa & Hospitality",
+        "[NEEDS_TRANSLATION] Conversion Optimization"
+      ]
     }
   },
   "testimonials": {
@@ -572,8 +593,8 @@
       "success": "Periksa kotak masuk Anda!"
     },
     "contactHeading": "Kontak",
-    "location": "Berbasis di Bali, Indonesia \u2014 Melayani Pengusaha di Seluruh Dunia",
-    "copyright": "\u00a9 2026 T.C. Chambers. Hak Cipta Dilindungi.",
+    "location": "Berbasis di Bali, Indonesia — Melayani Pengusaha di Seluruh Dunia",
+    "copyright": "© 2026 T.C. Chambers. Hak Cipta Dilindungi.",
     "privacy": "Kebijakan Privasi",
     "disclaimer": "Disclaimer",
     "terms": "Syarat Penggunaan",
@@ -581,7 +602,7 @@
   },
   "pwa": {
     "heading": "Tambahkan T.C. Chambers ke layar utama",
-    "subheading": "Akses instan \u2014 berfungsi offline juga",
+    "subheading": "Akses instan — berfungsi offline juga",
     "addButton": "Tambahkan ke Layar Utama",
     "dismissButton": "Nanti saja"
   },
@@ -640,25 +661,46 @@
       "name": "T.C. Chambers",
       "title": "Pendiri & Direktur Teknis",
       "bio": "[NEEDS_TRANSLATION] T.C. spent 8 years as a U.S. Army officer before launching his first business. After navigating bankruptcy and rebuilding through mentorship, he turned those lessons into a repeatable framework. He now helps entrepreneurs identify their strongest marketable skill, package it into a real business, and get it live in 8 weeks. He builds web applications for hospitality businesses, wellness practitioners, and online retailers across Southeast Asia and North America. He operates from Bali and works with clients who value speed and results over process.",
-      "tags": ["[NEEDS_TRANSLATION] Web & PWA Development", "[NEEDS_TRANSLATION] AI-First Strategy", "[NEEDS_TRANSLATION] Business Mentorship", "[NEEDS_TRANSLATION] SE Asia & North America"]
+      "tags": [
+        "[NEEDS_TRANSLATION] Web & PWA Development",
+        "[NEEDS_TRANSLATION] AI-First Strategy",
+        "[NEEDS_TRANSLATION] Business Mentorship",
+        "[NEEDS_TRANSLATION] SE Asia & North America"
+      ]
     },
     "m2": {
       "name": "Rita Rosita",
       "title": "Operasi & Pengembangan Bisnis",
       "bio": "Rita menghabiskan 15 tahun memperbaiki apa yang rusak ketika bisnis mencoba berkembang. Ia telah mengelola pengadaan dan inventaris untuk merek F&B, menegosiasikan kontrak pemasok, mengendalikan biaya di berbagai lokasi, dan melatih tim garis depan untuk hasil yang konsisten. Ia berbicara bahasa Inggris dan Indonesia, penting saat berkoordinasi di lanskap pemasok dan mitra campuran Bali. Rita memastikan operasi digital klien mencerminkan standar yang mereka pertahankan secara offline. Pendekatannya: jika staf Anda kesulitan menggunakannya, atau jika itu menciptakan lebih banyak pekerjaan daripada yang diselesaikannya, ia menyederhanakannya dan membangunnya kembali. Rita memiliki gelar Sarjana Manajemen dari Universitas Maranatha.",
-      "tags": ["Manajemen Operasi", "Pengembangan Bisnis", "F&B & Perhotelan", "Dwibahasa EN/ID"]
+      "tags": [
+        "Manajemen Operasi",
+        "Pengembangan Bisnis",
+        "F&B & Perhotelan",
+        "Dwibahasa EN/ID"
+      ]
     },
     "m3": {
       "name": "Tami Rini",
       "title": "Pengalaman Tamu & Operasi",
       "bio": "Tami telah menghabiskan lima tahun di operasi resepsionis dan penjualan di Bali, Lombok, dan Malaysia. Ia saat ini menjabat sebagai Eksekutif Penjualan di Mandala Eco Resort Lombok, mengelola pertanyaan, pemesanan, dan gesekan operasional yang muncul ketika sistem gagal terhubung. Ia telah menangani operasi pra-pembukaan untuk hotel baru, mengelola reservasi OTA di berbagai properti, dan mendaftarkan tamu di resor mewah. Tami meninjau alur kerja perjalanan tamu dari pertanyaan hingga check-out, menguji proses pemesanan, dan mengidentifikasi titik gesekan yang merugikan konversi operator vila. Tami memiliki gelar Sarjana Manajemen Pariwisata dari Sahid Tourism High School Surakarta dan sedang mengejar gelar Master di Pariwisata Terapan di Politeknik Pariwisata Bali.",
-      "tags": ["Pengalaman Tamu", "Operasi OTA & Pemesanan", "Penjualan Vila & Resor", "Pasar Bali/Lombok"]
+      "tags": [
+        "Pengalaman Tamu",
+        "Operasi OTA & Pemesanan",
+        "Penjualan Vila & Resor",
+        "Pasar Bali/Lombok"
+      ]
     },
     "m4": {
       "name": "Tobias Kaiuth",
       "title": "[NEEDS_TRANSLATION] Meta Traffic & Conversion Architect",
       "bio": "[NEEDS_TRANSLATION] With a proven track record creating and producing 7-figure Meta Ads campaigns for both his clients and his own brands, Tobias Kaiuth is a performance marketing strategist known for turning ad spend into predictable, scalable profit. Drawing on years of experience managing multi-million-dollar campaigns, optimizing funnels, and building high-ROI creative systems, he blends sharp data analysis with messaging that converts browsers into buyers. Now, Tobias is bringing that expertise to Indonesia, partnering with villa owners and hospitality managers to build direct-booking machines on Meta, so they can attract qualified guests, grow repeat stays, and stop relying solely on OTAs to fill their calendars.",
-      "tags": ["[NEEDS_TRANSLATION] Meta Ads", "[NEEDS_TRANSLATION] Performance Marketing", "[NEEDS_TRANSLATION] Direct Booking", "[NEEDS_TRANSLATION] Villa & Hospitality", "[NEEDS_TRANSLATION] Conversion Optimization"]
+      "tags": [
+        "[NEEDS_TRANSLATION] Meta Ads",
+        "[NEEDS_TRANSLATION] Performance Marketing",
+        "[NEEDS_TRANSLATION] Direct Booking",
+        "[NEEDS_TRANSLATION] Villa & Hospitality",
+        "[NEEDS_TRANSLATION] Conversion Optimization"
+      ]
     },
     "ctaHeading": "Bekerja dengan tim.",
     "ctaButton": "Pesan Panggilan Strategi Gratis"
@@ -860,5 +902,346 @@
     "takeQuiz": "Ikuti Kuis",
     "goHome": "Ke Beranda",
     "backButton": "Kembali ke Beranda"
+  },
+  "villaPage": {
+    "meta": {
+      "title": "[NEEDS_TRANSLATION] Villa Booking Traffic - T.C. Chambers",
+      "description": "[NEEDS_TRANSLATION] Indonesia's new regulations are cutting villa owners off from Airbnb and Booking.com. Build your direct booking channel."
+    },
+    "headline": "[NEEDS_TRANSLATION] Indonesia's New Regulations Are Cutting Villa Owners Off From Airbnb and Booking.com. Here's Your Alternative.",
+    "subheadline": "[NEEDS_TRANSLATION] Build a direct booking channel that puts you in control of your revenue, your guests, and your brand.",
+    "ctaHeading": "[NEEDS_TRANSLATION] Ready to protect your villa's bookings?",
+    "ctaButton": "[NEEDS_TRANSLATION] Book a Free Strategy Call"
+  },
+  "superpowerPage": {
+    "meta": {
+      "title": "[NEEDS_TRANSLATION] The Superpower Program - T.C. Chambers",
+      "description": "[NEEDS_TRANSLATION] 8 weeks. 6 deliverables. One live, running business."
+    },
+    "headline": "[NEEDS_TRANSLATION] 8 Weeks. 6 Deliverables. One Live, Running Business.",
+    "subheadline": "[NEEDS_TRANSLATION] Identify your strongest marketable skill, package it into a real business, and get it live.",
+    "ctaHeading": "[NEEDS_TRANSLATION] Ready to build your business?",
+    "ctaButton": "[NEEDS_TRANSLATION] Join the Waitlist"
+  },
+  "websitesPage": {
+    "meta": {
+      "title": "[NEEDS_TRANSLATION] AI-Powered Websites & PWAs - T.C. Chambers",
+      "description": "[NEEDS_TRANSLATION] Websites and Progressive Web Apps built to convert."
+    },
+    "headline": "[NEEDS_TRANSLATION] AI-Powered Websites and PWAs Built to Convert",
+    "subheadline": "[NEEDS_TRANSLATION] Fast, mobile-first platforms designed for hospitality, wellness, and service businesses across Southeast Asia and North America.",
+    "ctaHeading": "[NEEDS_TRANSLATION] Ready to build your digital presence?",
+    "ctaButton": "[NEEDS_TRANSLATION] Book a Discovery Call"
+  },
+  "fundingPage": {
+    "meta": {
+      "title": "[NEEDS_TRANSLATION] Business Funding & Structuring - T.C. Chambers",
+      "description": "[NEEDS_TRANSLATION] Access business capital in 14 to 30 days."
+    },
+    "headline": "[NEEDS_TRANSLATION] Access Business Capital in 14 to 30 Days",
+    "subheadline": "[NEEDS_TRANSLATION] Proper entity structuring, credit optimization, and funding strategies built from 30 years of real-world experience.",
+    "ctaHeading": "[NEEDS_TRANSLATION] Ready to get funded?",
+    "ctaButton": "[NEEDS_TRANSLATION] Book a Funding Strategy Call"
+  },
+  "villaQuiz": {
+    "meta": {
+      "title": "[NEEDS_TRANSLATION] Villa OTA Readiness Quiz - T.C. Chambers",
+      "description": "[NEEDS_TRANSLATION] Is your villa ready to survive Indonesia's OTA shift? Take the 2-minute assessment."
+    },
+    "hero": {
+      "headline": "[NEEDS_TRANSLATION] Is Your Villa Ready to Survive Indonesia's OTA Shift?",
+      "subheadline": "[NEEDS_TRANSLATION] Answer 6 quick questions and find out exactly where your villa stands and what to do next."
+    },
+    "q1": {
+      "text": "[NEEDS_TRANSLATION] What percentage of your current bookings come through Airbnb or Booking.com?",
+      "placeholder": "[NEEDS_TRANSLATION] e.g. 80%"
+    },
+    "q2": {
+      "text": "[NEEDS_TRANSLATION] Have you received any notices or warnings from OTA platforms in the last 6 months?",
+      "o1": "[NEEDS_TRANSLATION] Yes, I received a formal notice",
+      "o2": "[NEEDS_TRANSLATION] Yes, an informal warning",
+      "o3": "[NEEDS_TRANSLATION] No, but I have heard about the changes",
+      "o4": "[NEEDS_TRANSLATION] No idea - this is new to me"
+    },
+    "q3": {
+      "text": "[NEEDS_TRANSLATION] How many bookings per month does your villa currently average?",
+      "placeholder": "[NEEDS_TRANSLATION] e.g. 12 bookings"
+    },
+    "q4": {
+      "text": "[NEEDS_TRANSLATION] Do you have any direct booking channel outside of OTAs right now?",
+      "o1": "[NEEDS_TRANSLATION] Yes, a strong one",
+      "o2": "[NEEDS_TRANSLATION] Yes, but a weak one",
+      "o3": "[NEEDS_TRANSLATION] No, but I am working on it",
+      "o4": "[NEEDS_TRANSLATION] No, I am entirely OTA dependent"
+    },
+    "q5": {
+      "text": "[NEEDS_TRANSLATION] What is your biggest concern about the regulation changes?",
+      "o1": "[NEEDS_TRANSLATION] Losing all OTA platform access",
+      "o2": "[NEEDS_TRANSLATION] Revenue dropping significantly",
+      "o3": "[NEEDS_TRANSLATION] Not knowing what to do about it",
+      "o4": "[NEEDS_TRANSLATION] Finding it hard to believe it is real"
+    },
+    "q6": {
+      "text": "[NEEDS_TRANSLATION] What is your villa called and where is it located?",
+      "placeholder": "[NEEDS_TRANSLATION] e.g. Villa Serenity, Ubud, Bali"
+    },
+    "results": {
+      "critical": {
+        "headline": "[NEEDS_TRANSLATION] CRITICAL RISK: Your Villa Needs a Direct Booking System Now",
+        "body": "[NEEDS_TRANSLATION] Based on your answers, your villa is highly exposed to the OTA regulation changes with no alternative traffic source in place. The good news: this is fixable. Here is your first step."
+      },
+      "moderate": {
+        "headline": "[NEEDS_TRANSLATION] MODERATE RISK: You Have a Start. Here Is How to Build on It.",
+        "body": "[NEEDS_TRANSLATION] You have some awareness and partial action. The gap is in execution. Here is what to do next."
+      },
+      "low": {
+        "headline": "[NEEDS_TRANSLATION] LOW RISK: You Are Ahead of Most. Here Is How to Stay There.",
+        "body": "[NEEDS_TRANSLATION] You have a direct channel. Now it is time to optimize it and make it your primary booking source."
+      },
+      "general": {
+        "headline": "[NEEDS_TRANSLATION] Your Villa Has Options. Here Is Where to Start.",
+        "body": "[NEEDS_TRANSLATION] The OTA landscape is changing. Here is a clear plan to protect your bookings."
+      }
+    },
+    "magnet": {
+      "name": "[NEEDS_TRANSLATION] The Bali Villa Owner's Direct Booking Survival Guide",
+      "description": "[NEEDS_TRANSLATION] A 12-page guide covering exactly what the regulations mean, what Meta Traffic is, and your 30-day action plan.",
+      "buttonLabel": "[NEEDS_TRANSLATION] Send Me the Survival Guide",
+      "successHeadline": "[NEEDS_TRANSLATION] Your Direct Booking Survival Guide is on its way.",
+      "bookingCtaLabel": "[NEEDS_TRANSLATION] Book a Villa Traffic Strategy Call"
+    },
+    "disclaimer": "[NEEDS_TRANSLATION] Regulatory information is provided for general awareness based on publicly reported developments. Regulations may change. Consult a local legal advisor for guidance specific to your property."
+  },
+  "superpowerQuiz": {
+    "meta": {
+      "title": "[NEEDS_TRANSLATION] Superpower Discovery Quiz - T.C. Chambers",
+      "description": "[NEEDS_TRANSLATION] What is your #1 marketable skill? Take the quiz and find out what business you should be building."
+    },
+    "hero": {
+      "headline": "[NEEDS_TRANSLATION] What Is Your Business Superpower?",
+      "subheadline": "[NEEDS_TRANSLATION] Answer 6 questions and find out what you should be building and why you are not making money from it yet."
+    },
+    "q1": {
+      "text": "[NEEDS_TRANSLATION] What do people most often ask you for help with? Even informally, what do friends, colleagues, or strangers come to you about?",
+      "placeholder": "[NEEDS_TRANSLATION] Be specific. The more honest, the better your result."
+    },
+    "q2": {
+      "text": "[NEEDS_TRANSLATION] When you help someone with this skill, how do they typically react?",
+      "o1": "[NEEDS_TRANSLATION] They tell others about it",
+      "o2": "[NEEDS_TRANSLATION] They ask me to do it again",
+      "o3": "[NEEDS_TRANSLATION] They offer to pay me",
+      "o4": "[NEEDS_TRANSLATION] They seem underwhelmed",
+      "o5": "[NEEDS_TRANSLATION] I am not sure"
+    },
+    "q3": {
+      "text": "[NEEDS_TRANSLATION] What has stopped you from turning this into a business so far?",
+      "o1": "[NEEDS_TRANSLATION] I do not know where to start",
+      "o2": "[NEEDS_TRANSLATION] I do not think people will pay for it",
+      "o3": "[NEEDS_TRANSLATION] I have tried but got stuck",
+      "o4": "[NEEDS_TRANSLATION] Life got in the way",
+      "o5": "[NEEDS_TRANSLATION] I did not know it was possible"
+    },
+    "q4": {
+      "text": "[NEEDS_TRANSLATION] If you could help one specific type of person with this skill, who would that be? Describe them.",
+      "placeholder": "[NEEDS_TRANSLATION] e.g. Busy parents who want to start a side business but do not know where to begin."
+    },
+    "q5": {
+      "text": "[NEEDS_TRANSLATION] What stage is your business in right now?",
+      "o1": "[NEEDS_TRANSLATION] Still an idea",
+      "o2": "[NEEDS_TRANSLATION] Just started, no revenue yet",
+      "o3": "[NEEDS_TRANSLATION] Making some money but inconsistent",
+      "o4": "[NEEDS_TRANSLATION] Established but want to scale"
+    },
+    "q6": {
+      "text": "[NEEDS_TRANSLATION] What would change in your life if this business was generating real income in 90 days?",
+      "placeholder": "[NEEDS_TRANSLATION] Be honest. This is for you."
+    },
+    "results": {
+      "system_needed": {
+        "headline": "[NEEDS_TRANSLATION] YOUR SUPERPOWER IS REAL. YOU JUST NEED THE SYSTEM.",
+        "body": "[NEEDS_TRANSLATION] People already recognize your value. The gap is not talent. It is structure. Here is the workbook that helps you name it and package it."
+      },
+      "discovery_needed": {
+        "headline": "[NEEDS_TRANSLATION] YOUR SUPERPOWER EXISTS. WE NEED TO FIND IT FIRST.",
+        "body": "[NEEDS_TRANSLATION] You have more than you think. The workbook below will prove it in 60 minutes."
+      },
+      "underutilized": {
+        "headline": "[NEEDS_TRANSLATION] YOUR SUPERPOWER IS BEING UNDERUTILIZED.",
+        "body": "[NEEDS_TRANSLATION] You have started. Now you need a system to scale it. Here is where to begin."
+      },
+      "general": {
+        "headline": "[NEEDS_TRANSLATION] YOU KNOW MORE THAN YOU THINK. LET'S PROVE IT.",
+        "body": "[NEEDS_TRANSLATION] The workbook below will help you find, name, and package your superpower in 60 minutes."
+      }
+    },
+    "magnet": {
+      "name": "[NEEDS_TRANSLATION] The Superpower Discovery Workbook",
+      "description": "[NEEDS_TRANSLATION] 5 exercises to identify and name your #1 marketable skill in 60 minutes. 16 pages. Free.",
+      "buttonLabel": "[NEEDS_TRANSLATION] Send Me the Workbook",
+      "successHeadline": "[NEEDS_TRANSLATION] Your Superpower Discovery Workbook is on its way.",
+      "bookingCtaLabel": "[NEEDS_TRANSLATION] Join the Superpower Waitlist"
+    },
+    "disclaimer": "[NEEDS_TRANSLATION] This workbook is for educational purposes only. Results vary based on individual effort and circumstances. Participation in the Superpower Program does not guarantee any specific business outcome or income level."
+  },
+  "websiteQuiz": {
+    "meta": {
+      "title": "[NEEDS_TRANSLATION] Website Diagnostic Quiz - T.C. Chambers",
+      "description": "[NEEDS_TRANSLATION] Is your website costing you clients? Take the 60-second digital presence diagnostic."
+    },
+    "hero": {
+      "headline": "[NEEDS_TRANSLATION] Is Your Website Costing You Clients?",
+      "subheadline": "[NEEDS_TRANSLATION] Take the 60-second Digital Presence Diagnostic and find out exactly what to fix first."
+    },
+    "q1": {
+      "text": "[NEEDS_TRANSLATION] Do you currently have a website?",
+      "o1": "[NEEDS_TRANSLATION] Yes, it converts well",
+      "o2": "[NEEDS_TRANSLATION] Yes, but it underperforms",
+      "o3": "[NEEDS_TRANSLATION] I have a social media page only",
+      "o4": "[NEEDS_TRANSLATION] No website at all"
+    },
+    "q2": {
+      "text": "[NEEDS_TRANSLATION] Where does most of your client or customer traffic come from right now?",
+      "o1": "[NEEDS_TRANSLATION] Referrals and word of mouth",
+      "o2": "[NEEDS_TRANSLATION] OTA platforms (Airbnb, Booking.com, etc.)",
+      "o3": "[NEEDS_TRANSLATION] Social media",
+      "o4": "[NEEDS_TRANSLATION] My website",
+      "o5": "[NEEDS_TRANSLATION] I do not track it"
+    },
+    "q3": {
+      "text": "[NEEDS_TRANSLATION] When someone visits your website on their phone, what happens?",
+      "o1": "[NEEDS_TRANSLATION] It loads fast and looks great",
+      "o2": "[NEEDS_TRANSLATION] It loads slowly",
+      "o3": "[NEEDS_TRANSLATION] It looks weird or broken on mobile",
+      "o4": "[NEEDS_TRANSLATION] I am not sure",
+      "o5": "[NEEDS_TRANSLATION] I do not have a website"
+    },
+    "q4": {
+      "text": "[NEEDS_TRANSLATION] What is the single most important action you want a visitor to take on your website?",
+      "placeholder": "[NEEDS_TRANSLATION] e.g. Book a call, make a purchase, submit an inquiry"
+    },
+    "q5": {
+      "text": "[NEEDS_TRANSLATION] Can your website be installed on a phone like an app and work without internet?",
+      "o1": "[NEEDS_TRANSLATION] Yes it can",
+      "o2": "[NEEDS_TRANSLATION] No it cannot",
+      "o3": "[NEEDS_TRANSLATION] I do not know what that means",
+      "o4": "[NEEDS_TRANSLATION] I do not have a website"
+    },
+    "q6": {
+      "text": "[NEEDS_TRANSLATION] How long since your website was last updated or redesigned?",
+      "o1": "[NEEDS_TRANSLATION] Less than 6 months",
+      "o2": "[NEEDS_TRANSLATION] 6 to 12 months",
+      "o3": "[NEEDS_TRANSLATION] 1 to 3 years",
+      "o4": "[NEEDS_TRANSLATION] More than 3 years",
+      "o5": "[NEEDS_TRANSLATION] Never had one"
+    },
+    "results": {
+      "invisible": {
+        "headline": "[NEEDS_TRANSLATION] YOU ARE INVISIBLE ONLINE. HERE IS WHAT THAT IS COSTING YOU.",
+        "body": "[NEEDS_TRANSLATION] Every day without a website is a day clients are choosing someone else. Here is your 10-point checklist to get started right."
+      },
+      "losing_clients": {
+        "headline": "[NEEDS_TRANSLATION] YOUR WEBSITE IS LOSING YOU CLIENTS.",
+        "body": "[NEEDS_TRANSLATION] A broken or slow website sends visitors to your competitors. Here is exactly what to audit and fix."
+      },
+      "not_mobile": {
+        "headline": "[NEEDS_TRANSLATION] YOUR MOBILE EXPERIENCE IS BROKEN.",
+        "body": "[NEEDS_TRANSLATION] Most of your traffic is on mobile. A site that is not installable or offline-capable is losing you bookings every day."
+      },
+      "solid_foundation": {
+        "headline": "[NEEDS_TRANSLATION] YOUR FOUNDATION IS SOLID. HERE IS HOW TO TAKE IT FURTHER.",
+        "body": "[NEEDS_TRANSLATION] You have a working site. Here is the checklist to push it from good to exceptional."
+      }
+    },
+    "magnet": {
+      "name": "[NEEDS_TRANSLATION] The 10-Point Website Audit Checklist",
+      "description": "[NEEDS_TRANSLATION] Find out exactly why your website is not converting and what to fix first. 10 pages. Free.",
+      "buttonLabel": "[NEEDS_TRANSLATION] Send Me the Checklist",
+      "successHeadline": "[NEEDS_TRANSLATION] Your Website Audit Checklist is on its way.",
+      "bookingCtaLabel": "[NEEDS_TRANSLATION] Book a Website/PWA Discovery Call"
+    },
+    "disclaimer": "[NEEDS_TRANSLATION] Audit results are self-assessed and for educational purposes only. Website performance depends on hosting, content, design, and user behavior. Results from any improvements will vary."
+  },
+  "fundingQuiz": {
+    "meta": {
+      "title": "[NEEDS_TRANSLATION] Business Funding Readiness Assessment - T.C. Chambers",
+      "description": "[NEEDS_TRANSLATION] How fundable is your business right now? Take the 3-minute assessment and find out."
+    },
+    "hero": {
+      "headline": "[NEEDS_TRANSLATION] How Fundable Is Your Business Right Now?",
+      "subheadline": "[NEEDS_TRANSLATION] Take the 3-minute Business Funding Readiness Assessment and find out exactly where you stand and what to do next."
+    },
+    "q1": {
+      "text": "[NEEDS_TRANSLATION] Does your business have a registered legal entity?",
+      "o1": "[NEEDS_TRANSLATION] Yes, fully set up and active",
+      "o2": "[NEEDS_TRANSLATION] Yes, but it is not active",
+      "o3": "[NEEDS_TRANSLATION] In progress",
+      "o4": "[NEEDS_TRANSLATION] No, I operate as a sole proprietor",
+      "o5": "[NEEDS_TRANSLATION] Not yet started"
+    },
+    "q2": {
+      "text": "[NEEDS_TRANSLATION] Does your business have a dedicated business bank account?",
+      "o1": "[NEEDS_TRANSLATION] Yes, active and in use",
+      "o2": "[NEEDS_TRANSLATION] Yes, but rarely used",
+      "o3": "[NEEDS_TRANSLATION] No, I use personal accounts",
+      "o4": "[NEEDS_TRANSLATION] Not yet"
+    },
+    "q3": {
+      "text": "[NEEDS_TRANSLATION] What is your current personal credit score range?",
+      "o1": "[NEEDS_TRANSLATION] 750 or above",
+      "o2": "[NEEDS_TRANSLATION] 700 to 749",
+      "o3": "[NEEDS_TRANSLATION] 650 to 699",
+      "o4": "[NEEDS_TRANSLATION] Below 650",
+      "o5": "[NEEDS_TRANSLATION] I do not know my score"
+    },
+    "q4": {
+      "text": "[NEEDS_TRANSLATION] Have you ever applied for business funding or a business credit card?",
+      "o1": "[NEEDS_TRANSLATION] Yes, and was approved",
+      "o2": "[NEEDS_TRANSLATION] Yes, and was declined",
+      "o3": "[NEEDS_TRANSLATION] No, but I want to",
+      "o4": "[NEEDS_TRANSLATION] No, I did not think I qualified",
+      "o5": "[NEEDS_TRANSLATION] I did not know this was possible"
+    },
+    "q5": {
+      "text": "[NEEDS_TRANSLATION] How much funding would you need to launch or grow your business to the next level, and what would you use it for?",
+      "placeholder": "[NEEDS_TRANSLATION] e.g. $25,000 to hire staff and cover first 3 months of operations."
+    },
+    "q6": {
+      "text": "[NEEDS_TRANSLATION] What is your biggest belief about business funding?",
+      "o1": "[NEEDS_TRANSLATION] It is only for established businesses",
+      "o2": "[NEEDS_TRANSLATION] You need perfect credit to qualify",
+      "o3": "[NEEDS_TRANSLATION] It is possible but I do not know how",
+      "o4": "[NEEDS_TRANSLATION] I know it is possible and want to learn more",
+      "o5": "[NEEDS_TRANSLATION] I have done it before and want to do it again"
+    },
+    "results": {
+      "foundation_missing": {
+        "headline": "[NEEDS_TRANSLATION] FOUNDATION MISSING: Structure Before Funding.",
+        "body": "[NEEDS_TRANSLATION] Without the right foundation, funding applications will fail. Here is the blueprint to build it correctly."
+      },
+      "credit_positioning": {
+        "headline": "[NEEDS_TRANSLATION] STRUCTURE EXISTS: Credit Positioning Is Your Next Move.",
+        "body": "[NEEDS_TRANSLATION] The entity is there. Now you need to build the credit profile that makes lenders say yes."
+      },
+      "declined_before": {
+        "headline": "[NEEDS_TRANSLATION] FIXABLE: Here Is Why You Were Declined and What Changes It.",
+        "body": "[NEEDS_TRANSLATION] Being declined is not permanent. It is almost always fixable with the right structure. Here is the blueprint."
+      },
+      "ready_to_apply": {
+        "headline": "[NEEDS_TRANSLATION] READY TO APPLY: You Are Closer Than You Think.",
+        "body": "[NEEDS_TRANSLATION] Your foundation is stronger than most. Here is the step-by-step blueprint to your first application."
+      },
+      "scale_ready": {
+        "headline": "[NEEDS_TRANSLATION] SCALE-READY: Advanced Funding Strategies Are Available to You.",
+        "body": "[NEEDS_TRANSLATION] You know the basics. Here is how to stack and scale capital access."
+      }
+    },
+    "magnet": {
+      "name": "[NEEDS_TRANSLATION] The Business Funding Blueprint",
+      "description": "[NEEDS_TRANSLATION] The 5-step system to access capital in 14 to 30 days. 14 pages. Free.",
+      "buttonLabel": "[NEEDS_TRANSLATION] Send Me the Blueprint",
+      "successHeadline": "[NEEDS_TRANSLATION] Your Business Funding Blueprint is on its way.",
+      "bookingCtaLabel": "[NEEDS_TRANSLATION] Book a Funding Discovery Call"
+    },
+    "disclaimer": "[NEEDS_TRANSLATION] Funding timelines referenced are based on T.C. Chambers' personal experience and select client outcomes. Individual results will vary based on credit profile, business type, funding amount, and lender criteria. Nothing here constitutes a guarantee of funding approval, a specific timeline, or a specific amount. This content is for educational purposes only."
   }
 }

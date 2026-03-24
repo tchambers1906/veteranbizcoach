@@ -11,7 +11,7 @@ import sys
 from typing import Dict, Any, List
 
 # Base URL from environment
-BASE_URL = "https://biz-readiness.preview.emergentagent.com"
+BASE_URL = "https://biz-coach-pro.preview.emergentagent.com"
 
 class BackendTester:
     def __init__(self):
@@ -792,6 +792,165 @@ class BackendTester:
         except Exception as e:
             self.log_result("GET /en/book → 200", False, f"Exception: {str(e)}")
     
+    # ===== UPDATED LEAD MAGNET API TESTS (WITH PHONE FIELD) =====
+    
+    def test_lead_magnet_with_phone_valid(self):
+        """Test POST /api/lead-magnet with phone field - should return 500 (no RESEND_API_KEY)"""
+        try:
+            url = f"{BASE_URL}/api/lead-magnet"
+            payload = {
+                "firstName": "John",
+                "email": "test@example.com",
+                "phone": "+62 812 3456 7890",
+                "magnet": "villa-survival-guide",
+                "locale": "en",
+                "result_id": "critical"
+            }
+            
+            response = self.session.post(url, json=payload, timeout=10)
+            
+            if response.status_code == 500:
+                data = response.json()
+                if (data.get("success") == False and 
+                    "Submission failed. Please try again." in data.get("error", "")):
+                    self.log_result("Lead magnet with phone → 500", True, 
+                                  f"Status: {response.status_code}, Response: {data}")
+                else:
+                    self.log_result("Lead magnet with phone → 500", False, 
+                                  f"Wrong response format. Got: {data}")
+            else:
+                self.log_result("Lead magnet with phone → 500", False, 
+                              f"Expected 500, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Lead magnet with phone → 500", False, f"Exception: {str(e)}")
+    
+    def test_lead_magnet_without_phone_valid(self):
+        """Test POST /api/lead-magnet without phone field - should return 500 (no RESEND_API_KEY)"""
+        try:
+            url = f"{BASE_URL}/api/lead-magnet"
+            payload = {
+                "firstName": "Jane",
+                "email": "jane@example.com",
+                "magnet": "funding-blueprint",
+                "locale": "en"
+            }
+            
+            response = self.session.post(url, json=payload, timeout=10)
+            
+            if response.status_code == 500:
+                data = response.json()
+                if (data.get("success") == False and 
+                    "Submission failed. Please try again." in data.get("error", "")):
+                    self.log_result("Lead magnet without phone → 500", True, 
+                                  f"Status: {response.status_code}, Response: {data}")
+                else:
+                    self.log_result("Lead magnet without phone → 500", False, 
+                                  f"Wrong response format. Got: {data}")
+            else:
+                self.log_result("Lead magnet without phone → 500", False, 
+                              f"Expected 500, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Lead magnet without phone → 500", False, f"Exception: {str(e)}")
+    
+    def test_lead_magnet_phone_special_chars(self):
+        """Test POST /api/lead-magnet with phone containing special chars - should be sanitized"""
+        try:
+            url = f"{BASE_URL}/api/lead-magnet"
+            payload = {
+                "firstName": "Test",
+                "email": "test@example.com",
+                "phone": "abc123!@#$%^&*",
+                "magnet": "funding-blueprint",
+                "locale": "en"
+            }
+            
+            response = self.session.post(url, json=payload, timeout=10)
+            
+            # Phone should be sanitized to digits only, so request should proceed and return 500 (no API key)
+            if response.status_code == 500:
+                data = response.json()
+                if (data.get("success") == False and 
+                    "Submission failed. Please try again." in data.get("error", "")):
+                    self.log_result("Lead magnet phone special chars → sanitized", True, 
+                                  f"Status: {response.status_code}, Phone sanitized and processed: {data}")
+                else:
+                    self.log_result("Lead magnet phone special chars → sanitized", False, 
+                                  f"Wrong response format. Got: {data}")
+            else:
+                self.log_result("Lead magnet phone special chars → sanitized", False, 
+                              f"Expected 500 (sanitized phone), got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Lead magnet phone special chars → sanitized", False, f"Exception: {str(e)}")
+    
+    # ===== QUIZ ROUTE PAGES TESTS =====
+    
+    def test_quiz_villa_page(self):
+        """Test GET /en/quiz/villa - should return 200"""
+        try:
+            url = f"{BASE_URL}/en/quiz/villa"
+            response = self.session.get(url, timeout=30)
+            
+            if response.status_code == 200:
+                self.log_result("GET /en/quiz/villa → 200", True, 
+                              f"Status: {response.status_code}")
+            else:
+                self.log_result("GET /en/quiz/villa → 200", False, 
+                              f"Expected 200, got {response.status_code}")
+                
+        except Exception as e:
+            self.log_result("GET /en/quiz/villa → 200", False, f"Exception: {str(e)}")
+    
+    def test_quiz_superpower_page(self):
+        """Test GET /en/quiz/superpower - should return 200"""
+        try:
+            url = f"{BASE_URL}/en/quiz/superpower"
+            response = self.session.get(url, timeout=30)
+            
+            if response.status_code == 200:
+                self.log_result("GET /en/quiz/superpower → 200", True, 
+                              f"Status: {response.status_code}")
+            else:
+                self.log_result("GET /en/quiz/superpower → 200", False, 
+                              f"Expected 200, got {response.status_code}")
+                
+        except Exception as e:
+            self.log_result("GET /en/quiz/superpower → 200", False, f"Exception: {str(e)}")
+    
+    def test_quiz_website_page(self):
+        """Test GET /en/quiz/website - should return 200"""
+        try:
+            url = f"{BASE_URL}/en/quiz/website"
+            response = self.session.get(url, timeout=30)
+            
+            if response.status_code == 200:
+                self.log_result("GET /en/quiz/website → 200", True, 
+                              f"Status: {response.status_code}")
+            else:
+                self.log_result("GET /en/quiz/website → 200", False, 
+                              f"Expected 200, got {response.status_code}")
+                
+        except Exception as e:
+            self.log_result("GET /en/quiz/website → 200", False, f"Exception: {str(e)}")
+    
+    def test_quiz_funding_page(self):
+        """Test GET /en/quiz/funding - should return 200"""
+        try:
+            url = f"{BASE_URL}/en/quiz/funding"
+            response = self.session.get(url, timeout=30)
+            
+            if response.status_code == 200:
+                self.log_result("GET /en/quiz/funding → 200", True, 
+                              f"Status: {response.status_code}")
+            else:
+                self.log_result("GET /en/quiz/funding → 200", False, 
+                              f"Expected 200, got {response.status_code}")
+                
+        except Exception as e:
+            self.log_result("GET /en/quiz/funding → 200", False, f"Exception: {str(e)}")
+    
     def run_chatbot_lead_tests(self):
         """Run only chatbot-lead API tests as requested"""
         print(f"🚀 Starting Chatbot Lead API Tests for {BASE_URL}")
@@ -892,8 +1051,61 @@ class BackendTester:
         
         return passed == total
 
+    def run_updated_lead_magnet_tests(self):
+        """Run updated lead-magnet API tests with phone field and quiz route pages"""
+        print(f"🚀 Starting Updated Lead Magnet & Quiz Routes Tests for {BASE_URL}")
+        print("=" * 70)
+        
+        # UPDATED LEAD MAGNET API - MAIN FOCUS
+        print("\n🎯 Testing UPDATED Lead Magnet API (/api/lead-magnet) with Phone Field")
+        print("-" * 65)
+        self.test_lead_magnet_with_phone_valid()
+        
+        # Wait 2 seconds between tests to avoid overwhelming
+        time.sleep(2)
+        
+        self.test_lead_magnet_without_phone_valid()
+        time.sleep(2)
+        self.test_lead_magnet_missing_firstname()
+        time.sleep(2)
+        self.test_lead_magnet_missing_email()
+        time.sleep(2)
+        self.test_lead_magnet_invalid_email()
+        time.sleep(2)
+        self.test_lead_magnet_phone_special_chars()
+        time.sleep(2)
+        self.test_lead_magnet_empty_body()
+        
+        # QUIZ ROUTE PAGES
+        print("\n🧠 Testing Quiz Route Pages")
+        print("-" * 30)
+        self.test_quiz_villa_page()
+        self.test_quiz_superpower_page()
+        self.test_quiz_website_page()
+        self.test_quiz_funding_page()
+        
+        # Summary
+        print("\n" + "=" * 70)
+        print("📊 TEST SUMMARY")
+        print("=" * 70)
+        
+        passed = sum(1 for r in self.results if r["success"])
+        total = len(self.results)
+        
+        print(f"Total Tests: {total}")
+        print(f"Passed: {passed}")
+        print(f"Failed: {total - passed}")
+        
+        if total - passed > 0:
+            print("\n❌ FAILED TESTS:")
+            for result in self.results:
+                if not result["success"]:
+                    print(f"  - {result['test']}: {result['details']}")
+        
+        return passed == total
+
 if __name__ == "__main__":
     tester = BackendTester()
-    # Run only chatbot-lead tests as requested
-    success = tester.run_chatbot_lead_tests()
+    # Run updated lead-magnet tests and quiz routes as requested
+    success = tester.run_updated_lead_magnet_tests()
     sys.exit(0 if success else 1)

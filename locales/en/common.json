@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "T.C. Chambers \u2014 AI-First Business Strategist",
+    "title": "T.C. Chambers — AI-First Business Strategist",
     "description": "Business funding, AI strategy, and PWA development for entrepreneurs worldwide."
   },
   "nav": {
@@ -22,7 +22,7 @@
     "hero": {
       "eyebrow": "Your Business Idea Is Not the Problem. Not Knowing What to Do Next Is.",
       "headline": "You have the skill. You have the drive.",
-      "subheadline": "You\u2019re just missing the traffic source, the system, the digital presence, and the funding to make it real. That\u2019s exactly what we build.",
+      "subheadline": "You’re just missing the traffic source, the system, the digital presence, and the funding to make it real. That’s exactly what we build.",
       "ctaPrimary": "Book a Free Strategy Call",
       "ctaSecondary": "Take the Business Readiness Quiz",
       "cred1": "Army Veteran",
@@ -34,9 +34,9 @@
   },
   "villa": {
     "eyebrow": "Service Pillar 01",
-    "headline": "Indonesia\u2019s New Regulations Are Cutting Villa Owners Off From Airbnb and Booking.com. Here\u2019s Your Alternative.",
+    "headline": "Indonesia’s New Regulations Are Cutting Villa Owners Off From Airbnb and Booking.com. Here’s Your Alternative.",
     "problem": {
-      "heading": "What\u2019s Changing",
+      "heading": "What’s Changing",
       "body": "New Indonesian regulations are restricting which properties qualify for major OTA platforms. Villa owners across Bali and beyond are losing access to Airbnb, Booking.com, and similar channels - without a clear alternative. If your property is affected, waiting is not a strategy."
     },
     "cost": {
@@ -61,7 +61,7 @@
     },
     "disclaimer": "Regulatory information is provided for general awareness based on publicly reported developments. Regulations may change. Consult a local legal advisor for guidance specific to your property.",
     "cta": {
-      "heading": "Ready to protect your villa\u2019s bookings?",
+      "heading": "Ready to protect your villa’s bookings?",
       "button": "Book a Villa Traffic Strategy Call",
       "note": "Free 30-minute consultation. No obligation."
     }
@@ -240,25 +240,46 @@
       "name": "T.C. Chambers",
       "title": "Founder & Technical Director",
       "bio": "T.C. builds web applications that work. He has launched platforms for hospitality businesses, wellness practitioners, and online retailers across Southeast Asia and North America. He specializes in taking an idea and turning it into a live product in weeks. T.C. operates from Bali and works with clients who value speed and results.",
-      "tags": ["Web & PWA Development", "AI-First Strategy", "Hospitality Tech", "SE Asia & North America"]
+      "tags": [
+        "Web & PWA Development",
+        "AI-First Strategy",
+        "Hospitality Tech",
+        "SE Asia & North America"
+      ]
     },
     "m2": {
       "name": "Rita Rosita",
       "title": "Operations & Business Development",
       "bio": "Rita spent 15 years fixing what breaks when businesses try to scale. She has managed procurement and inventory for F&B brands, negotiated supplier contracts, controlled costs across multiple locations, and trained frontline teams for consistent results. She speaks English and Indonesian.",
-      "tags": ["Operations Management", "Business Development", "F&B & Hospitality", "Bilingual EN/ID"]
+      "tags": [
+        "Operations Management",
+        "Business Development",
+        "F&B & Hospitality",
+        "Bilingual EN/ID"
+      ]
     },
     "m3": {
       "name": "Tami Rini",
       "title": "Guest Experience & Operations",
       "bio": "Tami has spent five years in front desk operations and sales across Bali, Lombok, and Malaysia. She currently serves as Sales Executive at Mandala Eco Resort Lombok. Tami reviews guest journey workflows from inquiry to checkout and identifies friction points that cost villa operators conversions.",
-      "tags": ["Guest Experience", "OTA & Booking Operations", "Villa & Resort Sales", "Bali/Lombok Market"]
+      "tags": [
+        "Guest Experience",
+        "OTA & Booking Operations",
+        "Villa & Resort Sales",
+        "Bali/Lombok Market"
+      ]
     },
     "m4": {
       "name": "Tobias Kaiuth",
       "title": "Meta Traffic & Conversion Architect",
       "bio": "With a proven track record creating 7-figure Meta Ads campaigns for his clients and his own brands, Tobias is a performance marketing strategist known for turning ad spend into predictable, scalable profit. He is now bringing that expertise to Indonesia, partnering with villa owners and hospitality managers to build direct-booking systems on Meta.",
-      "tags": ["Meta Ads", "Performance Marketing", "Direct Booking", "Villa & Hospitality", "Conversion Optimization"]
+      "tags": [
+        "Meta Ads",
+        "Performance Marketing",
+        "Direct Booking",
+        "Villa & Hospitality",
+        "Conversion Optimization"
+      ]
     }
   },
   "testimonials": {
@@ -572,8 +593,8 @@
       "success": "Check your inbox!"
     },
     "contactHeading": "Contact",
-    "location": "Based in Bali, Indonesia \u2014 Serving Entrepreneurs Worldwide",
-    "copyright": "\u00a9 2026 T.C. Chambers. All Rights Reserved.",
+    "location": "Based in Bali, Indonesia — Serving Entrepreneurs Worldwide",
+    "copyright": "© 2026 T.C. Chambers. All Rights Reserved.",
     "privacy": "Privacy Policy",
     "disclaimer": "Disclaimer",
     "terms": "Terms of Use",
@@ -581,7 +602,7 @@
   },
   "pwa": {
     "heading": "Add T.C. Chambers to your home screen",
-    "subheading": "Get instant access \u2014 works offline too",
+    "subheading": "Get instant access — works offline too",
     "addButton": "Add to Home Screen",
     "dismissButton": "Maybe later"
   },
@@ -640,25 +661,46 @@
       "name": "T.C. Chambers",
       "title": "Founder & Technical Director",
       "bio": "T.C. spent 8 years as a U.S. Army officer before launching his first business. After navigating bankruptcy and rebuilding through mentorship, he turned those lessons into a repeatable framework. He now helps entrepreneurs identify their strongest marketable skill, package it into a real business, and get it live in 8 weeks. He builds web applications for hospitality businesses, wellness practitioners, and online retailers across Southeast Asia and North America. He operates from Bali and works with clients who value speed and results over process.",
-      "tags": ["Web & PWA Development", "AI-First Strategy", "Business Mentorship", "SE Asia & North America"]
+      "tags": [
+        "Web & PWA Development",
+        "AI-First Strategy",
+        "Business Mentorship",
+        "SE Asia & North America"
+      ]
     },
     "m2": {
       "name": "Rita Rosita",
       "title": "Operations & Business Development",
       "bio": "Rita spent 15 years fixing what breaks when businesses try to scale. She has managed procurement and inventory for F&B brands, negotiated supplier contracts, controlled costs across multiple locations, and trained frontline teams for consistent results. She speaks English and Indonesian, essential when coordinating across Bali's mixed supplier and partner landscape. Rita ensures clients' digital operations mirror the standards they hold offline. Her approach: if your staff struggles to use it, or if it creates more work than it solves, she strips it down and rebuilds it. Rita holds a Bachelor of Management from Maranatha University.",
-      "tags": ["Operations Management", "Business Development", "F&B & Hospitality", "Bilingual EN/ID"]
+      "tags": [
+        "Operations Management",
+        "Business Development",
+        "F&B & Hospitality",
+        "Bilingual EN/ID"
+      ]
     },
     "m3": {
       "name": "Tami Rini",
       "title": "Guest Experience & Operations",
       "bio": "Tami has spent five years in front desk operations and sales across Bali, Lombok, and Malaysia. She currently serves as Sales Executive at Mandala Eco Resort Lombok, managing inquiries, bookings, and the operational friction that arises when systems fail to connect. She has handled pre-opening operations for new hotels, managed OTA reservations across multiple properties, and checked in guests at luxury resorts. Tami reviews guest journey workflows from inquiry to checkout, tests booking processes, and identifies friction points that cost villa operators conversions. Tami holds a Bachelor's in Tourism Management from Sahid Tourism High School Surakarta and is pursuing a Master's in Applied Tourism at Bali Tourism Polytechnic.",
-      "tags": ["Guest Experience", "OTA & Booking Operations", "Villa & Resort Sales", "Bali/Lombok Market"]
+      "tags": [
+        "Guest Experience",
+        "OTA & Booking Operations",
+        "Villa & Resort Sales",
+        "Bali/Lombok Market"
+      ]
     },
     "m4": {
       "name": "Tobias Kaiuth",
       "title": "Meta Traffic & Conversion Architect",
       "bio": "With a proven track record creating and producing 7-figure Meta Ads campaigns for both his clients and his own brands, Tobias Kaiuth is a performance marketing strategist known for turning ad spend into predictable, scalable profit. Drawing on years of experience managing multi-million-dollar campaigns, optimizing funnels, and building high-ROI creative systems, he blends sharp data analysis with messaging that converts browsers into buyers. Now, Tobias is bringing that expertise to Indonesia, partnering with villa owners and hospitality managers to build direct-booking machines on Meta, so they can attract qualified guests, grow repeat stays, and stop relying solely on OTAs to fill their calendars.",
-      "tags": ["Meta Ads", "Performance Marketing", "Direct Booking", "Villa & Hospitality", "Conversion Optimization"]
+      "tags": [
+        "Meta Ads",
+        "Performance Marketing",
+        "Direct Booking",
+        "Villa & Hospitality",
+        "Conversion Optimization"
+      ]
     },
     "ctaHeading": "Work with the team.",
     "ctaButton": "Book a Free Strategy Call"
@@ -860,5 +902,346 @@
     "takeQuiz": "Take the Quiz",
     "goHome": "Go Home",
     "backButton": "Back to Home"
+  },
+  "villaPage": {
+    "meta": {
+      "title": "Villa Booking Traffic - T.C. Chambers",
+      "description": "Indonesia's new regulations are cutting villa owners off from Airbnb and Booking.com. Build your direct booking channel."
+    },
+    "headline": "Indonesia's New Regulations Are Cutting Villa Owners Off From Airbnb and Booking.com. Here's Your Alternative.",
+    "subheadline": "Build a direct booking channel that puts you in control of your revenue, your guests, and your brand.",
+    "ctaHeading": "Ready to protect your villa's bookings?",
+    "ctaButton": "Book a Free Strategy Call"
+  },
+  "superpowerPage": {
+    "meta": {
+      "title": "The Superpower Program - T.C. Chambers",
+      "description": "8 weeks. 6 deliverables. One live, running business. Identify your strongest marketable skill and build a business around it."
+    },
+    "headline": "8 Weeks. 6 Deliverables. One Live, Running Business.",
+    "subheadline": "Identify your strongest marketable skill, package it into a real business, and get it live.",
+    "ctaHeading": "Ready to build your business?",
+    "ctaButton": "Join the Waitlist"
+  },
+  "websitesPage": {
+    "meta": {
+      "title": "AI-Powered Websites & PWAs - T.C. Chambers",
+      "description": "Websites and Progressive Web Apps built to convert. AI-powered, mobile-first, and designed for hospitality and service businesses."
+    },
+    "headline": "AI-Powered Websites and PWAs Built to Convert",
+    "subheadline": "Fast, mobile-first platforms designed for hospitality, wellness, and service businesses across Southeast Asia and North America.",
+    "ctaHeading": "Ready to build your digital presence?",
+    "ctaButton": "Book a Discovery Call"
+  },
+  "fundingPage": {
+    "meta": {
+      "title": "Business Funding & Structuring - T.C. Chambers",
+      "description": "Access business capital in 14 to 30 days. Proper entity structuring, credit optimization, and funding strategies that work."
+    },
+    "headline": "Access Business Capital in 14 to 30 Days",
+    "subheadline": "Proper entity structuring, credit optimization, and funding strategies built from 30 years of real-world experience.",
+    "ctaHeading": "Ready to get funded?",
+    "ctaButton": "Book a Funding Strategy Call"
+  },
+  "villaQuiz": {
+    "meta": {
+      "title": "Villa OTA Readiness Quiz - T.C. Chambers",
+      "description": "Is your villa ready to survive Indonesia's OTA shift? Take the 2-minute assessment."
+    },
+    "hero": {
+      "headline": "Is Your Villa Ready to Survive Indonesia's OTA Shift?",
+      "subheadline": "Answer 6 quick questions and find out exactly where your villa stands and what to do next."
+    },
+    "q1": {
+      "text": "What percentage of your current bookings come through Airbnb or Booking.com?",
+      "placeholder": "e.g. 80%"
+    },
+    "q2": {
+      "text": "Have you received any notices or warnings from OTA platforms in the last 6 months?",
+      "o1": "Yes, I received a formal notice",
+      "o2": "Yes, an informal warning",
+      "o3": "No, but I have heard about the changes",
+      "o4": "No idea - this is new to me"
+    },
+    "q3": {
+      "text": "How many bookings per month does your villa currently average?",
+      "placeholder": "e.g. 12 bookings"
+    },
+    "q4": {
+      "text": "Do you have any direct booking channel outside of OTAs right now?",
+      "o1": "Yes, a strong one",
+      "o2": "Yes, but a weak one",
+      "o3": "No, but I am working on it",
+      "o4": "No, I am entirely OTA dependent"
+    },
+    "q5": {
+      "text": "What is your biggest concern about the regulation changes?",
+      "o1": "Losing all OTA platform access",
+      "o2": "Revenue dropping significantly",
+      "o3": "Not knowing what to do about it",
+      "o4": "Finding it hard to believe it is real"
+    },
+    "q6": {
+      "text": "What is your villa called and where is it located?",
+      "placeholder": "e.g. Villa Serenity, Ubud, Bali"
+    },
+    "results": {
+      "critical": {
+        "headline": "CRITICAL RISK: Your Villa Needs a Direct Booking System Now",
+        "body": "Based on your answers, your villa is highly exposed to the OTA regulation changes with no alternative traffic source in place. The good news: this is fixable. Here is your first step."
+      },
+      "moderate": {
+        "headline": "MODERATE RISK: You Have a Start. Here Is How to Build on It.",
+        "body": "You have some awareness and partial action. The gap is in execution. Here is what to do next."
+      },
+      "low": {
+        "headline": "LOW RISK: You Are Ahead of Most. Here Is How to Stay There.",
+        "body": "You have a direct channel. Now it is time to optimize it and make it your primary booking source."
+      },
+      "general": {
+        "headline": "Your Villa Has Options. Here Is Where to Start.",
+        "body": "The OTA landscape is changing. Here is a clear plan to protect your bookings."
+      }
+    },
+    "magnet": {
+      "name": "The Bali Villa Owner's Direct Booking Survival Guide",
+      "description": "A 12-page guide covering exactly what the regulations mean, what Meta Traffic is, and your 30-day action plan.",
+      "buttonLabel": "Send Me the Survival Guide",
+      "successHeadline": "Your Direct Booking Survival Guide is on its way.",
+      "bookingCtaLabel": "Book a Villa Traffic Strategy Call"
+    },
+    "disclaimer": "Regulatory information is provided for general awareness based on publicly reported developments. Regulations may change. Consult a local legal advisor for guidance specific to your property."
+  },
+  "superpowerQuiz": {
+    "meta": {
+      "title": "Superpower Discovery Quiz - T.C. Chambers",
+      "description": "What is your #1 marketable skill? Take the quiz and find out what business you should be building."
+    },
+    "hero": {
+      "headline": "What Is Your Business Superpower?",
+      "subheadline": "Answer 6 questions and find out what you should be building and why you are not making money from it yet."
+    },
+    "q1": {
+      "text": "What do people most often ask you for help with? Even informally, what do friends, colleagues, or strangers come to you about?",
+      "placeholder": "Be specific. The more honest, the better your result."
+    },
+    "q2": {
+      "text": "When you help someone with this skill, how do they typically react?",
+      "o1": "They tell others about it",
+      "o2": "They ask me to do it again",
+      "o3": "They offer to pay me",
+      "o4": "They seem underwhelmed",
+      "o5": "I am not sure"
+    },
+    "q3": {
+      "text": "What has stopped you from turning this into a business so far?",
+      "o1": "I do not know where to start",
+      "o2": "I do not think people will pay for it",
+      "o3": "I have tried but got stuck",
+      "o4": "Life got in the way",
+      "o5": "I did not know it was possible"
+    },
+    "q4": {
+      "text": "If you could help one specific type of person with this skill, who would that be? Describe them.",
+      "placeholder": "e.g. Busy parents who want to start a side business but do not know where to begin."
+    },
+    "q5": {
+      "text": "What stage is your business in right now?",
+      "o1": "Still an idea",
+      "o2": "Just started, no revenue yet",
+      "o3": "Making some money but inconsistent",
+      "o4": "Established but want to scale"
+    },
+    "q6": {
+      "text": "What would change in your life if this business was generating real income in 90 days?",
+      "placeholder": "Be honest. This is for you."
+    },
+    "results": {
+      "system_needed": {
+        "headline": "YOUR SUPERPOWER IS REAL. YOU JUST NEED THE SYSTEM.",
+        "body": "People already recognize your value. The gap is not talent. It is structure. Here is the workbook that helps you name it and package it."
+      },
+      "discovery_needed": {
+        "headline": "YOUR SUPERPOWER EXISTS. WE NEED TO FIND IT FIRST.",
+        "body": "You have more than you think. The workbook below will prove it in 60 minutes."
+      },
+      "underutilized": {
+        "headline": "YOUR SUPERPOWER IS BEING UNDERUTILIZED.",
+        "body": "You have started. Now you need a system to scale it. Here is where to begin."
+      },
+      "general": {
+        "headline": "YOU KNOW MORE THAN YOU THINK. LET'S PROVE IT.",
+        "body": "The workbook below will help you find, name, and package your superpower in 60 minutes."
+      }
+    },
+    "magnet": {
+      "name": "The Superpower Discovery Workbook",
+      "description": "5 exercises to identify and name your #1 marketable skill in 60 minutes. 16 pages. Free.",
+      "buttonLabel": "Send Me the Workbook",
+      "successHeadline": "Your Superpower Discovery Workbook is on its way.",
+      "bookingCtaLabel": "Join the Superpower Waitlist"
+    },
+    "disclaimer": "This workbook is for educational purposes only. Results vary based on individual effort and circumstances. Participation in the Superpower Program does not guarantee any specific business outcome or income level."
+  },
+  "websiteQuiz": {
+    "meta": {
+      "title": "Website Diagnostic Quiz - T.C. Chambers",
+      "description": "Is your website costing you clients? Take the 60-second digital presence diagnostic."
+    },
+    "hero": {
+      "headline": "Is Your Website Costing You Clients?",
+      "subheadline": "Take the 60-second Digital Presence Diagnostic and find out exactly what to fix first."
+    },
+    "q1": {
+      "text": "Do you currently have a website?",
+      "o1": "Yes, it converts well",
+      "o2": "Yes, but it underperforms",
+      "o3": "I have a social media page only",
+      "o4": "No website at all"
+    },
+    "q2": {
+      "text": "Where does most of your client or customer traffic come from right now?",
+      "o1": "Referrals and word of mouth",
+      "o2": "OTA platforms (Airbnb, Booking.com, etc.)",
+      "o3": "Social media",
+      "o4": "My website",
+      "o5": "I do not track it"
+    },
+    "q3": {
+      "text": "When someone visits your website on their phone, what happens?",
+      "o1": "It loads fast and looks great",
+      "o2": "It loads slowly",
+      "o3": "It looks weird or broken on mobile",
+      "o4": "I am not sure",
+      "o5": "I do not have a website"
+    },
+    "q4": {
+      "text": "What is the single most important action you want a visitor to take on your website?",
+      "placeholder": "e.g. Book a call, make a purchase, submit an inquiry"
+    },
+    "q5": {
+      "text": "Can your website be installed on a phone like an app and work without internet?",
+      "o1": "Yes it can",
+      "o2": "No it cannot",
+      "o3": "I do not know what that means",
+      "o4": "I do not have a website"
+    },
+    "q6": {
+      "text": "How long since your website was last updated or redesigned?",
+      "o1": "Less than 6 months",
+      "o2": "6 to 12 months",
+      "o3": "1 to 3 years",
+      "o4": "More than 3 years",
+      "o5": "Never had one"
+    },
+    "results": {
+      "invisible": {
+        "headline": "YOU ARE INVISIBLE ONLINE. HERE IS WHAT THAT IS COSTING YOU.",
+        "body": "Every day without a website is a day clients are choosing someone else. Here is your 10-point checklist to get started right."
+      },
+      "losing_clients": {
+        "headline": "YOUR WEBSITE IS LOSING YOU CLIENTS.",
+        "body": "A broken or slow website sends visitors to your competitors. Here is exactly what to audit and fix."
+      },
+      "not_mobile": {
+        "headline": "YOUR MOBILE EXPERIENCE IS BROKEN.",
+        "body": "Most of your traffic is on mobile. A site that is not installable or offline-capable is losing you bookings every day."
+      },
+      "solid_foundation": {
+        "headline": "YOUR FOUNDATION IS SOLID. HERE IS HOW TO TAKE IT FURTHER.",
+        "body": "You have a working site. Here is the checklist to push it from good to exceptional."
+      }
+    },
+    "magnet": {
+      "name": "The 10-Point Website Audit Checklist",
+      "description": "Find out exactly why your website is not converting and what to fix first. 10 pages. Free.",
+      "buttonLabel": "Send Me the Checklist",
+      "successHeadline": "Your Website Audit Checklist is on its way.",
+      "bookingCtaLabel": "Book a Website/PWA Discovery Call"
+    },
+    "disclaimer": "Audit results are self-assessed and for educational purposes only. Website performance depends on hosting, content, design, and user behavior. Results from any improvements will vary."
+  },
+  "fundingQuiz": {
+    "meta": {
+      "title": "Business Funding Readiness Assessment - T.C. Chambers",
+      "description": "How fundable is your business right now? Take the 3-minute assessment and find out."
+    },
+    "hero": {
+      "headline": "How Fundable Is Your Business Right Now?",
+      "subheadline": "Take the 3-minute Business Funding Readiness Assessment and find out exactly where you stand and what to do next."
+    },
+    "q1": {
+      "text": "Does your business have a registered legal entity?",
+      "o1": "Yes, fully set up and active",
+      "o2": "Yes, but it is not active",
+      "o3": "In progress",
+      "o4": "No, I operate as a sole proprietor",
+      "o5": "Not yet started"
+    },
+    "q2": {
+      "text": "Does your business have a dedicated business bank account?",
+      "o1": "Yes, active and in use",
+      "o2": "Yes, but rarely used",
+      "o3": "No, I use personal accounts",
+      "o4": "Not yet"
+    },
+    "q3": {
+      "text": "What is your current personal credit score range?",
+      "o1": "750 or above",
+      "o2": "700 to 749",
+      "o3": "650 to 699",
+      "o4": "Below 650",
+      "o5": "I do not know my score"
+    },
+    "q4": {
+      "text": "Have you ever applied for business funding or a business credit card?",
+      "o1": "Yes, and was approved",
+      "o2": "Yes, and was declined",
+      "o3": "No, but I want to",
+      "o4": "No, I did not think I qualified",
+      "o5": "I did not know this was possible"
+    },
+    "q5": {
+      "text": "How much funding would you need to launch or grow your business to the next level, and what would you use it for?",
+      "placeholder": "e.g. $25,000 to hire staff and cover first 3 months of operations."
+    },
+    "q6": {
+      "text": "What is your biggest belief about business funding?",
+      "o1": "It is only for established businesses",
+      "o2": "You need perfect credit to qualify",
+      "o3": "It is possible but I do not know how",
+      "o4": "I know it is possible and want to learn more",
+      "o5": "I have done it before and want to do it again"
+    },
+    "results": {
+      "foundation_missing": {
+        "headline": "FOUNDATION MISSING: Structure Before Funding.",
+        "body": "Without the right foundation, funding applications will fail. Here is the blueprint to build it correctly."
+      },
+      "credit_positioning": {
+        "headline": "STRUCTURE EXISTS: Credit Positioning Is Your Next Move.",
+        "body": "The entity is there. Now you need to build the credit profile that makes lenders say yes."
+      },
+      "declined_before": {
+        "headline": "FIXABLE: Here Is Why You Were Declined and What Changes It.",
+        "body": "Being declined is not permanent. It is almost always fixable with the right structure. Here is the blueprint."
+      },
+      "ready_to_apply": {
+        "headline": "READY TO APPLY: You Are Closer Than You Think.",
+        "body": "Your foundation is stronger than most. Here is the step-by-step blueprint to your first application."
+      },
+      "scale_ready": {
+        "headline": "SCALE-READY: Advanced Funding Strategies Are Available to You.",
+        "body": "You know the basics. Here is how to stack and scale capital access."
+      }
+    },
+    "magnet": {
+      "name": "The Business Funding Blueprint",
+      "description": "The 5-step system to access capital in 14 to 30 days. 14 pages. Free.",
+      "buttonLabel": "Send Me the Blueprint",
+      "successHeadline": "Your Business Funding Blueprint is on its way.",
+      "bookingCtaLabel": "Book a Funding Discovery Call"
+    },
+    "disclaimer": "Funding timelines referenced are based on T.C. Chambers' personal experience and select client outcomes. Individual results will vary based on credit profile, business type, funding amount, and lender criteria. Nothing here constitutes a guarantee of funding approval, a specific timeline, or a specific amount. This content is for educational purposes only."
   }
 }

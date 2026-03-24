@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "title": "T.C. Chambers \u2014 Estratega de Negocios con IA",
+    "title": "T.C. Chambers — Estratega de Negocios con IA",
     "description": "Financiamiento empresarial, estrategia de IA y desarrollo de PWA para emprendedores en todo el mundo."
   },
   "nav": {
     "home": "Inicio",
     "about": "Acerca de",
-    "villaBooking": "Tr\u00e1fico de Reservas de Villas",
+    "villaBooking": "Tráfico de Reservas de Villas",
     "superpower": "Programa Superpoder",
     "websites": "Sitios Web y PWAs",
-    "funding": "Financiamiento y Estructuraci\u00f3n",
+    "funding": "Financiamiento y Estructuración",
     "team": "Conoce al Equipo",
     "testimonials": "Testimonios",
     "quiz": "Cuestionario",
@@ -20,12 +20,12 @@
   },
   "home": {
     "hero": {
-      "eyebrow": "Tu Idea de Negocio No Es el Problema. No Saber Qu\u00e9 Hacer Despu\u00e9s S\u00ed Lo Es.",
-      "headline": "Tienes la habilidad. Tienes la motivaci\u00f3n.",
-      "subheadline": "Solo te falta la fuente de tr\u00e1fico, el sistema, la presencia digital y el financiamiento para hacerlo realidad. Eso es exactamente lo que construimos.",
+      "eyebrow": "Tu Idea de Negocio No Es el Problema. No Saber Qué Hacer Después Sí Lo Es.",
+      "headline": "Tienes la habilidad. Tienes la motivación.",
+      "subheadline": "Solo te falta la fuente de tráfico, el sistema, la presencia digital y el financiamiento para hacerlo realidad. Eso es exactamente lo que construimos.",
       "ctaPrimary": "Reservar una Llamada de Estrategia Gratis",
-      "ctaSecondary": "Tomar el Cuestionario de Preparaci\u00f3n Empresarial",
-      "cred1": "Veterano del Ej\u00e9rcito",
+      "ctaSecondary": "Tomar el Cuestionario de Preparación Empresarial",
+      "cred1": "Veterano del Ejército",
       "cred2": "Autor Bestseller de Amazon",
       "cred3": "Estratega con IA",
       "cred4": "Basado en Bali",
@@ -34,47 +34,47 @@
   },
   "villa": {
     "eyebrow": "Pilar de Servicio 01",
-    "headline": "Las Nuevas Regulaciones de Indonesia Est\u00e1n Cortando a los Due\u00f1os de Villas de Airbnb y Booking.com. Aqu\u00ed Est\u00e1 Tu Alternativa.",
+    "headline": "Las Nuevas Regulaciones de Indonesia Están Cortando a los Dueños de Villas de Airbnb y Booking.com. Aquí Está Tu Alternativa.",
     "problem": {
-      "heading": "Qu\u00e9 Est\u00e1 Cambiando",
-      "body": "Las nuevas regulaciones indonesias est\u00e1n restringiendo qu\u00e9 propiedades califican para las principales plataformas OTA. Los due\u00f1os de villas en Bali y m\u00e1s all\u00e1 est\u00e1n perdiendo acceso a Airbnb, Booking.com y canales similares - sin una alternativa clara. Si tu propiedad est\u00e1 afectada, esperar no es una estrategia."
+      "heading": "Qué Está Cambiando",
+      "body": "Las nuevas regulaciones indonesias están restringiendo qué propiedades califican para las principales plataformas OTA. Los dueños de villas en Bali y más allá están perdiendo acceso a Airbnb, Booking.com y canales similares - sin una alternativa clara. Si tu propiedad está afectada, esperar no es una estrategia."
     },
     "cost": {
-      "heading": "Lo Que Te Cuesta la Inacci\u00f3n",
-      "bodyBefore": "Las plataformas OTA generan la mayor\u00eda de las reservas para la mayor\u00eda de las villas. Sin una fuente de tr\u00e1fico de reemplazo, ",
+      "heading": "Lo Que Te Cuesta la Inacción",
+      "bodyBefore": "Las plataformas OTA generan la mayoría de las reservas para la mayoría de las villas. Sin una fuente de tráfico de reemplazo, ",
       "highlight": "esos ingresos desaparecen",
-      "bodyAfter": ". Los propietarios que act\u00faen primero tendr\u00e1n una ventaja significativa sobre los que esperen."
+      "bodyAfter": ". Los propietarios que actúen primero tendrán una ventaja significativa sobre los que esperen."
     },
     "solution": {
       "heading": "Meta Traffic: Tu Canal de Reservas Directas",
-      "body": "Meta Traffic llega a los hu\u00e9spedes por inter\u00e9s, ubicaci\u00f3n, comportamiento de viaje y presupuesto - sin depender de la elegibilidad de la plataforma OTA. Pone tu propiedad frente a las personas correctas, en tus t\u00e9rminos."
+      "body": "Meta Traffic llega a los huéspedes por interés, ubicación, comportamiento de viaje y presupuesto - sin depender de la elegibilidad de la plataforma OTA. Pone tu propiedad frente a las personas correctas, en tus términos."
     },
     "whyWorks": {
       "card1": "Paga por alcance, no por comisiones",
-      "card2": "Sé due\u00f1o de la relaci\u00f3n con el hu\u00e9sped desde el primer clic",
+      "card2": "Sé dueño de la relación con el huésped desde el primer clic",
       "card3": "Sin reglas de elegibilidad de plataforma",
       "card4": "Escala con tu propiedad"
     },
     "whoFor": {
       "body": "Este servicio es para propietarios de villas y alquileres a corto plazo en Bali y en toda Indonesia que enfrentan restricciones OTA, o que quieren reducir su dependencia de las comisiones de plataformas antes de que lleguen las restricciones.",
-      "secondary": "Tambi\u00e9n disponible para anfitriones de Airbnb y alquiler a corto plazo en Estados Unidos."
+      "secondary": "También disponible para anfitriones de Airbnb y alquiler a corto plazo en Estados Unidos."
     },
-    "disclaimer": "La informaci\u00f3n regulatoria se proporciona como conocimiento general basado en desarrollos reportados p\u00fablicamente. Las regulaciones pueden cambiar. Consulte a un asesor legal local para orientaci\u00f3n espec\u00edfica sobre su propiedad.",
+    "disclaimer": "La información regulatoria se proporciona como conocimiento general basado en desarrollos reportados públicamente. Las regulaciones pueden cambiar. Consulte a un asesor legal local para orientación específica sobre su propiedad.",
     "cta": {
-      "heading": "\u00bfListo para proteger las reservas de tu villa?",
-      "button": "Reservar Llamada de Estrategia de Tr\u00e1fico para Villas",
+      "heading": "¿Listo para proteger las reservas de tu villa?",
+      "button": "Reservar Llamada de Estrategia de Tráfico para Villas",
       "note": "Consulta gratuita de 30 minutos. Sin compromiso."
     }
   },
   "superpower": {
     "eyebrow": "Pilar de Servicio 02",
     "headline": "Convierte Tu Habilidad #1 en un Negocio que Funcione Online",
-    "subheadline": "Un programa en vivo de 8 semanas dise\u00f1ado para ayudarte a identificar tu habilidad m\u00e1s comercializable, construir un ecosistema de ofertas a su alrededor, y lanzar con un sitio web funcional y una herramienta de coaching con IA personalizada.",
+    "subheadline": "Un programa en vivo de 8 semanas diseñado para ayudarte a identificar tu habilidad más comercializable, construir un ecosistema de ofertas a su alrededor, y lanzar con un sitio web funcional y una herramienta de coaching con IA personalizada.",
     "stats": {
       "weeks": "8 Semanas",
       "sessions": "8 Sesiones en Vivo",
-      "hours": "3 Horas Por Sesi\u00f3n",
-      "participants": "M\u00e1x 100 Participantes",
+      "hours": "3 Horas Por Sesión",
+      "participants": "Máx 100 Participantes",
       "deliverables": "6 Entregables",
       "online": "100% Online"
     },
@@ -82,23 +82,23 @@
     "deliverables": {
       "d1": {
         "heading": "Superpoder Identificado y Validado",
-        "body": "Tu habilidad #1 m\u00e1s comercializable, definida y posicionada. Dise\u00f1ado para producir claridad sobre lo que vendes y por qu\u00e9 importa."
+        "body": "Tu habilidad #1 más comercializable, definida y posicionada. Diseñado para producir claridad sobre lo que vendes y por qué importa."
       },
       "d2": {
         "heading": "Perfil de Cliente Ideal",
-        "body": "Construido a partir de conversaciones reales, no suposiciones. Los participantes trabajan hacia un perfil psicogr\u00e1fico y demogr\u00e1fico completo."
+        "body": "Construido a partir de conversaciones reales, no suposiciones. Los participantes trabajan hacia un perfil psicográfico y demográfico completo."
       },
       "d3": {
         "heading": "Ecosistema de Ofertas de 3 Niveles",
-        "body": "Tres productos a tres puntos de precio, listos para vender. Dise\u00f1ado para producir un camino de ingresos estructurado desde el primer d\u00eda."
+        "body": "Tres productos a tres puntos de precio, listos para vender. Diseñado para producir un camino de ingresos estructurado desde el primer día."
       },
       "d4": {
-        "heading": "Hoja de Ruta de Lanzamiento de 90 D\u00edas",
+        "heading": "Hoja de Ruta de Lanzamiento de 90 Días",
         "body": "Con fechas reales en el calendario, no hitos vagos. Los participantes trabajan hacia un plan de lanzamiento completo de 12 semanas."
       },
       "d5": {
         "heading": "GPT de Coaching con IA Personalizado",
-        "body": "Activo y funcionando 24/7, entrenado con tu experiencia. Dise\u00f1ado para producir una herramienta de IA personal que apoye a tus clientes."
+        "body": "Activo y funcionando 24/7, entrenado con tu experiencia. Diseñado para producir una herramienta de IA personal que apoye a tus clientes."
       },
       "d6": {
         "heading": "Sitio Web de Negocios Publicado",
@@ -118,16 +118,16 @@
       "w2": {
         "week": "Semana 2",
         "topic": "Perfil de Cliente Ideal",
-        "deliverable": "ICP Completo + Perfil Psicogr\u00e1fico"
+        "deliverable": "ICP Completo + Perfil Psicográfico"
       },
       "w3": {
         "week": "Semana 3",
         "topic": "Arquitectura de Ofertas",
-        "deliverable": "Ecosistema de Ofertas de 3 Niveles Dise\u00f1ado"
+        "deliverable": "Ecosistema de Ofertas de 3 Niveles Diseñado"
       },
       "w4": {
         "week": "Semana 4",
-        "topic": "Estrategia de Lanzamiento de 90 D\u00edas",
+        "topic": "Estrategia de Lanzamiento de 90 Días",
         "deliverable": "Hoja de Ruta de Lanzamiento de 12 Semanas Completa"
       },
       "w5": {
@@ -137,13 +137,13 @@
       },
       "w6": {
         "week": "Semana 6",
-        "topic": "Refinamiento de GPT + Preparaci\u00f3n de Lanzamiento",
+        "topic": "Refinamiento de GPT + Preparación de Lanzamiento",
         "deliverable": "GPT Probado + Activos de Pre-Lanzamiento"
       },
       "w7": {
         "week": "Semana 7",
         "topic": "Vibe Coding: Sitio Web Parte 1",
-        "deliverable": "Estructura del Sitio + P\u00e1ginas Principales Construidas"
+        "deliverable": "Estructura del Sitio + Páginas Principales Construidas"
       },
       "w8": {
         "week": "Semana 8",
@@ -152,37 +152,37 @@
       }
     },
     "howItWorks": {
-      "heading": "C\u00f3mo Funciona",
-      "body": "Una sesi\u00f3n en vivo por semana. Tres horas cada una. Tareas estructuradas entre sesiones. Acceso a la comunidad grupal durante todo el programa. Necesitas una laptop y disposici\u00f3n para hacer el trabajo. No se requiere experiencia t\u00e9cnica."
+      "heading": "Cómo Funciona",
+      "body": "Una sesión en vivo por semana. Tres horas cada una. Tareas estructuradas entre sesiones. Acceso a la comunidad grupal durante todo el programa. Necesitas una laptop y disposición para hacer el trabajo. No se requiere experiencia técnica."
     },
     "cta": {
-      "heading": "Los asientos del grupo est\u00e1n limitados a 100 participantes.",
-      "subtext": "La fecha del pr\u00f3ximo grupo se est\u00e1 confirmando. \u00danete a la lista de espera y ser\u00e1s el primero en saberlo - con acceso prioritario para reservar tu lugar.",
-      "button": "\u00danete a la Lista de Espera",
-      "note": "M\u00e1ximo 100 participantes por grupo. Este l\u00edmite es estructural, no una t\u00e1ctica de marketing."
+      "heading": "Los asientos del grupo están limitados a 100 participantes.",
+      "subtext": "La fecha del próximo grupo se está confirmando. Únete a la lista de espera y serás el primero en saberlo - con acceso prioritario para reservar tu lugar.",
+      "button": "Únete a la Lista de Espera",
+      "note": "Máximo 100 participantes por grupo. Este límite es estructural, no una táctica de marketing."
     },
-    "disclaimer": "El Programa Superpoder es un programa educativo. La participaci\u00f3n no garantiza ning\u00fan resultado comercial espec\u00edfico, nivel de ingresos o ingreso personal. Los resultados dependen del esfuerzo individual, las condiciones del mercado y otros factores fuera de nuestro control."
+    "disclaimer": "El Programa Superpoder es un programa educativo. La participación no garantiza ningún resultado comercial específico, nivel de ingresos o ingreso personal. Los resultados dependen del esfuerzo individual, las condiciones del mercado y otros factores fuera de nuestro control."
   },
   "websites": {
     "eyebrow": "Pilar de Servicio 03",
     "headline": "Sitios Web y PWAs con IA Construidos para Convertir",
-    "subheadline": "Para negocios de hospitalidad, bienestar, alimentos y bebidas, y comercio electr\u00f3nico en Bali, el Sudeste Asi\u00e1tico y Norteam\u00e9rica.",
+    "subheadline": "Para negocios de hospitalidad, bienestar, alimentos y bebidas, y comercio electrónico en Bali, el Sudeste Asiático y Norteamérica.",
     "cards": {
       "c1": {
         "heading": "Arquitectura Progressive Web App",
-        "body": "Instalable, funciona sin conexi\u00f3n, como una app en el m\u00f3vil."
+        "body": "Instalable, funciona sin conexión, como una app en el móvil."
       },
       "c2": {
         "heading": "Funciones con IA",
         "body": "Chatbots, sistemas de reservas y herramientas de captura de prospectos integrados."
       },
       "c3": {
-        "heading": "An\u00e1lisis de Conversi\u00f3n con IA",
-        "body": "Muestra exactamente d\u00f3nde se van los visitantes, qu\u00e9 detiene las reservas y qu\u00e9 cambios mueven la aguja."
+        "heading": "Análisis de Conversión con IA",
+        "body": "Muestra exactamente dónde se van los visitantes, qué detiene las reservas y qué cambios mueven la aguja."
       },
       "c4": {
-        "heading": "Mobile-First, Construcci\u00f3n Biling\u00fce",
-        "body": "EN/ID como est\u00e1ndar para proyectos del mercado de Bali."
+        "heading": "Mobile-First, Construcción Bilingüe",
+        "body": "EN/ID como estándar para proyectos del mercado de Bali."
       }
     },
     "cta": {
@@ -191,27 +191,27 @@
   },
   "funding": {
     "eyebrow": "Pilar de Servicio 04",
-    "headline": "Accede a Capital de Negocio en 14 a 30 D\u00edas",
-    "subheadline": "Estructuraci\u00f3n de entidades empresariales, estrategias de financiamiento al 0% de inter\u00e9s, construcci\u00f3n de cr\u00e9dito y eficiencia fiscal. Probado y comprobado personalmente.",
+    "headline": "Accede a Capital de Negocio en 14 a 30 Días",
+    "subheadline": "Estructuración de entidades empresariales, estrategias de financiamiento al 0% de interés, construcción de crédito y eficiencia fiscal. Probado y comprobado personalmente.",
     "proofCards": {
       "p1": {
-        "heading": "Historial de Financiamiento de 14 a 30 D\u00edas",
+        "heading": "Historial de Financiamiento de 14 a 30 Días",
         "body": "Estrategias de financiamiento estructuradas que se mueven a la velocidad del negocio."
       },
       "p2": {
-        "heading": "Estrategias de Financiamiento al 0% de Inter\u00e9s",
-        "body": "M\u00e9todos de acceso a capital dise\u00f1ados para minimizar costos y maximizar el recorrido."
+        "heading": "Estrategias de Financiamiento al 0% de Interés",
+        "body": "Métodos de acceso a capital diseñados para minimizar costos y maximizar el recorrido."
       },
       "p3": {
-        "heading": "Estructuraci\u00f3n de LLC, Corp y Cr\u00e9dito",
-        "body": "Formaci\u00f3n de entidades, construcci\u00f3n de cr\u00e9dito y estructuras eficientes en impuestos."
+        "heading": "Estructuración de LLC, Corp y Crédito",
+        "body": "Formación de entidades, construcción de crédito y estructuras eficientes en impuestos."
       }
     },
-    "bodyCopy": "T.C. ha navegado la bancarrota, una deuda de cinco cifras con el IRS, y se reconstruy\u00f3 usando las mismas estrategias que ense\u00f1a. Como COO de Alpha & Omega Legacy Group y Autor Bestseller de Amazon en estrategia de \u00e9xito empresarial, trae un historial comprobado, no una teor\u00eda.",
+    "bodyCopy": "T.C. ha navegado la bancarrota, una deuda de cinco cifras con el IRS, y se reconstruyó usando las mismas estrategias que enseña. Como COO de Alpha & Omega Legacy Group y Autor Bestseller de Amazon en estrategia de éxito empresarial, trae un historial comprobado, no una teoría.",
     "cta": {
-      "button": "Obt\u00e9n Tu Hoja de Ruta de Financiamiento. Reserva una Llamada."
+      "button": "Obtén Tu Hoja de Ruta de Financiamiento. Reserva una Llamada."
     },
-    "disclaimer": "Los plazos de financiamiento referenciados se basan en la experiencia personal de T.C. Chambers y resultados de clientes selectos. Los resultados individuales variar\u00e1n seg\u00fan el perfil crediticio, tipo de negocio, monto de financiamiento y criterios del prestamista. Nada aqu\u00ed constituye una garant\u00eda de aprobaci\u00f3n de financiamiento, un plazo espec\u00edfico o un monto espec\u00edfico. Este contenido es solo para fines educativos."
+    "disclaimer": "Los plazos de financiamiento referenciados se basan en la experiencia personal de T.C. Chambers y resultados de clientes selectos. Los resultados individuales variarán según el perfil crediticio, tipo de negocio, monto de financiamiento y criterios del prestamista. Nada aquí constituye una garantía de aprobación de financiamiento, un plazo específico o un monto específico. Este contenido es solo para fines educativos."
   },
   "about": {
     "eyebrow": "Sobre T.C. Chambers",
@@ -223,7 +223,7 @@
     "mission": "[NEEDS_TRANSLATION] Clarity first. Action second. Results always.",
     "credentials": {
       "heading": "Credenciales",
-      "c1": "Oficial del Ej\u00e9rcito de EE.UU. (8 a\u00f1os)",
+      "c1": "Oficial del Ejército de EE.UU. (8 años)",
       "c2": "[NEEDS_TRANSLATION] 30+ Years in Business Development",
       "c3": "Autor Bestseller de Amazon",
       "c4": "[NEEDS_TRANSLATION] AI-First Business Success Strategist",
@@ -234,106 +234,127 @@
     "readMore": "Lee la historia completa"
   },
   "team": {
-    "eyebrowBar": "Las personas detr\u00e1s de la estrategia, las operaciones y la experiencia del hu\u00e9sped.",
+    "eyebrowBar": "Las personas detrás de la estrategia, las operaciones y la experiencia del huésped.",
     "headline": "Conoce al Equipo",
     "m1": {
       "name": "T.C. Chambers",
-      "title": "Fundador y Director T\u00e9cnico",
+      "title": "Fundador y Director Técnico",
       "bio": "[NEEDS_TRANSLATION] T.C. spent 8 years as a U.S. Army officer before launching his first business. After navigating bankruptcy and rebuilding through mentorship, he turned those lessons into a repeatable framework. He now helps entrepreneurs identify their strongest marketable skill, package it into a real business, and get it live in 8 weeks. He builds web applications for hospitality businesses, wellness practitioners, and online retailers across Southeast Asia and North America. He operates from Bali and works with clients who value speed and results over process.",
-      "tags": ["[NEEDS_TRANSLATION] Web & PWA Development", "[NEEDS_TRANSLATION] AI-First Strategy", "[NEEDS_TRANSLATION] Business Mentorship", "[NEEDS_TRANSLATION] SE Asia & North America"]
+      "tags": [
+        "[NEEDS_TRANSLATION] Web & PWA Development",
+        "[NEEDS_TRANSLATION] AI-First Strategy",
+        "[NEEDS_TRANSLATION] Business Mentorship",
+        "[NEEDS_TRANSLATION] SE Asia & North America"
+      ]
     },
     "m2": {
       "name": "Rita Rosita",
       "title": "Operaciones y Desarrollo de Negocios",
-      "bio": "Rita pas\u00f3 15 a\u00f1os arreglando lo que se rompe cuando los negocios intentan escalar. Ha gestionado adquisiciones e inventario para marcas de alimentos y bebidas, negociado contratos con proveedores, controlado costos en m\u00faltiples ubicaciones y capacitado equipos de primera l\u00ednea para resultados consistentes. Habla ingl\u00e9s e indonesio.",
-      "tags": ["Gesti\u00f3n de Operaciones", "Desarrollo de Negocios", "F&B y Hospitalidad", "Biling\u00fce EN/ID"]
+      "bio": "Rita pasó 15 años arreglando lo que se rompe cuando los negocios intentan escalar. Ha gestionado adquisiciones e inventario para marcas de alimentos y bebidas, negociado contratos con proveedores, controlado costos en múltiples ubicaciones y capacitado equipos de primera línea para resultados consistentes. Habla inglés e indonesio.",
+      "tags": [
+        "Gestión de Operaciones",
+        "Desarrollo de Negocios",
+        "F&B y Hospitalidad",
+        "Bilingüe EN/ID"
+      ]
     },
     "m3": {
       "name": "Tami Rini",
-      "title": "Experiencia del Hu\u00e9sped y Operaciones",
+      "title": "Experiencia del Huésped y Operaciones",
       "bio": "[NEEDS_TRANSLATION] Tami has spent five years in front desk operations and sales across Bali, Lombok, and Malaysia. She currently serves as Sales Executive at Mandala Eco Resort Lombok. Tami reviews guest journey workflows from inquiry to checkout and identifies friction points that cost villa operators conversions.",
-      "tags": ["Experiencia del Hu\u00e9sped", "Operaciones OTA y Reservas", "Ventas de Villas y Resorts", "Mercado Bali/Lombok"]
+      "tags": [
+        "Experiencia del Huésped",
+        "Operaciones OTA y Reservas",
+        "Ventas de Villas y Resorts",
+        "Mercado Bali/Lombok"
+      ]
     },
     "m4": {
       "name": "Tobias Kaiuth",
       "title": "[NEEDS_TRANSLATION] Meta Traffic & Conversion Architect",
       "bio": "[NEEDS_TRANSLATION] With a proven track record creating 7-figure Meta Ads campaigns for his clients and his own brands, Tobias is a performance marketing strategist known for turning ad spend into predictable, scalable profit. He is now bringing that expertise to Indonesia, partnering with villa owners and hospitality managers to build direct-booking systems on Meta.",
-      "tags": ["[NEEDS_TRANSLATION] Meta Ads", "[NEEDS_TRANSLATION] Performance Marketing", "[NEEDS_TRANSLATION] Direct Booking", "[NEEDS_TRANSLATION] Villa & Hospitality", "[NEEDS_TRANSLATION] Conversion Optimization"]
+      "tags": [
+        "[NEEDS_TRANSLATION] Meta Ads",
+        "[NEEDS_TRANSLATION] Performance Marketing",
+        "[NEEDS_TRANSLATION] Direct Booking",
+        "[NEEDS_TRANSLATION] Villa & Hospitality",
+        "[NEEDS_TRANSLATION] Conversion Optimization"
+      ]
     }
   },
   "testimonials": {
     "headline": "Resultados de Personas Reales",
     "filters": {
       "all": "Todos",
-      "villa": "Tr\u00e1fico de Reservas de Villas",
+      "villa": "Tráfico de Reservas de Villas",
       "superpower": "Programa Superpoder",
       "websites": "Sitios Web y PWAs",
-      "funding": "Financiamiento y Estructuraci\u00f3n",
+      "funding": "Financiamiento y Estructuración",
       "strategy": "Estrategia de Negocios"
     },
     "placeholders": {
       "p1": {
         "name": "Nombre del Cliente",
-        "business": "Due\u00f1o de Villa, Bali",
-        "quote": "La cita del testimonio aparecer\u00e1 aqu\u00ed.",
+        "business": "Dueño de Villa, Bali",
+        "quote": "La cita del testimonio aparecerá aquí.",
         "result": "Resultado: Pendiente"
       },
       "p2": {
         "name": "Nombre del Cliente",
-        "business": "Negocio en L\u00ednea, EE.UU.",
-        "quote": "La cita del testimonio aparecer\u00e1 aqu\u00ed.",
+        "business": "Negocio en Línea, EE.UU.",
+        "quote": "La cita del testimonio aparecerá aquí.",
         "result": "Resultado: Pendiente"
       },
       "p3": {
         "name": "Nombre del Cliente",
         "business": "Marca de Bienestar, SE Asia",
-        "quote": "La cita del testimonio aparecer\u00e1 aqu\u00ed.",
+        "quote": "La cita del testimonio aparecerá aquí.",
         "result": "Resultado: Pendiente"
       }
     },
-    "disclaimer": "Los testimonios reflejan experiencias individuales y no son una garant\u00eda de resultados futuros. Los resultados var\u00edan seg\u00fan el esfuerzo individual, la experiencia y las condiciones del mercado.",
+    "disclaimer": "Los testimonios reflejan experiencias individuales y no son una garantía de resultados futuros. Los resultados varían según el esfuerzo individual, la experiencia y las condiciones del mercado.",
     "cta": "Ver Todos los Testimonios"
   },
   "leadMagnet": {
     "eyebrow": "Recurso Gratuito",
     "headline": "El Blueprint de Financiamiento de Negocios en 5 Pasos",
-    "subheadline": "C\u00f3mo acceder a capital para tu negocio. Descarga PDF instant\u00e1nea.",
+    "subheadline": "Cómo acceder a capital para tu negocio. Descarga PDF instantánea.",
     "bullets": {
-      "b1": "La estructura exacta de financiamiento que T.C. us\u00f3 para reconstruir despu\u00e9s de la bancarrota",
-      "b2": "C\u00f3mo acceder a capital al 0% de inter\u00e9s (paso a paso)",
-      "b3": "Configuraci\u00f3n de entidad empresarial para m\u00e1xima financiabilidad",
-      "b4": "Estrategias de posicionamiento crediticio que la mayor\u00eda de los due\u00f1os de negocios omiten",
-      "b5": "C\u00f3mo pasar de la solicitud a ser financiado en 14 a 30 d\u00edas"
+      "b1": "La estructura exacta de financiamiento que T.C. usó para reconstruir después de la bancarrota",
+      "b2": "Cómo acceder a capital al 0% de interés (paso a paso)",
+      "b3": "Configuración de entidad empresarial para máxima financiabilidad",
+      "b4": "Estrategias de posicionamiento crediticio que la mayoría de los dueños de negocios omiten",
+      "b5": "Cómo pasar de la solicitud a ser financiado en 14 a 30 días"
     },
-    "disclaimer": "Solo para fines educativos. Los resultados var\u00edan seg\u00fan las circunstancias individuales.",
+    "disclaimer": "Solo para fines educativos. Los resultados varían según las circunstancias individuales.",
     "form": {
       "firstNameLabel": "Nombre",
       "firstNamePlaceholder": "Tu nombre",
-      "emailLabel": "Correo Electr\u00f3nico",
+      "emailLabel": "Correo Electrónico",
       "emailPlaceholder": "tu@ejemplo.com",
-      "button": "Env\u00edame el Blueprint",
+      "button": "Envíame el Blueprint",
       "sending": "Enviando...",
       "privacy": "Sin spam. Cancela en cualquier momento."
     },
     "successHeading": "Revisa tu bandeja de entrada.",
-    "successBody": "Tu blueprint est\u00e1 en camino.",
-    "errorMessage": "Algo sali\u00f3 mal. Por favor intenta de nuevo."
+    "successBody": "Tu blueprint está en camino.",
+    "errorMessage": "Algo salió mal. Por favor intenta de nuevo."
   },
   "quiz": {
-    "headline": "\u00bfD\u00f3nde Est\u00e1 Tu Negocio Ahora?",
-    "subheadline": "Toma el Quiz de Preparaci\u00f3n Empresarial de 60 Segundos",
+    "headline": "¿Dónde Está Tu Negocio Ahora?",
+    "subheadline": "Toma el Quiz de Preparación Empresarial de 60 Segundos",
     "progress": "Pregunta {current} de {total}",
     "complete": "Quiz completado",
     "questions": {
       "q1": {
-        "text": "\u00bfEn qu\u00e9 etapa est\u00e1 tu negocio?",
+        "text": "¿En qué etapa está tu negocio?",
         "a": "Etapa de Idea",
-        "b": "Reci\u00e9n Lanzado",
+        "b": "Recién Lanzado",
         "c": "Establecido",
         "d": "En Crecimiento"
       },
       "q2": {
-        "text": "\u00bfCu\u00e1l es tu mayor desaf\u00edo ahora?",
+        "text": "¿Cuál es tu mayor desafío ahora?",
         "a": "Obtener claridad",
         "b": "Obtener financiamiento",
         "c": "Construir presencia digital",
@@ -341,26 +362,26 @@
         "e": "Todo lo anterior"
       },
       "q3": {
-        "text": "\u00bfTienes una entidad empresarial establecida?",
-        "a": "S\u00ed",
+        "text": "¿Tienes una entidad empresarial establecida?",
+        "a": "Sí",
         "b": "No",
         "c": "No estoy seguro"
       },
       "q4": {
-        "text": "\u00bfTienes un sitio web o aplicaci\u00f3n?",
-        "a": "S\u00ed, convierte bien",
-        "b": "S\u00ed, pero no rinde",
+        "text": "¿Tienes un sitio web o aplicación?",
+        "a": "Sí, convierte bien",
+        "b": "Sí, pero no rinde",
         "c": "No"
       },
       "q5": {
-        "text": "\u00bfEst\u00e1s usando herramientas de IA en tu negocio?",
-        "a": "S\u00ed, regularmente",
+        "text": "¿Estás usando herramientas de IA en tu negocio?",
+        "a": "Sí, regularmente",
         "b": "Un poco",
         "c": "No, pero quiero",
-        "d": "No, no s\u00e9 por d\u00f3nde empezar"
+        "d": "No, no sé por dónde empezar"
       },
       "q6": {
-        "text": "\u00bfCu\u00e1l es tu meta #1 en los pr\u00f3ximos 90 d\u00edas?",
+        "text": "¿Cuál es tu meta #1 en los próximos 90 días?",
         "a": "Lanzar mi negocio",
         "b": "Obtener financiamiento",
         "c": "Construir presencia digital",
@@ -370,239 +391,239 @@
     },
     "results": {
       "superpower": {
-        "heading": "Tu pr\u00f3ximo paso: claridad y posicionamiento.",
-        "body": "Tienes las habilidades. Ahora necesitas definirlas, validarlas y empaquetarlas. El Programa Superpoder est\u00e1 dise\u00f1ado para ayudarte a hacer exactamente eso en 8 semanas.",
-        "cta": "\u00danete a la Lista de Espera del Superpoder"
+        "heading": "Tu próximo paso: claridad y posicionamiento.",
+        "body": "Tienes las habilidades. Ahora necesitas definirlas, validarlas y empaquetarlas. El Programa Superpoder está diseñado para ayudarte a hacer exactamente eso en 8 semanas.",
+        "cta": "Únete a la Lista de Espera del Superpoder"
       },
       "funding": {
-        "heading": "Tu pr\u00f3ximo paso: acceso a capital.",
-        "body": "Tienes la base. Ahora necesitas la estructura de financiamiento correcta. T.C. puede guiarte a trav\u00e9s de las estrategias que han ayudado a emprendedores a acceder a capital en 14 a 30 d\u00edas.",
+        "heading": "Tu próximo paso: acceso a capital.",
+        "body": "Tienes la base. Ahora necesitas la estructura de financiamiento correcta. T.C. puede guiarte a través de las estrategias que han ayudado a emprendedores a acceder a capital en 14 a 30 días.",
         "cta": "Reserva una Llamada de Descubrimiento de Financiamiento"
       },
       "website": {
-        "heading": "Tu pr\u00f3ximo paso: una presencia digital que convierte.",
-        "body": "Necesitas un sitio web o aplicaci\u00f3n que trabaje para tu negocio 24/7. T.C. construye PWAs con IA para negocios de hospitalidad, bienestar y comercio electr\u00f3nico.",
+        "heading": "Tu próximo paso: una presencia digital que convierte.",
+        "body": "Necesitas un sitio web o aplicación que trabaje para tu negocio 24/7. T.C. construye PWAs con IA para negocios de hospitalidad, bienestar y comercio electrónico.",
         "cta": "Reserva una Llamada de Descubrimiento Web/PWA"
       },
       "ai": {
-        "heading": "Tu pr\u00f3ximo paso: integraci\u00f3n de IA.",
-        "body": "La IA ya no es opcional. T.C. puede ayudarte a identificar d\u00f3nde encaja la IA en tu negocio y construir las herramientas que la hagan funcionar.",
-        "cta": "Reserva una Sesi\u00f3n de Estrategia de IA"
+        "heading": "Tu próximo paso: integración de IA.",
+        "body": "La IA ya no es opcional. T.C. puede ayudarte a identificar dónde encaja la IA en tu negocio y construir las herramientas que la hagan funcionar.",
+        "cta": "Reserva una Sesión de Estrategia de IA"
       },
       "villa": {
-        "heading": "Tu pr\u00f3ximo paso: tr\u00e1fico de reservas directas.",
-        "body": "Las nuevas regulaciones est\u00e1n cambiando el juego para los due\u00f1os de villas. T.C. puede ayudarte a construir un sistema de reservas directas que reduzca la dependencia de OTAs.",
-        "cta": "Reserva una Llamada de Estrategia de Tr\u00e1fico para Villas"
+        "heading": "Tu próximo paso: tráfico de reservas directas.",
+        "body": "Las nuevas regulaciones están cambiando el juego para los dueños de villas. T.C. puede ayudarte a construir un sistema de reservas directas que reduzca la dependencia de OTAs.",
+        "cta": "Reserva una Llamada de Estrategia de Tráfico para Villas"
       },
       "strategy": {
-        "heading": "Tu pr\u00f3ximo paso: una llamada de estrategia.",
-        "body": "Tienes m\u00faltiples prioridades. Una llamada de estrategia ayudar\u00e1 a T.C. a entender tu situaci\u00f3n y recomendar el punto de partida correcto.",
+        "heading": "Tu próximo paso: una llamada de estrategia.",
+        "body": "Tienes múltiples prioridades. Una llamada de estrategia ayudará a T.C. a entender tu situación y recomendar el punto de partida correcto.",
         "cta": "Reserva una Llamada de Estrategia Gratuita"
       }
     },
-    "emailPrompt": "\u00bfQuieres que T.C. revise tu resultado personalmente? Deja tu correo.",
-    "emailLabel": "Correo Electr\u00f3nico",
+    "emailPrompt": "¿Quieres que T.C. revise tu resultado personalmente? Deja tu correo.",
+    "emailLabel": "Correo Electrónico",
     "emailPlaceholder": "tu@ejemplo.com",
     "emailButton": "Enviar Mi Resultado",
     "emailSending": "Enviando...",
-    "emailSuccess": "Enviado. T.C. revisar\u00e1 tu resultado y dar\u00e1 seguimiento.",
-    "emailError": "Algo sali\u00f3 mal. Por favor intenta de nuevo.",
+    "emailSuccess": "Enviado. T.C. revisará tu resultado y dará seguimiento.",
+    "emailError": "Algo salió mal. Por favor intenta de nuevo.",
     "restart": "Tomar el quiz de nuevo"
   },
   "faq": {
     "headline": "Preguntas Frecuentes",
     "categories": {
-      "villa": "Tr\u00e1fico de Reservas de Villas",
+      "villa": "Tráfico de Reservas de Villas",
       "superpower": "Programa Superpoder",
       "websites": "Sitios Web y PWAs",
-      "funding": "Financiamiento y Estructuraci\u00f3n",
+      "funding": "Financiamiento y Estructuración",
       "working": "Trabajar con T.C."
     },
     "items": {
       "villa": {
         "q1": {
-          "q": "\u00bfCu\u00e1les son las nuevas regulaciones indonesias que afectan las reservas de villas?",
-          "a": "Los nuevos marcos regulatorios en Indonesia est\u00e1n restringiendo qu\u00e9 propiedades califican para plataformas OTA importantes como Airbnb y Booking.com. Los propietarios de villas que no cumplan con los nuevos criterios de elegibilidad pueden perder acceso a estos canales. Recomendamos consultar a un asesor legal local para orientaci\u00f3n espec\u00edfica de su propiedad. T.C. puede ayudarle a establecer un canal de tr\u00e1fico de reservas directas como alternativa."
+          "q": "¿Cuáles son las nuevas regulaciones indonesias que afectan las reservas de villas?",
+          "a": "Los nuevos marcos regulatorios en Indonesia están restringiendo qué propiedades califican para plataformas OTA importantes como Airbnb y Booking.com. Los propietarios de villas que no cumplan con los nuevos criterios de elegibilidad pueden perder acceso a estos canales. Recomendamos consultar a un asesor legal local para orientación específica de su propiedad. T.C. puede ayudarle a establecer un canal de tráfico de reservas directas como alternativa."
         },
         "q2": {
-          "q": "\u00bfQu\u00e9 es Meta Traffic y c\u00f3mo reemplaza el tr\u00e1fico OTA?",
-          "a": "Meta Traffic utiliza publicidad pagada en redes sociales (principalmente Facebook e Instagram) para llegar a sus hu\u00e9spedes ideales directamente, por inter\u00e9s, ubicaci\u00f3n, comportamiento de viaje y presupuesto. A diferencia de las plataformas OTA, no hay reglas de elegibilidad, no hay comisiones por reserva, y usted es due\u00f1o de la relaci\u00f3n con el hu\u00e9sped desde el primer clic."
+          "q": "¿Qué es Meta Traffic y cómo reemplaza el tráfico OTA?",
+          "a": "Meta Traffic utiliza publicidad pagada en redes sociales (principalmente Facebook e Instagram) para llegar a sus huéspedes ideales directamente, por interés, ubicación, comportamiento de viaje y presupuesto. A diferencia de las plataformas OTA, no hay reglas de elegibilidad, no hay comisiones por reserva, y usted es dueño de la relación con el huésped desde el primer clic."
         },
         "q3": {
-          "q": "\u00bfQu\u00e9 tan r\u00e1pido pueden ver resultados los propietarios de villas con Meta Traffic?",
-          "a": "Los plazos var\u00edan seg\u00fan su propiedad, mercado y presupuesto. La mayor\u00eda de los propietarios de villas comienzan a ver tr\u00e1fico dentro del primer per\u00edodo de campa\u00f1a. Los resultados no est\u00e1n garantizados y dependen de m\u00faltiples factores incluyendo configuraci\u00f3n de campa\u00f1a, segmentaci\u00f3n y atractivo de la propiedad."
+          "q": "¿Qué tan rápido pueden ver resultados los propietarios de villas con Meta Traffic?",
+          "a": "Los plazos varían según su propiedad, mercado y presupuesto. La mayoría de los propietarios de villas comienzan a ver tráfico dentro del primer período de campaña. Los resultados no están garantizados y dependen de múltiples factores incluyendo configuración de campaña, segmentación y atractivo de la propiedad."
         },
         "q4": {
-          "q": "\u00bfFunciona para propiedades de alquiler a corto plazo en EE.UU.?",
-          "a": "S\u00ed. Aunque el enfoque principal son los propietarios de villas indonesios, este servicio tambi\u00e9n est\u00e1 disponible para hosts de Airbnb y alquileres a corto plazo en EE.UU. que quieran reducir la dependencia de OTAs."
+          "q": "¿Funciona para propiedades de alquiler a corto plazo en EE.UU.?",
+          "a": "Sí. Aunque el enfoque principal son los propietarios de villas indonesios, este servicio también está disponible para hosts de Airbnb y alquileres a corto plazo en EE.UU. que quieran reducir la dependencia de OTAs."
         }
       },
       "superpower": {
         "q1": {
-          "q": "\u00bfPara qui\u00e9n est\u00e1 dise\u00f1ado este programa?",
-          "a": "Emprendedores y due\u00f1os de negocios en cualquier etapa que quieran identificar su habilidad central comercializable, construir un negocio estructurado a su alrededor, y lanzar con un sitio web real y una herramienta de IA personalizada, sin necesitar un trasfondo t\u00e9cnico."
+          "q": "¿Para quién está diseñado este programa?",
+          "a": "Emprendedores y dueños de negocios en cualquier etapa que quieran identificar su habilidad central comercializable, construir un negocio estructurado a su alrededor, y lanzar con un sitio web real y una herramienta de IA personalizada, sin necesitar un trasfondo técnico."
         },
         "q2": {
-          "q": "\u00bfEs en l\u00ednea o presencial?",
-          "a": "100% en l\u00ednea. Ocho sesiones de video en vivo semanales. Puedes unirte desde cualquier parte del mundo. Solo necesitas una laptop y conexi\u00f3n a internet."
+          "q": "¿Es en línea o presencial?",
+          "a": "100% en línea. Ocho sesiones de video en vivo semanales. Puedes unirte desde cualquier parte del mundo. Solo necesitas una laptop y conexión a internet."
         },
         "q3": {
-          "q": "\u00bfQu\u00e9 pasa si me pierdo una sesi\u00f3n?",
-          "a": "Las sesiones se graban. Perder una sesi\u00f3n significa perder la interacci\u00f3n en vivo, pero el contenido estar\u00e1 disponible. La asistencia consistente te da los mejores resultados."
+          "q": "¿Qué pasa si me pierdo una sesión?",
+          "a": "Las sesiones se graban. Perder una sesión significa perder la interacción en vivo, pero el contenido estará disponible. La asistencia consistente te da los mejores resultados."
         },
         "q4": {
-          "q": "\u00bfNecesito habilidades t\u00e9cnicas?",
-          "a": "No. El programa incluye vibe coding, construyendo tu sitio web usando herramientas de IA e instrucci\u00f3n guiada. No se requiere experiencia previa en programaci\u00f3n."
+          "q": "¿Necesito habilidades técnicas?",
+          "a": "No. El programa incluye vibe coding, construyendo tu sitio web usando herramientas de IA e instrucción guiada. No se requiere experiencia previa en programación."
         }
       },
       "websites": {
         "q1": {
-          "q": "\u00bfCu\u00e1l es la diferencia entre un sitio web y una PWA?",
-          "a": "Una Progressive Web App (PWA) es un sitio web que se comporta como una aplicaci\u00f3n m\u00f3vil. Es instalable en tu pantalla de inicio, funciona sin conexi\u00f3n, carga m\u00e1s r\u00e1pido y puede enviar notificaciones push. Para la mayor\u00eda de los negocios de hospitalidad y servicios, una PWA supera a un sitio web est\u00e1ndar en m\u00f3vil, donde llega la mayor\u00eda del tr\u00e1fico de hu\u00e9spedes."
+          "q": "¿Cuál es la diferencia entre un sitio web y una PWA?",
+          "a": "Una Progressive Web App (PWA) es un sitio web que se comporta como una aplicación móvil. Es instalable en tu pantalla de inicio, funciona sin conexión, carga más rápido y puede enviar notificaciones push. Para la mayoría de los negocios de hospitalidad y servicios, una PWA supera a un sitio web estándar en móvil, donde llega la mayoría del tráfico de huéspedes."
         },
         "q2": {
-          "q": "\u00bfCu\u00e1nto tiempo toma una construcci\u00f3n?",
-          "a": "La mayor\u00eda de los proyectos se completan en 2 a 6 semanas dependiendo del alcance y la preparaci\u00f3n del contenido. Primero la llamada de descubrimiento, luego se confirma el cronograma."
+          "q": "¿Cuánto tiempo toma una construcción?",
+          "a": "La mayoría de los proyectos se completan en 2 a 6 semanas dependiendo del alcance y la preparación del contenido. Primero la llamada de descubrimiento, luego se confirma el cronograma."
         },
         "q3": {
-          "q": "\u00bfNecesito mantenerlo yo mismo despu\u00e9s del lanzamiento?",
-          "a": "No. Opciones de soporte continuo est\u00e1n disponibles. El CMS est\u00e1 dise\u00f1ado para que puedas actualizar contenido sin tocar c\u00f3digo si prefieres gestionarlo t\u00fa mismo."
+          "q": "¿Necesito mantenerlo yo mismo después del lanzamiento?",
+          "a": "No. Opciones de soporte continuo están disponibles. El CMS está diseñado para que puedas actualizar contenido sin tocar código si prefieres gestionarlo tú mismo."
         }
       },
       "funding": {
         "q1": {
-          "q": "\u00bfRealmente puedo obtener financiamiento en 14 a 30 d\u00edas?",
-          "a": "Ese plazo se basa en la experiencia personal de T.C. y resultados de clientes selectos. Los resultados individuales var\u00edan seg\u00fan tu perfil crediticio, tipo de negocio, monto de financiamiento y criterios del prestamista. Nada aqu\u00ed garantiza un resultado o plazo espec\u00edfico. Este es contenido educativo."
+          "q": "¿Realmente puedo obtener financiamiento en 14 a 30 días?",
+          "a": "Ese plazo se basa en la experiencia personal de T.C. y resultados de clientes selectos. Los resultados individuales varían según tu perfil crediticio, tipo de negocio, monto de financiamiento y criterios del prestamista. Nada aquí garantiza un resultado o plazo específico. Este es contenido educativo."
         },
         "q2": {
-          "q": "\u00bfQu\u00e9 tipo de financiamiento ayudas a obtener?",
-          "a": "Cr\u00e9dito empresarial, estrategias de financiamiento al 0% de inter\u00e9s, y estructuraci\u00f3n de entidades para m\u00e1xima financiabilidad. T.C. se enfoca en las estrategias que ha usado y probado personalmente, no marcos te\u00f3ricos."
+          "q": "¿Qué tipo de financiamiento ayudas a obtener?",
+          "a": "Crédito empresarial, estrategias de financiamiento al 0% de interés, y estructuración de entidades para máxima financiabilidad. T.C. se enfoca en las estrategias que ha usado y probado personalmente, no marcos teóricos."
         },
         "q3": {
-          "q": "\u00bfNecesito buen cr\u00e9dito personal?",
-          "a": "No necesariamente. Parte de la estrategia involucra posicionamiento crediticio, construcci\u00f3n de cr\u00e9dito empresarial y estructura que reduce la dependencia de puntajes de cr\u00e9dito personal. Esto se cubre en detalle durante una llamada de descubrimiento."
+          "q": "¿Necesito buen crédito personal?",
+          "a": "No necesariamente. Parte de la estrategia involucra posicionamiento crediticio, construcción de crédito empresarial y estructura que reduce la dependencia de puntajes de crédito personal. Esto se cubre en detalle durante una llamada de descubrimiento."
         }
       },
       "working": {
         "q1": {
-          "q": "\u00bfD\u00f3nde est\u00e1s basado y trabajas remotamente?",
-          "a": "T.C. est\u00e1 basado en Bali, Indonesia y trabaja con clientes globalmente. Todas las sesiones se realizan en l\u00ednea por videollamada."
+          "q": "¿Dónde estás basado y trabajas remotamente?",
+          "a": "T.C. está basado en Bali, Indonesia y trabaja con clientes globalmente. Todas las sesiones se realizan en línea por videollamada."
         },
         "q2": {
-          "q": "\u00bfOfreces consultor\u00eda \u00fanica o soporte continuo?",
-          "a": "Ambos. Sesiones de estrategia \u00fanicas est\u00e1n disponibles. Relaciones de asesor\u00eda continua tambi\u00e9n est\u00e1n disponibles dependiendo del pilar de servicio. Los detalles se discuten en la llamada de estrategia."
+          "q": "¿Ofreces consultoría única o soporte continuo?",
+          "a": "Ambos. Sesiones de estrategia únicas están disponibles. Relaciones de asesoría continua también están disponibles dependiendo del pilar de servicio. Los detalles se discuten en la llamada de estrategia."
         },
         "q3": {
-          "q": "No soy t\u00e9cnico. \u00bfA\u00fan puedes ayudarme?",
-          "a": "S\u00ed. T.C. y el equipo se especializan en trabajar con due\u00f1os de negocios no t\u00e9cnicos. El Programa Superpoder en particular est\u00e1 dise\u00f1ado para personas sin trasfondo t\u00e9cnico."
+          "q": "No soy técnico. ¿Aún puedes ayudarme?",
+          "a": "Sí. T.C. y el equipo se especializan en trabajar con dueños de negocios no técnicos. El Programa Superpoder en particular está diseñado para personas sin trasfondo técnico."
         }
       }
     }
   },
   "book": {
-    "headline": "Reserva Tu Sesi\u00f3n de Estrategia",
-    "subheadline": "Esto no es una llamada de ventas. Es una sesi\u00f3n de estrategia. Ven listo para hablar de tu negocio. T.C. vendr\u00e1 listo con ideas.",
+    "headline": "Reserva Tu Sesión de Estrategia",
+    "subheadline": "Esto no es una llamada de ventas. Es una sesión de estrategia. Ven listo para hablar de tu negocio. T.C. vendrá listo con ideas.",
     "tabs": {
       "strategy": "Llamada de Estrategia Gratuita 30 Min",
-      "villa": "Consulta de Tr\u00e1fico de Reservas de Villas",
+      "villa": "Consulta de Tráfico de Reservas de Villas",
       "ai-strategy": "Deep Dive de Estrategia IA",
       "website": "Kick-Off de Proyecto Web/PWA",
       "funding": "Llamada de Descubrimiento de Financiamiento"
     },
     "placeholder": {
-      "heading": "Calendario pr\u00f3ximamente.",
-      "body": "Reserva por correo electr\u00f3nico a tc@veteranbizcoach.com",
+      "heading": "Calendario próximamente.",
+      "body": "Reserva por correo electrónico a tc@veteranbizcoach.com",
       "cta": "Email a T.C."
     },
-    "footnote": "Todas las sesiones se realizan por videollamada. Programaci\u00f3n consciente de zona horaria. Sirviendo clientes en el Sudeste Asi\u00e1tico, Norteam\u00e9rica y todo el mundo."
+    "footnote": "Todas las sesiones se realizan por videollamada. Programación consciente de zona horaria. Sirviendo clientes en el Sudeste Asiático, Norteamérica y todo el mundo."
   },
   "chatbot": {
     "toggleLabel": "Abrir asistente de chat",
     "header": "Asistente IA de T.C.",
     "close": "Cerrar chat",
-    "greeting": "\u00a1Hola! Soy el asistente IA de T.C. \u00bfQu\u00e9 te trae por aqu\u00ed hoy?",
+    "greeting": "¡Hola! Soy el asistente IA de T.C. ¿Qué te trae por aquí hoy?",
     "quickReplies": {
       "business": "Iniciar un Negocio",
       "funded": "Obtener Financiamiento",
       "website": "Sitio Web/PWA",
       "villa": "Reservas de Villas",
-      "other": "Algo M\u00e1s"
+      "other": "Algo Más"
     },
     "responses": {
       "business": {
-        "text": "El Programa Superpoder est\u00e1 construido exactamente para eso. 8 semanas, 6 entregables, 100% en l\u00ednea. \u00bfQuieres unirte a la lista de espera?",
-        "btn1": "\u00danete a la Lista",
-        "btn2": "Cu\u00e9ntame M\u00e1s"
+        "text": "El Programa Superpoder está construido exactamente para eso. 8 semanas, 6 entregables, 100% en línea. ¿Quieres unirte a la lista de espera?",
+        "btn1": "Únete a la Lista",
+        "btn2": "Cuéntame Más"
       },
       "funded": {
-        "text": "T.C. ha ayudado a emprendedores a acceder a capital en 14 a 30 d\u00edas usando estrategias de 0% de inter\u00e9s que prob\u00f3 personalmente. \u00bfQuieres hablar de tu situaci\u00f3n?",
+        "text": "T.C. ha ayudado a emprendedores a acceder a capital en 14 a 30 días usando estrategias de 0% de interés que probó personalmente. ¿Quieres hablar de tu situación?",
         "btn1": "Reservar Llamada de Financiamiento",
-        "btn2": "Aprender M\u00e1s"
+        "btn2": "Aprender Más"
       },
       "website": {
-        "text": "T.C. construye sitios web y PWAs con IA para negocios de hospitalidad y servicios. \u00bfQuieres iniciar una llamada de descubrimiento?",
+        "text": "T.C. construye sitios web y PWAs con IA para negocios de hospitalidad y servicios. ¿Quieres iniciar una llamada de descubrimiento?",
         "btn1": "Reservar Llamada de Descubrimiento",
         "btn2": "Ver Ejemplos"
       },
       "villa": {
-        "text": "Si tu villa est\u00e1 afectada por las nuevas regulaciones OTA de Indonesia, Meta Traffic es tu alternativa de reservas directas. \u00bfQuieres revisar tus opciones?",
+        "text": "Si tu villa está afectada por las nuevas regulaciones OTA de Indonesia, Meta Traffic es tu alternativa de reservas directas. ¿Quieres revisar tus opciones?",
         "btn1": "Reservar Llamada de Villa",
-        "btn2": "Aprender M\u00e1s"
+        "btn2": "Aprender Más"
       },
       "other": {
-        "text": "No hay problema. El mejor pr\u00f3ximo paso es una llamada de estrategia gratuita de 30 minutos. T.C. viene preparado con ideas.",
+        "text": "No hay problema. El mejor próximo paso es una llamada de estrategia gratuita de 30 minutos. T.C. viene preparado con ideas.",
         "btn1": "Reservar Llamada Gratuita"
       }
     },
-    "emailPrompt": "\u00bfQuieres un resumen enviado a tu correo?",
-    "emailLabel": "Correo Electr\u00f3nico",
+    "emailPrompt": "¿Quieres un resumen enviado a tu correo?",
+    "emailLabel": "Correo Electrónico",
     "emailPlaceholder": "tu@ejemplo.com",
     "emailButton": "Enviar Resumen",
-    "emailError": "Algo sali\u00f3 mal. Por favor intenta de nuevo.",
-    "emailConfirmation": "Recibido. T.C. dar\u00e1 seguimiento pronto."
+    "emailError": "Algo salió mal. Por favor intenta de nuevo.",
+    "emailConfirmation": "Recibido. T.C. dará seguimiento pronto."
   },
   "footer": {
-    "tagline": "Estratega de \u00c9xito Empresarial con IA",
-    "navHeading": "Navegaci\u00f3n",
+    "tagline": "Estratega de Éxito Empresarial con IA",
+    "navHeading": "Navegación",
     "leadMagnet": {
-      "heading": "Obt\u00e9n el plan de financiamiento gratis",
+      "heading": "Obtén el plan de financiamiento gratis",
       "placeholder": "Ingresa tu email",
       "submit": "Obtener Gratis",
       "privacy": "Sin spam. Cancela cuando quieras.",
-      "success": "\u00a1Revisa tu bandeja de entrada!"
+      "success": "¡Revisa tu bandeja de entrada!"
     },
     "contactHeading": "Contacto",
-    "location": "Con base en Bali, Indonesia \u2014 Sirviendo a Emprendedores en Todo el Mundo",
-    "copyright": "\u00a9 2026 T.C. Chambers. Todos los Derechos Reservados.",
-    "privacy": "Pol\u00edtica de Privacidad",
+    "location": "Con base en Bali, Indonesia — Sirviendo a Emprendedores en Todo el Mundo",
+    "copyright": "© 2026 T.C. Chambers. Todos los Derechos Reservados.",
+    "privacy": "Política de Privacidad",
     "disclaimer": "Aviso Legal",
-    "terms": "T\u00e9rminos de Uso",
-    "pwaNote": "Este sitio es una PWA. Agr\u00e9galo a tu pantalla de inicio para la mejor experiencia."
+    "terms": "Términos de Uso",
+    "pwaNote": "Este sitio es una PWA. Agrégalo a tu pantalla de inicio para la mejor experiencia."
   },
   "pwa": {
     "heading": "Agrega T.C. Chambers a tu pantalla de inicio",
-    "subheading": "Acceso instant\u00e1neo \u2014 funciona sin conexi\u00f3n",
+    "subheading": "Acceso instantáneo — funciona sin conexión",
     "addButton": "Agregar a Pantalla de Inicio",
-    "dismissButton": "Quiz\u00e1s despu\u00e9s"
+    "dismissButton": "Quizás después"
   },
   "offline": {
-    "title": "Est\u00e1s sin conexi\u00f3n en este momento.",
-    "message": "As\u00ed puedes contactar a T.C. cuando vuelvas a estar en l\u00ednea.",
-    "browseNote": "A\u00fan puedes navegar el contenido que se carg\u00f3 antes de perder la conexi\u00f3n."
+    "title": "Estás sin conexión en este momento.",
+    "message": "Así puedes contactar a T.C. cuando vuelvas a estar en línea.",
+    "browseNote": "Aún puedes navegar el contenido que se cargó antes de perder la conexión."
   },
   "common": {
     "loading": "Cargando...",
-    "error": "Algo sali\u00f3 mal",
+    "error": "Algo salió mal",
     "backHome": "Volver al Inicio"
   },
   "aboutPage": {
     "meta": {
       "title": "Sobre T.C. Chambers - Autor Bestseller de Amazon y Estratega de IA",
-      "description": "Veterano del Ej\u00e9rcito. Autor Bestseller de Amazon. Estratega de IA. Construyendo negocios desde Bali desde 2023."
+      "description": "Veterano del Ejército. Autor Bestseller de Amazon. Estratega de IA. Construyendo negocios desde Bali desde 2023."
     },
     "eyebrow": "Sobre T.C. Chambers",
     "headline": "Construido desde Cero. Reconstruido desde el Fondo.",
-    "subheadline": "Veterano del Ej\u00e9rcito. Autor Bestseller de Amazon. Estratega de IA. Basado en Bali.",
+    "subheadline": "Veterano del Ejército. Autor Bestseller de Amazon. Estratega de IA. Basado en Bali.",
     "sh1": "[NEEDS_TRANSLATION] From Service to Strategy",
     "p1": "[NEEDS_TRANSLATION] T.C. Chambers spent 8 years as a United States Army officer before transitioning into Corporate America and launching his first business. That early chapter included a bankruptcy, damaged credit, and hard lessons about money. Mentorship changed the trajectory. He rebuilt, secured funding, and turned those lessons into a repeatable framework he now teaches others.",
     "sh2": "[NEEDS_TRANSLATION] What He Does",
@@ -616,7 +637,7 @@
     "mission": "[NEEDS_TRANSLATION] Clarity first. Action second. Results always.",
     "credentials": {
       "heading": "Credenciales",
-      "c1": "Oficial del Ej\u00e9rcito de EE.UU. (8 a\u00f1os)",
+      "c1": "Oficial del Ejército de EE.UU. (8 años)",
       "c2": "[NEEDS_TRANSLATION] 30+ Years in Business Development",
       "c3": "Autor Bestseller de Amazon",
       "c4": "[NEEDS_TRANSLATION] AI-First Business Success Strategist",
@@ -624,41 +645,62 @@
       "c6": "COO, Alpha & Omega Legacy Group",
       "c7": "[NEEDS_TRANSLATION] Creator, AI-Powered 8-Week Superpower Business in a Box"
     },
-    "fundingDisclaimer": "Los plazos de financiamiento mencionados se basan en la experiencia personal de T.C. Chambers y resultados selectos de clientes. Los resultados individuales variar\u00e1n seg\u00fan el perfil crediticio, tipo de negocio, monto de financiamiento y criterios del prestamista. Nada aqu\u00ed constituye una garant\u00eda de aprobaci\u00f3n de financiamiento, un plazo espec\u00edfico o un monto espec\u00edfico. Este contenido es solo para fines educativos.",
+    "fundingDisclaimer": "Los plazos de financiamiento mencionados se basan en la experiencia personal de T.C. Chambers y resultados selectos de clientes. Los resultados individuales variarán según el perfil crediticio, tipo de negocio, monto de financiamiento y criterios del prestamista. Nada aquí constituye una garantía de aprobación de financiamiento, un plazo específico o un monto específico. Este contenido es solo para fines educativos.",
     "programDisclaimer": "[NEEDS_TRANSLATION] This is an educational mentorship program. Results vary based on individual effort, experience, and market conditions.",
-    "ctaHeading": "\u00bfListo para trabajar con T.C.?",
+    "ctaHeading": "¿Listo para trabajar con T.C.?",
     "ctaButton": "Reservar una Llamada de Estrategia Gratis"
   },
   "teamPage": {
     "meta": {
       "title": "Conoce al Equipo - T.C. Chambers",
-      "description": "Las personas detr\u00e1s de la estrategia, las operaciones y la experiencia del hu\u00e9sped."
+      "description": "Las personas detrás de la estrategia, las operaciones y la experiencia del huésped."
     },
     "headline": "Conoce al Equipo",
-    "subheadline": "Las personas detr\u00e1s de la estrategia, las operaciones y la experiencia del hu\u00e9sped.",
+    "subheadline": "Las personas detrás de la estrategia, las operaciones y la experiencia del huésped.",
     "m1": {
       "name": "T.C. Chambers",
-      "title": "Fundador y Director T\u00e9cnico",
+      "title": "Fundador y Director Técnico",
       "bio": "[NEEDS_TRANSLATION] T.C. spent 8 years as a U.S. Army officer before launching his first business. After navigating bankruptcy and rebuilding through mentorship, he turned those lessons into a repeatable framework. He now helps entrepreneurs identify their strongest marketable skill, package it into a real business, and get it live in 8 weeks. He builds web applications for hospitality businesses, wellness practitioners, and online retailers across Southeast Asia and North America. He operates from Bali and works with clients who value speed and results over process.",
-      "tags": ["[NEEDS_TRANSLATION] Web & PWA Development", "[NEEDS_TRANSLATION] AI-First Strategy", "[NEEDS_TRANSLATION] Business Mentorship", "[NEEDS_TRANSLATION] SE Asia & North America"]
+      "tags": [
+        "[NEEDS_TRANSLATION] Web & PWA Development",
+        "[NEEDS_TRANSLATION] AI-First Strategy",
+        "[NEEDS_TRANSLATION] Business Mentorship",
+        "[NEEDS_TRANSLATION] SE Asia & North America"
+      ]
     },
     "m2": {
       "name": "Rita Rosita",
       "title": "Operaciones y Desarrollo de Negocios",
-      "bio": "Rita pas\u00f3 15 a\u00f1os arreglando lo que se rompe cuando los negocios intentan escalar. Ha gestionado adquisiciones e inventario para marcas de F&B, negociado contratos con proveedores, controlado costos en m\u00faltiples ubicaciones y capacitado equipos de primera l\u00ednea para resultados consistentes. Habla ingl\u00e9s e indonesio, esencial al coordinar en el paisaje mixto de proveedores y socios de Bali. Rita asegura que las operaciones digitales de los clientes reflejen los est\u00e1ndares que mantienen fuera de l\u00ednea. Su enfoque: si tu personal tiene dificultades para usarlo, o si crea m\u00e1s trabajo del que resuelve, lo simplifica y lo reconstruye. Rita tiene una Licenciatura en Gesti\u00f3n de la Universidad Maranatha.",
-      "tags": ["Gesti\u00f3n de Operaciones", "Desarrollo de Negocios", "F&B y Hospitalidad", "Biling\u00fce EN/ID"]
+      "bio": "Rita pasó 15 años arreglando lo que se rompe cuando los negocios intentan escalar. Ha gestionado adquisiciones e inventario para marcas de F&B, negociado contratos con proveedores, controlado costos en múltiples ubicaciones y capacitado equipos de primera línea para resultados consistentes. Habla inglés e indonesio, esencial al coordinar en el paisaje mixto de proveedores y socios de Bali. Rita asegura que las operaciones digitales de los clientes reflejen los estándares que mantienen fuera de línea. Su enfoque: si tu personal tiene dificultades para usarlo, o si crea más trabajo del que resuelve, lo simplifica y lo reconstruye. Rita tiene una Licenciatura en Gestión de la Universidad Maranatha.",
+      "tags": [
+        "Gestión de Operaciones",
+        "Desarrollo de Negocios",
+        "F&B y Hospitalidad",
+        "Bilingüe EN/ID"
+      ]
     },
     "m3": {
       "name": "Tami Rini",
-      "title": "Experiencia del Hu\u00e9sped y Operaciones",
-      "bio": "Tami ha pasado cinco a\u00f1os en operaciones de recepci\u00f3n y ventas en Bali, Lombok y Malasia. Actualmente es Ejecutiva de Ventas en Mandala Eco Resort Lombok, gestionando consultas, reservas y la fricci\u00f3n operativa que surge cuando los sistemas no se conectan. Ha manejado operaciones de pre-apertura para nuevos hoteles, gestionado reservas OTA en m\u00faltiples propiedades y registrado hu\u00e9spedes en resorts de lujo. Tami revisa flujos de trabajo del recorrido del hu\u00e9sped desde la consulta hasta el check-out, prueba procesos de reserva e identifica puntos de fricci\u00f3n que cuestan conversiones a los operadores de villas. Tami tiene una Licenciatura en Gesti\u00f3n Tur\u00edstica de Sahid Tourism High School Surakarta y est\u00e1 cursando una Maestr\u00eda en Turismo Aplicado en el Polit\u00e9cnico de Turismo de Bali.",
-      "tags": ["Experiencia del Hu\u00e9sped", "Operaciones OTA y Reservas", "Ventas de Villas y Resorts", "Mercado Bali/Lombok"]
+      "title": "Experiencia del Huésped y Operaciones",
+      "bio": "Tami ha pasado cinco años en operaciones de recepción y ventas en Bali, Lombok y Malasia. Actualmente es Ejecutiva de Ventas en Mandala Eco Resort Lombok, gestionando consultas, reservas y la fricción operativa que surge cuando los sistemas no se conectan. Ha manejado operaciones de pre-apertura para nuevos hoteles, gestionado reservas OTA en múltiples propiedades y registrado huéspedes en resorts de lujo. Tami revisa flujos de trabajo del recorrido del huésped desde la consulta hasta el check-out, prueba procesos de reserva e identifica puntos de fricción que cuestan conversiones a los operadores de villas. Tami tiene una Licenciatura en Gestión Turística de Sahid Tourism High School Surakarta y está cursando una Maestría en Turismo Aplicado en el Politécnico de Turismo de Bali.",
+      "tags": [
+        "Experiencia del Huésped",
+        "Operaciones OTA y Reservas",
+        "Ventas de Villas y Resorts",
+        "Mercado Bali/Lombok"
+      ]
     },
     "m4": {
       "name": "Tobias Kaiuth",
       "title": "[NEEDS_TRANSLATION] Meta Traffic & Conversion Architect",
       "bio": "[NEEDS_TRANSLATION] With a proven track record creating and producing 7-figure Meta Ads campaigns for both his clients and his own brands, Tobias Kaiuth is a performance marketing strategist known for turning ad spend into predictable, scalable profit. Drawing on years of experience managing multi-million-dollar campaigns, optimizing funnels, and building high-ROI creative systems, he blends sharp data analysis with messaging that converts browsers into buyers. Now, Tobias is bringing that expertise to Indonesia, partnering with villa owners and hospitality managers to build direct-booking machines on Meta, so they can attract qualified guests, grow repeat stays, and stop relying solely on OTAs to fill their calendars.",
-      "tags": ["[NEEDS_TRANSLATION] Meta Ads", "[NEEDS_TRANSLATION] Performance Marketing", "[NEEDS_TRANSLATION] Direct Booking", "[NEEDS_TRANSLATION] Villa & Hospitality", "[NEEDS_TRANSLATION] Conversion Optimization"]
+      "tags": [
+        "[NEEDS_TRANSLATION] Meta Ads",
+        "[NEEDS_TRANSLATION] Performance Marketing",
+        "[NEEDS_TRANSLATION] Direct Booking",
+        "[NEEDS_TRANSLATION] Villa & Hospitality",
+        "[NEEDS_TRANSLATION] Conversion Optimization"
+      ]
     },
     "ctaHeading": "Trabaja con el equipo.",
     "ctaButton": "Reservar una Llamada de Estrategia Gratis"
@@ -672,67 +714,67 @@
     "subheadline": "Resultados reales de emprendedores, propietarios de villas y constructores de negocios.",
     "filters": {
       "all": "Todos",
-      "villa": "Tr\u00e1fico de Reservas de Villas",
+      "villa": "Tráfico de Reservas de Villas",
       "superpower": "Programa Superpoder",
       "websites": "Sitios Web y PWAs",
-      "funding": "Financiamiento y Estructuraci\u00f3n",
+      "funding": "Financiamiento y Estructuración",
       "strategy": "Estrategia Empresarial"
     },
     "placeholders": {
       "p1": {
         "name": "Nombre del Cliente",
         "business": "Propietario de Villa, Bali",
-        "quote": "La cita del testimonio aparecer\u00e1 aqu\u00ed.",
+        "quote": "La cita del testimonio aparecerá aquí.",
         "result": "Resultado: Pendiente",
         "pillar": "villa"
       },
       "p2": {
         "name": "Nombre del Cliente",
         "business": "Propietario de Villa, Lombok",
-        "quote": "La cita del testimonio aparecer\u00e1 aqu\u00ed.",
+        "quote": "La cita del testimonio aparecerá aquí.",
         "result": "Resultado: Pendiente",
         "pillar": "villa"
       },
       "p3": {
         "name": "Nombre del Cliente",
-        "business": "Negocio en L\u00ednea, EE.UU.",
-        "quote": "La cita del testimonio aparecer\u00e1 aqu\u00ed.",
+        "business": "Negocio en Línea, EE.UU.",
+        "quote": "La cita del testimonio aparecerá aquí.",
         "result": "Resultado: Pendiente",
         "pillar": "superpower"
       },
       "p4": {
         "name": "Nombre del Cliente",
         "business": "Emprendedor, SE Asia",
-        "quote": "La cita del testimonio aparecer\u00e1 aqu\u00ed.",
+        "quote": "La cita del testimonio aparecerá aquí.",
         "result": "Resultado: Pendiente",
         "pillar": "superpower"
       },
       "p5": {
         "name": "Nombre del Cliente",
         "business": "Marca de Bienestar, Bali",
-        "quote": "La cita del testimonio aparecer\u00e1 aqu\u00ed.",
+        "quote": "La cita del testimonio aparecerá aquí.",
         "result": "Resultado: Pendiente",
         "pillar": "websites"
       },
       "p6": {
         "name": "Nombre del Cliente",
-        "business": "E-commerce, Am\u00e9rica del Norte",
-        "quote": "La cita del testimonio aparecer\u00e1 aqu\u00ed.",
+        "business": "E-commerce, América del Norte",
+        "quote": "La cita del testimonio aparecerá aquí.",
         "result": "Resultado: Pendiente",
         "pillar": "websites"
       }
     },
-    "disclaimer": "Los testimonios reflejan experiencias individuales y no son una garant\u00eda de resultados futuros. Los resultados var\u00edan seg\u00fan el esfuerzo individual, la experiencia y las condiciones del mercado.",
-    "ctaHeading": "\u00bfListo para crear tu propio resultado?",
+    "disclaimer": "Los testimonios reflejan experiencias individuales y no son una garantía de resultados futuros. Los resultados varían según el esfuerzo individual, la experiencia y las condiciones del mercado.",
+    "ctaHeading": "¿Listo para crear tu propio resultado?",
     "ctaButton": "Reservar una Llamada de Estrategia Gratis"
   },
   "quizPage": {
     "meta": {
-      "title": "Cuestionario de Preparaci\u00f3n Empresarial - T.C. Chambers",
-      "description": "Descubre exactamente d\u00f3nde est\u00e1 tu negocio y qu\u00e9 hacer despu\u00e9s. Toma 60 segundos."
+      "title": "Cuestionario de Preparación Empresarial - T.C. Chambers",
+      "description": "Descubre exactamente dónde está tu negocio y qué hacer después. Toma 60 segundos."
     },
-    "headline": "\u00bfD\u00f3nde Est\u00e1 Tu Negocio Ahora Mismo?",
-    "subheadline": "Toma el Cuestionario de Preparaci\u00f3n Empresarial de 60 segundos y descubre exactamente qu\u00e9 hacer despu\u00e9s."
+    "headline": "¿Dónde Está Tu Negocio Ahora Mismo?",
+    "subheadline": "Toma el Cuestionario de Preparación Empresarial de 60 segundos y descubre exactamente qué hacer después."
   },
   "resourcesPage": {
     "meta": {
@@ -741,55 +783,55 @@
     },
     "headline": "Recursos Gratuitos para Iniciar, Financiar y Construir",
     "waitlist": {
-      "heading": "\u00danete a la Lista de Espera del Programa Superpoder",
-      "body": "La fecha de la pr\u00f3xima cohorte se est\u00e1 confirmando. Agrega tu nombre a la lista de espera y ser\u00e1s el primero en saber, con acceso prioritario para reservar tu lugar.",
+      "heading": "Únete a la Lista de Espera del Programa Superpoder",
+      "body": "La fecha de la próxima cohorte se está confirmando. Agrega tu nombre a la lista de espera y serás el primero en saber, con acceso prioritario para reservar tu lugar.",
       "firstNameLabel": "Nombre",
       "firstNamePlaceholder": "Tu nombre",
-      "emailLabel": "Correo Electr\u00f3nico",
+      "emailLabel": "Correo Electrónico",
       "emailPlaceholder": "tu@ejemplo.com",
-      "button": "\u00danete a la Lista de Espera",
+      "button": "Únete a la Lista de Espera",
       "sending": "Enviando...",
-      "success": "Est\u00e1s en la lista. Nos pondremos en contacto.",
-      "error": "Algo sali\u00f3 mal. Por favor intenta de nuevo.",
-      "disclaimer": "El Programa Superpoder es un programa educativo. La participaci\u00f3n no garantiza ning\u00fan resultado empresarial espec\u00edfico, nivel de ingresos o ingreso personal. Los resultados dependen del esfuerzo individual, condiciones del mercado y otros factores fuera de nuestro control."
+      "success": "Estás en la lista. Nos pondremos en contacto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "disclaimer": "El Programa Superpoder es un programa educativo. La participación no garantiza ningún resultado empresarial específico, nivel de ingresos o ingreso personal. Los resultados dependen del esfuerzo individual, condiciones del mercado y otros factores fuera de nuestro control."
     }
   },
   "faqPage": {
     "meta": {
       "title": "Preguntas Frecuentes - T.C. Chambers",
-      "description": "Respuestas a preguntas comunes sobre tr\u00e1fico de reservas de villas, el Programa Superpoder, sitios web y PWAs, financiamiento y trabajar con T.C."
+      "description": "Respuestas a preguntas comunes sobre tráfico de reservas de villas, el Programa Superpoder, sitios web y PWAs, financiamiento y trabajar con T.C."
     },
     "headline": "Preguntas Frecuentes",
-    "ctaHeading": "\u00bfA\u00fan tienes preguntas?",
+    "ctaHeading": "¿Aún tienes preguntas?",
     "ctaButton": "Reservar una Llamada de Estrategia Gratis"
   },
   "privacyPolicy": {
     "meta": {
-      "title": "Pol\u00edtica de Privacidad - T.C. Chambers",
-      "description": "C\u00f3mo recopilamos, usamos y protegemos tus datos."
+      "title": "Política de Privacidad - T.C. Chambers",
+      "description": "Cómo recopilamos, usamos y protegemos tus datos."
     },
-    "heading": "Pol\u00edtica de Privacidad",
-    "lastUpdated": "\u00daltima actualizaci\u00f3n: Marzo 2026",
+    "heading": "Política de Privacidad",
+    "lastUpdated": "Última actualización: Marzo 2026",
     "sections": {
       "dataCollect": {
         "heading": "Datos que Recopilamos",
-        "body": "Recopilamos tu nombre y direcci\u00f3n de correo electr\u00f3nico cuando env\u00edas un formulario en este sitio web. Esto incluye el formulario de correo del pie de p\u00e1gina, el formulario de descarga del lead magnet, el formulario de captura de correo del cuestionario, el formulario de captura de correo del chatbot y el formulario de lista de espera del Programa Superpoder."
+        "body": "Recopilamos tu nombre y dirección de correo electrónico cuando envías un formulario en este sitio web. Esto incluye el formulario de correo del pie de página, el formulario de descarga del lead magnet, el formulario de captura de correo del cuestionario, el formulario de captura de correo del chatbot y el formulario de lista de espera del Programa Superpoder."
       },
       "howWeUse": {
-        "heading": "C\u00f3mo Lo Usamos",
-        "body": "Usamos la informaci\u00f3n que proporcionas para enviarte el contenido que solicitaste (como el Plan de Financiamiento Empresarial) y para enviar notificaciones internas a T.C. Chambers para que pueda hacer seguimiento contigo si es apropiado."
+        "heading": "Cómo Lo Usamos",
+        "body": "Usamos la información que proporcionas para enviarte el contenido que solicitaste (como el Plan de Financiamiento Empresarial) y para enviar notificaciones internas a T.C. Chambers para que pueda hacer seguimiento contigo si es apropiado."
       },
       "thirdParty": {
         "heading": "Herramientas de Terceros",
-        "body": "Usamos los siguientes servicios de terceros para operar este sitio web: Resend para la entrega de correos, Calendly para programaci\u00f3n, PostHog para an\u00e1lisis de producto y Google Analytics (GA4) para an\u00e1lisis web. Cada uno de estos servicios tiene su propia pol\u00edtica de privacidad."
+        "body": "Usamos los siguientes servicios de terceros para operar este sitio web: Resend para la entrega de correos, Calendly para programación, PostHog para análisis de producto y Google Analytics (GA4) para análisis web. Cada uno de estos servicios tiene su propia política de privacidad."
       },
       "yourRights": {
         "heading": "Tus Derechos",
-        "body": "Puedes solicitar la eliminaci\u00f3n de tus datos en cualquier momento enviando un correo a tc@veteranbizcoach.com. Procesaremos tu solicitud dentro de 30 d\u00edas."
+        "body": "Puedes solicitar la eliminación de tus datos en cualquier momento enviando un correo a tc@veteranbizcoach.com. Procesaremos tu solicitud dentro de 30 días."
       },
       "dataSecurity": {
         "heading": "Seguridad de Datos",
-        "body": "No vendemos tus datos a terceros. Tomamos medidas razonables para proteger la informaci\u00f3n que proporcionas. Sin embargo, ning\u00fan m\u00e9todo de transmisi\u00f3n por internet es 100% seguro."
+        "body": "No vendemos tus datos a terceros. Tomamos medidas razonables para proteger la información que proporcionas. Sin embargo, ningún método de transmisión por internet es 100% seguro."
       }
     }
   },
@@ -801,64 +843,405 @@
     "heading": "Descargo de Responsabilidad",
     "general": {
       "heading": "Descargo General del Sitio",
-      "body": "La informaci\u00f3n en este sitio web es solo para fines educativos e informativos. Nada aqu\u00ed constituye asesoramiento financiero, legal o de inversi\u00f3n."
+      "body": "La información en este sitio web es solo para fines educativos e informativos. Nada aquí constituye asesoramiento financiero, legal o de inversión."
     },
     "funding": {
       "heading": "Descargo sobre Plazos de Financiamiento",
-      "body": "Los plazos de financiamiento mencionados se basan en la experiencia personal de T.C. Chambers y resultados selectos de clientes. Los resultados individuales variar\u00e1n seg\u00fan el perfil crediticio, tipo de negocio, monto de financiamiento y criterios del prestamista. Nada aqu\u00ed constituye una garant\u00eda de aprobaci\u00f3n de financiamiento, un plazo espec\u00edfico o un monto espec\u00edfico. Este contenido es solo para fines educativos."
+      "body": "Los plazos de financiamiento mencionados se basan en la experiencia personal de T.C. Chambers y resultados selectos de clientes. Los resultados individuales variarán según el perfil crediticio, tipo de negocio, monto de financiamiento y criterios del prestamista. Nada aquí constituye una garantía de aprobación de financiamiento, un plazo específico o un monto específico. Este contenido es solo para fines educativos."
     },
     "program": {
       "heading": "Descargo sobre Resultados del Programa",
-      "body": "El Programa Superpoder es un programa educativo. La participaci\u00f3n no garantiza ning\u00fan resultado empresarial espec\u00edfico, nivel de ingresos o ingreso personal. Los resultados dependen del esfuerzo individual, condiciones del mercado y otros factores fuera de nuestro control."
+      "body": "El Programa Superpoder es un programa educativo. La participación no garantiza ningún resultado empresarial específico, nivel de ingresos o ingreso personal. Los resultados dependen del esfuerzo individual, condiciones del mercado y otros factores fuera de nuestro control."
     },
     "testimonial": {
       "heading": "Descargo sobre Testimonios",
-      "body": "Los testimonios reflejan experiencias individuales y no son una garant\u00eda de resultados futuros. Los resultados var\u00edan seg\u00fan el esfuerzo individual, la experiencia y las condiciones del mercado."
+      "body": "Los testimonios reflejan experiencias individuales y no son una garantía de resultados futuros. Los resultados varían según el esfuerzo individual, la experiencia y las condiciones del mercado."
     },
     "villa": {
       "heading": "Descargo sobre Villas/Regulaciones",
-      "body": "La informaci\u00f3n regulatoria se proporciona para conocimiento general basado en desarrollos reportados p\u00fablicamente. Las regulaciones pueden cambiar. Consulta a un asesor legal local para orientaci\u00f3n espec\u00edfica a tu propiedad."
+      "body": "La información regulatoria se proporciona para conocimiento general basado en desarrollos reportados públicamente. Las regulaciones pueden cambiar. Consulta a un asesor legal local para orientación específica a tu propiedad."
     }
   },
   "termsPage": {
     "meta": {
-      "title": "T\u00e9rminos de Uso - T.C. Chambers",
-      "description": "T\u00e9rminos de uso para veteranbizcoach.com."
+      "title": "Términos de Uso - T.C. Chambers",
+      "description": "Términos de uso para veteranbizcoach.com."
     },
-    "heading": "T\u00e9rminos de Uso",
+    "heading": "Términos de Uso",
     "sections": {
       "acceptableUse": {
         "heading": "Uso Aceptable",
-        "body": "Al acceder y usar este sitio web, aceptas usarlo solo para fines legales. No puedes usar este sitio para distribuir contenido da\u00f1ino, intentar obtener acceso no autorizado a ning\u00fan sistema, o participar en cualquier actividad que interrumpa la operaci\u00f3n del sitio."
+        "body": "Al acceder y usar este sitio web, aceptas usarlo solo para fines legales. No puedes usar este sitio para distribuir contenido dañino, intentar obtener acceso no autorizado a ningún sistema, o participar en cualquier actividad que interrumpa la operación del sitio."
       },
       "noGuarantee": {
-        "heading": "Sin Garant\u00eda de Resultados",
-        "body": "Todo el contenido de este sitio web, incluyendo pero no limitado al Programa Superpoder, estrategias de financiamiento y servicios de coaching empresarial, es solo para fines educativos e informativos. No garantizamos ning\u00fan resultado empresarial espec\u00edfico, nivel de ingresos, aprobaci\u00f3n de financiamiento o ingreso personal."
+        "heading": "Sin Garantía de Resultados",
+        "body": "Todo el contenido de este sitio web, incluyendo pero no limitado al Programa Superpoder, estrategias de financiamiento y servicios de coaching empresarial, es solo para fines educativos e informativos. No garantizamos ningún resultado empresarial específico, nivel de ingresos, aprobación de financiamiento o ingreso personal."
       },
       "educational": {
-        "heading": "Prop\u00f3sito Educativo",
-        "body": "Todo el contenido publicado en este sitio est\u00e1 destinado a fines educativos. No es asesoramiento financiero, legal o de inversi\u00f3n. Debes consultar a un profesional calificado antes de tomar decisiones basadas en la informaci\u00f3n proporcionada aqu\u00ed."
+        "heading": "Propósito Educativo",
+        "body": "Todo el contenido publicado en este sitio está destinado a fines educativos. No es asesoramiento financiero, legal o de inversión. Debes consultar a un profesional calificado antes de tomar decisiones basadas en la información proporcionada aquí."
       },
       "ip": {
         "heading": "Propiedad Intelectual",
-        "body": "Todo el contenido de este sitio web, incluyendo texto, gr\u00e1ficos, logotipos e im\u00e1genes, es propiedad de T.C. Chambers y est\u00e1 protegido por las leyes de propiedad intelectual aplicables. No puedes reproducir, distribuir ni crear obras derivadas de este contenido sin permiso escrito."
+        "body": "Todo el contenido de este sitio web, incluyendo texto, gráficos, logotipos e imágenes, es propiedad de T.C. Chambers y está protegido por las leyes de propiedad intelectual aplicables. No puedes reproducir, distribuir ni crear obras derivadas de este contenido sin permiso escrito."
       },
       "governingLaw": {
         "heading": "Ley Aplicable",
-        "body": "[Jurisdicci\u00f3n por confirmar]. Cualquier disputa que surja de o est\u00e9 relacionada con el uso de este sitio web estar\u00e1 sujeta a las leyes de la jurisdicci\u00f3n aplicable."
+        "body": "[Jurisdicción por confirmar]. Cualquier disputa que surja de o esté relacionada con el uso de este sitio web estará sujeta a las leyes de la jurisdicción aplicable."
       },
       "contact": {
         "heading": "Contacto",
-        "body": "Para preguntas sobre estos t\u00e9rminos, contacta a tc@veteranbizcoach.com."
+        "body": "Para preguntas sobre estos términos, contacta a tc@veteranbizcoach.com."
       }
     }
   },
   "notFound": {
-    "headline": "Esta p\u00e1gina no existe. Pero tu negocio puede.",
-    "subtext": "Aqu\u00ed est\u00e1 a d\u00f3nde ir desde aqu\u00ed.",
+    "headline": "Esta página no existe. Pero tu negocio puede.",
+    "subtext": "Aquí está a dónde ir desde aquí.",
     "bookCall": "Reservar una Llamada de Estrategia",
     "takeQuiz": "Tomar el Cuestionario",
     "goHome": "Ir al Inicio",
     "backButton": "Volver al Inicio"
+  },
+  "villaPage": {
+    "meta": {
+      "title": "[NEEDS_TRANSLATION] Villa Booking Traffic - T.C. Chambers",
+      "description": "[NEEDS_TRANSLATION] Indonesia's new regulations are cutting villa owners off from Airbnb and Booking.com. Build your direct booking channel."
+    },
+    "headline": "[NEEDS_TRANSLATION] Indonesia's New Regulations Are Cutting Villa Owners Off From Airbnb and Booking.com. Here's Your Alternative.",
+    "subheadline": "[NEEDS_TRANSLATION] Build a direct booking channel that puts you in control of your revenue, your guests, and your brand.",
+    "ctaHeading": "[NEEDS_TRANSLATION] Ready to protect your villa's bookings?",
+    "ctaButton": "[NEEDS_TRANSLATION] Book a Free Strategy Call"
+  },
+  "superpowerPage": {
+    "meta": {
+      "title": "[NEEDS_TRANSLATION] The Superpower Program - T.C. Chambers",
+      "description": "[NEEDS_TRANSLATION] 8 weeks. 6 deliverables. One live, running business."
+    },
+    "headline": "[NEEDS_TRANSLATION] 8 Weeks. 6 Deliverables. One Live, Running Business.",
+    "subheadline": "[NEEDS_TRANSLATION] Identify your strongest marketable skill, package it into a real business, and get it live.",
+    "ctaHeading": "[NEEDS_TRANSLATION] Ready to build your business?",
+    "ctaButton": "[NEEDS_TRANSLATION] Join the Waitlist"
+  },
+  "websitesPage": {
+    "meta": {
+      "title": "[NEEDS_TRANSLATION] AI-Powered Websites & PWAs - T.C. Chambers",
+      "description": "[NEEDS_TRANSLATION] Websites and Progressive Web Apps built to convert."
+    },
+    "headline": "[NEEDS_TRANSLATION] AI-Powered Websites and PWAs Built to Convert",
+    "subheadline": "[NEEDS_TRANSLATION] Fast, mobile-first platforms designed for hospitality, wellness, and service businesses across Southeast Asia and North America.",
+    "ctaHeading": "[NEEDS_TRANSLATION] Ready to build your digital presence?",
+    "ctaButton": "[NEEDS_TRANSLATION] Book a Discovery Call"
+  },
+  "fundingPage": {
+    "meta": {
+      "title": "[NEEDS_TRANSLATION] Business Funding & Structuring - T.C. Chambers",
+      "description": "[NEEDS_TRANSLATION] Access business capital in 14 to 30 days."
+    },
+    "headline": "[NEEDS_TRANSLATION] Access Business Capital in 14 to 30 Days",
+    "subheadline": "[NEEDS_TRANSLATION] Proper entity structuring, credit optimization, and funding strategies built from 30 years of real-world experience.",
+    "ctaHeading": "[NEEDS_TRANSLATION] Ready to get funded?",
+    "ctaButton": "[NEEDS_TRANSLATION] Book a Funding Strategy Call"
+  },
+  "villaQuiz": {
+    "meta": {
+      "title": "[NEEDS_TRANSLATION] Villa OTA Readiness Quiz - T.C. Chambers",
+      "description": "[NEEDS_TRANSLATION] Is your villa ready to survive Indonesia's OTA shift? Take the 2-minute assessment."
+    },
+    "hero": {
+      "headline": "[NEEDS_TRANSLATION] Is Your Villa Ready to Survive Indonesia's OTA Shift?",
+      "subheadline": "[NEEDS_TRANSLATION] Answer 6 quick questions and find out exactly where your villa stands and what to do next."
+    },
+    "q1": {
+      "text": "[NEEDS_TRANSLATION] What percentage of your current bookings come through Airbnb or Booking.com?",
+      "placeholder": "[NEEDS_TRANSLATION] e.g. 80%"
+    },
+    "q2": {
+      "text": "[NEEDS_TRANSLATION] Have you received any notices or warnings from OTA platforms in the last 6 months?",
+      "o1": "[NEEDS_TRANSLATION] Yes, I received a formal notice",
+      "o2": "[NEEDS_TRANSLATION] Yes, an informal warning",
+      "o3": "[NEEDS_TRANSLATION] No, but I have heard about the changes",
+      "o4": "[NEEDS_TRANSLATION] No idea - this is new to me"
+    },
+    "q3": {
+      "text": "[NEEDS_TRANSLATION] How many bookings per month does your villa currently average?",
+      "placeholder": "[NEEDS_TRANSLATION] e.g. 12 bookings"
+    },
+    "q4": {
+      "text": "[NEEDS_TRANSLATION] Do you have any direct booking channel outside of OTAs right now?",
+      "o1": "[NEEDS_TRANSLATION] Yes, a strong one",
+      "o2": "[NEEDS_TRANSLATION] Yes, but a weak one",
+      "o3": "[NEEDS_TRANSLATION] No, but I am working on it",
+      "o4": "[NEEDS_TRANSLATION] No, I am entirely OTA dependent"
+    },
+    "q5": {
+      "text": "[NEEDS_TRANSLATION] What is your biggest concern about the regulation changes?",
+      "o1": "[NEEDS_TRANSLATION] Losing all OTA platform access",
+      "o2": "[NEEDS_TRANSLATION] Revenue dropping significantly",
+      "o3": "[NEEDS_TRANSLATION] Not knowing what to do about it",
+      "o4": "[NEEDS_TRANSLATION] Finding it hard to believe it is real"
+    },
+    "q6": {
+      "text": "[NEEDS_TRANSLATION] What is your villa called and where is it located?",
+      "placeholder": "[NEEDS_TRANSLATION] e.g. Villa Serenity, Ubud, Bali"
+    },
+    "results": {
+      "critical": {
+        "headline": "[NEEDS_TRANSLATION] CRITICAL RISK: Your Villa Needs a Direct Booking System Now",
+        "body": "[NEEDS_TRANSLATION] Based on your answers, your villa is highly exposed to the OTA regulation changes with no alternative traffic source in place. The good news: this is fixable. Here is your first step."
+      },
+      "moderate": {
+        "headline": "[NEEDS_TRANSLATION] MODERATE RISK: You Have a Start. Here Is How to Build on It.",
+        "body": "[NEEDS_TRANSLATION] You have some awareness and partial action. The gap is in execution. Here is what to do next."
+      },
+      "low": {
+        "headline": "[NEEDS_TRANSLATION] LOW RISK: You Are Ahead of Most. Here Is How to Stay There.",
+        "body": "[NEEDS_TRANSLATION] You have a direct channel. Now it is time to optimize it and make it your primary booking source."
+      },
+      "general": {
+        "headline": "[NEEDS_TRANSLATION] Your Villa Has Options. Here Is Where to Start.",
+        "body": "[NEEDS_TRANSLATION] The OTA landscape is changing. Here is a clear plan to protect your bookings."
+      }
+    },
+    "magnet": {
+      "name": "[NEEDS_TRANSLATION] The Bali Villa Owner's Direct Booking Survival Guide",
+      "description": "[NEEDS_TRANSLATION] A 12-page guide covering exactly what the regulations mean, what Meta Traffic is, and your 30-day action plan.",
+      "buttonLabel": "[NEEDS_TRANSLATION] Send Me the Survival Guide",
+      "successHeadline": "[NEEDS_TRANSLATION] Your Direct Booking Survival Guide is on its way.",
+      "bookingCtaLabel": "[NEEDS_TRANSLATION] Book a Villa Traffic Strategy Call"
+    },
+    "disclaimer": "[NEEDS_TRANSLATION] Regulatory information is provided for general awareness based on publicly reported developments. Regulations may change. Consult a local legal advisor for guidance specific to your property."
+  },
+  "superpowerQuiz": {
+    "meta": {
+      "title": "[NEEDS_TRANSLATION] Superpower Discovery Quiz - T.C. Chambers",
+      "description": "[NEEDS_TRANSLATION] What is your #1 marketable skill? Take the quiz and find out what business you should be building."
+    },
+    "hero": {
+      "headline": "[NEEDS_TRANSLATION] What Is Your Business Superpower?",
+      "subheadline": "[NEEDS_TRANSLATION] Answer 6 questions and find out what you should be building and why you are not making money from it yet."
+    },
+    "q1": {
+      "text": "[NEEDS_TRANSLATION] What do people most often ask you for help with? Even informally, what do friends, colleagues, or strangers come to you about?",
+      "placeholder": "[NEEDS_TRANSLATION] Be specific. The more honest, the better your result."
+    },
+    "q2": {
+      "text": "[NEEDS_TRANSLATION] When you help someone with this skill, how do they typically react?",
+      "o1": "[NEEDS_TRANSLATION] They tell others about it",
+      "o2": "[NEEDS_TRANSLATION] They ask me to do it again",
+      "o3": "[NEEDS_TRANSLATION] They offer to pay me",
+      "o4": "[NEEDS_TRANSLATION] They seem underwhelmed",
+      "o5": "[NEEDS_TRANSLATION] I am not sure"
+    },
+    "q3": {
+      "text": "[NEEDS_TRANSLATION] What has stopped you from turning this into a business so far?",
+      "o1": "[NEEDS_TRANSLATION] I do not know where to start",
+      "o2": "[NEEDS_TRANSLATION] I do not think people will pay for it",
+      "o3": "[NEEDS_TRANSLATION] I have tried but got stuck",
+      "o4": "[NEEDS_TRANSLATION] Life got in the way",
+      "o5": "[NEEDS_TRANSLATION] I did not know it was possible"
+    },
+    "q4": {
+      "text": "[NEEDS_TRANSLATION] If you could help one specific type of person with this skill, who would that be? Describe them.",
+      "placeholder": "[NEEDS_TRANSLATION] e.g. Busy parents who want to start a side business but do not know where to begin."
+    },
+    "q5": {
+      "text": "[NEEDS_TRANSLATION] What stage is your business in right now?",
+      "o1": "[NEEDS_TRANSLATION] Still an idea",
+      "o2": "[NEEDS_TRANSLATION] Just started, no revenue yet",
+      "o3": "[NEEDS_TRANSLATION] Making some money but inconsistent",
+      "o4": "[NEEDS_TRANSLATION] Established but want to scale"
+    },
+    "q6": {
+      "text": "[NEEDS_TRANSLATION] What would change in your life if this business was generating real income in 90 days?",
+      "placeholder": "[NEEDS_TRANSLATION] Be honest. This is for you."
+    },
+    "results": {
+      "system_needed": {
+        "headline": "[NEEDS_TRANSLATION] YOUR SUPERPOWER IS REAL. YOU JUST NEED THE SYSTEM.",
+        "body": "[NEEDS_TRANSLATION] People already recognize your value. The gap is not talent. It is structure. Here is the workbook that helps you name it and package it."
+      },
+      "discovery_needed": {
+        "headline": "[NEEDS_TRANSLATION] YOUR SUPERPOWER EXISTS. WE NEED TO FIND IT FIRST.",
+        "body": "[NEEDS_TRANSLATION] You have more than you think. The workbook below will prove it in 60 minutes."
+      },
+      "underutilized": {
+        "headline": "[NEEDS_TRANSLATION] YOUR SUPERPOWER IS BEING UNDERUTILIZED.",
+        "body": "[NEEDS_TRANSLATION] You have started. Now you need a system to scale it. Here is where to begin."
+      },
+      "general": {
+        "headline": "[NEEDS_TRANSLATION] YOU KNOW MORE THAN YOU THINK. LET'S PROVE IT.",
+        "body": "[NEEDS_TRANSLATION] The workbook below will help you find, name, and package your superpower in 60 minutes."
+      }
+    },
+    "magnet": {
+      "name": "[NEEDS_TRANSLATION] The Superpower Discovery Workbook",
+      "description": "[NEEDS_TRANSLATION] 5 exercises to identify and name your #1 marketable skill in 60 minutes. 16 pages. Free.",
+      "buttonLabel": "[NEEDS_TRANSLATION] Send Me the Workbook",
+      "successHeadline": "[NEEDS_TRANSLATION] Your Superpower Discovery Workbook is on its way.",
+      "bookingCtaLabel": "[NEEDS_TRANSLATION] Join the Superpower Waitlist"
+    },
+    "disclaimer": "[NEEDS_TRANSLATION] This workbook is for educational purposes only. Results vary based on individual effort and circumstances. Participation in the Superpower Program does not guarantee any specific business outcome or income level."
+  },
+  "websiteQuiz": {
+    "meta": {
+      "title": "[NEEDS_TRANSLATION] Website Diagnostic Quiz - T.C. Chambers",
+      "description": "[NEEDS_TRANSLATION] Is your website costing you clients? Take the 60-second digital presence diagnostic."
+    },
+    "hero": {
+      "headline": "[NEEDS_TRANSLATION] Is Your Website Costing You Clients?",
+      "subheadline": "[NEEDS_TRANSLATION] Take the 60-second Digital Presence Diagnostic and find out exactly what to fix first."
+    },
+    "q1": {
+      "text": "[NEEDS_TRANSLATION] Do you currently have a website?",
+      "o1": "[NEEDS_TRANSLATION] Yes, it converts well",
+      "o2": "[NEEDS_TRANSLATION] Yes, but it underperforms",
+      "o3": "[NEEDS_TRANSLATION] I have a social media page only",
+      "o4": "[NEEDS_TRANSLATION] No website at all"
+    },
+    "q2": {
+      "text": "[NEEDS_TRANSLATION] Where does most of your client or customer traffic come from right now?",
+      "o1": "[NEEDS_TRANSLATION] Referrals and word of mouth",
+      "o2": "[NEEDS_TRANSLATION] OTA platforms (Airbnb, Booking.com, etc.)",
+      "o3": "[NEEDS_TRANSLATION] Social media",
+      "o4": "[NEEDS_TRANSLATION] My website",
+      "o5": "[NEEDS_TRANSLATION] I do not track it"
+    },
+    "q3": {
+      "text": "[NEEDS_TRANSLATION] When someone visits your website on their phone, what happens?",
+      "o1": "[NEEDS_TRANSLATION] It loads fast and looks great",
+      "o2": "[NEEDS_TRANSLATION] It loads slowly",
+      "o3": "[NEEDS_TRANSLATION] It looks weird or broken on mobile",
+      "o4": "[NEEDS_TRANSLATION] I am not sure",
+      "o5": "[NEEDS_TRANSLATION] I do not have a website"
+    },
+    "q4": {
+      "text": "[NEEDS_TRANSLATION] What is the single most important action you want a visitor to take on your website?",
+      "placeholder": "[NEEDS_TRANSLATION] e.g. Book a call, make a purchase, submit an inquiry"
+    },
+    "q5": {
+      "text": "[NEEDS_TRANSLATION] Can your website be installed on a phone like an app and work without internet?",
+      "o1": "[NEEDS_TRANSLATION] Yes it can",
+      "o2": "[NEEDS_TRANSLATION] No it cannot",
+      "o3": "[NEEDS_TRANSLATION] I do not know what that means",
+      "o4": "[NEEDS_TRANSLATION] I do not have a website"
+    },
+    "q6": {
+      "text": "[NEEDS_TRANSLATION] How long since your website was last updated or redesigned?",
+      "o1": "[NEEDS_TRANSLATION] Less than 6 months",
+      "o2": "[NEEDS_TRANSLATION] 6 to 12 months",
+      "o3": "[NEEDS_TRANSLATION] 1 to 3 years",
+      "o4": "[NEEDS_TRANSLATION] More than 3 years",
+      "o5": "[NEEDS_TRANSLATION] Never had one"
+    },
+    "results": {
+      "invisible": {
+        "headline": "[NEEDS_TRANSLATION] YOU ARE INVISIBLE ONLINE. HERE IS WHAT THAT IS COSTING YOU.",
+        "body": "[NEEDS_TRANSLATION] Every day without a website is a day clients are choosing someone else. Here is your 10-point checklist to get started right."
+      },
+      "losing_clients": {
+        "headline": "[NEEDS_TRANSLATION] YOUR WEBSITE IS LOSING YOU CLIENTS.",
+        "body": "[NEEDS_TRANSLATION] A broken or slow website sends visitors to your competitors. Here is exactly what to audit and fix."
+      },
+      "not_mobile": {
+        "headline": "[NEEDS_TRANSLATION] YOUR MOBILE EXPERIENCE IS BROKEN.",
+        "body": "[NEEDS_TRANSLATION] Most of your traffic is on mobile. A site that is not installable or offline-capable is losing you bookings every day."
+      },
+      "solid_foundation": {
+        "headline": "[NEEDS_TRANSLATION] YOUR FOUNDATION IS SOLID. HERE IS HOW TO TAKE IT FURTHER.",
+        "body": "[NEEDS_TRANSLATION] You have a working site. Here is the checklist to push it from good to exceptional."
+      }
+    },
+    "magnet": {
+      "name": "[NEEDS_TRANSLATION] The 10-Point Website Audit Checklist",
+      "description": "[NEEDS_TRANSLATION] Find out exactly why your website is not converting and what to fix first. 10 pages. Free.",
+      "buttonLabel": "[NEEDS_TRANSLATION] Send Me the Checklist",
+      "successHeadline": "[NEEDS_TRANSLATION] Your Website Audit Checklist is on its way.",
+      "bookingCtaLabel": "[NEEDS_TRANSLATION] Book a Website/PWA Discovery Call"
+    },
+    "disclaimer": "[NEEDS_TRANSLATION] Audit results are self-assessed and for educational purposes only. Website performance depends on hosting, content, design, and user behavior. Results from any improvements will vary."
+  },
+  "fundingQuiz": {
+    "meta": {
+      "title": "[NEEDS_TRANSLATION] Business Funding Readiness Assessment - T.C. Chambers",
+      "description": "[NEEDS_TRANSLATION] How fundable is your business right now? Take the 3-minute assessment and find out."
+    },
+    "hero": {
+      "headline": "[NEEDS_TRANSLATION] How Fundable Is Your Business Right Now?",
+      "subheadline": "[NEEDS_TRANSLATION] Take the 3-minute Business Funding Readiness Assessment and find out exactly where you stand and what to do next."
+    },
+    "q1": {
+      "text": "[NEEDS_TRANSLATION] Does your business have a registered legal entity?",
+      "o1": "[NEEDS_TRANSLATION] Yes, fully set up and active",
+      "o2": "[NEEDS_TRANSLATION] Yes, but it is not active",
+      "o3": "[NEEDS_TRANSLATION] In progress",
+      "o4": "[NEEDS_TRANSLATION] No, I operate as a sole proprietor",
+      "o5": "[NEEDS_TRANSLATION] Not yet started"
+    },
+    "q2": {
+      "text": "[NEEDS_TRANSLATION] Does your business have a dedicated business bank account?",
+      "o1": "[NEEDS_TRANSLATION] Yes, active and in use",
+      "o2": "[NEEDS_TRANSLATION] Yes, but rarely used",
+      "o3": "[NEEDS_TRANSLATION] No, I use personal accounts",
+      "o4": "[NEEDS_TRANSLATION] Not yet"
+    },
+    "q3": {
+      "text": "[NEEDS_TRANSLATION] What is your current personal credit score range?",
+      "o1": "[NEEDS_TRANSLATION] 750 or above",
+      "o2": "[NEEDS_TRANSLATION] 700 to 749",
+      "o3": "[NEEDS_TRANSLATION] 650 to 699",
+      "o4": "[NEEDS_TRANSLATION] Below 650",
+      "o5": "[NEEDS_TRANSLATION] I do not know my score"
+    },
+    "q4": {
+      "text": "[NEEDS_TRANSLATION] Have you ever applied for business funding or a business credit card?",
+      "o1": "[NEEDS_TRANSLATION] Yes, and was approved",
+      "o2": "[NEEDS_TRANSLATION] Yes, and was declined",
+      "o3": "[NEEDS_TRANSLATION] No, but I want to",
+      "o4": "[NEEDS_TRANSLATION] No, I did not think I qualified",
+      "o5": "[NEEDS_TRANSLATION] I did not know this was possible"
+    },
+    "q5": {
+      "text": "[NEEDS_TRANSLATION] How much funding would you need to launch or grow your business to the next level, and what would you use it for?",
+      "placeholder": "[NEEDS_TRANSLATION] e.g. $25,000 to hire staff and cover first 3 months of operations."
+    },
+    "q6": {
+      "text": "[NEEDS_TRANSLATION] What is your biggest belief about business funding?",
+      "o1": "[NEEDS_TRANSLATION] It is only for established businesses",
+      "o2": "[NEEDS_TRANSLATION] You need perfect credit to qualify",
+      "o3": "[NEEDS_TRANSLATION] It is possible but I do not know how",
+      "o4": "[NEEDS_TRANSLATION] I know it is possible and want to learn more",
+      "o5": "[NEEDS_TRANSLATION] I have done it before and want to do it again"
+    },
+    "results": {
+      "foundation_missing": {
+        "headline": "[NEEDS_TRANSLATION] FOUNDATION MISSING: Structure Before Funding.",
+        "body": "[NEEDS_TRANSLATION] Without the right foundation, funding applications will fail. Here is the blueprint to build it correctly."
+      },
+      "credit_positioning": {
+        "headline": "[NEEDS_TRANSLATION] STRUCTURE EXISTS: Credit Positioning Is Your Next Move.",
+        "body": "[NEEDS_TRANSLATION] The entity is there. Now you need to build the credit profile that makes lenders say yes."
+      },
+      "declined_before": {
+        "headline": "[NEEDS_TRANSLATION] FIXABLE: Here Is Why You Were Declined and What Changes It.",
+        "body": "[NEEDS_TRANSLATION] Being declined is not permanent. It is almost always fixable with the right structure. Here is the blueprint."
+      },
+      "ready_to_apply": {
+        "headline": "[NEEDS_TRANSLATION] READY TO APPLY: You Are Closer Than You Think.",
+        "body": "[NEEDS_TRANSLATION] Your foundation is stronger than most. Here is the step-by-step blueprint to your first application."
+      },
+      "scale_ready": {
+        "headline": "[NEEDS_TRANSLATION] SCALE-READY: Advanced Funding Strategies Are Available to You.",
+        "body": "[NEEDS_TRANSLATION] You know the basics. Here is how to stack and scale capital access."
+      }
+    },
+    "magnet": {
+      "name": "[NEEDS_TRANSLATION] The Business Funding Blueprint",
+      "description": "[NEEDS_TRANSLATION] The 5-step system to access capital in 14 to 30 days. 14 pages. Free.",
+      "buttonLabel": "[NEEDS_TRANSLATION] Send Me the Blueprint",
+      "successHeadline": "[NEEDS_TRANSLATION] Your Business Funding Blueprint is on its way.",
+      "bookingCtaLabel": "[NEEDS_TRANSLATION] Book a Funding Discovery Call"
+    },
+    "disclaimer": "[NEEDS_TRANSLATION] Funding timelines referenced are based on T.C. Chambers' personal experience and select client outcomes. Individual results will vary based on credit profile, business type, funding amount, and lender criteria. Nothing here constitutes a guarantee of funding approval, a specific timeline, or a specific amount. This content is for educational purposes only."
   }
 }

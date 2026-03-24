@@ -12,6 +12,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 }
 
 export default function ResourcesPage() {
+  const pdfUrl = process.env.LEAD_MAGNET_PDF_URL || '';
+
   return (
     <Suspense fallback={
       <main className="bg-navy min-h-screen flex items-center justify-center">
@@ -21,7 +23,7 @@ export default function ResourcesPage() {
         </div>
       </main>
     }>
-      <ResourcesPageContent />
+      <ResourcesPageContent pdfUrl={pdfUrl} />
     </Suspense>
   );
 }

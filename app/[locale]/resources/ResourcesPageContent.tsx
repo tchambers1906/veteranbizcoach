@@ -7,7 +7,7 @@ import LeadMagnetSection from '@/components/sections/LeadMagnetSection';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import { track } from '@/lib/analytics';
 
-export default function ResourcesPageContent() {
+export default function ResourcesPageContent({ pdfUrl = '' }: { pdfUrl?: string }) {
   const t = useTranslations('resourcesPage');
   const locale = useLocale();
   const searchParams = useSearchParams();
@@ -147,7 +147,7 @@ export default function ResourcesPageContent() {
       )}
 
       {/* Lead Magnet section (reused from homepage) */}
-      <LeadMagnetSection />
+      <LeadMagnetSection pdfUrl={pdfUrl} />
     </>
   );
 }

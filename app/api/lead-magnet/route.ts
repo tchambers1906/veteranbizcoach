@@ -13,7 +13,7 @@ export async function POST(request: Request) {
       );
     }
 
-    let body: { firstName?: string; email?: string; magnet?: string; locale?: string };
+    let body: { firstName?: string; email?: string; phone?: string; magnet?: string; locale?: string; result_id?: string };
     try {
       body = await request.json();
     } catch {
@@ -55,8 +55,20 @@ export async function POST(request: Request) {
       );
     }
 
+    // --- Validate phone (optional) ---
+    let phone = '';
+    const rawPhone = body?.phone;
+    if (rawPhone && typeof rawPhone === 'string') {
+      // Strip all chars except digits, +, (, ), -, and spaces
+      phone = rawPhone.replace(/[^\d+() \-]/g, '').trim();
+      if (phone.length > 20) {
+        phone = phone.substring(0, 20);
+      }
+    }
+
     const magnet = stripHtml(String(body?.magnet ?? 'funding-blueprint')).trim();
     const locale = stripHtml(String(body?.locale ?? 'en')).trim();
+    const resultId = stripHtml(String(body?.result_id ?? '')).trim();
 
     // --- Resend ---
     const apiKey = process.env.RESEND_API_KEY;
@@ -99,7 +111,7 @@ export async function POST(request: Request) {
       from: 'VeteranBizCoach System <tc@veteranbizcoach.com>',
       to: ['tc@veteranbizcoach.com'],
       subject: `New lead magnet download - ${firstName} ${email}`,
-      text: `Name: ${firstName}\nEmail: ${email}\nMagnet: ${magnet}\nLocale: ${locale}\nTime: ${timestamp}`,
+      text: `Name: ${firstName}\nEmail: ${email}\nPhone/WhatsApp: ${phone || 'Not provided'}\nMagnet: ${magnet}\nResult ID: ${resultId || 'N/A'}\nLocale: ${locale}\nTime: ${timestamp}`,
     });
 
     return NextResponse.json({ success: true }, { status: 200 });

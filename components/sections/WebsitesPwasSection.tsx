@@ -26,7 +26,7 @@ export default function WebsitesPwasSection() {
     <section id="websites-pwas">
       {/* Section Header — background image */}
       <div
-        className="relative bg-cover bg-scroll min-h-[280px] md:min-h-[420px] md:bg-[center_15%] bg-[center_10%]"
+        className="relative bg-cover bg-scroll min-h-[380px] md:min-h-[560px] md:bg-[center_65%] bg-[center_70%]"
         style={{
           backgroundImage: "url('/images/websites-pwas-bg.jpg')",
         }}

@@ -216,20 +216,20 @@
   "about": {
     "eyebrow": "Sobre T.C. Chambers",
     "headline": "Construido desde Cero. Reconstruido desde Abajo.",
-    "p1": "[NEEDS_TRANSLATION] T.C. Chambers spent 8 years as a United States Army officer before transitioning into Corporate America and launching his first business. That early chapter included a bankruptcy, damaged credit, and hard lessons about money. Mentorship changed the trajectory.",
-    "p2": "[NEEDS_TRANSLATION] He rebuilt, secured funding, and turned those lessons into a repeatable framework. Then he wrote a book about it. It became an Amazon Bestseller.",
-    "p3": "[NEEDS_TRANSLATION] Today he helps entrepreneurs identify their strongest marketable skill, package it into a real business, and get it live in 8 weeks. He builds AI-powered platforms and web applications for clients across Southeast Asia and North America.",
-    "p4": "[NEEDS_TRANSLATION] In January 2023, he moved to Bali, Indonesia. He works with people who value speed and results over process.",
-    "mission": "[NEEDS_TRANSLATION] Clarity first. Action second. Results always.",
+    "p1": "T.C. Chambers pasó 8 años como oficial del Ejército de los Estados Unidos antes de hacer la transición al mundo corporativo de Estados Unidos y lanzar su primer negocio. Ese capítulo inicial incluyó una bancarrota, crédito dañado y lecciones difíciles sobre el dinero. La mentoría cambió la trayectoria.",
+    "p2": "Reconstruyó, consiguió financiamiento, y convirtió esas lecciones en un marco de trabajo repetible. Después escribió un libro al respecto. Se convirtió en un Bestseller de Amazon.",
+    "p3": "Hoy ayuda a emprendedores a identificar su habilidad comercializable más fuerte, empaquetarla en un negocio real, y ponerla en funcionamiento en 8 semanas. Construye plataformas impulsadas por IA y aplicaciones web para clientes en el Sudeste Asiático y Norteamérica.",
+    "p4": "En enero de 2023, se mudó a Bali, Indonesia. Trabaja con personas que valoran la velocidad y los resultados por encima del proceso.",
+    "mission": "Claridad primero. Acción segundo. Resultados siempre.",
     "credentials": {
       "heading": "Credenciales",
       "c1": "Oficial del Ejército de EE.UU. (8 años)",
-      "c2": "[NEEDS_TRANSLATION] 30+ Years in Business Development",
+      "c2": "30+ Años en Desarrollo de Negocios",
       "c3": "Autor Bestseller de Amazon",
-      "c4": "[NEEDS_TRANSLATION] AI-First Business Success Strategist",
-      "c5": "[NEEDS_TRANSLATION] Web & PWA Developer (SE Asia & North America)",
+      "c4": "Estratega de Éxito Empresarial con IA como Prioridad",
+      "c5": "Desarrollador Web y PWA (Sudeste Asiático y Norteamérica)",
       "c6": "COO, Alpha & Omega Legacy Group",
-      "c7": "[NEEDS_TRANSLATION] Creator, AI-Powered 8-Week Superpower Business in a Box"
+      "c7": "Creador, Negocio Superpoder de 8 Semanas Impulsado por IA en una Caja"
     },
     "readMore": "Lee la historia completa"
   },
@@ -239,12 +239,12 @@
     "m1": {
       "name": "T.C. Chambers",
       "title": "Fundador y Director Técnico",
-      "bio": "[NEEDS_TRANSLATION] T.C. spent 8 years as a U.S. Army officer before launching his first business. After navigating bankruptcy and rebuilding through mentorship, he turned those lessons into a repeatable framework. He now helps entrepreneurs identify their strongest marketable skill, package it into a real business, and get it live in 8 weeks. He builds web applications for hospitality businesses, wellness practitioners, and online retailers across Southeast Asia and North America. He operates from Bali and works with clients who value speed and results over process.",
+      "bio": "T.C. desarrolla aplicaciones web que funcionan. Ha lanzado plataformas para empresas de hospitalidad, profesionales del bienestar y minoristas en línea en el sudeste asiático y Norteamérica. Se especializa en tomar una idea y convertirla en un producto en funcionamiento en cuestión de semanas. T.C. opera desde Bali y trabaja con clientes que valoran la velocidad y los resultados.",
       "tags": [
-        "[NEEDS_TRANSLATION] Web & PWA Development",
-        "[NEEDS_TRANSLATION] AI-First Strategy",
-        "[NEEDS_TRANSLATION] Business Mentorship",
-        "[NEEDS_TRANSLATION] SE Asia & North America"
+        "Desarrollo Web y PWA",
+        "Estrategia AI-First",
+        "Mentoría de Negocios",
+        "Sudeste Asiático y Norteamérica"
       ]
     },
     "m2": {
@@ -261,7 +261,7 @@
     "m3": {
       "name": "Tami Rini",
       "title": "Experiencia del Huésped y Operaciones",
-      "bio": "[NEEDS_TRANSLATION] Tami has spent five years in front desk operations and sales across Bali, Lombok, and Malaysia. She currently serves as Sales Executive at Mandala Eco Resort Lombok. Tami reviews guest journey workflows from inquiry to checkout and identifies friction points that cost villa operators conversions.",
+      "bio": "Tami ha pasado cinco años en operaciones de recepción y ventas en Bali, Lombok y Malasia. Actualmente se desempeña como Ejecutiva de Ventas en Mandala Eco Resort Lombok. Tami revisa los flujos de trabajo del customer journey desde la consulta hasta el checkout e identifica los puntos de fricción que les cuestan conversiones a los operadores de villas.",
       "tags": [
         "Experiencia del Huésped",
         "Operaciones OTA y Reservas",
@@ -271,14 +271,14 @@
     },
     "m4": {
       "name": "Tobias Kaiuth",
-      "title": "[NEEDS_TRANSLATION] Meta Traffic & Conversion Architect",
-      "bio": "[NEEDS_TRANSLATION] With a proven track record creating 7-figure Meta Ads campaigns for his clients and his own brands, Tobias is a performance marketing strategist known for turning ad spend into predictable, scalable profit. He is now bringing that expertise to Indonesia, partnering with villa owners and hospitality managers to build direct-booking systems on Meta.",
+      "title": "Arquitecto de Tráfico Meta y Conversiones",
+      "bio": "Con un historial comprobado creando campañas de Meta Ads de 7 cifras para sus clientes y sus propias marcas, Tobias es un estratega de marketing de performance conocido por convertir la inversión publicitaria en ganancias predecibles y escalables. Ahora está llevando esa experiencia a Indonesia, asociándose con propietarios de villas y gerentes de hospitalidad para construir sistemas de reservas directas en Meta.",
       "tags": [
-        "[NEEDS_TRANSLATION] Meta Ads",
-        "[NEEDS_TRANSLATION] Performance Marketing",
-        "[NEEDS_TRANSLATION] Direct Booking",
-        "[NEEDS_TRANSLATION] Villa & Hospitality",
-        "[NEEDS_TRANSLATION] Conversion Optimization"
+        "Meta Ads",
+        "Marketing de Performance",
+        "Reservas Directas",
+        "Villas y Hospitalidad",
+        "Optimización de Conversión"
       ]
     }
   },
@@ -625,29 +625,29 @@
     "eyebrow": "Sobre T.C. Chambers",
     "headline": "Construido desde Cero. Reconstruido desde el Fondo.",
     "subheadline": "Veterano del Ejército. Autor Bestseller de Amazon. Estratega de IA. Basado en Bali.",
-    "sh1": "[NEEDS_TRANSLATION] From Service to Strategy",
-    "p1": "[NEEDS_TRANSLATION] T.C. Chambers spent 8 years as a United States Army officer before transitioning into Corporate America and launching his first business. That early chapter included a bankruptcy, damaged credit, and hard lessons about money. Mentorship changed the trajectory. He rebuilt, secured funding, and turned those lessons into a repeatable framework he now teaches others.",
-    "sh2": "[NEEDS_TRANSLATION] What He Does",
-    "p2": "[NEEDS_TRANSLATION] T.C. is an AI-First Business Success Strategist who helps people identify their strongest marketable skill, package it into a real business, and get it live in 8 weeks. His approach is direct: figure out what your market needs, build only that, ship fast. He also builds web applications for hospitality businesses, wellness practitioners, and online retailers across Southeast Asia and North America.",
-    "sh3": "[NEEDS_TRANSLATION] The Pattern He Noticed",
-    "p3": "[NEEDS_TRANSLATION] After years of client work, T.C. kept seeing the same problem. Freedom Seekers had knowledge, experience, and expertise but no structured path to turn it into income. They wasted time on wrong priorities, built features nobody needed, and stalled because they lacked clarity. The problem was never talent. It was always direction.",
-    "sh4": "[NEEDS_TRANSLATION] Where He Operates",
-    "p4": "[NEEDS_TRANSLATION] T.C. lives in Bali, Indonesia, where he runs his coaching business, builds web platforms for clients worldwide, and renovates property acquired using creative funding strategies. He works with people who value speed and results over process.",
-    "sh5": "[NEEDS_TRANSLATION] His Approach",
-    "p5": "[NEEDS_TRANSLATION] T.C. treats every engagement the same way: identify the real problem, strip away what does not matter, and build something that works. Whether he is mentoring first-time entrepreneurs or shipping a web application for a hospitality brand in Bali, the principle holds. Clarity first. Action second. Results always.",
-    "mission": "[NEEDS_TRANSLATION] Clarity first. Action second. Results always.",
+    "sh1": "De Servicio a Estrategia",
+    "p1": "T.C. Chambers pasó 8 años como oficial del Ejército de los Estados Unidos antes de hacer la transición al mundo corporativo estadounidense y lanzar su primer negocio. Ese capítulo inicial incluyó una bancarrota, crédito dañado y lecciones difíciles sobre el dinero. La mentoría cambió la trayectoria. Se reconstruyó, aseguró financiamiento y convirtió esas lecciones en un marco repetible que ahora enseña a otros.",
+    "sh2": "Lo Que Hace",
+    "p2": "T.C. es un Estratega de Éxito Empresarial con IA que ayuda a las personas a identificar su habilidad comercializable más fuerte, empaquetarla en un negocio real y ponerla en marcha en 8 semanas. Su enfoque es directo: descubrir qué necesita tu mercado, construir solo eso, lanzar rápido. También construye aplicaciones web para empresas de hospitalidad, profesionales del bienestar y minoristas en línea en el Sudeste Asiático y América del Norte.",
+    "sh3": "El Patrón Que Notó",
+    "p3": "Después de años trabajando con clientes, T.C. siguió viendo el mismo problema. Los Freedom Seekers tenían conocimiento, experiencia y expertise pero ningún camino estructurado para convertirlo en ingresos. Perdían tiempo en prioridades equivocadas, construían funciones que nadie necesitaba, y se estancaban porque les faltaba claridad. El problema nunca fue el talento. Siempre fue la dirección.",
+    "sh4": "Dónde Opera",
+    "p4": "T.C. vive en Bali, Indonesia, donde dirige su negocio de coaching, construye plataformas web para clientes de todo el mundo, y renueva propiedades adquiridas usando estrategias creativas de financiamiento. Trabaja con personas que valoran la velocidad y los resultados por encima del proceso.",
+    "sh5": "Su Enfoque",
+    "p5": "T.C. trata cada proyecto de la misma manera: identificar el problema real, eliminar lo que no importa y construir algo que funcione. Ya sea asesorando a emprendedores primerizos o lanzando una aplicación web para una marca hotelera en Bali, el principio se mantiene. Claridad primero. Acción segundo. Resultados siempre.",
+    "mission": "Claridad primero. Acción segundo. Resultados siempre.",
     "credentials": {
       "heading": "Credenciales",
       "c1": "Oficial del Ejército de EE.UU. (8 años)",
-      "c2": "[NEEDS_TRANSLATION] 30+ Years in Business Development",
+      "c2": "30+ Años en Desarrollo de Negocios",
       "c3": "Autor Bestseller de Amazon",
-      "c4": "[NEEDS_TRANSLATION] AI-First Business Success Strategist",
-      "c5": "[NEEDS_TRANSLATION] Web & PWA Developer (SE Asia & North America)",
+      "c4": "Estratega de Éxito Empresarial con IA como Prioridad",
+      "c5": "Desarrollador Web y PWA (Sudeste Asiático y Norteamérica)",
       "c6": "COO, Alpha & Omega Legacy Group",
-      "c7": "[NEEDS_TRANSLATION] Creator, AI-Powered 8-Week Superpower Business in a Box"
+      "c7": "Creador, Negocio Súper Poderoso de 8 Semanas Impulsado por IA en una Caja"
     },
     "fundingDisclaimer": "Los plazos de financiamiento mencionados se basan en la experiencia personal de T.C. Chambers y resultados selectos de clientes. Los resultados individuales variarán según el perfil crediticio, tipo de negocio, monto de financiamiento y criterios del prestamista. Nada aquí constituye una garantía de aprobación de financiamiento, un plazo específico o un monto específico. Este contenido es solo para fines educativos.",
-    "programDisclaimer": "[NEEDS_TRANSLATION] This is an educational mentorship program. Results vary based on individual effort, experience, and market conditions.",
+    "programDisclaimer": "Este es un programa educativo de mentoría. Los resultados varían según el esfuerzo individual, la experiencia y las condiciones del mercado.",
     "ctaHeading": "¿Listo para trabajar con T.C.?",
     "ctaButton": "Reservar una Llamada de Estrategia Gratis"
   },
@@ -661,12 +661,12 @@
     "m1": {
       "name": "T.C. Chambers",
       "title": "Fundador y Director Técnico",
-      "bio": "[NEEDS_TRANSLATION] T.C. spent 8 years as a U.S. Army officer before launching his first business. After navigating bankruptcy and rebuilding through mentorship, he turned those lessons into a repeatable framework. He now helps entrepreneurs identify their strongest marketable skill, package it into a real business, and get it live in 8 weeks. He builds web applications for hospitality businesses, wellness practitioners, and online retailers across Southeast Asia and North America. He operates from Bali and works with clients who value speed and results over process.",
+      "bio": "T.C. pasó 8 años como oficial del Ejército de EE.UU. antes de lanzar su primer negocio. Después de atravesar una bancarrota y reconstruirse a través de mentoría, convirtió esas lecciones en un marco repetible. Ahora ayuda a emprendedores a identificar su habilidad comercializable más fuerte, empaquetarla en un negocio real, y ponerla en funcionamiento en 8 semanas. Construye aplicaciones web para negocios de hospitalidad, profesionales del bienestar, y minoristas en línea en el Sudeste Asiático y América del Norte. Opera desde Bali y trabaja con clientes que valoran la velocidad y los resultados por encima del proceso.",
       "tags": [
-        "[NEEDS_TRANSLATION] Web & PWA Development",
-        "[NEEDS_TRANSLATION] AI-First Strategy",
-        "[NEEDS_TRANSLATION] Business Mentorship",
-        "[NEEDS_TRANSLATION] SE Asia & North America"
+        "Desarrollo Web y PWA",
+        "Estrategia AI-First",
+        "Mentoría de Negocios",
+        "Sudeste Asiático y Norteamérica"
       ]
     },
     "m2": {
@@ -693,14 +693,14 @@
     },
     "m4": {
       "name": "Tobias Kaiuth",
-      "title": "[NEEDS_TRANSLATION] Meta Traffic & Conversion Architect",
-      "bio": "[NEEDS_TRANSLATION] With a proven track record creating and producing 7-figure Meta Ads campaigns for both his clients and his own brands, Tobias Kaiuth is a performance marketing strategist known for turning ad spend into predictable, scalable profit. Drawing on years of experience managing multi-million-dollar campaigns, optimizing funnels, and building high-ROI creative systems, he blends sharp data analysis with messaging that converts browsers into buyers. Now, Tobias is bringing that expertise to Indonesia, partnering with villa owners and hospitality managers to build direct-booking machines on Meta, so they can attract qualified guests, grow repeat stays, and stop relying solely on OTAs to fill their calendars.",
+      "title": "Arquitecto de Tráfico Meta y Conversiones",
+      "bio": "Con un historial comprobado creando y produciendo campañas de Meta Ads de 7 cifras tanto para sus clientes como para sus propias marcas, Tobias Kaiuth es un estratega de marketing de performance conocido por convertir el gasto publicitario en ganancias predecibles y escalables. Basándose en años de experiencia gestionando campañas multimillonarias, optimizando funnels y construyendo sistemas creativos de alto ROI, combina análisis de datos precisos con mensajes que convierten navegadores en compradores. Ahora, Tobias está llevando esa experiencia a Indonesia, asociándose con propietarios de villas y gerentes de hospitalidad para construir máquinas de reservas directas en Meta, para que puedan atraer huéspedes calificados, aumentar estadías repetidas y dejar de depender únicamente de OTAs para llenar sus calendarios.",
       "tags": [
-        "[NEEDS_TRANSLATION] Meta Ads",
-        "[NEEDS_TRANSLATION] Performance Marketing",
-        "[NEEDS_TRANSLATION] Direct Booking",
-        "[NEEDS_TRANSLATION] Villa & Hospitality",
-        "[NEEDS_TRANSLATION] Conversion Optimization"
+        "Meta Ads",
+        "Marketing de Performance",
+        "Reservas Directas",
+        "Villas y Hospitalidad",
+        "Optimización de Conversión"
       ]
     },
     "ctaHeading": "Trabaja con el equipo.",
@@ -906,343 +906,343 @@
   },
   "villaPage": {
     "meta": {
-      "title": "[NEEDS_TRANSLATION] Villa Booking Traffic - T.C. Chambers",
-      "description": "[NEEDS_TRANSLATION] Indonesia's new regulations are cutting villa owners off from Airbnb and Booking.com. Build your direct booking channel."
+      "title": "Tráfico de Reservas de Villas - T.C. Chambers",
+      "description": "Las nuevas regulaciones de Indonesia están desconectando a los propietarios de villas de Airbnb y Booking.com. Construye tu canal de reservas directas."
     },
-    "headline": "[NEEDS_TRANSLATION] Indonesia's New Regulations Are Cutting Villa Owners Off From Airbnb and Booking.com. Here's Your Alternative.",
-    "subheadline": "[NEEDS_TRANSLATION] Build a direct booking channel that puts you in control of your revenue, your guests, and your brand.",
-    "ctaHeading": "[NEEDS_TRANSLATION] Ready to protect your villa's bookings?",
-    "ctaButton": "[NEEDS_TRANSLATION] Book a Free Strategy Call"
+    "headline": "Las Nuevas Regulaciones de Indonesia Están Desconectando a los Propietarios de Villas de Airbnb y Booking.com. Aquí Está Tu Alternativa.",
+    "subheadline": "Construye un canal de reservas directas que te permita tener control de tus ingresos, tus huéspedes y tu marca.",
+    "ctaHeading": "¿Listo para proteger las reservas de tu villa?",
+    "ctaButton": "Agenda una Llamada de Estrategia Gratuita"
   },
   "superpowerPage": {
     "meta": {
-      "title": "[NEEDS_TRANSLATION] The Superpower Program - T.C. Chambers",
-      "description": "[NEEDS_TRANSLATION] 8 weeks. 6 deliverables. One live, running business."
+      "title": "El Programa Superpower - T.C. Chambers",
+      "description": "8 semanas. 6 entregables. Un negocio en vivo y funcionando. Identifica tu habilidad comercializable más fuerte y construye un negocio alrededor de ella."
     },
-    "headline": "[NEEDS_TRANSLATION] 8 Weeks. 6 Deliverables. One Live, Running Business.",
-    "subheadline": "[NEEDS_TRANSLATION] Identify your strongest marketable skill, package it into a real business, and get it live.",
-    "ctaHeading": "[NEEDS_TRANSLATION] Ready to build your business?",
-    "ctaButton": "[NEEDS_TRANSLATION] Join the Waitlist"
+    "headline": "8 Semanas. 6 Entregables. Un Negocio en Vivo y Funcionando.",
+    "subheadline": "Identifica tu habilidad más fuerte que se puede comercializar, empáquela en un negocio real y ponla en funcionamiento.",
+    "ctaHeading": "¿Listo para construir tu negocio?",
+    "ctaButton": "Únete a la Lista de Espera"
   },
   "websitesPage": {
     "meta": {
-      "title": "[NEEDS_TRANSLATION] AI-Powered Websites & PWAs - T.C. Chambers",
-      "description": "[NEEDS_TRANSLATION] Websites and Progressive Web Apps built to convert."
+      "title": "Sitios Web y PWAs Potenciados por IA - T.C. Chambers",
+      "description": "Sitios web y Progressive Web Apps diseñados para convertir. Con inteligencia artificial, mobile-first, y creados para empresas de hospitalidad y servicios."
     },
-    "headline": "[NEEDS_TRANSLATION] AI-Powered Websites and PWAs Built to Convert",
-    "subheadline": "[NEEDS_TRANSLATION] Fast, mobile-first platforms designed for hospitality, wellness, and service businesses across Southeast Asia and North America.",
-    "ctaHeading": "[NEEDS_TRANSLATION] Ready to build your digital presence?",
-    "ctaButton": "[NEEDS_TRANSLATION] Book a Discovery Call"
+    "headline": "Sitios Web y PWAs con Inteligencia Artificial Diseñados para Convertir",
+    "subheadline": "Plataformas rápidas y mobile-first diseñadas para empresas de hospitalidad, bienestar y servicios en el Sudeste Asiático y Norteamérica.",
+    "ctaHeading": "¿Listo para construir tu presencia digital?",
+    "ctaButton": "Agenda una Llamada de Descubrimiento"
   },
   "fundingPage": {
     "meta": {
-      "title": "[NEEDS_TRANSLATION] Business Funding & Structuring - T.C. Chambers",
-      "description": "[NEEDS_TRANSLATION] Access business capital in 14 to 30 days."
+      "title": "Financiamiento y Estructuración de Negocios - T.C. Chambers",
+      "description": "Accede a capital empresarial en 14 a 30 días. Estructuración adecuada de entidades, optimización de crédito y estrategias de financiamiento que funcionan."
     },
-    "headline": "[NEEDS_TRANSLATION] Access Business Capital in 14 to 30 Days",
-    "subheadline": "[NEEDS_TRANSLATION] Proper entity structuring, credit optimization, and funding strategies built from 30 years of real-world experience.",
-    "ctaHeading": "[NEEDS_TRANSLATION] Ready to get funded?",
-    "ctaButton": "[NEEDS_TRANSLATION] Book a Funding Strategy Call"
+    "headline": "Accede a Capital Empresarial en 14 a 30 Días",
+    "subheadline": "Estructuración adecuada de entidades, optimización crediticia y estrategias de financiamiento construidas a partir de 30 años de experiencia del mundo real.",
+    "ctaHeading": "¿Listo para conseguir financiamiento?",
+    "ctaButton": "Reserva una Llamada de Estrategia de Financiamiento"
   },
   "villaQuiz": {
     "meta": {
-      "title": "[NEEDS_TRANSLATION] Villa OTA Readiness Quiz - T.C. Chambers",
-      "description": "[NEEDS_TRANSLATION] Is your villa ready to survive Indonesia's OTA shift? Take the 2-minute assessment."
+      "title": "Quiz de Preparación para Villa OTA - T.C. Chambers",
+      "description": "¿Está tu villa preparada para sobrevivir al cambio de OTA en Indonesia? Realiza la evaluación de 2 minutos."
     },
     "hero": {
-      "headline": "[NEEDS_TRANSLATION] Is Your Villa Ready to Survive Indonesia's OTA Shift?",
-      "subheadline": "[NEEDS_TRANSLATION] Answer 6 quick questions and find out exactly where your villa stands and what to do next."
+      "headline": "¿Está Tu Villa Lista para Sobrevivir el Cambio de OTA en Indonesia?",
+      "subheadline": "Responde 6 preguntas rápidas y descubre exactamente dónde se encuentra tu villa y qué hacer a continuación."
     },
     "q1": {
-      "text": "[NEEDS_TRANSLATION] What percentage of your current bookings come through Airbnb or Booking.com?",
-      "placeholder": "[NEEDS_TRANSLATION] e.g. 80%"
+      "text": "¿Qué porcentaje de tus reservas actuales provienen de Airbnb o Booking.com?",
+      "placeholder": "ej. 80%"
     },
     "q2": {
-      "text": "[NEEDS_TRANSLATION] Have you received any notices or warnings from OTA platforms in the last 6 months?",
-      "o1": "[NEEDS_TRANSLATION] Yes, I received a formal notice",
-      "o2": "[NEEDS_TRANSLATION] Yes, an informal warning",
-      "o3": "[NEEDS_TRANSLATION] No, but I have heard about the changes",
-      "o4": "[NEEDS_TRANSLATION] No idea - this is new to me"
+      "text": "¿Has recibido alguna notificación o advertencia de las plataformas OTA en los últimos 6 meses?",
+      "o1": "Sí, recibí un aviso formal",
+      "o2": "Sí, una advertencia informal",
+      "o3": "No, pero he escuchado sobre los cambios",
+      "o4": "No tengo idea - esto es nuevo para mí"
     },
     "q3": {
-      "text": "[NEEDS_TRANSLATION] How many bookings per month does your villa currently average?",
-      "placeholder": "[NEEDS_TRANSLATION] e.g. 12 bookings"
+      "text": "¿Cuántas reservas por mes promedia actualmente su villa?",
+      "placeholder": "ej. 12 reservas"
     },
     "q4": {
-      "text": "[NEEDS_TRANSLATION] Do you have any direct booking channel outside of OTAs right now?",
-      "o1": "[NEEDS_TRANSLATION] Yes, a strong one",
-      "o2": "[NEEDS_TRANSLATION] Yes, but a weak one",
-      "o3": "[NEEDS_TRANSLATION] No, but I am working on it",
-      "o4": "[NEEDS_TRANSLATION] No, I am entirely OTA dependent"
+      "text": "¿Tienes algún canal de reserva directa fuera de los OTA en este momento?",
+      "o1": "Sí, uno sólido",
+      "o2": "Sí, pero débil",
+      "o3": "No, pero estoy trabajando en ello",
+      "o4": "No, dependo completamente de las OTA"
     },
     "q5": {
-      "text": "[NEEDS_TRANSLATION] What is your biggest concern about the regulation changes?",
-      "o1": "[NEEDS_TRANSLATION] Losing all OTA platform access",
-      "o2": "[NEEDS_TRANSLATION] Revenue dropping significantly",
-      "o3": "[NEEDS_TRANSLATION] Not knowing what to do about it",
-      "o4": "[NEEDS_TRANSLATION] Finding it hard to believe it is real"
+      "text": "¿Cuál es tu mayor preocupación sobre los cambios en la regulación?",
+      "o1": "Perdiendo todo el acceso a plataformas OTA",
+      "o2": "Los ingresos están cayendo significativamente",
+      "o3": "No saber qué hacer al respecto",
+      "o4": "Te resulta difícil creer que sea real"
     },
     "q6": {
-      "text": "[NEEDS_TRANSLATION] What is your villa called and where is it located?",
-      "placeholder": "[NEEDS_TRANSLATION] e.g. Villa Serenity, Ubud, Bali"
+      "text": "¿Cómo se llama tu villa y dónde está ubicada?",
+      "placeholder": "ej. Villa Serenity, Ubud, Bali"
     },
     "results": {
       "critical": {
-        "headline": "[NEEDS_TRANSLATION] CRITICAL RISK: Your Villa Needs a Direct Booking System Now",
-        "body": "[NEEDS_TRANSLATION] Based on your answers, your villa is highly exposed to the OTA regulation changes with no alternative traffic source in place. The good news: this is fixable. Here is your first step."
+        "headline": "RIESGO CRÍTICO: Tu Villa Necesita un Sistema de Reservas Directas Ahora",
+        "body": "Basado en tus respuestas, tu villa está altamente expuesta a los cambios de regulaciones de las OTA sin ninguna fuente alternativa de tráfico implementada. La buena noticia: esto es solucionable. Aquí está tu primer paso."
       },
       "moderate": {
-        "headline": "[NEEDS_TRANSLATION] MODERATE RISK: You Have a Start. Here Is How to Build on It.",
-        "body": "[NEEDS_TRANSLATION] You have some awareness and partial action. The gap is in execution. Here is what to do next."
+        "headline": "RIESGO MODERADO: Tienes un Comienzo. Aquí Te Explicamos Cómo Desarrollarlo.",
+        "body": "Tienes cierta conciencia y acción parcial. La brecha está en la ejecución. Esto es lo que debes hacer a continuación."
       },
       "low": {
-        "headline": "[NEEDS_TRANSLATION] LOW RISK: You Are Ahead of Most. Here Is How to Stay There.",
-        "body": "[NEEDS_TRANSLATION] You have a direct channel. Now it is time to optimize it and make it your primary booking source."
+        "headline": "BAJO RIESGO: Estás Adelante de la Mayoría. Aquí Te Mostramos Cómo Mantenerte Ahí.",
+        "body": "Tienes un canal directo. Ahora es momento de optimizarlo y convertirlo en tu fuente principal de reservas."
       },
       "general": {
-        "headline": "[NEEDS_TRANSLATION] Your Villa Has Options. Here Is Where to Start.",
-        "body": "[NEEDS_TRANSLATION] The OTA landscape is changing. Here is a clear plan to protect your bookings."
+        "headline": "Tu Villa Tiene Opciones. Aquí Es Donde Empezar.",
+        "body": "El panorama de las OTA está cambiando. Aquí tienes un plan claro para proteger tus reservas."
       }
     },
     "magnet": {
-      "name": "[NEEDS_TRANSLATION] The Bali Villa Owner's Direct Booking Survival Guide",
-      "description": "[NEEDS_TRANSLATION] A 12-page guide covering exactly what the regulations mean, what Meta Traffic is, and your 30-day action plan.",
-      "buttonLabel": "[NEEDS_TRANSLATION] Send Me the Survival Guide",
-      "successHeadline": "[NEEDS_TRANSLATION] Your Direct Booking Survival Guide is on its way.",
-      "bookingCtaLabel": "[NEEDS_TRANSLATION] Book a Villa Traffic Strategy Call"
+      "name": "La Guía de Supervivencia para Reservas Directas del Propietario de Villa en Bali",
+      "description": "Una guía de 12 páginas que cubre exactamente qué significan las regulaciones, qué es Meta Traffic, y tu plan de acción de 30 días.",
+      "buttonLabel": "Envíame la Guía de Supervivencia",
+      "successHeadline": "Tu Guía de Supervivencia para Reservas Directas está en camino.",
+      "bookingCtaLabel": "Reserva una Llamada de Estrategia de Villa Traffic"
     },
-    "disclaimer": "[NEEDS_TRANSLATION] Regulatory information is provided for general awareness based on publicly reported developments. Regulations may change. Consult a local legal advisor for guidance specific to your property."
+    "disclaimer": "La información regulatoria se proporciona para conocimiento general basado en desarrollos reportados públicamente. Las regulaciones pueden cambiar. Consulte a un asesor legal local para orientación específica a su propiedad."
   },
   "superpowerQuiz": {
     "meta": {
-      "title": "[NEEDS_TRANSLATION] Superpower Discovery Quiz - T.C. Chambers",
-      "description": "[NEEDS_TRANSLATION] What is your #1 marketable skill? Take the quiz and find out what business you should be building."
+      "title": "Quiz de Descubrimiento de Superpoderes - T.C. Chambers",
+      "description": "¿Cuál es tu habilidad comercializable #1? Toma el quiz y descubre qué negocio deberías estar construyendo."
     },
     "hero": {
-      "headline": "[NEEDS_TRANSLATION] What Is Your Business Superpower?",
-      "subheadline": "[NEEDS_TRANSLATION] Answer 6 questions and find out what you should be building and why you are not making money from it yet."
+      "headline": "¿Cuál Es Tu Superpoder Empresarial?",
+      "subheadline": "Responde 6 preguntas y descubre qué deberías estar construyendo y por qué aún no estás generando dinero con ello."
     },
     "q1": {
-      "text": "[NEEDS_TRANSLATION] What do people most often ask you for help with? Even informally, what do friends, colleagues, or strangers come to you about?",
-      "placeholder": "[NEEDS_TRANSLATION] Be specific. The more honest, the better your result."
+      "text": "¿Con qué te pide ayuda la gente más frecuentemente? Incluso de manera informal, ¿sobre qué te consultan amigos, colegas o desconocidos?",
+      "placeholder": "Sé específico. Mientras más honesto seas, mejor será tu resultado."
     },
     "q2": {
-      "text": "[NEEDS_TRANSLATION] When you help someone with this skill, how do they typically react?",
-      "o1": "[NEEDS_TRANSLATION] They tell others about it",
-      "o2": "[NEEDS_TRANSLATION] They ask me to do it again",
-      "o3": "[NEEDS_TRANSLATION] They offer to pay me",
-      "o4": "[NEEDS_TRANSLATION] They seem underwhelmed",
-      "o5": "[NEEDS_TRANSLATION] I am not sure"
+      "text": "Cuando ayudas a alguien con esta habilidad, ¿cómo reaccionan típicamente?",
+      "o1": "Le cuentan a otros sobre esto",
+      "o2": "Me piden que lo haga de nuevo",
+      "o3": "Me ofrecen pagarme",
+      "o4": "Parecen poco impresionados",
+      "o5": "No estoy seguro"
     },
     "q3": {
-      "text": "[NEEDS_TRANSLATION] What has stopped you from turning this into a business so far?",
-      "o1": "[NEEDS_TRANSLATION] I do not know where to start",
-      "o2": "[NEEDS_TRANSLATION] I do not think people will pay for it",
-      "o3": "[NEEDS_TRANSLATION] I have tried but got stuck",
-      "o4": "[NEEDS_TRANSLATION] Life got in the way",
-      "o5": "[NEEDS_TRANSLATION] I did not know it was possible"
+      "text": "¿Qué te ha impedido convertir esto en un negocio hasta ahora?",
+      "o1": "No sé por dónde empezar",
+      "o2": "No creo que la gente vaya a pagar por ello",
+      "o3": "He intentado pero me quedé atascado",
+      "o4": "La vida se interpuso en el camino",
+      "o5": "No sabía que era posible"
     },
     "q4": {
-      "text": "[NEEDS_TRANSLATION] If you could help one specific type of person with this skill, who would that be? Describe them.",
-      "placeholder": "[NEEDS_TRANSLATION] e.g. Busy parents who want to start a side business but do not know where to begin."
+      "text": "Si pudieras ayudar a un tipo específico de persona con esta habilidad, ¿quién sería? Descríbela.",
+      "placeholder": "ej. Padres ocupados que quieren iniciar un negocio secundario pero no saben por dónde empezar."
     },
     "q5": {
-      "text": "[NEEDS_TRANSLATION] What stage is your business in right now?",
-      "o1": "[NEEDS_TRANSLATION] Still an idea",
-      "o2": "[NEEDS_TRANSLATION] Just started, no revenue yet",
-      "o3": "[NEEDS_TRANSLATION] Making some money but inconsistent",
-      "o4": "[NEEDS_TRANSLATION] Established but want to scale"
+      "text": "¿En qué etapa se encuentra tu negocio en este momento?",
+      "o1": "Todavía una idea",
+      "o2": "Recién iniciado, sin ingresos aún",
+      "o3": "Generando algo de dinero pero de manera inconsistente",
+      "o4": "Establecido pero quieres escalar"
     },
     "q6": {
-      "text": "[NEEDS_TRANSLATION] What would change in your life if this business was generating real income in 90 days?",
-      "placeholder": "[NEEDS_TRANSLATION] Be honest. This is for you."
+      "text": "¿Qué cambiaría en tu vida si este negocio estuviera generando ingresos reales en 90 días?",
+      "placeholder": "Sé honesto. Esto es para ti."
     },
     "results": {
       "system_needed": {
-        "headline": "[NEEDS_TRANSLATION] YOUR SUPERPOWER IS REAL. YOU JUST NEED THE SYSTEM.",
-        "body": "[NEEDS_TRANSLATION] People already recognize your value. The gap is not talent. It is structure. Here is the workbook that helps you name it and package it."
+        "headline": "TU SUPERPODER ES REAL. SOLO NECESITAS EL SISTEMA.",
+        "body": "La gente ya reconoce tu valor. La brecha no es el talento. Es la estructura. Aquí está el cuaderno de trabajo que te ayuda a identificarlo y empaquetarlo."
       },
       "discovery_needed": {
-        "headline": "[NEEDS_TRANSLATION] YOUR SUPERPOWER EXISTS. WE NEED TO FIND IT FIRST.",
-        "body": "[NEEDS_TRANSLATION] You have more than you think. The workbook below will prove it in 60 minutes."
+        "headline": "TU SUPERPODER EXISTE. NECESITAMOS ENCONTRARLO PRIMERO.",
+        "body": "Tienes más de lo que crees. El cuaderno de trabajo a continuación lo comprobará en 60 minutos."
       },
       "underutilized": {
-        "headline": "[NEEDS_TRANSLATION] YOUR SUPERPOWER IS BEING UNDERUTILIZED.",
-        "body": "[NEEDS_TRANSLATION] You have started. Now you need a system to scale it. Here is where to begin."
+        "headline": "TU SUPERPODER ESTÁ SIENDO SUBUTILIZADO.",
+        "body": "Ya empezaste. Ahora necesitas un sistema para escalarlo. Aquí es donde comenzar."
       },
       "general": {
-        "headline": "[NEEDS_TRANSLATION] YOU KNOW MORE THAN YOU THINK. LET'S PROVE IT.",
-        "body": "[NEEDS_TRANSLATION] The workbook below will help you find, name, and package your superpower in 60 minutes."
+        "headline": "SABES MÁS DE LO QUE PIENSAS. VAMOS A DEMOSTRARLO.",
+        "body": "El manual de trabajo a continuación te ayudará a encontrar, nombrar y estructurar tu superpoder en 60 minutos."
       }
     },
     "magnet": {
-      "name": "[NEEDS_TRANSLATION] The Superpower Discovery Workbook",
-      "description": "[NEEDS_TRANSLATION] 5 exercises to identify and name your #1 marketable skill in 60 minutes. 16 pages. Free.",
-      "buttonLabel": "[NEEDS_TRANSLATION] Send Me the Workbook",
-      "successHeadline": "[NEEDS_TRANSLATION] Your Superpower Discovery Workbook is on its way.",
-      "bookingCtaLabel": "[NEEDS_TRANSLATION] Join the Superpower Waitlist"
+      "name": "El Manual de Descubrimiento de Superpoderes",
+      "description": "5 ejercicios para identificar y nombrar tu habilidad comercializable #1 en 60 minutos. 16 páginas. Gratis.",
+      "buttonLabel": "Envíame el Libro de Trabajo",
+      "successHeadline": "Tu Libro de Trabajo de Descubrimiento de Superpoder está en camino.",
+      "bookingCtaLabel": "Únete a la Lista de Espera de Superpower"
     },
-    "disclaimer": "[NEEDS_TRANSLATION] This workbook is for educational purposes only. Results vary based on individual effort and circumstances. Participation in the Superpower Program does not guarantee any specific business outcome or income level."
+    "disclaimer": "Este cuaderno de trabajo es solo para fines educativos. Los resultados varían según el esfuerzo individual y las circunstancias. La participación en el Programa Superpower no garantiza ningún resultado comercial específico o nivel de ingresos."
   },
   "websiteQuiz": {
     "meta": {
-      "title": "[NEEDS_TRANSLATION] Website Diagnostic Quiz - T.C. Chambers",
-      "description": "[NEEDS_TRANSLATION] Is your website costing you clients? Take the 60-second digital presence diagnostic."
+      "title": "Cuestionario de Diagnóstico del Sitio Web - T.C. Chambers",
+      "description": "¿Tu sitio web te está costando clientes? Realiza el diagnóstico de presencia digital de 60 segundos."
     },
     "hero": {
-      "headline": "[NEEDS_TRANSLATION] Is Your Website Costing You Clients?",
-      "subheadline": "[NEEDS_TRANSLATION] Take the 60-second Digital Presence Diagnostic and find out exactly what to fix first."
+      "headline": "¿Tu sitio web te está costando clientes?",
+      "subheadline": "Haz el Diagnóstico de Presencia Digital de 60 segundos y descubre exactamente qué arreglar primero."
     },
     "q1": {
-      "text": "[NEEDS_TRANSLATION] Do you currently have a website?",
-      "o1": "[NEEDS_TRANSLATION] Yes, it converts well",
-      "o2": "[NEEDS_TRANSLATION] Yes, but it underperforms",
-      "o3": "[NEEDS_TRANSLATION] I have a social media page only",
-      "o4": "[NEEDS_TRANSLATION] No website at all"
+      "text": "¿Actualmente tienes un sitio web?",
+      "o1": "Sí, convierte bien",
+      "o2": "Sí, pero no rinde al máximo",
+      "o3": "Tengo solo una página de redes sociales",
+      "o4": "Sin sitio web en absoluto"
     },
     "q2": {
-      "text": "[NEEDS_TRANSLATION] Where does most of your client or customer traffic come from right now?",
-      "o1": "[NEEDS_TRANSLATION] Referrals and word of mouth",
-      "o2": "[NEEDS_TRANSLATION] OTA platforms (Airbnb, Booking.com, etc.)",
-      "o3": "[NEEDS_TRANSLATION] Social media",
-      "o4": "[NEEDS_TRANSLATION] My website",
-      "o5": "[NEEDS_TRANSLATION] I do not track it"
+      "text": "¿De dónde proviene la mayoría del tráfico de tus clientes en este momento?",
+      "o1": "Referencias y boca a boca",
+      "o2": "Plataformas OTA (Airbnb, Booking.com, etc.)",
+      "o3": "Redes sociales",
+      "o4": "Mi sitio web",
+      "o5": "No lo rastrearía"
     },
     "q3": {
-      "text": "[NEEDS_TRANSLATION] When someone visits your website on their phone, what happens?",
-      "o1": "[NEEDS_TRANSLATION] It loads fast and looks great",
-      "o2": "[NEEDS_TRANSLATION] It loads slowly",
-      "o3": "[NEEDS_TRANSLATION] It looks weird or broken on mobile",
-      "o4": "[NEEDS_TRANSLATION] I am not sure",
-      "o5": "[NEEDS_TRANSLATION] I do not have a website"
+      "text": "Cuando alguien visita tu sitio web desde su teléfono, ¿qué sucede?",
+      "o1": "Carga rápido y se ve excelente",
+      "o2": "Carga lentamente",
+      "o3": "Se ve extraño o roto en dispositivos móviles",
+      "o4": "No estoy seguro",
+      "o5": "No tengo un sitio web"
     },
     "q4": {
-      "text": "[NEEDS_TRANSLATION] What is the single most important action you want a visitor to take on your website?",
-      "placeholder": "[NEEDS_TRANSLATION] e.g. Book a call, make a purchase, submit an inquiry"
+      "text": "¿Cuál es la acción más importante que quieres que un visitante tome en tu sitio web?",
+      "placeholder": "ej. Agenda una llamada, realiza una compra, envía una consulta"
     },
     "q5": {
-      "text": "[NEEDS_TRANSLATION] Can your website be installed on a phone like an app and work without internet?",
-      "o1": "[NEEDS_TRANSLATION] Yes it can",
-      "o2": "[NEEDS_TRANSLATION] No it cannot",
-      "o3": "[NEEDS_TRANSLATION] I do not know what that means",
-      "o4": "[NEEDS_TRANSLATION] I do not have a website"
+      "text": "¿Tu sitio web se puede instalar en un teléfono como una app y funcionar sin internet?",
+      "o1": "Sí se puede",
+      "o2": "No, no puede",
+      "o3": "No sé qué significa eso",
+      "o4": "No tengo un sitio web"
     },
     "q6": {
-      "text": "[NEEDS_TRANSLATION] How long since your website was last updated or redesigned?",
-      "o1": "[NEEDS_TRANSLATION] Less than 6 months",
-      "o2": "[NEEDS_TRANSLATION] 6 to 12 months",
-      "o3": "[NEEDS_TRANSLATION] 1 to 3 years",
-      "o4": "[NEEDS_TRANSLATION] More than 3 years",
-      "o5": "[NEEDS_TRANSLATION] Never had one"
+      "text": "¿Cuánto tiempo ha pasado desde que tu sitio web fue actualizado o rediseñado por última vez?",
+      "o1": "Menos de 6 meses",
+      "o2": "6 a 12 meses",
+      "o3": "1 a 3 años",
+      "o4": "Más de 3 años",
+      "o5": "Nunca tuve una"
     },
     "results": {
       "invisible": {
-        "headline": "[NEEDS_TRANSLATION] YOU ARE INVISIBLE ONLINE. HERE IS WHAT THAT IS COSTING YOU.",
-        "body": "[NEEDS_TRANSLATION] Every day without a website is a day clients are choosing someone else. Here is your 10-point checklist to get started right."
+        "headline": "ERES INVISIBLE EN LÍNEA. ESTO ES LO QUE TE ESTÁ COSTANDO.",
+        "body": "Cada día sin un sitio web es un día en que los clientes están eligiendo a alguien más. Aquí tienes tu lista de verificación de 10 puntos para comenzar correctamente."
       },
       "losing_clients": {
-        "headline": "[NEEDS_TRANSLATION] YOUR WEBSITE IS LOSING YOU CLIENTS.",
-        "body": "[NEEDS_TRANSLATION] A broken or slow website sends visitors to your competitors. Here is exactly what to audit and fix."
+        "headline": "TU SITIO WEB TE ESTÁ HACIENDO PERDER CLIENTES.",
+        "body": "Un sitio web dañado o lento envía visitantes a tus competidores. Aquí está exactamente qué auditar y arreglar."
       },
       "not_mobile": {
-        "headline": "[NEEDS_TRANSLATION] YOUR MOBILE EXPERIENCE IS BROKEN.",
-        "body": "[NEEDS_TRANSLATION] Most of your traffic is on mobile. A site that is not installable or offline-capable is losing you bookings every day."
+        "headline": "TU EXPERIENCIA MÓVIL ESTÁ ROTA.",
+        "body": "La mayoría de tu tráfico está en móvil. Un sitio que no es instalable o no funciona sin conexión te está haciendo perder reservas todos los días."
       },
       "solid_foundation": {
-        "headline": "[NEEDS_TRANSLATION] YOUR FOUNDATION IS SOLID. HERE IS HOW TO TAKE IT FURTHER.",
-        "body": "[NEEDS_TRANSLATION] You have a working site. Here is the checklist to push it from good to exceptional."
+        "headline": "TU BASE ES SÓLIDA. AQUÍ TE MOSTRAMOS CÓMO LLEVARLA MÁS LEJOS.",
+        "body": "Tienes un sitio web que funciona. Aquí está la lista de verificación para llevarlo de bueno a excepcional."
       }
     },
     "magnet": {
-      "name": "[NEEDS_TRANSLATION] The 10-Point Website Audit Checklist",
-      "description": "[NEEDS_TRANSLATION] Find out exactly why your website is not converting and what to fix first. 10 pages. Free.",
-      "buttonLabel": "[NEEDS_TRANSLATION] Send Me the Checklist",
-      "successHeadline": "[NEEDS_TRANSLATION] Your Website Audit Checklist is on its way.",
-      "bookingCtaLabel": "[NEEDS_TRANSLATION] Book a Website/PWA Discovery Call"
+      "name": "La Lista de Verificación de Auditoría de Sitio Web de 10 Puntos",
+      "description": "Descubre exactamente por qué tu sitio web no está convirtiendo y qué corregir primero. 10 páginas. Gratis.",
+      "buttonLabel": "Envíame la Lista de Verificación",
+      "successHeadline": "Tu Lista de Verificación de Auditoría Web está en camino.",
+      "bookingCtaLabel": "Reserva una Llamada de Descubrimiento de Sitio Web/PWA"
     },
-    "disclaimer": "[NEEDS_TRANSLATION] Audit results are self-assessed and for educational purposes only. Website performance depends on hosting, content, design, and user behavior. Results from any improvements will vary."
+    "disclaimer": "Los resultados de la auditoría son autoevaluados y solo con fines educativos. El rendimiento del sitio web depende del hosting, contenido, diseño y comportamiento del usuario. Los resultados de cualquier mejora variarán."
   },
   "fundingQuiz": {
     "meta": {
-      "title": "[NEEDS_TRANSLATION] Business Funding Readiness Assessment - T.C. Chambers",
-      "description": "[NEEDS_TRANSLATION] How fundable is your business right now? Take the 3-minute assessment and find out."
+      "title": "Evaluación de Preparación para Financiamiento Empresarial - T.C. Chambers",
+      "description": "¿Qué tan financiable es tu negocio en este momento? Realiza la evaluación de 3 minutos y descúbrelo."
     },
     "hero": {
-      "headline": "[NEEDS_TRANSLATION] How Fundable Is Your Business Right Now?",
-      "subheadline": "[NEEDS_TRANSLATION] Take the 3-minute Business Funding Readiness Assessment and find out exactly where you stand and what to do next."
+      "headline": "¿Qué Tan Financiable Es Tu Negocio Ahora Mismo?",
+      "subheadline": "Realiza la Evaluación de Preparación para Financiamiento Empresarial de 3 minutos y descubre exactamente dónde te encuentras y qué hacer a continuación."
     },
     "q1": {
-      "text": "[NEEDS_TRANSLATION] Does your business have a registered legal entity?",
-      "o1": "[NEEDS_TRANSLATION] Yes, fully set up and active",
-      "o2": "[NEEDS_TRANSLATION] Yes, but it is not active",
-      "o3": "[NEEDS_TRANSLATION] In progress",
-      "o4": "[NEEDS_TRANSLATION] No, I operate as a sole proprietor",
-      "o5": "[NEEDS_TRANSLATION] Not yet started"
+      "text": "¿Tu negocio tiene una entidad legal registrada?",
+      "o1": "Sí, completamente configurado y activo",
+      "o2": "Sí, pero no está activo",
+      "o3": "En progreso",
+      "o4": "No, opero como propietario único",
+      "o5": "Aún no iniciado"
     },
     "q2": {
-      "text": "[NEEDS_TRANSLATION] Does your business have a dedicated business bank account?",
-      "o1": "[NEEDS_TRANSLATION] Yes, active and in use",
-      "o2": "[NEEDS_TRANSLATION] Yes, but rarely used",
-      "o3": "[NEEDS_TRANSLATION] No, I use personal accounts",
-      "o4": "[NEEDS_TRANSLATION] Not yet"
+      "text": "¿Tu negocio tiene una cuenta bancaria empresarial dedicada?",
+      "o1": "Sí, activo y en uso",
+      "o2": "Sí, pero rara vez se usa",
+      "o3": "No, uso cuentas personales",
+      "o4": "Aún no"
     },
     "q3": {
-      "text": "[NEEDS_TRANSLATION] What is your current personal credit score range?",
-      "o1": "[NEEDS_TRANSLATION] 750 or above",
-      "o2": "[NEEDS_TRANSLATION] 700 to 749",
-      "o3": "[NEEDS_TRANSLATION] 650 to 699",
-      "o4": "[NEEDS_TRANSLATION] Below 650",
-      "o5": "[NEEDS_TRANSLATION] I do not know my score"
+      "text": "¿En qué rango se encuentra tu puntaje de crédito personal actual?",
+      "o1": "750 o más",
+      "o2": "700 a 749",
+      "o3": "650 a 699",
+      "o4": "Por debajo de 650",
+      "o5": "No conozco mi puntuación"
     },
     "q4": {
-      "text": "[NEEDS_TRANSLATION] Have you ever applied for business funding or a business credit card?",
-      "o1": "[NEEDS_TRANSLATION] Yes, and was approved",
-      "o2": "[NEEDS_TRANSLATION] Yes, and was declined",
-      "o3": "[NEEDS_TRANSLATION] No, but I want to",
-      "o4": "[NEEDS_TRANSLATION] No, I did not think I qualified",
-      "o5": "[NEEDS_TRANSLATION] I did not know this was possible"
+      "text": "¿Alguna vez has solicitado financiamiento empresarial o una tarjeta de crédito comercial?",
+      "o1": "Sí, y fue aprobado",
+      "o2": "Sí, y fue rechazada",
+      "o3": "No, pero quiero",
+      "o4": "No, no pensé que calificara",
+      "o5": "No sabía que esto era posible"
     },
     "q5": {
-      "text": "[NEEDS_TRANSLATION] How much funding would you need to launch or grow your business to the next level, and what would you use it for?",
-      "placeholder": "[NEEDS_TRANSLATION] e.g. $25,000 to hire staff and cover first 3 months of operations."
+      "text": "¿Cuánto financiamiento necesitarías para lanzar o hacer crecer tu negocio al siguiente nivel, y para qué lo usarías?",
+      "placeholder": "ej. $25,000 para contratar personal y cubrir los primeros 3 meses de operaciones."
     },
     "q6": {
-      "text": "[NEEDS_TRANSLATION] What is your biggest belief about business funding?",
-      "o1": "[NEEDS_TRANSLATION] It is only for established businesses",
-      "o2": "[NEEDS_TRANSLATION] You need perfect credit to qualify",
-      "o3": "[NEEDS_TRANSLATION] It is possible but I do not know how",
-      "o4": "[NEEDS_TRANSLATION] I know it is possible and want to learn more",
-      "o5": "[NEEDS_TRANSLATION] I have done it before and want to do it again"
+      "text": "¿Cuál es tu mayor creencia sobre el financiamiento empresarial?",
+      "o1": "Es solo para empresas establecidas",
+      "o2": "Necesitas crédito perfecto para calificar",
+      "o3": "Es posible pero no sé cómo",
+      "o4": "Sé que es posible y quiero aprender más",
+      "o5": "Lo he hecho antes y quiero hacerlo de nuevo"
     },
     "results": {
       "foundation_missing": {
-        "headline": "[NEEDS_TRANSLATION] FOUNDATION MISSING: Structure Before Funding.",
-        "body": "[NEEDS_TRANSLATION] Without the right foundation, funding applications will fail. Here is the blueprint to build it correctly."
+        "headline": "FUNDAMENTO FALTANTE: Estructura Antes del Financiamiento.",
+        "body": "Sin la base correcta, las solicitudes de financiamiento fallarán. Aquí está el plan para construirla correctamente."
       },
       "credit_positioning": {
-        "headline": "[NEEDS_TRANSLATION] STRUCTURE EXISTS: Credit Positioning Is Your Next Move.",
-        "body": "[NEEDS_TRANSLATION] The entity is there. Now you need to build the credit profile that makes lenders say yes."
+        "headline": "EXISTE ESTRUCTURA: El Posicionamiento de Crédito Es Tu Próximo Paso.",
+        "body": "La entidad ya está. Ahora necesitas construir el perfil crediticio que haga que los prestamistas digan que sí."
       },
       "declined_before": {
-        "headline": "[NEEDS_TRANSLATION] FIXABLE: Here Is Why You Were Declined and What Changes It.",
-        "body": "[NEEDS_TRANSLATION] Being declined is not permanent. It is almost always fixable with the right structure. Here is the blueprint."
+        "headline": "SOLUCIONABLE: Aquí Está Por Qué Fuiste Rechazado y Qué Lo Cambia.",
+        "body": "Ser rechazado no es permanente. Casi siempre se puede solucionar con la estructura correcta. Aquí está el plan de acción."
       },
       "ready_to_apply": {
-        "headline": "[NEEDS_TRANSLATION] READY TO APPLY: You Are Closer Than You Think.",
-        "body": "[NEEDS_TRANSLATION] Your foundation is stronger than most. Here is the step-by-step blueprint to your first application."
+        "headline": "LISTO PARA APLICAR: Estás Más Cerca De Lo Que Piensas.",
+        "body": "Tu base es más sólida que la mayoría. Aquí tienes el plan paso a paso hacia tu primera aplicación."
       },
       "scale_ready": {
-        "headline": "[NEEDS_TRANSLATION] SCALE-READY: Advanced Funding Strategies Are Available to You.",
-        "body": "[NEEDS_TRANSLATION] You know the basics. Here is how to stack and scale capital access."
+        "headline": "LISTO PARA ESCALAR: Estrategias Avanzadas de Financiamiento Están Disponibles para Ti.",
+        "body": "Ya conoces lo básico. Aquí te mostramos cómo apilar y escalar el acceso al capital."
       }
     },
     "magnet": {
-      "name": "[NEEDS_TRANSLATION] The Business Funding Blueprint",
-      "description": "[NEEDS_TRANSLATION] The 5-step system to access capital in 14 to 30 days. 14 pages. Free.",
-      "buttonLabel": "[NEEDS_TRANSLATION] Send Me the Blueprint",
-      "successHeadline": "[NEEDS_TRANSLATION] Your Business Funding Blueprint is on its way.",
-      "bookingCtaLabel": "[NEEDS_TRANSLATION] Book a Funding Discovery Call"
+      "name": "El Plan Maestro de Financiamiento Empresarial",
+      "description": "El sistema de 5 pasos para acceder a capital en 14 a 30 días. 14 páginas. Gratis.",
+      "buttonLabel": "Envíame el Plan de Acción",
+      "successHeadline": "Tu Plan de Financiamiento Empresarial está en camino.",
+      "bookingCtaLabel": "Agenda una Llamada de Descubrimiento de Financiamiento"
     },
-    "disclaimer": "[NEEDS_TRANSLATION] Funding timelines referenced are based on T.C. Chambers' personal experience and select client outcomes. Individual results will vary based on credit profile, business type, funding amount, and lender criteria. Nothing here constitutes a guarantee of funding approval, a specific timeline, or a specific amount. This content is for educational purposes only."
+    "disclaimer": "Los plazos de financiamiento mencionados se basan en la experiencia personal de T.C. Chambers y resultados selectos de clientes. Los resultados individuales variarán según el perfil crediticio, tipo de negocio, cantidad de financiamiento y criterios del prestamista. Nada aquí constituye una garantía de aprobación de financiamiento, un plazo específico o una cantidad específica. Este contenido es solo para fines educativos."
   }
 }

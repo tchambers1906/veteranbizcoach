@@ -216,20 +216,20 @@
   "about": {
     "eyebrow": "Tentang T.C. Chambers",
     "headline": "Dibangun dari Nol. Dibangun Kembali dari Bawah.",
-    "p1": "[NEEDS_TRANSLATION] T.C. Chambers spent 8 years as a United States Army officer before transitioning into Corporate America and launching his first business. That early chapter included a bankruptcy, damaged credit, and hard lessons about money. Mentorship changed the trajectory.",
-    "p2": "[NEEDS_TRANSLATION] He rebuilt, secured funding, and turned those lessons into a repeatable framework. Then he wrote a book about it. It became an Amazon Bestseller.",
-    "p3": "[NEEDS_TRANSLATION] Today he helps entrepreneurs identify their strongest marketable skill, package it into a real business, and get it live in 8 weeks. He builds AI-powered platforms and web applications for clients across Southeast Asia and North America.",
-    "p4": "[NEEDS_TRANSLATION] In January 2023, he moved to Bali, Indonesia. He works with people who value speed and results over process.",
-    "mission": "[NEEDS_TRANSLATION] Clarity first. Action second. Results always.",
+    "p1": "T.C. Chambers menghabiskan 8 tahun sebagai perwira Angkatan Darat Amerika Serikat sebelum beralih ke dunia korporat Amerika dan meluncurkan bisnis pertamanya. Bab awal tersebut mencakup kebangkrutan, kerusakan kredit, dan pelajaran keras tentang uang. Bimbingan mengubah arah perjalanan tersebut.",
+    "p2": "Dia membangun kembali, mengamankan pendanaan, dan mengubah pelajaran-pelajaran tersebut menjadi kerangka kerja yang dapat direplikasi. Kemudian dia menulis buku tentang hal itu. Buku tersebut menjadi Amazon Bestseller.",
+    "p3": "Saat ini ia membantu para pengusaha mengidentifikasi keahlian terkuat mereka yang dapat dipasarkan, mengemas keahlian tersebut menjadi bisnis nyata, dan menjalankannya dalam 8 minggu. Ia membangun platform bertenaga AI dan aplikasi web untuk klien di seluruh Asia Tenggara dan Amerika Utara.",
+    "p4": "Pada Januari 2023, ia pindah ke Bali, Indonesia. Ia bekerja dengan orang-orang yang menghargai kecepatan dan hasil daripada proses.",
+    "mission": "Kejelasan pertama. Tindakan kedua. Hasil selalu.",
     "credentials": {
       "heading": "Kredensial",
       "c1": "Perwira Angkatan Darat AS (8 tahun)",
-      "c2": "[NEEDS_TRANSLATION] 30+ Years in Business Development",
+      "c2": "30+ Tahun dalam Pengembangan Bisnis",
       "c3": "Penulis Bestseller Amazon",
-      "c4": "[NEEDS_TRANSLATION] AI-First Business Success Strategist",
-      "c5": "[NEEDS_TRANSLATION] Web & PWA Developer (SE Asia & North America)",
+      "c4": "Ahli Strategi Kesuksesan Bisnis Berbasis AI",
+      "c5": "Pengembang Web & PWA (Asia Tenggara & Amerika Utara)",
       "c6": "COO, Alpha & Omega Legacy Group",
-      "c7": "[NEEDS_TRANSLATION] Creator, AI-Powered 8-Week Superpower Business in a Box"
+      "c7": "Pencipta, Bisnis Bertenaga AI 8 Minggu Superpower Business in a Box"
     },
     "readMore": "Baca cerita lengkapnya"
   },
@@ -239,12 +239,12 @@
     "m1": {
       "name": "T.C. Chambers",
       "title": "Pendiri & Direktur Teknis",
-      "bio": "[NEEDS_TRANSLATION] T.C. spent 8 years as a U.S. Army officer before launching his first business. After navigating bankruptcy and rebuilding through mentorship, he turned those lessons into a repeatable framework. He now helps entrepreneurs identify their strongest marketable skill, package it into a real business, and get it live in 8 weeks. He builds web applications for hospitality businesses, wellness practitioners, and online retailers across Southeast Asia and North America. He operates from Bali and works with clients who value speed and results over process.",
+      "bio": "T.C. membangun aplikasi web yang berfungsi. Dia telah meluncurkan platform untuk bisnis perhotelan, praktisi kesehatan, dan pengecer online di Asia Tenggara dan Amerika Utara. Dia mengkhususkan diri dalam mengambil ide dan mengubahnya menjadi produk yang aktif dalam hitungan minggu. T.C. beroperasi dari Bali dan bekerja dengan klien yang menghargai kecepatan dan hasil.",
       "tags": [
-        "[NEEDS_TRANSLATION] Web & PWA Development",
-        "[NEEDS_TRANSLATION] AI-First Strategy",
-        "[NEEDS_TRANSLATION] Business Mentorship",
-        "[NEEDS_TRANSLATION] SE Asia & North America"
+        "Pengembangan Web & PWA",
+        "Strategi AI-First",
+        "Mentorship Bisnis",
+        "Asia Tenggara & Amerika Utara"
       ]
     },
     "m2": {
@@ -261,7 +261,7 @@
     "m3": {
       "name": "Tami Rini",
       "title": "Pengalaman Tamu & Operasi",
-      "bio": "[NEEDS_TRANSLATION] Tami has spent five years in front desk operations and sales across Bali, Lombok, and Malaysia. She currently serves as Sales Executive at Mandala Eco Resort Lombok. Tami reviews guest journey workflows from inquiry to checkout and identifies friction points that cost villa operators conversions.",
+      "bio": "Tami telah menghabiskan lima tahun di operasional front desk dan penjualan di Bali, Lombok, dan Malaysia. Saat ini dia menjabat sebagai Sales Executive di Mandala Eco Resort Lombok. Tami meninjau alur kerja perjalanan tamu dari inquiry hingga checkout dan mengidentifikasi titik-titik hambatan yang merugikan konversi operator villa.",
       "tags": [
         "Pengalaman Tamu",
         "Operasi OTA & Pemesanan",
@@ -271,14 +271,14 @@
     },
     "m4": {
       "name": "Tobias Kaiuth",
-      "title": "[NEEDS_TRANSLATION] Meta Traffic & Conversion Architect",
-      "bio": "[NEEDS_TRANSLATION] With a proven track record creating 7-figure Meta Ads campaigns for his clients and his own brands, Tobias is a performance marketing strategist known for turning ad spend into predictable, scalable profit. He is now bringing that expertise to Indonesia, partnering with villa owners and hospitality managers to build direct-booking systems on Meta.",
+      "title": "Arsitek Meta Traffic & Konversi",
+      "bio": "Dengan rekam jejak yang terbukti dalam menciptakan kampanye Meta Ads 7-figure untuk klien dan brand-nya sendiri, Tobias adalah seorang strategis performance marketing yang dikenal karena mengubah pengeluaran iklan menjadi keuntungan yang dapat diprediksi dan diskalakan. Kini ia membawa keahlian tersebut ke Indonesia, bermitra dengan pemilik villa dan manajer perhotelan untuk membangun sistem direct-booking di Meta.",
       "tags": [
-        "[NEEDS_TRANSLATION] Meta Ads",
-        "[NEEDS_TRANSLATION] Performance Marketing",
-        "[NEEDS_TRANSLATION] Direct Booking",
-        "[NEEDS_TRANSLATION] Villa & Hospitality",
-        "[NEEDS_TRANSLATION] Conversion Optimization"
+        "Meta Ads",
+        "Performance Marketing",
+        "Direct Booking",
+        "Villa & Hospitalitas",
+        "Optimasi Konversi"
       ]
     }
   },
@@ -625,29 +625,29 @@
     "eyebrow": "Tentang T.C. Chambers",
     "headline": "Dibangun dari Nol. Dibangun Kembali dari Dasar.",
     "subheadline": "Veteran Militer. Penulis Bestseller Amazon. Ahli Strategi AI. Berbasis di Bali.",
-    "sh1": "[NEEDS_TRANSLATION] From Service to Strategy",
-    "p1": "[NEEDS_TRANSLATION] T.C. Chambers spent 8 years as a United States Army officer before transitioning into Corporate America and launching his first business. That early chapter included a bankruptcy, damaged credit, and hard lessons about money. Mentorship changed the trajectory. He rebuilt, secured funding, and turned those lessons into a repeatable framework he now teaches others.",
-    "sh2": "[NEEDS_TRANSLATION] What He Does",
-    "p2": "[NEEDS_TRANSLATION] T.C. is an AI-First Business Success Strategist who helps people identify their strongest marketable skill, package it into a real business, and get it live in 8 weeks. His approach is direct: figure out what your market needs, build only that, ship fast. He also builds web applications for hospitality businesses, wellness practitioners, and online retailers across Southeast Asia and North America.",
-    "sh3": "[NEEDS_TRANSLATION] The Pattern He Noticed",
-    "p3": "[NEEDS_TRANSLATION] After years of client work, T.C. kept seeing the same problem. Freedom Seekers had knowledge, experience, and expertise but no structured path to turn it into income. They wasted time on wrong priorities, built features nobody needed, and stalled because they lacked clarity. The problem was never talent. It was always direction.",
-    "sh4": "[NEEDS_TRANSLATION] Where He Operates",
-    "p4": "[NEEDS_TRANSLATION] T.C. lives in Bali, Indonesia, where he runs his coaching business, builds web platforms for clients worldwide, and renovates property acquired using creative funding strategies. He works with people who value speed and results over process.",
-    "sh5": "[NEEDS_TRANSLATION] His Approach",
-    "p5": "[NEEDS_TRANSLATION] T.C. treats every engagement the same way: identify the real problem, strip away what does not matter, and build something that works. Whether he is mentoring first-time entrepreneurs or shipping a web application for a hospitality brand in Bali, the principle holds. Clarity first. Action second. Results always.",
-    "mission": "[NEEDS_TRANSLATION] Clarity first. Action second. Results always.",
+    "sh1": "Dari Layanan ke Strategi",
+    "p1": "T.C. Chambers menghabiskan 8 tahun sebagai perwira Angkatan Darat Amerika Serikat sebelum beralih ke dunia korporat Amerika dan meluncurkan bisnis pertamanya. Bab awal tersebut mencakup kebangkrutan, kredit yang rusak, dan pelajaran berat tentang uang. Bimbingan mentor mengubah lintasan perjalanannya. Ia membangun kembali, mengamankan pendanaan, dan mengubah pelajaran-pelajaran tersebut menjadi kerangka kerja yang dapat diulang yang kini ia ajarkan kepada orang lain.",
+    "sh2": "Apa Yang Dia Lakukan",
+    "p2": "T.C. adalah AI-First Business Success Strategist yang membantu orang mengidentifikasi keterampilan paling marketable mereka, mengemas keterampilan tersebut menjadi bisnis nyata, dan meluncurkannya dalam 8 minggu. Pendekatannya langsung: cari tahu apa yang dibutuhkan pasar Anda, bangun hanya itu, luncurkan dengan cepat. Dia juga membangun aplikasi web untuk bisnis perhotelan, praktisi wellness, dan retailer online di Asia Tenggara dan Amerika Utara.",
+    "sh3": "Pola yang Dia Perhatikan",
+    "p3": "Setelah bertahun-tahun bekerja dengan klien, T.C. terus melihat masalah yang sama. Para Pencari Kebebasan memiliki pengetahuan, pengalaman, dan keahlian namun tidak memiliki jalur terstruktur untuk mengubahnya menjadi pendapatan. Mereka membuang waktu pada prioritas yang salah, membangun fitur yang tidak dibutuhkan siapa pun, dan terhenti karena mereka kekurangan kejelasan. Masalahnya bukan pernah pada bakat. Masalahnya selalu pada arah.",
+    "sh4": "Wilayah Operasional Beliau",
+    "p4": "T.C. tinggal di Bali, Indonesia, di mana dia menjalankan bisnis pelatihan, membangun platform web untuk klien di seluruh dunia, dan merenovasi properti yang diperoleh menggunakan strategi pendanaan kreatif. Dia bekerja dengan orang-orang yang menghargai kecepatan dan hasil daripada proses.",
+    "sh5": "Pendekatannya",
+    "p5": "T.C. menangani setiap keterlibatan dengan cara yang sama: mengidentifikasi masalah yang sebenarnya, menghilangkan hal-hal yang tidak penting, dan membangun sesuatu yang berfungsi. Baik dia sedang membimbing entrepreneur pemula atau mengembangkan aplikasi web untuk merek perhotelan di Bali, prinsipnya tetap sama. Kejelasan dahulu. Tindakan kedua. Hasil selalu.",
+    "mission": "Kejelasan dahulu. Tindakan kedua. Hasil selalu.",
     "credentials": {
       "heading": "Kredensial",
       "c1": "Perwira Angkatan Darat AS (8 tahun)",
-      "c2": "[NEEDS_TRANSLATION] 30+ Years in Business Development",
+      "c2": "30+ Tahun dalam Pengembangan Bisnis",
       "c3": "Penulis Bestseller Amazon",
-      "c4": "[NEEDS_TRANSLATION] AI-First Business Success Strategist",
-      "c5": "[NEEDS_TRANSLATION] Web & PWA Developer (SE Asia & North America)",
+      "c4": "Ahli Strategi Kesuksesan Bisnis yang Mengutamakan AI",
+      "c5": "Pengembang Web & PWA (Asia Tenggara & Amerika Utara)",
       "c6": "COO, Alpha & Omega Legacy Group",
-      "c7": "[NEEDS_TRANSLATION] Creator, AI-Powered 8-Week Superpower Business in a Box"
+      "c7": "Kreator, Bisnis Bertenaga AI 8 Minggu Superpower Business in a Box"
     },
     "fundingDisclaimer": "Jadwal pendanaan yang direferensikan didasarkan pada pengalaman pribadi T.C. Chambers dan hasil klien tertentu. Hasil individu akan bervariasi berdasarkan profil kredit, jenis bisnis, jumlah pendanaan, dan kriteria pemberi pinjaman. Tidak ada yang di sini merupakan jaminan persetujuan pendanaan, jadwal tertentu, atau jumlah tertentu. Konten ini hanya untuk tujuan pendidikan.",
-    "programDisclaimer": "[NEEDS_TRANSLATION] This is an educational mentorship program. Results vary based on individual effort, experience, and market conditions.",
+    "programDisclaimer": "Ini adalah program mentorship edukatif. Hasil bervariasi berdasarkan upaya individu, pengalaman, dan kondisi pasar.",
     "ctaHeading": "Siap bekerja dengan T.C.?",
     "ctaButton": "Pesan Panggilan Strategi Gratis"
   },
@@ -661,12 +661,12 @@
     "m1": {
       "name": "T.C. Chambers",
       "title": "Pendiri & Direktur Teknis",
-      "bio": "[NEEDS_TRANSLATION] T.C. spent 8 years as a U.S. Army officer before launching his first business. After navigating bankruptcy and rebuilding through mentorship, he turned those lessons into a repeatable framework. He now helps entrepreneurs identify their strongest marketable skill, package it into a real business, and get it live in 8 weeks. He builds web applications for hospitality businesses, wellness practitioners, and online retailers across Southeast Asia and North America. He operates from Bali and works with clients who value speed and results over process.",
+      "bio": "T.C. menghabiskan 8 tahun sebagai perwira Angkatan Darat AS sebelum meluncurkan bisnis pertamanya. Setelah melewati kebangkrutan dan membangun kembali melalui bimbingan mentor, ia mengubah pelajaran tersebut menjadi kerangka kerja yang dapat diulang. Kini ia membantu para entrepreneur mengidentifikasi keterampilan terkuat mereka yang dapat dipasarkan, mengemasnya menjadi bisnis nyata, dan meluncurkannya dalam 8 minggu. Ia membangun aplikasi web untuk bisnis perhotelan, praktisi kesehatan, dan pengecer online di seluruh Asia Tenggara dan Amerika Utara. Ia beroperasi dari Bali dan bekerja dengan klien yang menghargai kecepatan dan hasil daripada proses.",
       "tags": [
-        "[NEEDS_TRANSLATION] Web & PWA Development",
-        "[NEEDS_TRANSLATION] AI-First Strategy",
-        "[NEEDS_TRANSLATION] Business Mentorship",
-        "[NEEDS_TRANSLATION] SE Asia & North America"
+        "Pengembangan Web & PWA",
+        "Strategi AI-First",
+        "Mentorship Bisnis",
+        "Asia Tenggara & Amerika Utara"
       ]
     },
     "m2": {
@@ -693,14 +693,14 @@
     },
     "m4": {
       "name": "Tobias Kaiuth",
-      "title": "[NEEDS_TRANSLATION] Meta Traffic & Conversion Architect",
-      "bio": "[NEEDS_TRANSLATION] With a proven track record creating and producing 7-figure Meta Ads campaigns for both his clients and his own brands, Tobias Kaiuth is a performance marketing strategist known for turning ad spend into predictable, scalable profit. Drawing on years of experience managing multi-million-dollar campaigns, optimizing funnels, and building high-ROI creative systems, he blends sharp data analysis with messaging that converts browsers into buyers. Now, Tobias is bringing that expertise to Indonesia, partnering with villa owners and hospitality managers to build direct-booking machines on Meta, so they can attract qualified guests, grow repeat stays, and stop relying solely on OTAs to fill their calendars.",
+      "title": "Arsitek Traffic & Konversi Meta",
+      "bio": "Dengan rekam jejak terbukti dalam menciptakan dan menghasilkan kampanye Meta Ads berkelas 7-figure untuk klien maupun brand-nya sendiri, Tobias Kaiuth adalah seorang ahli strategi performance marketing yang dikenal karena kemampuannya mengubah pengeluaran iklan menjadi keuntungan yang dapat diprediksi dan diskalakan. Berbekal pengalaman bertahun-tahun mengelola kampanye bernilai multi-juta dolar, mengoptimalkan funnel, dan membangun sistem kreatif dengan ROI tinggi, ia memadukan analisis data yang tajam dengan pesan yang mengkonversi pengunjung menjadi pembeli. Kini, Tobias membawa keahlian tersebut ke Indonesia, bermitra dengan pemilik villa dan manajer perhotelan untuk membangun mesin direct-booking di Meta, sehingga mereka dapat menarik tamu yang berkualitas, meningkatkan tingkat kunjungan berulang, dan berhenti bergantung sepenuhnya pada OTA untuk mengisi kalender mereka.",
       "tags": [
-        "[NEEDS_TRANSLATION] Meta Ads",
-        "[NEEDS_TRANSLATION] Performance Marketing",
-        "[NEEDS_TRANSLATION] Direct Booking",
-        "[NEEDS_TRANSLATION] Villa & Hospitality",
-        "[NEEDS_TRANSLATION] Conversion Optimization"
+        "Meta Ads",
+        "Performance Marketing",
+        "Direct Booking",
+        "Villa & Hospitalitas",
+        "Optimasi Konversi"
       ]
     },
     "ctaHeading": "Bekerja dengan tim.",
@@ -906,343 +906,343 @@
   },
   "villaPage": {
     "meta": {
-      "title": "[NEEDS_TRANSLATION] Villa Booking Traffic - T.C. Chambers",
-      "description": "[NEEDS_TRANSLATION] Indonesia's new regulations are cutting villa owners off from Airbnb and Booking.com. Build your direct booking channel."
+      "title": "Lalu Lintas Pemesanan Villa - T.C. Chambers",
+      "description": "Regulasi baru Indonesia memutus akses pemilik villa dari Airbnb dan Booking.com. Bangun saluran pemesanan langsung Anda."
     },
-    "headline": "[NEEDS_TRANSLATION] Indonesia's New Regulations Are Cutting Villa Owners Off From Airbnb and Booking.com. Here's Your Alternative.",
-    "subheadline": "[NEEDS_TRANSLATION] Build a direct booking channel that puts you in control of your revenue, your guests, and your brand.",
-    "ctaHeading": "[NEEDS_TRANSLATION] Ready to protect your villa's bookings?",
-    "ctaButton": "[NEEDS_TRANSLATION] Book a Free Strategy Call"
+    "headline": "Regulasi Baru Indonesia Memutus Akses Pemilik Villa dari Airbnb dan Booking.com. Inilah Alternatif Anda.",
+    "subheadline": "Bangun saluran pemesanan langsung yang memberikan Anda kendali penuh atas pendapatan, tamu, dan merek Anda.",
+    "ctaHeading": "Siap untuk melindungi pemesanan vila Anda?",
+    "ctaButton": "Pesan Panggilan Strategi Gratis"
   },
   "superpowerPage": {
     "meta": {
-      "title": "[NEEDS_TRANSLATION] The Superpower Program - T.C. Chambers",
-      "description": "[NEEDS_TRANSLATION] 8 weeks. 6 deliverables. One live, running business."
+      "title": "Program Superpower - T.C. Chambers",
+      "description": "8 minggu. 6 hasil kerja. Satu bisnis yang hidup dan berjalan. Identifikasi keahlian terkuat Anda yang dapat dipasarkan dan bangun bisnis di sekitarnya."
     },
-    "headline": "[NEEDS_TRANSLATION] 8 Weeks. 6 Deliverables. One Live, Running Business.",
-    "subheadline": "[NEEDS_TRANSLATION] Identify your strongest marketable skill, package it into a real business, and get it live.",
-    "ctaHeading": "[NEEDS_TRANSLATION] Ready to build your business?",
-    "ctaButton": "[NEEDS_TRANSLATION] Join the Waitlist"
+    "headline": "8 Minggu. 6 Deliverables. Satu Bisnis yang Hidup dan Berjalan.",
+    "subheadline": "Identifikasi keahlian terkuat Anda yang dapat dipasarkan, kemas menjadi bisnis nyata, dan jalankan secara langsung.",
+    "ctaHeading": "Siap membangun bisnis Anda?",
+    "ctaButton": "Bergabung dengan Daftar Tunggu"
   },
   "websitesPage": {
     "meta": {
-      "title": "[NEEDS_TRANSLATION] AI-Powered Websites & PWAs - T.C. Chambers",
-      "description": "[NEEDS_TRANSLATION] Websites and Progressive Web Apps built to convert."
+      "title": "Situs Web & PWA Bertenaga AI - T.C. Chambers",
+      "description": "Website dan Progressive Web Apps yang dibangun untuk konversi. Bertenaga AI, mengutamakan mobile, dan dirancang untuk bisnis perhotelan dan layanan."
     },
-    "headline": "[NEEDS_TRANSLATION] AI-Powered Websites and PWAs Built to Convert",
-    "subheadline": "[NEEDS_TRANSLATION] Fast, mobile-first platforms designed for hospitality, wellness, and service businesses across Southeast Asia and North America.",
-    "ctaHeading": "[NEEDS_TRANSLATION] Ready to build your digital presence?",
-    "ctaButton": "[NEEDS_TRANSLATION] Book a Discovery Call"
+    "headline": "Situs Web dan PWA Bertenaga AI yang Dibangun untuk Konversi",
+    "subheadline": "Platform cepat yang mengutamakan mobile dirancang untuk bisnis perhotelan, kesehatan, dan layanan di seluruh Asia Tenggara dan Amerika Utara.",
+    "ctaHeading": "Siap membangun kehadiran digital Anda?",
+    "ctaButton": "Pesan Panggilan Penemuan"
   },
   "fundingPage": {
     "meta": {
-      "title": "[NEEDS_TRANSLATION] Business Funding & Structuring - T.C. Chambers",
-      "description": "[NEEDS_TRANSLATION] Access business capital in 14 to 30 days."
+      "title": "Pendanaan & Penataan Bisnis - T.C. Chambers",
+      "description": "Akses modal usaha dalam 14 hingga 30 hari. Penataan entitas yang tepat, optimalisasi kredit, dan strategi pendanaan yang efektif."
     },
-    "headline": "[NEEDS_TRANSLATION] Access Business Capital in 14 to 30 Days",
-    "subheadline": "[NEEDS_TRANSLATION] Proper entity structuring, credit optimization, and funding strategies built from 30 years of real-world experience.",
-    "ctaHeading": "[NEEDS_TRANSLATION] Ready to get funded?",
-    "ctaButton": "[NEEDS_TRANSLATION] Book a Funding Strategy Call"
+    "headline": "Akses Modal Usaha dalam 14 hingga 30 Hari",
+    "subheadline": "Penataan entitas yang tepat, optimisasi kredit, dan strategi pendanaan yang dibangun dari 30 tahun pengalaman dunia nyata.",
+    "ctaHeading": "Siap untuk mendapatkan pendanaan?",
+    "ctaButton": "Jadwalkan Panggilan Strategi Pendanaan"
   },
   "villaQuiz": {
     "meta": {
-      "title": "[NEEDS_TRANSLATION] Villa OTA Readiness Quiz - T.C. Chambers",
-      "description": "[NEEDS_TRANSLATION] Is your villa ready to survive Indonesia's OTA shift? Take the 2-minute assessment."
+      "title": "Kuis Kesiapan Villa OTA - T.C. Chambers",
+      "description": "Apakah villa Anda siap menghadapi pergeseran OTA Indonesia? Ikuti penilaian 2 menit ini."
     },
     "hero": {
-      "headline": "[NEEDS_TRANSLATION] Is Your Villa Ready to Survive Indonesia's OTA Shift?",
-      "subheadline": "[NEEDS_TRANSLATION] Answer 6 quick questions and find out exactly where your villa stands and what to do next."
+      "headline": "Apakah Vila Anda Siap Bertahan dari Pergeseran OTA Indonesia?",
+      "subheadline": "Jawab 6 pertanyaan singkat dan temukan secara tepat di mana posisi villa Anda dan apa yang harus dilakukan selanjutnya."
     },
     "q1": {
-      "text": "[NEEDS_TRANSLATION] What percentage of your current bookings come through Airbnb or Booking.com?",
-      "placeholder": "[NEEDS_TRANSLATION] e.g. 80%"
+      "text": "Berapa persentase booking Anda saat ini yang berasal dari Airbnb atau Booking.com?",
+      "placeholder": "misal 80%"
     },
     "q2": {
-      "text": "[NEEDS_TRANSLATION] Have you received any notices or warnings from OTA platforms in the last 6 months?",
-      "o1": "[NEEDS_TRANSLATION] Yes, I received a formal notice",
-      "o2": "[NEEDS_TRANSLATION] Yes, an informal warning",
-      "o3": "[NEEDS_TRANSLATION] No, but I have heard about the changes",
-      "o4": "[NEEDS_TRANSLATION] No idea - this is new to me"
+      "text": "Apakah Anda telah menerima pemberitahuan atau peringatan dari platform OTA dalam 6 bulan terakhir?",
+      "o1": "Ya, saya telah menerima pemberitahuan resmi",
+      "o2": "Ya, peringatan tidak resmi",
+      "o3": "Tidak, tetapi saya telah mendengar tentang perubahan-perubahan tersebut",
+      "o4": "Tidak ada ide - ini baru bagi saya"
     },
     "q3": {
-      "text": "[NEEDS_TRANSLATION] How many bookings per month does your villa currently average?",
-      "placeholder": "[NEEDS_TRANSLATION] e.g. 12 bookings"
+      "text": "Berapa rata-rata booking per bulan yang saat ini diterima vila Anda?",
+      "placeholder": "contoh 12 pemesanan"
     },
     "q4": {
-      "text": "[NEEDS_TRANSLATION] Do you have any direct booking channel outside of OTAs right now?",
-      "o1": "[NEEDS_TRANSLATION] Yes, a strong one",
-      "o2": "[NEEDS_TRANSLATION] Yes, but a weak one",
-      "o3": "[NEEDS_TRANSLATION] No, but I am working on it",
-      "o4": "[NEEDS_TRANSLATION] No, I am entirely OTA dependent"
+      "text": "Apakah Anda saat ini memiliki saluran pemesanan langsung di luar OTA?",
+      "o1": "Ya, yang kuat",
+      "o2": "Ya, tetapi yang lemah",
+      "o3": "Tidak, tetapi saya sedang mengerjakannya",
+      "o4": "Tidak, saya sepenuhnya bergantung pada OTA"
     },
     "q5": {
-      "text": "[NEEDS_TRANSLATION] What is your biggest concern about the regulation changes?",
-      "o1": "[NEEDS_TRANSLATION] Losing all OTA platform access",
-      "o2": "[NEEDS_TRANSLATION] Revenue dropping significantly",
-      "o3": "[NEEDS_TRANSLATION] Not knowing what to do about it",
-      "o4": "[NEEDS_TRANSLATION] Finding it hard to believe it is real"
+      "text": "Apa kekhawatiran terbesar Anda tentang perubahan regulasi?",
+      "o1": "Kehilangan akses ke semua platform OTA",
+      "o2": "Pendapatan turun secara signifikan",
+      "o3": "Tidak mengetahui apa yang harus dilakukan mengenai hal tersebut",
+      "o4": "Merasa sulit untuk percaya bahwa ini nyata"
     },
     "q6": {
-      "text": "[NEEDS_TRANSLATION] What is your villa called and where is it located?",
-      "placeholder": "[NEEDS_TRANSLATION] e.g. Villa Serenity, Ubud, Bali"
+      "text": "Apa nama vila Anda dan di mana lokasinya?",
+      "placeholder": "contoh: Villa Serenity, Ubud, Bali"
     },
     "results": {
       "critical": {
-        "headline": "[NEEDS_TRANSLATION] CRITICAL RISK: Your Villa Needs a Direct Booking System Now",
-        "body": "[NEEDS_TRANSLATION] Based on your answers, your villa is highly exposed to the OTA regulation changes with no alternative traffic source in place. The good news: this is fixable. Here is your first step."
+        "headline": "RISIKO KRITIS: Vila Anda Memerlukan Sistem Pemesanan Langsung Sekarang",
+        "body": "Berdasarkan jawaban Anda, vila Anda sangat terpapar terhadap perubahan regulasi OTA tanpa sumber traffic alternatif yang tersedia. Kabar baiknya: hal ini dapat diperbaiki. Berikut adalah langkah pertama Anda."
       },
       "moderate": {
-        "headline": "[NEEDS_TRANSLATION] MODERATE RISK: You Have a Start. Here Is How to Build on It.",
-        "body": "[NEEDS_TRANSLATION] You have some awareness and partial action. The gap is in execution. Here is what to do next."
+        "headline": "RISIKO MENENGAH: Anda Memiliki Awal yang Baik. Berikut Cara Mengembangkannya.",
+        "body": "Anda memiliki kesadaran dan tindakan sebagian. Kesenjangan terletak pada pelaksanaan. Berikut adalah langkah selanjutnya yang harus dilakukan."
       },
       "low": {
-        "headline": "[NEEDS_TRANSLATION] LOW RISK: You Are Ahead of Most. Here Is How to Stay There.",
-        "body": "[NEEDS_TRANSLATION] You have a direct channel. Now it is time to optimize it and make it your primary booking source."
+        "headline": "RISIKO RENDAH: Anda Lebih Unggul dari Kebanyakan. Berikut Cara Mempertahankannya.",
+        "body": "Anda memiliki saluran langsung. Sekarang saatnya untuk mengoptimalkannya dan menjadikannya sumber pemesanan utama Anda."
       },
       "general": {
-        "headline": "[NEEDS_TRANSLATION] Your Villa Has Options. Here Is Where to Start.",
-        "body": "[NEEDS_TRANSLATION] The OTA landscape is changing. Here is a clear plan to protect your bookings."
+        "headline": "Villa Anda Memiliki Pilihan. Inilah Tempat untuk Memulai.",
+        "body": "Lanskap OTA sedang berubah. Berikut adalah rencana yang jelas untuk melindungi booking Anda."
       }
     },
     "magnet": {
-      "name": "[NEEDS_TRANSLATION] The Bali Villa Owner's Direct Booking Survival Guide",
-      "description": "[NEEDS_TRANSLATION] A 12-page guide covering exactly what the regulations mean, what Meta Traffic is, and your 30-day action plan.",
-      "buttonLabel": "[NEEDS_TRANSLATION] Send Me the Survival Guide",
-      "successHeadline": "[NEEDS_TRANSLATION] Your Direct Booking Survival Guide is on its way.",
-      "bookingCtaLabel": "[NEEDS_TRANSLATION] Book a Villa Traffic Strategy Call"
+      "name": "Panduan Bertahan Hidup Direct Booking untuk Pemilik Villa Bali",
+      "description": "Panduan 12 halaman yang membahas secara tepat apa arti peraturan tersebut, apa itu Meta Traffic, dan rencana aksi 30 hari Anda.",
+      "buttonLabel": "Kirimkan Panduan Bertahan Hidup kepada Saya",
+      "successHeadline": "Panduan Bertahan Hidup Direct Booking Anda sedang dalam perjalanan.",
+      "bookingCtaLabel": "Pesan Panggilan Strategi Traffic Villa"
     },
-    "disclaimer": "[NEEDS_TRANSLATION] Regulatory information is provided for general awareness based on publicly reported developments. Regulations may change. Consult a local legal advisor for guidance specific to your property."
+    "disclaimer": "Informasi regulasi disediakan untuk kesadaran umum berdasarkan perkembangan yang dilaporkan secara publik. Regulasi dapat berubah. Konsultasikan dengan penasihat hukum lokal untuk panduan yang spesifik untuk properti Anda."
   },
   "superpowerQuiz": {
     "meta": {
-      "title": "[NEEDS_TRANSLATION] Superpower Discovery Quiz - T.C. Chambers",
-      "description": "[NEEDS_TRANSLATION] What is your #1 marketable skill? Take the quiz and find out what business you should be building."
+      "title": "Kuis Penemuan Kekuatan Super - T.C. Chambers",
+      "description": "Apa keahlian #1 Anda yang dapat dipasarkan? Ikuti kuis ini dan temukan bisnis apa yang harus Anda bangun."
     },
     "hero": {
-      "headline": "[NEEDS_TRANSLATION] What Is Your Business Superpower?",
-      "subheadline": "[NEEDS_TRANSLATION] Answer 6 questions and find out what you should be building and why you are not making money from it yet."
+      "headline": "Apa Kekuatan Super Bisnis Anda?",
+      "subheadline": "Jawab 6 pertanyaan dan temukan apa yang seharusnya Anda bangun dan mengapa Anda belum menghasilkan uang darinya."
     },
     "q1": {
-      "text": "[NEEDS_TRANSLATION] What do people most often ask you for help with? Even informally, what do friends, colleagues, or strangers come to you about?",
-      "placeholder": "[NEEDS_TRANSLATION] Be specific. The more honest, the better your result."
+      "text": "Apa yang paling sering diminta bantuan oleh orang-orang kepada Anda? Bahkan secara informal, hal apa yang ditanyakan teman, kolega, atau orang asing kepada Anda?",
+      "placeholder": "Bersikaplah spesifik. Semakin jujur, semakin baik hasil yang Anda dapatkan."
     },
     "q2": {
-      "text": "[NEEDS_TRANSLATION] When you help someone with this skill, how do they typically react?",
-      "o1": "[NEEDS_TRANSLATION] They tell others about it",
-      "o2": "[NEEDS_TRANSLATION] They ask me to do it again",
-      "o3": "[NEEDS_TRANSLATION] They offer to pay me",
-      "o4": "[NEEDS_TRANSLATION] They seem underwhelmed",
-      "o5": "[NEEDS_TRANSLATION] I am not sure"
+      "text": "Ketika Anda membantu seseorang dengan keterampilan ini, bagaimana reaksi mereka pada umumnya?",
+      "o1": "Mereka memberitahu orang lain tentang hal tersebut",
+      "o2": "Mereka meminta saya untuk melakukannya lagi",
+      "o3": "Mereka menawarkan untuk membayar saya",
+      "o4": "Mereka tampak kurang terkesan",
+      "o5": "Saya tidak yakin"
     },
     "q3": {
-      "text": "[NEEDS_TRANSLATION] What has stopped you from turning this into a business so far?",
-      "o1": "[NEEDS_TRANSLATION] I do not know where to start",
-      "o2": "[NEEDS_TRANSLATION] I do not think people will pay for it",
-      "o3": "[NEEDS_TRANSLATION] I have tried but got stuck",
-      "o4": "[NEEDS_TRANSLATION] Life got in the way",
-      "o5": "[NEEDS_TRANSLATION] I did not know it was possible"
+      "text": "Apa yang telah menghentikan Anda untuk mengubah ini menjadi bisnis selama ini?",
+      "o1": "Saya tidak tahu harus mulai dari mana",
+      "o2": "Saya tidak yakin orang-orang akan membayar untuk itu",
+      "o3": "Saya sudah mencoba tetapi mengalami kesulitan",
+      "o4": "Hidup menghalangi jalannya",
+      "o5": "Saya tidak tahu hal itu memungkinkan"
     },
     "q4": {
-      "text": "[NEEDS_TRANSLATION] If you could help one specific type of person with this skill, who would that be? Describe them.",
-      "placeholder": "[NEEDS_TRANSLATION] e.g. Busy parents who want to start a side business but do not know where to begin."
+      "text": "Jika Anda dapat membantu satu jenis orang tertentu dengan keahlian ini, siapa yang akan Anda pilih? Deskripsikan mereka.",
+      "placeholder": "contoh: Orang tua yang sibuk yang ingin memulai bisnis sampingan tetapi tidak tahu harus mulai dari mana."
     },
     "q5": {
-      "text": "[NEEDS_TRANSLATION] What stage is your business in right now?",
-      "o1": "[NEEDS_TRANSLATION] Still an idea",
-      "o2": "[NEEDS_TRANSLATION] Just started, no revenue yet",
-      "o3": "[NEEDS_TRANSLATION] Making some money but inconsistent",
-      "o4": "[NEEDS_TRANSLATION] Established but want to scale"
+      "text": "Tahap apa posisi bisnis Anda saat ini?",
+      "o1": "Masih berupa ide",
+      "o2": "Baru memulai, belum ada pendapatan",
+      "o3": "Mendapatkan uang tetapi tidak konsisten",
+      "o4": "Sudah berdiri namun ingin berkembang"
     },
     "q6": {
-      "text": "[NEEDS_TRANSLATION] What would change in your life if this business was generating real income in 90 days?",
-      "placeholder": "[NEEDS_TRANSLATION] Be honest. This is for you."
+      "text": "Apa yang akan berubah dalam hidup Anda jika bisnis ini menghasilkan pendapatan nyata dalam 90 hari?",
+      "placeholder": "Jujurlah. Ini untuk Anda."
     },
     "results": {
       "system_needed": {
-        "headline": "[NEEDS_TRANSLATION] YOUR SUPERPOWER IS REAL. YOU JUST NEED THE SYSTEM.",
-        "body": "[NEEDS_TRANSLATION] People already recognize your value. The gap is not talent. It is structure. Here is the workbook that helps you name it and package it."
+        "headline": "KEKUATAN SUPER ANDA NYATA. ANDA HANYA MEMBUTUHKAN SISTEM.",
+        "body": "Orang-orang sudah mengakui nilai Anda. Kesenjangan bukan pada talenta. Melainkan pada struktur. Berikut adalah buku kerja yang membantu Anda menamai dan mengemasnya."
       },
       "discovery_needed": {
-        "headline": "[NEEDS_TRANSLATION] YOUR SUPERPOWER EXISTS. WE NEED TO FIND IT FIRST.",
-        "body": "[NEEDS_TRANSLATION] You have more than you think. The workbook below will prove it in 60 minutes."
+        "headline": "KEKUATAN SUPER ANDA ADA. KAMI PERLU MENEMUKANNYA TERLEBIH DAHULU.",
+        "body": "Anda memiliki lebih dari yang Anda kira. Buku kerja di bawah ini akan membuktikannya dalam 60 menit."
       },
       "underutilized": {
-        "headline": "[NEEDS_TRANSLATION] YOUR SUPERPOWER IS BEING UNDERUTILIZED.",
-        "body": "[NEEDS_TRANSLATION] You have started. Now you need a system to scale it. Here is where to begin."
+        "headline": "KEKUATAN SUPER ANDA SEDANG TIDAK DIMANFAATKAN SECARA OPTIMAL.",
+        "body": "Anda telah memulai. Sekarang Anda membutuhkan sistem untuk mengembangkannya. Inilah tempat untuk memulai."
       },
       "general": {
-        "headline": "[NEEDS_TRANSLATION] YOU KNOW MORE THAN YOU THINK. LET'S PROVE IT.",
-        "body": "[NEEDS_TRANSLATION] The workbook below will help you find, name, and package your superpower in 60 minutes."
+        "headline": "ANDA TAHU LEBIH BANYAK DARIPADA YANG ANDA KIRA. MARI BUKTIKAN.",
+        "body": "Buku kerja di bawah ini akan membantu Anda menemukan, menamai, dan mengemas kekuatan super Anda dalam 60 menit."
       }
     },
     "magnet": {
-      "name": "[NEEDS_TRANSLATION] The Superpower Discovery Workbook",
-      "description": "[NEEDS_TRANSLATION] 5 exercises to identify and name your #1 marketable skill in 60 minutes. 16 pages. Free.",
-      "buttonLabel": "[NEEDS_TRANSLATION] Send Me the Workbook",
-      "successHeadline": "[NEEDS_TRANSLATION] Your Superpower Discovery Workbook is on its way.",
-      "bookingCtaLabel": "[NEEDS_TRANSLATION] Join the Superpower Waitlist"
+      "name": "Buku Kerja Penemuan Kekuatan Super",
+      "description": "5 latihan untuk mengidentifikasi dan menamai kemampuan #1 Anda yang dapat dipasarkan dalam 60 menit. 16 halaman. Gratis.",
+      "buttonLabel": "Kirimkan Saya Workbook Tersebut",
+      "successHeadline": "Buku Kerja Penemuan Kekuatan Super Anda sedang dalam perjalanan.",
+      "bookingCtaLabel": "Bergabung dengan Daftar Tunggu Superpower"
     },
-    "disclaimer": "[NEEDS_TRANSLATION] This workbook is for educational purposes only. Results vary based on individual effort and circumstances. Participation in the Superpower Program does not guarantee any specific business outcome or income level."
+    "disclaimer": "Buku kerja ini hanya untuk tujuan edukasi. Hasil bervariasi berdasarkan usaha individu dan keadaan. Partisipasi dalam Program Superpower tidak menjamin hasil bisnis atau tingkat pendapatan tertentu."
   },
   "websiteQuiz": {
     "meta": {
-      "title": "[NEEDS_TRANSLATION] Website Diagnostic Quiz - T.C. Chambers",
-      "description": "[NEEDS_TRANSLATION] Is your website costing you clients? Take the 60-second digital presence diagnostic."
+      "title": "Kuis Diagnosis Website - T.C. Chambers",
+      "description": "Apakah website Anda merugikan klien? Lakukan diagnostik kehadiran digital 60 detik."
     },
     "hero": {
-      "headline": "[NEEDS_TRANSLATION] Is Your Website Costing You Clients?",
-      "subheadline": "[NEEDS_TRANSLATION] Take the 60-second Digital Presence Diagnostic and find out exactly what to fix first."
+      "headline": "Apakah Website Anda Merugikan Klien?",
+      "subheadline": "Ikuti Diagnosa Kehadiran Digital 60 detik dan temukan secara tepat apa yang harus diperbaiki terlebih dahulu."
     },
     "q1": {
-      "text": "[NEEDS_TRANSLATION] Do you currently have a website?",
-      "o1": "[NEEDS_TRANSLATION] Yes, it converts well",
-      "o2": "[NEEDS_TRANSLATION] Yes, but it underperforms",
-      "o3": "[NEEDS_TRANSLATION] I have a social media page only",
-      "o4": "[NEEDS_TRANSLATION] No website at all"
+      "text": "Apakah Anda saat ini memiliki website?",
+      "o1": "Ya, ini memiliki konversi yang baik",
+      "o2": "Ya, tetapi kinerjanya kurang optimal",
+      "o3": "Saya hanya memiliki halaman media sosial",
+      "o4": "Sama sekali tidak memiliki website"
     },
     "q2": {
-      "text": "[NEEDS_TRANSLATION] Where does most of your client or customer traffic come from right now?",
-      "o1": "[NEEDS_TRANSLATION] Referrals and word of mouth",
-      "o2": "[NEEDS_TRANSLATION] OTA platforms (Airbnb, Booking.com, etc.)",
-      "o3": "[NEEDS_TRANSLATION] Social media",
-      "o4": "[NEEDS_TRANSLATION] My website",
-      "o5": "[NEEDS_TRANSLATION] I do not track it"
+      "text": "Dari mana sebagian besar lalu lintas klien atau pelanggan Anda berasal saat ini?",
+      "o1": "Referensi dan rekomendasi dari mulut ke mulut",
+      "o2": "Platform OTA (Airbnb, Booking.com, dll.)",
+      "o3": "Media sosial",
+      "o4": "Website saya",
+      "o5": "Saya tidak melacaknya"
     },
     "q3": {
-      "text": "[NEEDS_TRANSLATION] When someone visits your website on their phone, what happens?",
-      "o1": "[NEEDS_TRANSLATION] It loads fast and looks great",
-      "o2": "[NEEDS_TRANSLATION] It loads slowly",
-      "o3": "[NEEDS_TRANSLATION] It looks weird or broken on mobile",
-      "o4": "[NEEDS_TRANSLATION] I am not sure",
-      "o5": "[NEEDS_TRANSLATION] I do not have a website"
+      "text": "Ketika seseorang mengunjungi situs web Anda melalui ponsel mereka, apa yang terjadi?",
+      "o1": "Memuat cepat dan tampil menawan",
+      "o2": "Proses loading lambat",
+      "o3": "Terlihat aneh atau rusak di perangkat mobile",
+      "o4": "Saya tidak yakin",
+      "o5": "Saya tidak memiliki website"
     },
     "q4": {
-      "text": "[NEEDS_TRANSLATION] What is the single most important action you want a visitor to take on your website?",
-      "placeholder": "[NEEDS_TRANSLATION] e.g. Book a call, make a purchase, submit an inquiry"
+      "text": "Apa tindakan tunggal terpenting yang Anda inginkan untuk dilakukan pengunjung di website Anda?",
+      "placeholder": "misalnya Pesan panggilan, lakukan pembelian, kirim pertanyaan"
     },
     "q5": {
-      "text": "[NEEDS_TRANSLATION] Can your website be installed on a phone like an app and work without internet?",
-      "o1": "[NEEDS_TRANSLATION] Yes it can",
-      "o2": "[NEEDS_TRANSLATION] No it cannot",
-      "o3": "[NEEDS_TRANSLATION] I do not know what that means",
-      "o4": "[NEEDS_TRANSLATION] I do not have a website"
+      "text": "Apakah website Anda dapat diinstal di ponsel seperti aplikasi dan berfungsi tanpa internet?",
+      "o1": "Ya itu bisa",
+      "o2": "Tidak, hal tersebut tidak dapat dilakukan",
+      "o3": "Saya tidak tahu apa artinya itu",
+      "o4": "Saya tidak memiliki website"
     },
     "q6": {
-      "text": "[NEEDS_TRANSLATION] How long since your website was last updated or redesigned?",
-      "o1": "[NEEDS_TRANSLATION] Less than 6 months",
-      "o2": "[NEEDS_TRANSLATION] 6 to 12 months",
-      "o3": "[NEEDS_TRANSLATION] 1 to 3 years",
-      "o4": "[NEEDS_TRANSLATION] More than 3 years",
-      "o5": "[NEEDS_TRANSLATION] Never had one"
+      "text": "Sudah berapa lama website Anda terakhir kali diperbarui atau dirancang ulang?",
+      "o1": "Kurang dari 6 bulan",
+      "o2": "6 hingga 12 bulan",
+      "o3": "1 hingga 3 tahun",
+      "o4": "Lebih dari 3 tahun",
+      "o5": "Tidak pernah memiliki"
     },
     "results": {
       "invisible": {
-        "headline": "[NEEDS_TRANSLATION] YOU ARE INVISIBLE ONLINE. HERE IS WHAT THAT IS COSTING YOU.",
-        "body": "[NEEDS_TRANSLATION] Every day without a website is a day clients are choosing someone else. Here is your 10-point checklist to get started right."
+        "headline": "ANDA TIDAK TERLIHAT SECARA ONLINE. INILAH KERUGIAN YANG ANDA ALAMI.",
+        "body": "Setiap hari tanpa website adalah hari di mana klien memilih orang lain. Berikut adalah daftar periksa 10 poin Anda untuk memulai dengan benar."
       },
       "losing_clients": {
-        "headline": "[NEEDS_TRANSLATION] YOUR WEBSITE IS LOSING YOU CLIENTS.",
-        "body": "[NEEDS_TRANSLATION] A broken or slow website sends visitors to your competitors. Here is exactly what to audit and fix."
+        "headline": "WEBSITE ANDA MEMBUAT ANDA KEHILANGAN KLIEN.",
+        "body": "Situs web yang rusak atau lambat mengirimkan pengunjung ke pesaing Anda. Berikut adalah hal-hal yang perlu diaudit dan diperbaiki secara tepat."
       },
       "not_mobile": {
-        "headline": "[NEEDS_TRANSLATION] YOUR MOBILE EXPERIENCE IS BROKEN.",
-        "body": "[NEEDS_TRANSLATION] Most of your traffic is on mobile. A site that is not installable or offline-capable is losing you bookings every day."
+        "headline": "PENGALAMAN MOBILE ANDA RUSAK.",
+        "body": "Sebagian besar traffic Anda berada di mobile. Situs yang tidak dapat diinstal atau tidak mampu offline kehilangan booking untuk Anda setiap hari."
       },
       "solid_foundation": {
-        "headline": "[NEEDS_TRANSLATION] YOUR FOUNDATION IS SOLID. HERE IS HOW TO TAKE IT FURTHER.",
-        "body": "[NEEDS_TRANSLATION] You have a working site. Here is the checklist to push it from good to exceptional."
+        "headline": "FONDASI ANDA SUDAH KUAT. INI CARA UNTUK MENGEMBANGKANNYA LEBIH JAUH.",
+        "body": "Anda memiliki situs yang berfungsi. Berikut adalah daftar periksa untuk mendorongnya dari baik menjadi luar biasa."
       }
     },
     "magnet": {
-      "name": "[NEEDS_TRANSLATION] The 10-Point Website Audit Checklist",
-      "description": "[NEEDS_TRANSLATION] Find out exactly why your website is not converting and what to fix first. 10 pages. Free.",
-      "buttonLabel": "[NEEDS_TRANSLATION] Send Me the Checklist",
-      "successHeadline": "[NEEDS_TRANSLATION] Your Website Audit Checklist is on its way.",
-      "bookingCtaLabel": "[NEEDS_TRANSLATION] Book a Website/PWA Discovery Call"
+      "name": "Daftar Periksa Audit Website 10 Poin",
+      "description": "Ketahui secara tepat mengapa website Anda tidak mengkonversi dan apa yang harus diperbaiki terlebih dahulu. 10 halaman. Gratis.",
+      "buttonLabel": "Kirimkan Saya Daftar Periksa",
+      "successHeadline": "Daftar Periksa Audit Website Anda sedang dalam perjalanan.",
+      "bookingCtaLabel": "Pesan Panggilan Konsultasi Website/PWA"
     },
-    "disclaimer": "[NEEDS_TRANSLATION] Audit results are self-assessed and for educational purposes only. Website performance depends on hosting, content, design, and user behavior. Results from any improvements will vary."
+    "disclaimer": "Hasil audit adalah penilaian mandiri dan hanya untuk tujuan edukasi. Kinerja website tergantung pada hosting, konten, desain, dan perilaku pengguna. Hasil dari setiap perbaikan akan bervariasi."
   },
   "fundingQuiz": {
     "meta": {
-      "title": "[NEEDS_TRANSLATION] Business Funding Readiness Assessment - T.C. Chambers",
-      "description": "[NEEDS_TRANSLATION] How fundable is your business right now? Take the 3-minute assessment and find out."
+      "title": "Penilaian Kesiapan Pendanaan Bisnis - T.C. Chambers",
+      "description": "Seberapa layak bisnis Anda untuk mendapatkan pendanaan saat ini? Ikuti penilaian 3 menit dan temukan jawabannya."
     },
     "hero": {
-      "headline": "[NEEDS_TRANSLATION] How Fundable Is Your Business Right Now?",
-      "subheadline": "[NEEDS_TRANSLATION] Take the 3-minute Business Funding Readiness Assessment and find out exactly where you stand and what to do next."
+      "headline": "Seberapa Layak Mendapat Pendanaan Bisnis Anda Saat Ini?",
+      "subheadline": "Ikuti Asesmen Kesiapan Pendanaan Bisnis selama 3 menit dan temukan dengan tepat posisi Anda saat ini dan langkah selanjutnya yang harus dilakukan."
     },
     "q1": {
-      "text": "[NEEDS_TRANSLATION] Does your business have a registered legal entity?",
-      "o1": "[NEEDS_TRANSLATION] Yes, fully set up and active",
-      "o2": "[NEEDS_TRANSLATION] Yes, but it is not active",
-      "o3": "[NEEDS_TRANSLATION] In progress",
-      "o4": "[NEEDS_TRANSLATION] No, I operate as a sole proprietor",
-      "o5": "[NEEDS_TRANSLATION] Not yet started"
+      "text": "Apakah bisnis Anda memiliki badan hukum yang terdaftar?",
+      "o1": "Ya, telah sepenuhnya diatur dan aktif",
+      "o2": "Ya, tetapi tidak aktif",
+      "o3": "Sedang berlangsung",
+      "o4": "Tidak, saya beroperasi sebagai perorangan",
+      "o5": "Belum dimulai"
     },
     "q2": {
-      "text": "[NEEDS_TRANSLATION] Does your business have a dedicated business bank account?",
-      "o1": "[NEEDS_TRANSLATION] Yes, active and in use",
-      "o2": "[NEEDS_TRANSLATION] Yes, but rarely used",
-      "o3": "[NEEDS_TRANSLATION] No, I use personal accounts",
-      "o4": "[NEEDS_TRANSLATION] Not yet"
+      "text": "Apakah bisnis Anda memiliki rekening bank bisnis yang khusus?",
+      "o1": "Ya, aktif dan sedang digunakan",
+      "o2": "Ya, tetapi jarang digunakan",
+      "o3": "Tidak, saya menggunakan akun pribadi",
+      "o4": "Belum"
     },
     "q3": {
-      "text": "[NEEDS_TRANSLATION] What is your current personal credit score range?",
-      "o1": "[NEEDS_TRANSLATION] 750 or above",
-      "o2": "[NEEDS_TRANSLATION] 700 to 749",
-      "o3": "[NEEDS_TRANSLATION] 650 to 699",
-      "o4": "[NEEDS_TRANSLATION] Below 650",
-      "o5": "[NEEDS_TRANSLATION] I do not know my score"
+      "text": "Berapa rentang skor kredit personal Anda saat ini?",
+      "o1": "750 atau lebih",
+      "o2": "700 hingga 749",
+      "o3": "650 hingga 699",
+      "o4": "Di Bawah 650",
+      "o5": "Saya tidak mengetahui skor saya"
     },
     "q4": {
-      "text": "[NEEDS_TRANSLATION] Have you ever applied for business funding or a business credit card?",
-      "o1": "[NEEDS_TRANSLATION] Yes, and was approved",
-      "o2": "[NEEDS_TRANSLATION] Yes, and was declined",
-      "o3": "[NEEDS_TRANSLATION] No, but I want to",
-      "o4": "[NEEDS_TRANSLATION] No, I did not think I qualified",
-      "o5": "[NEEDS_TRANSLATION] I did not know this was possible"
+      "text": "Apakah Anda pernah mengajukan pendanaan bisnis atau kartu kredit bisnis?",
+      "o1": "Ya, dan telah disetujui",
+      "o2": "Ya, dan ditolak",
+      "o3": "Tidak, tapi saya ingin",
+      "o4": "Tidak, saya tidak merasa saya memenuhi syarat",
+      "o5": "Saya tidak tahu hal ini mungkin dilakukan"
     },
     "q5": {
-      "text": "[NEEDS_TRANSLATION] How much funding would you need to launch or grow your business to the next level, and what would you use it for?",
-      "placeholder": "[NEEDS_TRANSLATION] e.g. $25,000 to hire staff and cover first 3 months of operations."
+      "text": "Berapa besar pendanaan yang Anda butuhkan untuk meluncurkan atau mengembangkan bisnis Anda ke tingkat selanjutnya, dan untuk apa Anda akan menggunakannya?",
+      "placeholder": "misal $25,000 untuk merekrut staf dan menutup 3 bulan pertama operasional."
     },
     "q6": {
-      "text": "[NEEDS_TRANSLATION] What is your biggest belief about business funding?",
-      "o1": "[NEEDS_TRANSLATION] It is only for established businesses",
-      "o2": "[NEEDS_TRANSLATION] You need perfect credit to qualify",
-      "o3": "[NEEDS_TRANSLATION] It is possible but I do not know how",
-      "o4": "[NEEDS_TRANSLATION] I know it is possible and want to learn more",
-      "o5": "[NEEDS_TRANSLATION] I have done it before and want to do it again"
+      "text": "Apa keyakinan terbesar Anda tentang pendanaan bisnis?",
+      "o1": "Ini hanya untuk bisnis yang sudah mapan",
+      "o2": "Anda memerlukan kredit yang sempurna untuk memenuhi syarat",
+      "o3": "Hal tersebut memungkinkan tetapi saya tidak mengetahui caranya",
+      "o4": "Saya tahu hal ini mungkin dan ingin mempelajari lebih lanjut",
+      "o5": "Saya telah melakukannya sebelumnya dan ingin melakukannya lagi"
     },
     "results": {
       "foundation_missing": {
-        "headline": "[NEEDS_TRANSLATION] FOUNDATION MISSING: Structure Before Funding.",
-        "body": "[NEEDS_TRANSLATION] Without the right foundation, funding applications will fail. Here is the blueprint to build it correctly."
+        "headline": "FONDASI HILANG: Struktur Sebelum Pendanaan.",
+        "body": "Tanpa fondasi yang tepat, aplikasi pendanaan akan gagal. Berikut adalah cetak biru untuk membangunnya dengan benar."
       },
       "credit_positioning": {
-        "headline": "[NEEDS_TRANSLATION] STRUCTURE EXISTS: Credit Positioning Is Your Next Move.",
-        "body": "[NEEDS_TRANSLATION] The entity is there. Now you need to build the credit profile that makes lenders say yes."
+        "headline": "STRUKTUR TELAH ADA: Posisi Kredit Adalah Langkah Selanjutnya Anda.",
+        "body": "Entitas sudah ada. Sekarang Anda perlu membangun profil kredit yang membuat pemberi pinjaman berkata ya."
       },
       "declined_before": {
-        "headline": "[NEEDS_TRANSLATION] FIXABLE: Here Is Why You Were Declined and What Changes It.",
-        "body": "[NEEDS_TRANSLATION] Being declined is not permanent. It is almost always fixable with the right structure. Here is the blueprint."
+        "headline": "DAPAT DIPERBAIKI: Inilah Mengapa Anda Ditolak dan Apa yang Dapat Mengubahnya.",
+        "body": "Ditolak bukanlah sesuatu yang permanen. Hal ini hampir selalu dapat diperbaiki dengan struktur yang tepat. Berikut adalah blueprintnya."
       },
       "ready_to_apply": {
-        "headline": "[NEEDS_TRANSLATION] READY TO APPLY: You Are Closer Than You Think.",
-        "body": "[NEEDS_TRANSLATION] Your foundation is stronger than most. Here is the step-by-step blueprint to your first application."
+        "headline": "SIAP UNTUK MENERAPKAN: Anda Lebih Dekat Dari Yang Anda Kira.",
+        "body": "Fondasi Anda lebih kuat dari kebanyakan orang. Berikut adalah blueprint langkah demi langkah menuju aplikasi pertama Anda."
       },
       "scale_ready": {
-        "headline": "[NEEDS_TRANSLATION] SCALE-READY: Advanced Funding Strategies Are Available to You.",
-        "body": "[NEEDS_TRANSLATION] You know the basics. Here is how to stack and scale capital access."
+        "headline": "SIAP BERKEMBANG: Strategi Pendanaan Lanjutan Tersedia untuk Anda.",
+        "body": "Anda sudah menguasai dasar-dasarnya. Berikut cara menumpuk dan memperluas akses modal."
       }
     },
     "magnet": {
-      "name": "[NEEDS_TRANSLATION] The Business Funding Blueprint",
-      "description": "[NEEDS_TRANSLATION] The 5-step system to access capital in 14 to 30 days. 14 pages. Free.",
-      "buttonLabel": "[NEEDS_TRANSLATION] Send Me the Blueprint",
-      "successHeadline": "[NEEDS_TRANSLATION] Your Business Funding Blueprint is on its way.",
-      "bookingCtaLabel": "[NEEDS_TRANSLATION] Book a Funding Discovery Call"
+      "name": "Blueprint Pendanaan Bisnis",
+      "description": "Sistem 5 langkah untuk mengakses modal dalam 14 hingga 30 hari. 14 halaman. Gratis.",
+      "buttonLabel": "Kirimkan Saya Blueprint-nya",
+      "successHeadline": "Blueprint Pendanaan Bisnis Anda sedang dalam perjalanan.",
+      "bookingCtaLabel": "Pesan Panggilan Penemuan Pendanaan"
     },
-    "disclaimer": "[NEEDS_TRANSLATION] Funding timelines referenced are based on T.C. Chambers' personal experience and select client outcomes. Individual results will vary based on credit profile, business type, funding amount, and lender criteria. Nothing here constitutes a guarantee of funding approval, a specific timeline, or a specific amount. This content is for educational purposes only."
+    "disclaimer": "Timeline pendanaan yang direferensikan berdasarkan pengalaman pribadi T.C. Chambers dan hasil klien tertentu. Hasil individual akan bervariasi berdasarkan profil kredit, jenis bisnis, jumlah pendanaan, dan kriteria pemberi pinjaman. Tidak ada hal di sini yang merupakan jaminan persetujuan pendanaan, timeline spesifik, atau jumlah spesifik. Konten ini hanya untuk tujuan edukasi."
   }
 }

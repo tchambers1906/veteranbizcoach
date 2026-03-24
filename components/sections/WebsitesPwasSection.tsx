@@ -26,35 +26,44 @@ export default function WebsitesPwasSection() {
     <section id="websites-pwas">
       {/* Section Header — background image */}
       <div
-        className="relative bg-cover bg-scroll min-h-[280px] md:min-h-[420px] md:bg-[center_25%] bg-[center_20%]"
+        className="relative bg-cover bg-scroll min-h-[280px] md:min-h-[420px] md:bg-[center_15%] bg-[center_10%]"
         style={{
           backgroundImage: "url('/images/websites-pwas-bg.jpg')",
         }}
       >
-        {/* Gradient overlay — mobile 0.72 top for contrast, desktop 0.65 to show Agung and terraces */}
+        {/* Gradient overlay — mobile 0.45 top, desktop 0.35 to show Agung, terraces, and sky */}
         <div
           className="absolute inset-0 z-0 md:hidden"
           style={{
             background:
-              'linear-gradient(180deg, rgba(10,22,40,0.72) 0%, rgba(10,22,40,0.80) 60%, rgba(10,22,40,0.97) 100%)',
+              'linear-gradient(180deg, rgba(10,22,40,0.45) 0%, rgba(10,22,40,0.50) 40%, rgba(10,22,40,0.92) 85%, rgba(10,22,40,0.98) 100%)',
           }}
         />
         <div
           className="absolute inset-0 z-0 hidden md:block"
           style={{
             background:
-              'linear-gradient(180deg, rgba(10,22,40,0.65) 0%, rgba(10,22,40,0.80) 60%, rgba(10,22,40,0.97) 100%)',
+              'linear-gradient(180deg, rgba(10,22,40,0.35) 0%, rgba(10,22,40,0.50) 40%, rgba(10,22,40,0.92) 85%, rgba(10,22,40,0.98) 100%)',
           }}
         />
         <div className="relative z-[1] mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 pt-20 pb-12 text-center">
           <ScrollReveal>
-            <p className="font-heading font-semibold text-[12px] text-teal uppercase tracking-widest mb-4">
+            <p
+              className="font-heading font-semibold text-[12px] text-teal uppercase tracking-widest mb-4"
+              style={{ textShadow: '0 2px 12px rgba(10,22,40,0.8)' }}
+            >
               {t('eyebrow')}
             </p>
-            <h2 className="font-heading font-extrabold text-[28px] lg:text-[42px] leading-[1.1] text-white">
+            <h2
+              className="font-heading font-extrabold text-[28px] lg:text-[42px] leading-[1.1] text-white"
+              style={{ textShadow: '0 2px 12px rgba(10,22,40,0.8)' }}
+            >
               {t('headline')}
             </h2>
-            <p className="font-body text-[17px] lg:text-[18px] leading-[1.7] text-off-white mt-6 max-w-2xl mx-auto">
+            <p
+              className="font-body text-[17px] lg:text-[18px] leading-[1.7] text-off-white mt-6 max-w-2xl mx-auto"
+              style={{ textShadow: '0 2px 12px rgba(10,22,40,0.8)' }}
+            >
               {t('subheadline')}
             </p>
           </ScrollReveal>

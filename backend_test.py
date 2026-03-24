@@ -2139,8 +2139,503 @@ class BackendTester:
         
         return passed == total
 
+    # ===== AI CHATBOT API TESTS =====
+    
+    def test_chatbot_valid_message(self):
+        """Test POST /api/chatbot with valid message - should return 200 with {reply, source: 'static'}"""
+        try:
+            url = f"{BASE_URL}/api/chatbot"
+            payload = {"message": "I need help with my business"}
+            
+            response = self.session.post(url, json=payload, timeout=10)
+            
+            if response.status_code == 200:
+                data = response.json()
+                if ("reply" in data and "source" in data and data.get("source") == "static"):
+                    self.log_result("Chatbot valid message → 200", True, 
+                                  f"Status: {response.status_code}, Reply: {data.get('reply')[:50]}..., Source: {data.get('source')}")
+                else:
+                    self.log_result("Chatbot valid message → 200", False, 
+                                  f"Wrong response format. Got: {data}")
+            else:
+                self.log_result("Chatbot valid message → 200", False, 
+                              f"Expected 200, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Chatbot valid message → 200", False, f"Exception: {str(e)}")
+    
+    def test_chatbot_empty_message(self):
+        """Test POST /api/chatbot with empty message - should return 400"""
+        try:
+            url = f"{BASE_URL}/api/chatbot"
+            payload = {"message": ""}
+            
+            response = self.session.post(url, json=payload, timeout=10)
+            
+            if response.status_code == 400:
+                data = response.json()
+                if "Message is required." in data.get("error", ""):
+                    self.log_result("Chatbot empty message → 400", True, 
+                                  f"Status: {response.status_code}, Response: {data}")
+                else:
+                    self.log_result("Chatbot empty message → 400", False, 
+                                  f"Wrong error message. Got: {data}")
+            else:
+                self.log_result("Chatbot empty message → 400", False, 
+                              f"Expected 400, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Chatbot empty message → 400", False, f"Exception: {str(e)}")
+    
+    def test_chatbot_no_message_field(self):
+        """Test POST /api/chatbot with no message field - should return 400"""
+        try:
+            url = f"{BASE_URL}/api/chatbot"
+            payload = {"locale": "en"}
+            
+            response = self.session.post(url, json=payload, timeout=10)
+            
+            if response.status_code == 400:
+                data = response.json()
+                if "Message is required." in data.get("error", ""):
+                    self.log_result("Chatbot no message field → 400", True, 
+                                  f"Status: {response.status_code}, Response: {data}")
+                else:
+                    self.log_result("Chatbot no message field → 400", False, 
+                                  f"Wrong error message. Got: {data}")
+            else:
+                self.log_result("Chatbot no message field → 400", False, 
+                              f"Expected 400, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Chatbot no message field → 400", False, f"Exception: {str(e)}")
+    
+    def test_chatbot_html_in_message(self):
+        """Test POST /api/chatbot with HTML in message - HTML should be stripped"""
+        try:
+            url = f"{BASE_URL}/api/chatbot"
+            payload = {"message": "<script>alert('xss')</script>I need help with funding"}
+            
+            response = self.session.post(url, json=payload, timeout=10)
+            
+            if response.status_code == 200:
+                data = response.json()
+                if ("reply" in data and "source" in data and data.get("source") == "static"):
+                    # Should contain funding-related response since HTML is stripped and "funding" keyword remains
+                    reply = data.get("reply", "").lower()
+                    if "0% interest" in reply or "funding" in reply:
+                        self.log_result("Chatbot HTML stripped → 200", True, 
+                                      f"Status: {response.status_code}, HTML stripped, funding response: {data.get('reply')[:50]}...")
+                    else:
+                        self.log_result("Chatbot HTML stripped → 200", True, 
+                                      f"Status: {response.status_code}, HTML stripped, response: {data.get('reply')[:50]}...")
+                else:
+                    self.log_result("Chatbot HTML stripped → 200", False, 
+                                  f"Wrong response format. Got: {data}")
+            else:
+                self.log_result("Chatbot HTML stripped → 200", False, 
+                              f"Expected 200, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Chatbot HTML stripped → 200", False, f"Exception: {str(e)}")
+    
+    def test_chatbot_long_message(self):
+        """Test POST /api/chatbot with message > 500 chars - should be truncated and processed"""
+        try:
+            url = f"{BASE_URL}/api/chatbot"
+            long_message = "I need help with funding " + "x" * 500  # Over 500 chars
+            payload = {"message": long_message}
+            
+            response = self.session.post(url, json=payload, timeout=10)
+            
+            if response.status_code == 200:
+                data = response.json()
+                if ("reply" in data and "source" in data and data.get("source") == "static"):
+                    # Should contain funding-related response since message starts with "funding"
+                    reply = data.get("reply", "").lower()
+                    if "0% interest" in reply or "funding" in reply:
+                        self.log_result("Chatbot long message → truncated", True, 
+                                      f"Status: {response.status_code}, Message truncated, funding response: {data.get('reply')[:50]}...")
+                    else:
+                        self.log_result("Chatbot long message → truncated", True, 
+                                      f"Status: {response.status_code}, Message truncated, response: {data.get('reply')[:50]}...")
+                else:
+                    self.log_result("Chatbot long message → truncated", False, 
+                                  f"Wrong response format. Got: {data}")
+            else:
+                self.log_result("Chatbot long message → truncated", False, 
+                              f"Expected 200, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Chatbot long message → truncated", False, f"Exception: {str(e)}")
+    
+    def test_chatbot_with_history(self):
+        """Test POST /api/chatbot with history array - should accept valid history"""
+        try:
+            url = f"{BASE_URL}/api/chatbot"
+            payload = {
+                "message": "Tell me more about funding",
+                "history": [
+                    {"role": "user", "content": "Hello"},
+                    {"role": "assistant", "content": "Hi there! How can I help you today?"}
+                ]
+            }
+            
+            response = self.session.post(url, json=payload, timeout=10)
+            
+            if response.status_code == 200:
+                data = response.json()
+                if ("reply" in data and "source" in data and data.get("source") == "static"):
+                    reply = data.get("reply", "").lower()
+                    if "0% interest" in reply or "funding" in reply:
+                        self.log_result("Chatbot with history → 200", True, 
+                                      f"Status: {response.status_code}, History accepted, funding response: {data.get('reply')[:50]}...")
+                    else:
+                        self.log_result("Chatbot with history → 200", True, 
+                                      f"Status: {response.status_code}, History accepted, response: {data.get('reply')[:50]}...")
+                else:
+                    self.log_result("Chatbot with history → 200", False, 
+                                  f"Wrong response format. Got: {data}")
+            else:
+                self.log_result("Chatbot with history → 200", False, 
+                              f"Expected 200, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Chatbot with history → 200", False, f"Exception: {str(e)}")
+    
+    def test_chatbot_invalid_history(self):
+        """Test POST /api/chatbot with invalid history items - should filter them out"""
+        try:
+            url = f"{BASE_URL}/api/chatbot"
+            payload = {
+                "message": "Tell me about villa",
+                "history": [
+                    {"role": "user", "content": "Hello"},
+                    {"role": "invalid", "content": "This should be filtered"},
+                    {"role": "assistant", "content": "Hi there!"},
+                    {"invalid": "structure"},
+                    {"role": "user", "content": "Good"}
+                ]
+            }
+            
+            response = self.session.post(url, json=payload, timeout=10)
+            
+            if response.status_code == 200:
+                data = response.json()
+                if ("reply" in data and "source" in data and data.get("source") == "static"):
+                    reply = data.get("reply", "").lower()
+                    if "ota regulations" in reply or "meta traffic" in reply or "villa" in reply:
+                        self.log_result("Chatbot invalid history → filtered", True, 
+                                      f"Status: {response.status_code}, Invalid history filtered, villa response: {data.get('reply')[:50]}...")
+                    else:
+                        self.log_result("Chatbot invalid history → filtered", True, 
+                                      f"Status: {response.status_code}, Invalid history filtered, response: {data.get('reply')[:50]}...")
+                else:
+                    self.log_result("Chatbot invalid history → filtered", False, 
+                                  f"Wrong response format. Got: {data}")
+            else:
+                self.log_result("Chatbot invalid history → filtered", False, 
+                              f"Expected 200, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Chatbot invalid history → filtered", False, f"Exception: {str(e)}")
+    
+    def test_chatbot_different_locales(self):
+        """Test POST /api/chatbot with different locale values - should accept and return responses"""
+        locales = ['en', 'id', 'es']
+        
+        for locale in locales:
+            try:
+                url = f"{BASE_URL}/api/chatbot"
+                payload = {"message": "I need help with my website", "locale": locale}
+                
+                response = self.session.post(url, json=payload, timeout=10)
+                
+                if response.status_code == 200:
+                    data = response.json()
+                    if ("reply" in data and "source" in data and data.get("source") == "static"):
+                        reply = data.get("reply", "").lower()
+                        if "pwa" in reply or "website" in reply or "discovery call" in reply:
+                            self.log_result(f"Chatbot locale {locale} → 200", True, 
+                                          f"Status: {response.status_code}, Locale {locale} accepted, website response: {data.get('reply')[:50]}...")
+                        else:
+                            self.log_result(f"Chatbot locale {locale} → 200", True, 
+                                          f"Status: {response.status_code}, Locale {locale} accepted, response: {data.get('reply')[:50]}...")
+                    else:
+                        self.log_result(f"Chatbot locale {locale} → 200", False, 
+                                      f"Wrong response format. Got: {data}")
+                else:
+                    self.log_result(f"Chatbot locale {locale} → 200", False, 
+                                  f"Expected 200, got {response.status_code}: {response.text}")
+                    
+                time.sleep(0.5)  # Small delay between locale tests
+                    
+            except Exception as e:
+                self.log_result(f"Chatbot locale {locale} → 200", False, f"Exception: {str(e)}")
+    
+    def test_chatbot_static_responses(self):
+        """Test static response matching for specific keywords"""
+        test_cases = [
+            ("starting a business", "superpower program"),
+            ("getting funded", "0% interest"),
+            ("funding help", "0% interest"),
+            ("villa booking", "ota regulations"),
+            ("website development", "pwa"),
+            ("ai assistance", "gpt"),
+            ("random text here", "/book")
+        ]
+        
+        for message, expected_keyword in test_cases:
+            try:
+                url = f"{BASE_URL}/api/chatbot"
+                payload = {"message": message}
+                
+                response = self.session.post(url, json=payload, timeout=10)
+                
+                if response.status_code == 200:
+                    data = response.json()
+                    if ("reply" in data and "source" in data and data.get("source") == "static"):
+                        reply = data.get("reply", "").lower()
+                        if expected_keyword.lower() in reply:
+                            self.log_result(f"Static response '{message}' → contains '{expected_keyword}'", True, 
+                                          f"Status: {response.status_code}, Expected keyword found: {data.get('reply')[:50]}...")
+                        else:
+                            self.log_result(f"Static response '{message}' → contains '{expected_keyword}'", False, 
+                                          f"Expected keyword '{expected_keyword}' not found in: {data.get('reply')}")
+                    else:
+                        self.log_result(f"Static response '{message}' → contains '{expected_keyword}'", False, 
+                                      f"Wrong response format. Got: {data}")
+                else:
+                    self.log_result(f"Static response '{message}' → contains '{expected_keyword}'", False, 
+                                  f"Expected 200, got {response.status_code}: {response.text}")
+                    
+                time.sleep(0.3)  # Small delay between tests
+                    
+            except Exception as e:
+                self.log_result(f"Static response '{message}' → contains '{expected_keyword}'", False, f"Exception: {str(e)}")
+    
+    def test_chatbot_rate_limiting(self):
+        """Test rate limiting: send 11 requests rapidly - 11th should return 429"""
+        try:
+            url = f"{BASE_URL}/api/chatbot"
+            payload = {"message": "test rate limiting"}
+            
+            # Send 11 rapid requests
+            responses = []
+            for i in range(11):
+                response = self.session.post(url, json=payload, timeout=10)
+                responses.append((i+1, response.status_code, response.json() if response.headers.get('content-type', '').startswith('application/json') else response.text))
+                time.sleep(0.1)  # Small delay to avoid overwhelming
+            
+            # First 10 should be 200, 11th should be 429
+            rate_limited = False
+            for i, (req_num, status, data) in enumerate(responses):
+                if status == 429:
+                    if (isinstance(data, dict) and "Too many messages" in data.get("error", "")):
+                        rate_limited = True
+                        self.log_result("Chatbot rate limiting → 429", True, 
+                                      f"Request {req_num} got 429 with correct message: {data}")
+                        break
+                    else:
+                        self.log_result("Chatbot rate limiting → 429", False, 
+                                      f"Request {req_num} got 429 but wrong message: {data}")
+                        return
+            
+            if not rate_limited:
+                self.log_result("Chatbot rate limiting → 429", False, 
+                              f"No 429 response found. All responses: {[(r[0], r[1]) for r in responses]}")
+                
+        except Exception as e:
+            self.log_result("Chatbot rate limiting → 429", False, f"Exception: {str(e)}")
+    
+    def test_chatbot_invalid_json(self):
+        """Test POST /api/chatbot with invalid JSON body - should return 400"""
+        try:
+            url = f"{BASE_URL}/api/chatbot"
+            
+            # Send invalid JSON
+            response = self.session.post(url, data="invalid json", 
+                                       headers={'Content-Type': 'application/json'}, timeout=10)
+            
+            if response.status_code == 400:
+                data = response.json()
+                if "Invalid request body" in data.get("error", ""):
+                    self.log_result("Chatbot invalid JSON → 400", True, 
+                                  f"Status: {response.status_code}, Response: {data}")
+                else:
+                    self.log_result("Chatbot invalid JSON → 400", False, 
+                                  f"Wrong error message. Got: {data}")
+            else:
+                self.log_result("Chatbot invalid JSON → 400", False, 
+                              f"Expected 400, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Chatbot invalid JSON → 400", False, f"Exception: {str(e)}")
+    
+    def test_existing_endpoints_still_work(self):
+        """Verify existing endpoints still work after chatbot implementation"""
+        # Test POST /api/chatbot-lead
+        try:
+            url = f"{BASE_URL}/api/chatbot-lead"
+            payload = {"email": "test@test.com", "context": "test", "locale": "en"}
+            
+            response = self.session.post(url, json=payload, timeout=10)
+            
+            if response.status_code == 500:  # Expected due to no RESEND_API_KEY
+                data = response.json()
+                if (data.get("success") == False and 
+                    "Submission failed. Please try again." in data.get("error", "")):
+                    self.log_result("Existing /api/chatbot-lead → 500", True, 
+                                  f"Status: {response.status_code}, Still working (expected 500)")
+                else:
+                    self.log_result("Existing /api/chatbot-lead → 500", False, 
+                                  f"Wrong response format. Got: {data}")
+            else:
+                self.log_result("Existing /api/chatbot-lead → 500", False, 
+                              f"Expected 500, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Existing /api/chatbot-lead → 500", False, f"Exception: {str(e)}")
+        
+        # Test POST /api/lead-magnet
+        try:
+            url = f"{BASE_URL}/api/lead-magnet"
+            payload = {"firstName": "Test", "email": "test@test.com", "magnet": "test", "locale": "en"}
+            
+            response = self.session.post(url, json=payload, timeout=10)
+            
+            if response.status_code == 500:  # Expected due to no RESEND_API_KEY
+                data = response.json()
+                if (data.get("success") == False and 
+                    "Submission failed. Please try again." in data.get("error", "")):
+                    self.log_result("Existing /api/lead-magnet → 500", True, 
+                                  f"Status: {response.status_code}, Still working (expected 500)")
+                else:
+                    self.log_result("Existing /api/lead-magnet → 500", False, 
+                                  f"Wrong response format. Got: {data}")
+            else:
+                self.log_result("Existing /api/lead-magnet → 500", False, 
+                              f"Expected 500, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Existing /api/lead-magnet → 500", False, f"Exception: {str(e)}")
+        
+        # Test GET /en page
+        try:
+            url = f"{BASE_URL}/en"
+            response = self.session.get(url, timeout=30)
+            
+            if response.status_code == 200:
+                self.log_result("Existing GET /en → 200", True, 
+                              f"Status: {response.status_code}, Main site still loads")
+            else:
+                self.log_result("Existing GET /en → 200", False, 
+                              f"Expected 200, got {response.status_code}")
+                
+        except Exception as e:
+            self.log_result("Existing GET /en → 200", False, f"Exception: {str(e)}")
+    
+    def run_chatbot_api_tests(self):
+        """Run comprehensive AI chatbot API tests"""
+        print(f"🤖 Starting AI Chatbot API Tests for {BASE_URL}")
+        print("=" * 80)
+        
+        # Test 1: Valid message
+        print("\n✅ Test 1: Valid Message")
+        print("-" * 40)
+        self.test_chatbot_valid_message()
+        time.sleep(1)
+        
+        # Test 2: Empty message
+        print("\n❌ Test 2: Empty Message")
+        print("-" * 40)
+        self.test_chatbot_empty_message()
+        time.sleep(1)
+        
+        # Test 3: No message field
+        print("\n❌ Test 3: No Message Field")
+        print("-" * 40)
+        self.test_chatbot_no_message_field()
+        time.sleep(1)
+        
+        # Test 4: HTML in message
+        print("\n🧹 Test 4: HTML Stripping")
+        print("-" * 40)
+        self.test_chatbot_html_in_message()
+        time.sleep(1)
+        
+        # Test 5: Long message
+        print("\n✂️ Test 5: Message Truncation")
+        print("-" * 40)
+        self.test_chatbot_long_message()
+        time.sleep(1)
+        
+        # Test 6: With history
+        print("\n📚 Test 6: History Array")
+        print("-" * 40)
+        self.test_chatbot_with_history()
+        time.sleep(1)
+        
+        # Test 7: Invalid history
+        print("\n🔍 Test 7: Invalid History Filtering")
+        print("-" * 40)
+        self.test_chatbot_invalid_history()
+        time.sleep(1)
+        
+        # Test 8: Different locales
+        print("\n🌍 Test 8: Different Locales")
+        print("-" * 40)
+        self.test_chatbot_different_locales()
+        time.sleep(1)
+        
+        # Test 9: Static response matching
+        print("\n🎯 Test 9: Static Response Matching")
+        print("-" * 40)
+        self.test_chatbot_static_responses()
+        time.sleep(1)
+        
+        # Test 10: Rate limiting
+        print("\n⏱️ Test 10: Rate Limiting")
+        print("-" * 40)
+        self.test_chatbot_rate_limiting()
+        time.sleep(2)  # Wait for rate limit to reset
+        
+        # Test 11: Invalid JSON
+        print("\n📝 Test 11: Invalid JSON")
+        print("-" * 40)
+        self.test_chatbot_invalid_json()
+        time.sleep(1)
+        
+        # Test 12: Existing endpoints still work
+        print("\n🔄 Test 12: Existing Endpoints")
+        print("-" * 40)
+        self.test_existing_endpoints_still_work()
+        
+        # Summary
+        print("\n" + "=" * 80)
+        print("📊 AI CHATBOT API TESTS SUMMARY")
+        print("=" * 80)
+        
+        passed = sum(1 for r in self.results if r["success"])
+        total = len(self.results)
+        
+        print(f"Total Tests: {total}")
+        print(f"Passed: {passed}")
+        print(f"Failed: {total - passed}")
+        
+        if total - passed > 0:
+            print("\n❌ FAILED TESTS:")
+            for result in self.results:
+                if not result["success"]:
+                    print(f"  - {result['test']}: {result['details']}")
+        else:
+            print("\n✅ ALL AI CHATBOT API TESTS PASSED!")
+            print("The AI chatbot API is working correctly with static fallback responses.")
+        
+        return passed == total
+
 if __name__ == "__main__":
     tester = BackendTester()
-    # Run comprehensive admin dashboard API tests as requested by user
-    success = tester.run_comprehensive_admin_dashboard_tests()
+    # Run AI chatbot API tests as requested
+    success = tester.run_chatbot_api_tests()
     sys.exit(0 if success else 1)

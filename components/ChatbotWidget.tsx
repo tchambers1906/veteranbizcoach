@@ -4,9 +4,9 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { useRouter } from 'next/navigation';
 import { track } from '@/lib/analytics';
-import { MessageCircle, X } from 'lucide-react';
+import { MessageCircle, X, Send } from 'lucide-react';
 
-type ChatStep = 'intro' | 'response' | 'emailCapture' | 'emailSent';
+type ChatMessage = { role: 'user' | 'assistant'; content: string };
 
 export default function ChatbotWidget() {
   const t = useTranslations('chatbot');
@@ -16,13 +16,21 @@ export default function ChatbotWidget() {
   const [isOpen, setIsOpen] = useState(false);
   const [dismissed, setDismissed] = useState(false);
   const [autoTriggered, setAutoTriggered] = useState(false);
-  const [step, setStep] = useState<ChatStep>('intro');
-  const [selectedOption, setSelectedOption] = useState('');
+
+  // Conversation state
+  const [messages, setMessages] = useState<ChatMessage[]>([]);
+  const [isLoading, setIsLoading] = useState(false);
+  const [inputValue, setInputValue] = useState('');
+
+  // Email capture state
+  const [showEmailCapture, setShowEmailCapture] = useState(false);
   const [email, setEmail] = useState('');
-  const [emailStatus, setEmailStatus] = useState<'idle' | 'loading' | 'error'>('idle');
+  const [emailStatus, setEmailStatus] = useState<'idle' | 'loading' | 'sent' | 'error'>('idle');
 
   const panelRef = useRef<HTMLDivElement>(null);
   const toggleRef = useRef<HTMLButtonElement>(null);
+  const messagesEndRef = useRef<HTMLDivElement>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
 
   /* ---------------------------------------------------------------- */
   /*  Auto-trigger logic: 15s OR 50% scroll, whichever first          */
@@ -93,7 +101,14 @@ export default function ChatbotWidget() {
     };
     document.addEventListener('keydown', handleTab);
     return () => document.removeEventListener('keydown', handleTab);
-  }, [isOpen, step]);
+  }, [isOpen, messages.length]);
+
+  /* ---------------------------------------------------------------- */
+  /*  Scroll to bottom on new messages                                */
+  /* ---------------------------------------------------------------- */
+  useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+  }, [messages, isLoading]);
 
   /* ---------------------------------------------------------------- */
   /*  Actions                                                         */
@@ -109,28 +124,87 @@ export default function ChatbotWidget() {
     track('chatbot_opened', { trigger_type: 'click', locale });
   };
 
-  const handleQuickReply = (option: string) => {
-    setSelectedOption(option);
-    setStep('response');
-    track('cta_clicked', {
-      cta_label: option,
-      section_id: 'chatbot',
-      pillar: 'chatbot',
-      locale,
-    });
+  /* ---------------------------------------------------------------- */
+  /*  Send message to API                                             */
+  /* ---------------------------------------------------------------- */
+  const sendMessage = useCallback(
+    async (content: string) => {
+      const trimmed = content.trim();
+      if (!trimmed || isLoading) return;
+
+      const userMsg: ChatMessage = { role: 'user', content: trimmed };
+      setMessages((prev) => [...prev, userMsg]);
+      setInputValue('');
+      setIsLoading(true);
+
+      // Show email capture after 2nd user message
+      const userCount = messages.filter((m) => m.role === 'user').length + 1;
+      if (userCount >= 2 && emailStatus === 'idle') {
+        setShowEmailCapture(true);
+      }
+
+      track('cta_clicked', {
+        cta_label: trimmed,
+        section_id: 'chatbot',
+        pillar: 'chatbot',
+        locale,
+      });
+
+      try {
+        const response = await fetch('/api/chatbot', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            message: trimmed,
+            history: messages,
+            locale,
+          }),
+        });
+
+        const data = await response.json();
+
+        if (data.reply) {
+          setMessages((prev) => [...prev, { role: 'assistant', content: data.reply }]);
+        } else if (data.error) {
+          setMessages((prev) => [
+            ...prev,
+            {
+              role: 'assistant',
+              content: 'I am having trouble connecting. Book directly at /book or email tc@veteranbizcoach.com.',
+            },
+          ]);
+        }
+      } catch {
+        setMessages((prev) => [
+          ...prev,
+          {
+            role: 'assistant',
+            content: 'I am having trouble connecting. Book directly at /book or email tc@veteranbizcoach.com.',
+          },
+        ]);
+      } finally {
+        setIsLoading(false);
+        inputRef.current?.focus();
+      }
+    },
+    [isLoading, messages, locale, emailStatus],
+  );
+
+  const handleQuickReply = (key: string) => {
+    const label = t(`quickReplies.${key}`);
+    sendMessage(label);
   };
 
-  const handleActionButton = (href: string, label: string) => {
-    track('cta_clicked', {
-      cta_label: label,
-      section_id: 'chatbot',
-      pillar: 'chatbot',
-      locale,
-    });
-    router.push(`/${locale}${href}`);
-    closeWidget();
+  const handleInputKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      sendMessage(inputValue);
+    }
   };
 
+  /* ---------------------------------------------------------------- */
+  /*  Email capture                                                   */
+  /* ---------------------------------------------------------------- */
   const handleEmailSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!email.trim()) return;
@@ -139,11 +213,12 @@ export default function ChatbotWidget() {
       const res = await fetch('/api/chatbot-lead', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email: email.trim(), context: selectedOption, locale }),
+        body: JSON.stringify({ email: email.trim(), context: messages.map((m) => m.content).join(' | '), locale }),
       });
       const data = await res.json();
       if (data.success) {
-        setStep('emailSent');
+        setEmailStatus('sent');
+        setShowEmailCapture(false);
         track('chatbot_lead_captured', { locale });
       } else {
         setEmailStatus('error');
@@ -153,30 +228,33 @@ export default function ChatbotWidget() {
     }
   };
 
-  const QUICK_REPLIES = ['business', 'funded', 'website', 'villa', 'other'] as const;
-
-  interface ActionBtn { label: string; href: string }
-  const RESPONSE_ACTIONS: Record<string, ActionBtn[]> = {
-    business: [
-      { label: t('responses.business.btn1'), href: '/resources?waitlist=superpower' },
-      { label: t('responses.business.btn2'), href: '/#superpower-program' },
-    ],
-    funded: [
-      { label: t('responses.funded.btn1'), href: '/book?session=funding' },
-      { label: t('responses.funded.btn2'), href: '/#funding-structuring' },
-    ],
-    website: [
-      { label: t('responses.website.btn1'), href: '/book?session=website' },
-      { label: t('responses.website.btn2'), href: '/#websites-pwas' },
-    ],
-    villa: [
-      { label: t('responses.villa.btn1'), href: '/book?session=villa' },
-      { label: t('responses.villa.btn2'), href: '/#villa-booking-traffic' },
-    ],
-    other: [
-      { label: t('responses.other.btn1'), href: '/book?session=strategy' },
-    ],
+  /* ---------------------------------------------------------------- */
+  /*  Link detection in assistant messages                            */
+  /* ---------------------------------------------------------------- */
+  const renderMessageContent = (content: string) => {
+    // Convert /path links to clickable buttons
+    const parts = content.split(/(\/[a-z][a-z0-9?=&/-]*)/gi);
+    return parts.map((part, i) => {
+      if (/^\/[a-z]/i.test(part)) {
+        return (
+          <button
+            key={i}
+            onClick={() => {
+              track('cta_clicked', { cta_label: part, section_id: 'chatbot', pillar: 'chatbot', locale });
+              router.push(`/${locale}${part}`);
+              closeWidget();
+            }}
+            className="text-teal underline underline-offset-2 hover:brightness-110 transition-colors"
+          >
+            {part}
+          </button>
+        );
+      }
+      return <span key={i}>{part}</span>;
+    });
   };
+
+  const QUICK_REPLIES = ['business', 'funded', 'website', 'villa', 'other'] as const;
 
   /* ---------------------------------------------------------------- */
   /*  Render                                                          */
@@ -206,10 +284,8 @@ export default function ChatbotWidget() {
           style={{ maxHeight: 'calc(100vh - 3rem)' }}
         >
           {/* Header */}
-          <div className="flex items-center justify-between px-5 py-4 border-b border-white/10">
-            <span className="font-heading font-semibold text-[16px] text-gold">
-              {t('header')}
-            </span>
+          <div className="flex items-center justify-between px-5 py-4 border-b border-white/10 shrink-0">
+            <span className="font-heading font-semibold text-[16px] text-gold">{t('header')}</span>
             <button
               onClick={closeWidget}
               aria-label={t('close')}
@@ -219,16 +295,23 @@ export default function ChatbotWidget() {
             </button>
           </div>
 
-          {/* Body */}
-          <div className="flex-1 overflow-y-auto p-5 space-y-4">
-            {/* Opening message always shows */}
-            <div className="bg-charcoal rounded-xl px-4 py-3">
-              <p className="font-body text-[14px] leading-[1.6] text-off-white/90">
+          {/* Messages area */}
+          <div className="flex-1 overflow-y-auto p-4 space-y-3" style={{ maxHeight: 280 }}>
+            {/* Greeting */}
+            <div className="flex justify-start">
+              <div
+                className="font-body text-[14px] leading-[1.6] text-off-white/90 px-[14px] py-[10px] max-w-[85%]"
+                style={{
+                  backgroundColor: '#1A1A2E',
+                  borderRadius: '16px 16px 16px 4px',
+                }}
+              >
                 {t('greeting')}
-              </p>
+              </div>
             </div>
 
-            {step === 'intro' && (
+            {/* Quick replies (only when no messages yet) */}
+            {messages.length === 0 && (
               <div className="flex flex-wrap gap-2">
                 {QUICK_REPLIES.map((key) => (
                   <button
@@ -242,76 +325,133 @@ export default function ChatbotWidget() {
               </div>
             )}
 
-            {(step === 'response' || step === 'emailCapture' || step === 'emailSent') && (
-              <>
-                {/* User's selection */}
-                <div className="flex justify-end">
-                  <span className="bg-gold/20 text-gold font-body text-[13px] px-3.5 py-2 rounded-full">
-                    {t(`quickReplies.${selectedOption}`)}
-                  </span>
+            {/* Conversation messages */}
+            {messages.map((msg, i) => (
+              <div key={i} className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}>
+                <div
+                  className="font-body text-[14px] leading-[1.6] px-[14px] py-[10px] max-w-[85%]"
+                  style={
+                    msg.role === 'user'
+                      ? {
+                          backgroundColor: '#C9A84C',
+                          color: '#0A1628',
+                          borderRadius: '16px 16px 4px 16px',
+                        }
+                      : {
+                          backgroundColor: '#1A1A2E',
+                          color: '#F8F9FA',
+                          borderRadius: '16px 16px 16px 4px',
+                        }
+                  }
+                >
+                  {msg.role === 'assistant' ? renderMessageContent(msg.content) : msg.content}
                 </div>
+              </div>
+            ))}
 
-                {/* Bot response */}
-                <div className="bg-charcoal rounded-xl px-4 py-3">
-                  <p className="font-body text-[14px] leading-[1.6] text-off-white/90">
-                    {t(`responses.${selectedOption}.text`)}
-                  </p>
+            {/* Typing indicator */}
+            {isLoading && (
+              <div className="flex justify-start">
+                <div
+                  className="flex items-center gap-1.5 px-[14px] py-[12px]"
+                  style={{
+                    backgroundColor: '#1A1A2E',
+                    borderRadius: '16px 16px 16px 4px',
+                  }}
+                >
+                  <span
+                    className="w-2 h-2 rounded-full bg-teal motion-safe:animate-bounce"
+                    style={{ animationDelay: '0ms', animationDuration: '600ms' }}
+                  />
+                  <span
+                    className="w-2 h-2 rounded-full bg-teal motion-safe:animate-bounce"
+                    style={{ animationDelay: '150ms', animationDuration: '600ms' }}
+                  />
+                  <span
+                    className="w-2 h-2 rounded-full bg-teal motion-safe:animate-bounce"
+                    style={{ animationDelay: '300ms', animationDuration: '600ms' }}
+                  />
                 </div>
-
-                {/* Action buttons */}
-                <div className="flex flex-wrap gap-2">
-                  {RESPONSE_ACTIONS[selectedOption]?.map((btn) => (
-                    <button
-                      key={btn.href}
-                      onClick={() => handleActionButton(btn.href, btn.label)}
-                      className="font-body text-[13px] bg-gold/15 text-gold border border-gold/30 px-3.5 py-2 rounded-full hover:bg-gold/25 transition-all"
-                    >
-                      {btn.label}
-                    </button>
-                  ))}
-                </div>
-
-                {/* Email capture */}
-                {step === 'response' && (
-                  <div className="pt-2">
-                    <p className="font-body text-[13px] text-off-white/60 mb-2">
-                      {t('emailPrompt')}
-                    </p>
-                    <form onSubmit={handleEmailSubmit} className="flex gap-2">
-                      <label htmlFor="chatbot-email" className="sr-only">
-                        {t('emailLabel')}
-                      </label>
-                      <input
-                        id="chatbot-email"
-                        type="email"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                        placeholder={t('emailPlaceholder')}
-                        maxLength={254}
-                        required
-                        className="flex-1 bg-charcoal border border-white/10 rounded-lg px-3 py-2 font-body text-[13px] text-white placeholder:text-white/30 focus:outline-none focus:ring-1 focus:ring-teal/50"
-                      />
-                      <button
-                        type="submit"
-                        disabled={emailStatus === 'loading'}
-                        className="font-body text-[13px] bg-gold text-navy px-4 py-2 rounded-lg hover:brightness-110 transition-all disabled:opacity-60 whitespace-nowrap"
-                      >
-                        {emailStatus === 'loading' ? '...' : t('emailButton')}
-                      </button>
-                    </form>
-                    {emailStatus === 'error' && (
-                      <p className="font-body text-[12px] text-red-400 mt-1">{t('emailError')}</p>
-                    )}
-                  </div>
-                )}
-
-                {step === 'emailSent' && (
-                  <div className="bg-teal/10 rounded-xl px-4 py-3">
-                    <p className="font-body text-[14px] text-teal">{t('emailConfirmation')}</p>
-                  </div>
-                )}
-              </>
+              </div>
             )}
+
+            {/* Email capture (after 2+ user messages) */}
+            {showEmailCapture && emailStatus !== 'sent' && (
+              <div
+                className="px-3 py-3 rounded-xl"
+                style={{ backgroundColor: '#1A1A2E', border: '1px solid rgba(255,255,255,0.08)' }}
+              >
+                <p className="font-body text-[13px] text-off-white/60 mb-2">{t('emailPrompt')}</p>
+                <form onSubmit={handleEmailSubmit} className="flex gap-2">
+                  <label htmlFor="chatbot-email" className="sr-only">
+                    {t('emailLabel')}
+                  </label>
+                  <input
+                    id="chatbot-email"
+                    type="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    placeholder={t('emailPlaceholder')}
+                    maxLength={254}
+                    required
+                    className="flex-1 bg-navy border border-white/10 rounded-lg px-3 py-2 font-body text-[13px] text-white placeholder:text-white/30 focus:outline-none focus:ring-1 focus:ring-teal/50"
+                  />
+                  <button
+                    type="submit"
+                    disabled={emailStatus === 'loading'}
+                    className="font-body text-[13px] bg-gold text-navy px-4 py-2 rounded-lg hover:brightness-110 transition-all disabled:opacity-60 whitespace-nowrap"
+                  >
+                    {emailStatus === 'loading' ? '...' : t('emailButton')}
+                  </button>
+                </form>
+                {emailStatus === 'error' && (
+                  <p className="font-body text-[12px] text-red-400 mt-1">{t('emailError')}</p>
+                )}
+              </div>
+            )}
+
+            {emailStatus === 'sent' && (
+              <div className="bg-teal/10 rounded-xl px-4 py-3">
+                <p className="font-body text-[14px] text-teal">{t('emailConfirmation')}</p>
+              </div>
+            )}
+
+            <div ref={messagesEndRef} />
+          </div>
+
+          {/* Input bar */}
+          <div
+            className="flex items-center gap-2 px-4 py-3 shrink-0"
+            style={{ borderTop: '1px solid rgba(255,255,255,0.08)' }}
+          >
+            <input
+              ref={inputRef}
+              type="text"
+              value={inputValue}
+              onChange={(e) => setInputValue(e.target.value)}
+              onKeyDown={handleInputKeyDown}
+              placeholder="Ask a question..."
+              maxLength={500}
+              className="flex-1 font-body text-[14px] text-off-white placeholder:text-white/30 px-4 py-[10px] rounded-full focus:outline-none transition-colors"
+              style={{
+                backgroundColor: '#1A1A2E',
+                border: '1px solid rgba(255,255,255,0.12)',
+              }}
+              onFocus={(e) => {
+                e.currentTarget.style.borderColor = '#C9A84C';
+              }}
+              onBlur={(e) => {
+                e.currentTarget.style.borderColor = 'rgba(255,255,255,0.12)';
+              }}
+            />
+            <button
+              onClick={() => sendMessage(inputValue)}
+              disabled={!inputValue.trim() || isLoading}
+              className="w-9 h-9 flex items-center justify-center rounded-full bg-teal text-white transition-opacity disabled:opacity-50"
+              aria-label="Send message"
+            >
+              <Send className="w-4 h-4" />
+            </button>
           </div>
         </div>
       )}

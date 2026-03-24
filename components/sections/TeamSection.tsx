@@ -41,7 +41,7 @@ export default function TeamSection() {
   const t = useTranslations('team');
 
   const members = [
-    { key: 'm1', photo: '/images/tc-headshot.jpg', initials: 'TC', hasPhoto: true },
+    { key: 'm1', photo: '/images/tc-team.jpg', initials: 'TC', hasPhoto: true },
     { key: 'm2', photo: '/images/rita-rosita.jpg', initials: 'RR', hasPhoto: true },
     { key: 'm3', photo: '/images/tami-rini.jpg', initials: 'TR', hasPhoto: true },
     { key: 'm4', photo: '/images/tobias-kaiuth.jpg', initials: 'TK', hasPhoto: true },

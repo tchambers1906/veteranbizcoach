@@ -55,7 +55,7 @@ export default function TeamSection() {
   const members = [
     { key: 'm1', photo: '/images/tc-headshot.jpg', initials: 'TC', hasPhoto: true },
     { key: 'm2', photo: '/images/rita-rosita.jpg', initials: 'RR', hasPhoto: true },
-    { key: 'm3', initials: 'TR', hasPhoto: false },
+    { key: 'm3', photo: '/images/tami-rini.jpg', initials: 'TR', hasPhoto: true },
     { key: 'placeholder', initials: '+', hasPhoto: false, isPlaceholder: true },
   ];
 

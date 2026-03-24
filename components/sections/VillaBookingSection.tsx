@@ -19,17 +19,39 @@ export default function VillaBookingSection() {
   };
 
   return (
-    <section id="villa-booking-traffic" className="bg-off-white">
-      {/* Section header */}
-      <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 pt-20 pb-12 text-center">
-        <ScrollReveal>
-          <p className="font-heading font-semibold text-[12px] text-teal uppercase tracking-widest mb-4">
-            {t('eyebrow')}
-          </p>
-          <h2 className="font-heading font-extrabold text-[28px] lg:text-[42px] leading-[1.1] text-navy">
-            {t('headline')}
-          </h2>
-        </ScrollReveal>
+    <section id="villa-booking-traffic">
+      {/* Section hero — Bali villa background */}
+      <div
+        className="relative bg-cover bg-scroll min-h-[320px] md:min-h-[480px] md:bg-[center_30%] bg-[center_top]"
+        style={{
+          backgroundImage: "url('/images/villa-bali-bg.jpg')",
+        }}
+      >
+        {/* Gradient overlay — mobile 5% stronger for smaller text contrast */}
+        <div
+          className="absolute inset-0 z-0 md:hidden"
+          style={{
+            background:
+              'linear-gradient(180deg, rgba(10,22,40,0.70) 0%, rgba(10,22,40,0.80) 60%, rgba(10,22,40,0.97) 100%)',
+          }}
+        />
+        <div
+          className="absolute inset-0 z-0 hidden md:block"
+          style={{
+            background:
+              'linear-gradient(180deg, rgba(10,22,40,0.75) 0%, rgba(10,22,40,0.85) 60%, rgba(10,22,40,0.97) 100%)',
+          }}
+        />
+        <div className="relative z-[1] mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 pt-20 pb-12 text-center">
+          <ScrollReveal>
+            <p className="font-heading font-semibold text-[12px] text-teal uppercase tracking-widest mb-4">
+              {t('eyebrow')}
+            </p>
+            <h2 className="font-heading font-extrabold text-[28px] lg:text-[42px] leading-[1.1] text-white">
+              {t('headline')}
+            </h2>
+          </ScrollReveal>
+        </div>
       </div>
 
       {/* Block 1 — The Problem */}
@@ -62,14 +84,28 @@ export default function VillaBookingSection() {
         </div>
       </div>
 
-      {/* Block 3 — The Solution */}
-      <div className="bg-off-white">
-        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-14">
+      {/* Block 3 — The Solution / Meta Traffic — with traffic streams background */}
+      <div
+        className="relative bg-cover bg-scroll bg-center"
+        style={{
+          backgroundImage: "url('/images/meta-traffic-bg.jpg')",
+        }}
+      >
+        {/* Solid overlay — mobile 5% stronger for contrast */}
+        <div
+          className="absolute inset-0 z-0 md:hidden"
+          style={{ backgroundColor: 'rgba(10,22,40,0.73)' }}
+        />
+        <div
+          className="absolute inset-0 z-0 hidden md:block"
+          style={{ backgroundColor: 'rgba(10,22,40,0.78)' }}
+        />
+        <div className="relative z-[1] mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-14">
           <ScrollReveal>
-            <h3 className="font-heading font-bold text-[24px] lg:text-[28px] text-navy mb-4">
+            <h3 className="font-heading font-bold text-[24px] lg:text-[28px] text-gold mb-4">
               {t('solution.heading')}
             </h3>
-            <p className="font-body text-[17px] lg:text-[18px] leading-[1.7] text-text-secondary">
+            <p className="font-body text-[17px] lg:text-[18px] leading-[1.7] text-off-white">
               {t('solution.body')}
             </p>
           </ScrollReveal>

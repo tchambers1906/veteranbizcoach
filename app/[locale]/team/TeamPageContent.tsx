@@ -47,7 +47,7 @@ const MEMBERS = [
   { key: 'm1', photo: '/images/tc-headshot.jpg', initials: 'TC', hasPhoto: true },
   { key: 'm2', photo: '/images/rita-rosita.jpg', initials: 'RR', hasPhoto: true },
   { key: 'm3', photo: '/images/tami-rini.jpg', initials: 'TR', hasPhoto: true },
-  { key: 'placeholder', initials: '+', hasPhoto: false, isPlaceholder: true },
+  { key: 'm4', photo: '/images/tobias-kaiuth.jpg', initials: 'TK', hasPhoto: true },
 ];
 
 export default function TeamPageContent() {

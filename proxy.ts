@@ -12,6 +12,11 @@ export default async function proxy(request: Request) {
     return undefined; // pass through
   }
 
+  // Allow admin routes through without locale processing
+  if (url.pathname.startsWith('/admin')) {
+    return undefined; // pass through — admin has no i18n
+  }
+
   return handleI18n(request as any);
 }
 

@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { Resend } from 'resend';
 import { isRateLimited, stripHtml, isValidEmail, getClientIp } from '@/lib/api-utils';
+import { appendLead } from '@/lib/adminData';
 
 const PILLAR_LABELS: Record<string, string> = {
   superpower: 'Superpower Program',
@@ -61,13 +62,27 @@ export async function POST(request: Request) {
     const pillarLabel = PILLAR_LABELS[resultPillar] || 'General Business Strategy';
     const pillarCta = PILLAR_CTAS[resultPillar] || PILLAR_CTAS.strategy;
 
+    // --- Persist lead data ---
+    try {
+      appendLead({
+        timestamp: new Date().toISOString(),
+        firstName,
+        email,
+        phone: '',
+        magnet: `quiz-${resultPillar}`,
+        locale,
+        resultId: resultPillar,
+        source: 'quiz-lead',
+        downloaded: false,
+      });
+    } catch (err) {
+      console.error('[quiz-lead] Data persistence error:', err instanceof Error ? err.message : 'Unknown');
+    }
+
     const apiKey = process.env.RESEND_API_KEY;
     if (!apiKey) {
       console.error('[quiz-lead] RESEND_API_KEY is not configured.');
-      return NextResponse.json(
-        { success: false, error: 'Submission failed. Please try again.' },
-        { status: 500 },
-      );
+      return NextResponse.json({ success: true }, { status: 200 });
     }
 
     const resend = new Resend(apiKey);

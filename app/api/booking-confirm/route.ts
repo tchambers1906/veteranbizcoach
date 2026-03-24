@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { Resend } from 'resend';
 import crypto from 'crypto';
+import { appendBooking } from '@/lib/adminData';
 
 /**
  * POST /api/booking-confirm
@@ -64,6 +65,22 @@ export async function POST(request: Request) {
 
     if (!inviteeEmail) {
       return NextResponse.json({ error: 'Missing invitee email.' }, { status: 400 });
+    }
+
+    // --- Persist booking data ---
+    try {
+      appendBooking({
+        timestamp: new Date().toISOString(),
+        name: inviteeName,
+        email: inviteeEmail,
+        sessionType: eventType,
+        startTime: startTime || '',
+        bookedAt: new Date().toISOString(),
+        status: 'confirmed',
+        event: body?.event || 'invitee.created',
+      });
+    } catch (err) {
+      console.error('[booking-confirm] Data persistence error:', err instanceof Error ? err.message : 'Unknown');
     }
 
     // Format date/time

@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { Resend } from 'resend';
 import { isRateLimited, stripHtml, isValidEmail, getClientIp } from '@/lib/api-utils';
+import { appendLead } from '@/lib/adminData';
 
 export async function POST(request: Request) {
   try {
@@ -41,13 +42,27 @@ export async function POST(request: Request) {
     const context = stripHtml(String(body?.context ?? '')).trim();
     const locale = stripHtml(String(body?.locale ?? 'en')).trim();
 
+    // --- Persist lead data ---
+    try {
+      appendLead({
+        timestamp: new Date().toISOString(),
+        firstName: '',
+        email,
+        phone: '',
+        magnet: 'chatbot',
+        locale,
+        resultId: context,
+        source: 'chatbot',
+        downloaded: false,
+      });
+    } catch (err) {
+      console.error('[chatbot-lead] Data persistence error:', err instanceof Error ? err.message : 'Unknown');
+    }
+
     const apiKey = process.env.RESEND_API_KEY;
     if (!apiKey) {
       console.error('[chatbot-lead] RESEND_API_KEY is not configured.');
-      return NextResponse.json(
-        { success: false, error: 'Submission failed. Please try again.' },
-        { status: 500 },
-      );
+      return NextResponse.json({ success: true }, { status: 200 });
     }
 
     const resend = new Resend(apiKey);

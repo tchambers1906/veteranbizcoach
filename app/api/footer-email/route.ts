@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { Resend } from 'resend';
+import { appendLead } from '@/lib/adminData';
 
 // ---------------------------------------------------------------------------
 // Rate-limit store (in-memory – resets on cold start, which is acceptable for
@@ -88,15 +89,28 @@ export async function POST(request: Request) {
       );
     }
 
+    // --- Persist lead data ---
+    try {
+      appendLead({
+        timestamp: new Date().toISOString(),
+        firstName: '',
+        email,
+        phone: '',
+        magnet: 'footer-signup',
+        locale: 'en',
+        resultId: '',
+        source: 'footer',
+        downloaded: false,
+      });
+    } catch (err) {
+      console.error('[footer-email] Data persistence error:', err instanceof Error ? err.message : 'Unknown');
+    }
+
     // --- Resend integration ------------------------------------------------
     const apiKey = process.env.RESEND_API_KEY;
     if (!apiKey) {
-      // Log server-side only – never expose to client
       console.error('[footer-email] RESEND_API_KEY is not configured.');
-      return NextResponse.json(
-        { success: false, error: 'Submission failed. Please try again.' },
-        { status: 500 },
-      );
+      return NextResponse.json({ success: true }, { status: 200 });
     }
 
     const resend = new Resend(apiKey);

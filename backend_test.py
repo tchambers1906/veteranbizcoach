@@ -951,6 +951,403 @@ class BackendTester:
         except Exception as e:
             self.log_result("GET /en/quiz/funding → 200", False, f"Exception: {str(e)}")
     
+    # ===== ADMIN AUTHENTICATION & DATA PERSISTENCE TESTS =====
+    
+    def test_admin_auth_valid_password(self):
+        """Test POST /api/admin/auth with valid password - should return 200 and set cookie"""
+        try:
+            url = f"{BASE_URL}/api/admin/auth"
+            payload = {"password": "tcadmin2026"}
+            
+            response = self.session.post(url, json=payload, timeout=10)
+            
+            if response.status_code == 200:
+                data = response.json()
+                if data.get("success") == True:
+                    # Check if admin_session cookie is set
+                    cookies = response.cookies
+                    if 'admin_session' in cookies:
+                        self.admin_session_cookie = cookies['admin_session']
+                        self.log_result("Admin auth valid password → 200", True, 
+                                      f"Status: {response.status_code}, Cookie set: {data}")
+                    else:
+                        self.log_result("Admin auth valid password → 200", False, 
+                                      f"Success but no admin_session cookie set: {data}")
+                else:
+                    self.log_result("Admin auth valid password → 200", False, 
+                                  f"Wrong response format. Got: {data}")
+            else:
+                self.log_result("Admin auth valid password → 200", False, 
+                              f"Expected 200, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Admin auth valid password → 200", False, f"Exception: {str(e)}")
+    
+    def test_admin_auth_wrong_password(self):
+        """Test POST /api/admin/auth with wrong password - should return 401"""
+        try:
+            url = f"{BASE_URL}/api/admin/auth"
+            payload = {"password": "wrong"}
+            
+            response = self.session.post(url, json=payload, timeout=10)
+            
+            if response.status_code == 401:
+                data = response.json()
+                if (data.get("success") == False and 
+                    "Invalid password" in data.get("error", "")):
+                    self.log_result("Admin auth wrong password → 401", True, 
+                                  f"Status: {response.status_code}, Response: {data}")
+                else:
+                    self.log_result("Admin auth wrong password → 401", False, 
+                                  f"Wrong error message. Got: {data}")
+            else:
+                self.log_result("Admin auth wrong password → 401", False, 
+                              f"Expected 401, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Admin auth wrong password → 401", False, f"Exception: {str(e)}")
+    
+    def test_admin_auth_missing_password(self):
+        """Test POST /api/admin/auth with missing password - should return 401"""
+        try:
+            url = f"{BASE_URL}/api/admin/auth"
+            payload = {}
+            
+            response = self.session.post(url, json=payload, timeout=10)
+            
+            if response.status_code == 401:
+                data = response.json()
+                if (data.get("success") == False and 
+                    "Invalid password" in data.get("error", "")):
+                    self.log_result("Admin auth missing password → 401", True, 
+                                  f"Status: {response.status_code}, Response: {data}")
+                else:
+                    self.log_result("Admin auth missing password → 401", False, 
+                                  f"Wrong error message. Got: {data}")
+            else:
+                self.log_result("Admin auth missing password → 401", False, 
+                              f"Expected 401, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Admin auth missing password → 401", False, f"Exception: {str(e)}")
+    
+    def test_admin_auth_invalid_json(self):
+        """Test POST /api/admin/auth with invalid JSON - should return 400"""
+        try:
+            url = f"{BASE_URL}/api/admin/auth"
+            
+            # Send invalid JSON
+            response = self.session.post(url, data="invalid json", 
+                                       headers={'Content-Type': 'application/json'}, timeout=10)
+            
+            if response.status_code == 400:
+                data = response.json()
+                if (data.get("success") == False and 
+                    "Invalid request" in data.get("error", "")):
+                    self.log_result("Admin auth invalid JSON → 400", True, 
+                                  f"Status: {response.status_code}, Response: {data}")
+                else:
+                    self.log_result("Admin auth invalid JSON → 400", False, 
+                                  f"Wrong error message. Got: {data}")
+            else:
+                self.log_result("Admin auth invalid JSON → 400", False, 
+                              f"Expected 400, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Admin auth invalid JSON → 400", False, f"Exception: {str(e)}")
+    
+    def test_admin_logout(self):
+        """Test POST /api/admin/logout - should return 200 and clear cookie"""
+        try:
+            url = f"{BASE_URL}/api/admin/logout"
+            
+            response = self.session.post(url, timeout=10)
+            
+            if response.status_code == 200:
+                data = response.json()
+                if data.get("success") == True:
+                    self.log_result("Admin logout → 200", True, 
+                                  f"Status: {response.status_code}, Response: {data}")
+                else:
+                    self.log_result("Admin logout → 200", False, 
+                                  f"Wrong response format. Got: {data}")
+            else:
+                self.log_result("Admin logout → 200", False, 
+                              f"Expected 200, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Admin logout → 200", False, f"Exception: {str(e)}")
+    
+    def test_admin_stats_without_cookie(self):
+        """Test GET /api/admin/stats without cookie - should return 401"""
+        try:
+            url = f"{BASE_URL}/api/admin/stats"
+            
+            # Create a new session without cookies
+            temp_session = requests.Session()
+            temp_session.headers.update(self.session.headers)
+            
+            response = temp_session.get(url, timeout=10)
+            
+            if response.status_code == 401:
+                data = response.json()
+                if (data.get("success") == False and 
+                    "Unauthorized" in data.get("error", "")):
+                    self.log_result("Admin stats without cookie → 401", True, 
+                                  f"Status: {response.status_code}, Response: {data}")
+                else:
+                    self.log_result("Admin stats without cookie → 401", False, 
+                                  f"Wrong error message. Got: {data}")
+            else:
+                self.log_result("Admin stats without cookie → 401", False, 
+                              f"Expected 401, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Admin stats without cookie → 401", False, f"Exception: {str(e)}")
+    
+    def test_admin_stats_with_valid_cookie(self):
+        """Test GET /api/admin/stats with valid cookie - should return 200 with stats"""
+        try:
+            # First login to get a valid session
+            auth_url = f"{BASE_URL}/api/admin/auth"
+            auth_payload = {"password": "tcadmin2026"}
+            auth_response = self.session.post(auth_url, json=auth_payload, timeout=10)
+            
+            if auth_response.status_code != 200:
+                self.log_result("Admin stats with valid cookie → 200", False, 
+                              f"Failed to login first: {auth_response.status_code}")
+                return
+            
+            # Now test stats endpoint
+            url = f"{BASE_URL}/api/admin/stats"
+            response = self.session.get(url, timeout=10)
+            
+            if response.status_code == 200:
+                data = response.json()
+                # Check if it has expected stats fields
+                expected_fields = ['totalLeads', 'leadsThisWeek', 'quizCompletions', 'callsBooked']
+                if all(field in data for field in expected_fields):
+                    self.log_result("Admin stats with valid cookie → 200", True, 
+                                  f"Status: {response.status_code}, Stats data received")
+                else:
+                    self.log_result("Admin stats with valid cookie → 200", False, 
+                                  f"Missing expected stats fields. Got: {list(data.keys())}")
+            else:
+                self.log_result("Admin stats with valid cookie → 200", False, 
+                              f"Expected 200, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Admin stats with valid cookie → 200", False, f"Exception: {str(e)}")
+    
+    def test_admin_leads_without_cookie(self):
+        """Test GET /api/admin/leads without cookie - should return 401"""
+        try:
+            url = f"{BASE_URL}/api/admin/leads"
+            
+            # Create a new session without cookies
+            temp_session = requests.Session()
+            temp_session.headers.update(self.session.headers)
+            
+            response = temp_session.get(url, timeout=10)
+            
+            if response.status_code == 401:
+                data = response.json()
+                if (data.get("success") == False and 
+                    "Unauthorized" in data.get("error", "")):
+                    self.log_result("Admin leads without cookie → 401", True, 
+                                  f"Status: {response.status_code}, Response: {data}")
+                else:
+                    self.log_result("Admin leads without cookie → 401", False, 
+                                  f"Wrong error message. Got: {data}")
+            else:
+                self.log_result("Admin leads without cookie → 401", False, 
+                              f"Expected 401, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Admin leads without cookie → 401", False, f"Exception: {str(e)}")
+    
+    def test_admin_leads_with_valid_cookie(self):
+        """Test GET /api/admin/leads with valid cookie - should return 200 with leads data"""
+        try:
+            # First login to get a valid session
+            auth_url = f"{BASE_URL}/api/admin/auth"
+            auth_payload = {"password": "tcadmin2026"}
+            auth_response = self.session.post(auth_url, json=auth_payload, timeout=10)
+            
+            if auth_response.status_code != 200:
+                self.log_result("Admin leads with valid cookie → 200", False, 
+                              f"Failed to login first: {auth_response.status_code}")
+                return
+            
+            # Now test leads endpoint
+            url = f"{BASE_URL}/api/admin/leads"
+            response = self.session.get(url, timeout=10)
+            
+            if response.status_code == 200:
+                data = response.json()
+                # Check if it has expected leads structure
+                expected_fields = ['leads', 'total', 'page', 'totalPages']
+                if all(field in data for field in expected_fields):
+                    self.log_result("Admin leads with valid cookie → 200", True, 
+                                  f"Status: {response.status_code}, Leads data received: {data['total']} total leads")
+                else:
+                    self.log_result("Admin leads with valid cookie → 200", False, 
+                                  f"Missing expected leads fields. Got: {list(data.keys())}")
+            else:
+                self.log_result("Admin leads with valid cookie → 200", False, 
+                              f"Expected 200, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Admin leads with valid cookie → 200", False, f"Exception: {str(e)}")
+    
+    def test_data_persistence_submit_lead(self):
+        """Test data persistence by submitting a lead via POST /api/lead-magnet"""
+        try:
+            url = f"{BASE_URL}/api/lead-magnet"
+            payload = {
+                "firstName": "TestUser",
+                "email": "test@test.com",
+                "magnet": "villa-survival-guide",
+                "locale": "en"
+            }
+            
+            response = self.session.post(url, json=payload, timeout=10)
+            
+            # Should return 500 due to no RESEND_API_KEY, but data should be persisted
+            if response.status_code == 500:
+                data = response.json()
+                if (data.get("success") == False and 
+                    "Submission failed. Please try again." in data.get("error", "")):
+                    self.log_result("Data persistence submit lead → 500", True, 
+                                  f"Status: {response.status_code}, Lead submitted (expected 500 due to no API key)")
+                else:
+                    self.log_result("Data persistence submit lead → 500", False, 
+                                  f"Wrong response format. Got: {data}")
+            else:
+                self.log_result("Data persistence submit lead → 500", False, 
+                              f"Expected 500, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Data persistence submit lead → 500", False, f"Exception: {str(e)}")
+    
+    def test_data_persistence_check_leads(self):
+        """Test data persistence by checking if submitted lead appears in admin leads"""
+        try:
+            # Wait a moment for data to be written
+            time.sleep(1)
+            
+            # First login to get a valid session
+            auth_url = f"{BASE_URL}/api/admin/auth"
+            auth_payload = {"password": "tcadmin2026"}
+            auth_response = self.session.post(auth_url, json=auth_payload, timeout=10)
+            
+            if auth_response.status_code != 200:
+                self.log_result("Data persistence check leads → contains submitted lead", False, 
+                              f"Failed to login first: {auth_response.status_code}")
+                return
+            
+            # Now check leads endpoint
+            url = f"{BASE_URL}/api/admin/leads"
+            response = self.session.get(url, timeout=10)
+            
+            if response.status_code == 200:
+                data = response.json()
+                leads = data.get('leads', [])
+                
+                # Look for our test lead
+                test_lead_found = False
+                for lead in leads:
+                    if (lead.get('firstName') == 'TestUser' and 
+                        lead.get('email') == 'test@test.com' and
+                        lead.get('magnet') == 'villa-survival-guide'):
+                        test_lead_found = True
+                        break
+                
+                if test_lead_found:
+                    self.log_result("Data persistence check leads → contains submitted lead", True, 
+                                  f"Test lead found in admin leads data")
+                else:
+                    self.log_result("Data persistence check leads → contains submitted lead", False, 
+                                  f"Test lead not found. Total leads: {len(leads)}")
+            else:
+                self.log_result("Data persistence check leads → contains submitted lead", False, 
+                              f"Expected 200, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Data persistence check leads → contains submitted lead", False, f"Exception: {str(e)}")
+    
+    def test_data_persistence_check_stats(self):
+        """Test data persistence by checking if stats show at least 1 lead"""
+        try:
+            # First login to get a valid session
+            auth_url = f"{BASE_URL}/api/admin/auth"
+            auth_payload = {"password": "tcadmin2026"}
+            auth_response = self.session.post(auth_url, json=auth_payload, timeout=10)
+            
+            if auth_response.status_code != 200:
+                self.log_result("Data persistence check stats → totalLeads >= 1", False, 
+                              f"Failed to login first: {auth_response.status_code}")
+                return
+            
+            # Now check stats endpoint
+            url = f"{BASE_URL}/api/admin/stats"
+            response = self.session.get(url, timeout=10)
+            
+            if response.status_code == 200:
+                data = response.json()
+                total_leads = data.get('totalLeads', 0)
+                
+                if total_leads >= 1:
+                    self.log_result("Data persistence check stats → totalLeads >= 1", True, 
+                                  f"Stats show {total_leads} total leads")
+                else:
+                    self.log_result("Data persistence check stats → totalLeads >= 1", False, 
+                                  f"Stats show {total_leads} total leads, expected >= 1")
+            else:
+                self.log_result("Data persistence check stats → totalLeads >= 1", False, 
+                              f"Expected 200, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Data persistence check stats → totalLeads >= 1", False, f"Exception: {str(e)}")
+    
+    def test_admin_csv_export(self):
+        """Test GET /api/admin/leads/export with valid cookie - should return CSV"""
+        try:
+            # First login to get a valid session
+            auth_url = f"{BASE_URL}/api/admin/auth"
+            auth_payload = {"password": "tcadmin2026"}
+            auth_response = self.session.post(auth_url, json=auth_payload, timeout=10)
+            
+            if auth_response.status_code != 200:
+                self.log_result("Admin CSV export → CSV with text/csv", False, 
+                              f"Failed to login first: {auth_response.status_code}")
+                return
+            
+            # Now test CSV export endpoint
+            url = f"{BASE_URL}/api/admin/leads/export"
+            response = self.session.get(url, timeout=10)
+            
+            if response.status_code == 200:
+                content_type = response.headers.get('content-type', '')
+                if 'text/csv' in content_type:
+                    # Check if response contains CSV headers
+                    csv_content = response.text
+                    if 'date,firstName,email,phone,magnet,locale,result_id,downloaded' in csv_content:
+                        self.log_result("Admin CSV export → CSV with text/csv", True, 
+                                      f"Status: {response.status_code}, Content-Type: {content_type}")
+                    else:
+                        self.log_result("Admin CSV export → CSV with text/csv", False, 
+                                      f"CSV headers not found. Content: {csv_content[:200]}")
+                else:
+                    self.log_result("Admin CSV export → CSV with text/csv", False, 
+                                  f"Wrong content type. Got: {content_type}")
+            else:
+                self.log_result("Admin CSV export → CSV with text/csv", False, 
+                              f"Expected 200, got {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            self.log_result("Admin CSV export → CSV with text/csv", False, f"Exception: {str(e)}")
+    
     def run_chatbot_lead_tests(self):
         """Run only chatbot-lead API tests as requested"""
         print(f"🚀 Starting Chatbot Lead API Tests for {BASE_URL}")
@@ -1104,8 +1501,77 @@ class BackendTester:
         
         return passed == total
 
+    def run_admin_auth_tests(self):
+        """Run admin authentication and data persistence tests"""
+        print(f"🚀 Starting Admin Authentication & Data Persistence Tests for {BASE_URL}")
+        print("=" * 80)
+        
+        # ADMIN AUTHENTICATION TESTS
+        print("\n🔐 Testing Admin Authentication (/api/admin/auth)")
+        print("-" * 50)
+        self.test_admin_auth_valid_password()
+        time.sleep(1)
+        self.test_admin_auth_wrong_password()
+        time.sleep(1)
+        self.test_admin_auth_missing_password()
+        time.sleep(1)
+        self.test_admin_auth_invalid_json()
+        time.sleep(1)
+        
+        print("\n🚪 Testing Admin Logout (/api/admin/logout)")
+        print("-" * 40)
+        self.test_admin_logout()
+        time.sleep(1)
+        
+        print("\n📊 Testing Admin Stats (/api/admin/stats)")
+        print("-" * 40)
+        self.test_admin_stats_without_cookie()
+        time.sleep(1)
+        self.test_admin_stats_with_valid_cookie()
+        time.sleep(1)
+        
+        print("\n📋 Testing Admin Leads (/api/admin/leads)")
+        print("-" * 40)
+        self.test_admin_leads_without_cookie()
+        time.sleep(1)
+        self.test_admin_leads_with_valid_cookie()
+        time.sleep(1)
+        
+        print("\n💾 Testing Data Persistence")
+        print("-" * 30)
+        self.test_data_persistence_submit_lead()
+        time.sleep(2)  # Wait for data to be written
+        self.test_data_persistence_check_leads()
+        time.sleep(1)
+        self.test_data_persistence_check_stats()
+        time.sleep(1)
+        
+        print("\n📄 Testing CSV Export (/api/admin/leads/export)")
+        print("-" * 45)
+        self.test_admin_csv_export()
+        
+        # Summary
+        print("\n" + "=" * 80)
+        print("📊 ADMIN TESTS SUMMARY")
+        print("=" * 80)
+        
+        passed = sum(1 for r in self.results if r["success"])
+        total = len(self.results)
+        
+        print(f"Total Tests: {total}")
+        print(f"Passed: {passed}")
+        print(f"Failed: {total - passed}")
+        
+        if total - passed > 0:
+            print("\n❌ FAILED TESTS:")
+            for result in self.results:
+                if not result["success"]:
+                    print(f"  - {result['test']}: {result['details']}")
+        
+        return passed == total
+
 if __name__ == "__main__":
     tester = BackendTester()
-    # Run updated lead-magnet tests and quiz routes as requested
-    success = tester.run_updated_lead_magnet_tests()
+    # Run admin authentication and data persistence tests as requested
+    success = tester.run_admin_auth_tests()
     sys.exit(0 if success else 1)

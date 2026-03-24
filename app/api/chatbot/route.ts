@@ -1,5 +1,4 @@
 import { NextResponse } from 'next/server';
-import Anthropic from '@anthropic-ai/sdk';
 import { CHATBOT_SYSTEM_PROMPT } from '@/lib/chatbotSystemPrompt';
 import { stripHtml, getClientIp } from '@/lib/api-utils';
 
@@ -118,7 +117,7 @@ export async function POST(request: Request) {
       return NextResponse.json({ reply, source: 'static' });
     }
 
-    // --- Live Claude response ---
+    // --- Live Claude response via Emergent proxy (OpenAI-compatible) ---
     const localeContext =
       locale === 'id'
         ? 'The visitor is using Bahasa Indonesia. Respond in Bahasa Indonesia.'
@@ -126,30 +125,40 @@ export async function POST(request: Request) {
           ? 'The visitor is using Spanish. Respond in Spanish.'
           : 'Respond in English.';
 
-    const messages: Array<{ role: 'user' | 'assistant'; content: string }> = [
+    const messages: Array<{ role: 'user' | 'assistant' | 'system'; content: string }> = [
+      { role: 'system', content: CHATBOT_SYSTEM_PROMPT + '\n\n' + localeContext },
       ...history,
       { role: 'user', content: message },
     ];
 
-    const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+    const proxyUrl = process.env.LLM_PROXY_URL || 'https://integrations.emergentagent.com/llm/chat/completions';
 
-    const response = await client.messages.create({
-      model: 'claude-sonnet-4-20250514',
-      max_tokens: 300,
-      system: CHATBOT_SYSTEM_PROMPT + '\n\n' + localeContext,
-      messages,
+    const llmResponse = await fetch(proxyUrl, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${process.env.ANTHROPIC_API_KEY}`,
+      },
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-20250514',
+        max_tokens: 300,
+        messages,
+      }),
     });
 
-    const reply = response.content
-      .filter((block) => block.type === 'text')
-      .map((block) => {
-        if (block.type === 'text') return block.text;
-        return '';
-      })
-      .join('');
+    if (!llmResponse.ok) {
+      const errText = await llmResponse.text();
+      throw new Error(`LLM API ${llmResponse.status}: ${errText.slice(0, 200)}`);
+    }
+
+    const llmData = await llmResponse.json() as {
+      choices?: Array<{ message?: { content?: string } }>;
+    };
+
+    const reply = llmData.choices?.[0]?.message?.content?.trim();
 
     if (!reply) {
-      throw new Error('Empty response from Claude');
+      throw new Error('Empty response from LLM');
     }
 
     return NextResponse.json({ reply, source: 'claude' });

@@ -32,7 +32,7 @@ export async function POST(request: Request) {
       );
     }
 
-    let body: { email?: string; result_pillar?: string; locale?: string };
+    let body: { email?: string; firstName?: string; result_pillar?: string; locale?: string };
     try {
       body = await request.json();
     } catch {
@@ -58,6 +58,7 @@ export async function POST(request: Request) {
     }
 
     const resultPillar = stripHtml(String(body?.result_pillar ?? 'strategy')).trim();
+    const firstName = stripHtml(String(body?.firstName ?? '')).trim();
     const locale = stripHtml(String(body?.locale ?? 'en')).trim();
     const pillarLabel = PILLAR_LABELS[resultPillar] || 'General Business Strategy';
     const pillarCta = PILLAR_CTAS[resultPillar] || PILLAR_CTAS.strategy;

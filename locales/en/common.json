@@ -604,7 +604,8 @@
     "heading": "Add T.C. Chambers to your home screen",
     "subheading": "Get instant access — works offline too",
     "addButton": "Add to Home Screen",
-    "dismissButton": "Maybe later"
+    "dismissButton": "Maybe later",
+    "maybeLater": "Maybe later"
   },
   "offline": {
     "title": "You're offline right now.",

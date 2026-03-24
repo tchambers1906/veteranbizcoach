@@ -604,7 +604,8 @@
     "heading": "Agrega T.C. Chambers a tu pantalla de inicio",
     "subheading": "Acceso instantáneo — funciona sin conexión",
     "addButton": "Agregar a Pantalla de Inicio",
-    "dismissButton": "Quizás después"
+    "dismissButton": "Quizás después",
+    "maybeLater": "Quizás después"
   },
   "offline": {
     "title": "Estás sin conexión en este momento.",

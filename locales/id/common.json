@@ -604,7 +604,8 @@
     "heading": "Tambahkan T.C. Chambers ke layar utama",
     "subheading": "Akses instan — berfungsi offline juga",
     "addButton": "Tambahkan ke Layar Utama",
-    "dismissButton": "Nanti saja"
+    "dismissButton": "Nanti saja",
+    "maybeLater": "Nanti saja"
   },
   "offline": {
     "title": "Anda sedang offline.",

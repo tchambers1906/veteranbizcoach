@@ -18,6 +18,9 @@ const nextConfig: NextConfig = {
     'biz-coach-next16.preview.emergentagent.com',
     'biz-coach-pro.cluster-0.preview.emergentcf.cloud',
     'biz-coach-pro.preview.emergentagent.com',
+    'admin-portal-453.cluster-12.preview.emergentcf.cloud',
+    'admin-portal-453.preview.emergentagent.com',
+    'app.emergent.sh',
   ],
   images: {
     unoptimized: true,

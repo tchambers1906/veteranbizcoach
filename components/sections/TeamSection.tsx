@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import Image from 'next/image';
@@ -21,14 +22,39 @@ function AvatarPlaceholder({ initials, isPlaceholderCard }: { initials: string; 
 }
 
 /* ------------------------------------------------------------------ */
+/*  Photo avatar with fallback to initials                            */
+/* ------------------------------------------------------------------ */
+function PhotoAvatar({ src, alt, initials }: { src: string; alt: string; initials: string }) {
+  const [failed, setFailed] = useState(false);
+
+  if (failed) {
+    return <AvatarPlaceholder initials={initials} />;
+  }
+
+  return (
+    <div className="w-20 h-20 rounded-full overflow-hidden shrink-0 bg-charcoal">
+      <Image
+        src={src}
+        alt={alt}
+        width={80}
+        height={80}
+        className="w-full h-full object-cover object-center-top"
+        style={{ objectPosition: 'center top' }}
+        onError={() => setFailed(true)}
+      />
+    </div>
+  );
+}
+
+/* ------------------------------------------------------------------ */
 /*  Component                                                         */
 /* ------------------------------------------------------------------ */
 export default function TeamSection() {
   const t = useTranslations('team');
 
   const members = [
-    { key: 'm1', photo: '/images/tc-headshot.jpg', hasPhoto: true },
-    { key: 'm2', initials: 'RR', hasPhoto: false },
+    { key: 'm1', photo: '/images/tc-headshot.jpg', initials: 'TC', hasPhoto: true },
+    { key: 'm2', photo: '/images/rita-rosita.jpg', initials: 'RR', hasPhoto: true },
     { key: 'm3', initials: 'TR', hasPhoto: false },
     { key: 'placeholder', initials: '+', hasPhoto: false, isPlaceholder: true },
   ];
@@ -71,15 +97,11 @@ export default function TeamSection() {
                   {/* Avatar + Name row */}
                   <div className="flex items-center gap-4 mb-4">
                     {member.hasPhoto ? (
-                      <div className="w-20 h-20 rounded-full overflow-hidden shrink-0 bg-charcoal">
-                        <Image
-                          src={member.photo!}
-                          alt={t(`${member.key}.name`)}
-                          width={80}
-                          height={80}
-                          className="w-full h-full object-cover"
-                        />
-                      </div>
+                      <PhotoAvatar
+                        src={member.photo!}
+                        alt={t(`${member.key}.name`)}
+                        initials={member.initials!}
+                      />
                     ) : (
                       <AvatarPlaceholder
                         initials={member.initials!}

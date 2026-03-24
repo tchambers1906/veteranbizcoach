@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/src/i18n/navigation';
 import ScrollReveal from '@/components/ui/ScrollReveal';
@@ -7,9 +8,10 @@ import { track } from '@/lib/analytics';
 import Image from 'next/image';
 import { Plus } from 'lucide-react';
 
-function AvatarPlaceholder({ initials, isPlaceholderCard }: { initials: string; isPlaceholderCard?: boolean }) {
+function AvatarPlaceholder({ initials, isPlaceholderCard, size = 24 }: { initials: string; isPlaceholderCard?: boolean; size?: number }) {
   return (
-    <div className="w-24 h-24 rounded-full bg-charcoal flex items-center justify-center shrink-0">
+    <div className={`w-${size} h-${size} rounded-full bg-charcoal flex items-center justify-center shrink-0`}
+      style={{ width: size * 4, height: size * 4 }}>
       {isPlaceholderCard ? (
         <Plus className="w-8 h-8 text-gold" strokeWidth={2} />
       ) : (
@@ -19,9 +21,31 @@ function AvatarPlaceholder({ initials, isPlaceholderCard }: { initials: string; 
   );
 }
 
+function PhotoAvatar({ src, alt, initials, size = 96 }: { src: string; alt: string; initials: string; size?: number }) {
+  const [failed, setFailed] = useState(false);
+
+  if (failed) {
+    return <AvatarPlaceholder initials={initials} />;
+  }
+
+  return (
+    <div className="w-24 h-24 rounded-full overflow-hidden shrink-0 bg-charcoal">
+      <Image
+        src={src}
+        alt={alt}
+        width={size}
+        height={size}
+        className="w-full h-full object-cover"
+        style={{ objectPosition: 'center top' }}
+        onError={() => setFailed(true)}
+      />
+    </div>
+  );
+}
+
 const MEMBERS = [
-  { key: 'm1', photo: '/images/tc-headshot.jpg', hasPhoto: true },
-  { key: 'm2', initials: 'RR', hasPhoto: false },
+  { key: 'm1', photo: '/images/tc-headshot.jpg', initials: 'TC', hasPhoto: true },
+  { key: 'm2', photo: '/images/rita-rosita.jpg', initials: 'RR', hasPhoto: true },
   { key: 'm3', initials: 'TR', hasPhoto: false },
   { key: 'placeholder', initials: '+', hasPhoto: false, isPlaceholder: true },
 ];
@@ -72,15 +96,11 @@ export default function TeamPageContent() {
                     {/* Avatar + Name */}
                     <div className="flex items-center gap-5 mb-6">
                       {member.hasPhoto ? (
-                        <div className="w-24 h-24 rounded-full overflow-hidden shrink-0 bg-charcoal">
-                          <Image
-                            src={member.photo!}
-                            alt={t(`${member.key}.name`)}
-                            width={96}
-                            height={96}
-                            className="w-full h-full object-cover"
-                          />
-                        </div>
+                        <PhotoAvatar
+                          src={member.photo!}
+                          alt={t(`${member.key}.name`)}
+                          initials={member.initials!}
+                        />
                       ) : (
                         <AvatarPlaceholder
                           initials={member.initials!}

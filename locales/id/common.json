@@ -177,7 +177,7 @@
         "body": "Chatbot, sistem pemesanan, dan alat penangkap prospek sudah terintegrasi."
       },
       "c3": {
-        "heading": "Analisis Konversi SiteFlow AI",
+        "heading": "Analisis Konversi Bertenaga AI",
         "body": "Menunjukkan dengan tepat di mana pengunjung pergi, apa yang menghentikan pemesanan, dan perubahan apa yang menggerakkan hasil."
       },
       "c4": {
@@ -216,20 +216,20 @@
   "about": {
     "eyebrow": "Tentang T.C. Chambers",
     "headline": "Dibangun dari Nol. Dibangun Kembali dari Bawah.",
-    "p1": "T.C. Chambers tumbuh di Philadelphia. Dia menghabiskan 8 tahun sebagai Perwira Angkatan Darat AS sebelum memasuki dunia korporat dan membangun bisnis pertamanya pada tahun 1995.",
-    "p2": "Pada tahun 1996, dia menabrak tembok yang tidak pernah dibicarakan kebanyakan pengusaha. Kebangkrutan. Tagihan IRS lima digit. Semua yang dia bangun, hilang. Dia membangun kembali melalui mentorship, menguasai struktur pendanaan yang tidak pernah dipelajari kebanyakan orang, dan mengakses modal dengan bunga 0%. Kemudian dia menulis buku tentang itu. Sebuah Bestseller Amazon.",
-    "p3": "Selama dua dekade berikutnya, dia membantu pengusaha menemukan modal, menata entitas mereka, dan membangun bisnis mereka. Kemudian AI mengubah apa yang mungkin. Dia menghabiskan bertahun-tahun mempelajarinya bukan sebagai alat tetapi sebagai sistem bisnis inti, membangun platform bertenaga AI, GPT khusus, dan PWA untuk klien di seluruh Asia Tenggara dan Amerika Utara.",
-    "p4": "Pada Januari 2023, dia pindah ke Bali, Indonesia. Dia sekarang menjalankan Program Superpower online untuk pengusaha di seluruh dunia, membangun website dan PWA untuk bisnis perhotelan dan kesehatan, memberi saran kepada pemilik vila tentang lalu lintas pemesanan langsung, dan masih membantu pengusaha mengakses pendanaan dalam 14 hingga 30 hari.",
-    "mission": "Mendemistifikasi proses pengembangan bisnis dan memberdayakan pengusaha untuk memanfaatkan keahlian mereka dan modal eksternal, sehingga mereka dapat membangun bisnis yang memungkinkan mereka menjalani hidup sesuai keinginan mereka.",
+    "p1": "[NEEDS_TRANSLATION] T.C. Chambers spent 8 years as a United States Army officer before transitioning into Corporate America and launching his first business. That early chapter included a bankruptcy, damaged credit, and hard lessons about money. Mentorship changed the trajectory.",
+    "p2": "[NEEDS_TRANSLATION] He rebuilt, secured funding, and turned those lessons into a repeatable framework. Then he wrote a book about it. It became an Amazon Bestseller.",
+    "p3": "[NEEDS_TRANSLATION] Today he helps entrepreneurs identify their strongest marketable skill, package it into a real business, and get it live in 8 weeks. He builds AI-powered platforms and web applications for clients across Southeast Asia and North America.",
+    "p4": "[NEEDS_TRANSLATION] In January 2023, he moved to Bali, Indonesia. He works with people who value speed and results over process.",
+    "mission": "[NEEDS_TRANSLATION] Clarity first. Action second. Results always.",
     "credentials": {
       "heading": "Kredensial",
       "c1": "Perwira Angkatan Darat AS (8 tahun)",
-      "c2": "Penulis Bestseller Amazon",
-      "c3": "Ahli Pendanaan Bisnis, rekam jejak 14 hingga 30 hari",
-      "c4": "Ahli Strategi Bisnis Berbasis AI",
-      "c5": "Pengembang Web & PWA (Bali, Asia Tenggara, Amerika Utara)",
+      "c2": "[NEEDS_TRANSLATION] 30+ Years in Business Development",
+      "c3": "Penulis Bestseller Amazon",
+      "c4": "[NEEDS_TRANSLATION] AI-First Business Success Strategist",
+      "c5": "[NEEDS_TRANSLATION] Web & PWA Developer (SE Asia & North America)",
       "c6": "COO, Alpha & Omega Legacy Group",
-      "c7": "Fasilitator Program Superpower"
+      "c7": "[NEEDS_TRANSLATION] Creator, AI-Powered 8-Week Superpower Business in a Box"
     },
     "readMore": "Baca cerita lengkapnya"
   },
@@ -239,8 +239,8 @@
     "m1": {
       "name": "T.C. Chambers",
       "title": "Pendiri & Direktur Teknis",
-      "bio": "T.C. membangun aplikasi web yang berfungsi. Dia telah meluncurkan platform untuk bisnis perhotelan, praktisi kesehatan, dan pengecer online di seluruh Asia Tenggara dan Amerika Utara. Dia mengkhususkan diri dalam mengambil ide dan mengubahnya menjadi produk live dalam hitungan minggu. T.C. beroperasi dari Bali dan bekerja dengan klien yang menghargai kecepatan dan hasil.",
-      "tags": ["Pengembangan Web & PWA", "Strategi Berbasis AI", "Teknologi Perhotelan", "Asia Tenggara & Amerika Utara"]
+      "bio": "[NEEDS_TRANSLATION] T.C. spent 8 years as a U.S. Army officer before launching his first business. After navigating bankruptcy and rebuilding through mentorship, he turned those lessons into a repeatable framework. He now helps entrepreneurs identify their strongest marketable skill, package it into a real business, and get it live in 8 weeks. He builds web applications for hospitality businesses, wellness practitioners, and online retailers across Southeast Asia and North America. He operates from Bali and works with clients who value speed and results over process.",
+      "tags": ["[NEEDS_TRANSLATION] Web & PWA Development", "[NEEDS_TRANSLATION] AI-First Strategy", "[NEEDS_TRANSLATION] Business Mentorship", "[NEEDS_TRANSLATION] SE Asia & North America"]
     },
     "m2": {
       "name": "Rita Rosita",
@@ -251,7 +251,7 @@
     "m3": {
       "name": "Tami Rini",
       "title": "Pengalaman Tamu & Operasi",
-      "bio": "Tami telah menghabiskan lima tahun di operasi front desk dan penjualan di Bali, Lombok, dan Malaysia. Dia saat ini menjabat sebagai Sales Executive di Mandala Eco Resort Lombok. Di SiteFlow AI, Tami meninjau alur kerja perjalanan tamu dari pertanyaan hingga checkout dan mengidentifikasi titik gesekan yang merugikan konversi operator vila.",
+      "bio": "[NEEDS_TRANSLATION] Tami has spent five years in front desk operations and sales across Bali, Lombok, and Malaysia. She currently serves as Sales Executive at Mandala Eco Resort Lombok. Tami reviews guest journey workflows from inquiry to checkout and identifies friction points that cost villa operators conversions.",
       "tags": ["Pengalaman Tamu", "Operasi OTA & Pemesanan", "Penjualan Vila & Resort", "Pasar Bali/Lombok"]
     },
     "placeholder": {
@@ -594,5 +594,271 @@
     "loading": "Memuat...",
     "error": "Terjadi kesalahan",
     "backHome": "Kembali ke Beranda"
+  },
+  "aboutPage": {
+    "meta": {
+      "title": "Tentang T.C. Chambers - Penulis Bestseller Amazon & Ahli Strategi AI",
+      "description": "Veteran Militer. Penulis Bestseller Amazon. Ahli Strategi AI. Membangun bisnis dari Bali sejak 2023."
+    },
+    "eyebrow": "Tentang T.C. Chambers",
+    "headline": "Dibangun dari Nol. Dibangun Kembali dari Dasar.",
+    "subheadline": "Veteran Militer. Penulis Bestseller Amazon. Ahli Strategi AI. Berbasis di Bali.",
+    "sh1": "[NEEDS_TRANSLATION] From Service to Strategy",
+    "p1": "[NEEDS_TRANSLATION] T.C. Chambers spent 8 years as a United States Army officer before transitioning into Corporate America and launching his first business. That early chapter included a bankruptcy, damaged credit, and hard lessons about money. Mentorship changed the trajectory. He rebuilt, secured funding, and turned those lessons into a repeatable framework he now teaches others.",
+    "sh2": "[NEEDS_TRANSLATION] What He Does",
+    "p2": "[NEEDS_TRANSLATION] T.C. is an AI-First Business Success Strategist who helps people identify their strongest marketable skill, package it into a real business, and get it live in 8 weeks. His approach is direct: figure out what your market needs, build only that, ship fast. He also builds web applications for hospitality businesses, wellness practitioners, and online retailers across Southeast Asia and North America.",
+    "sh3": "[NEEDS_TRANSLATION] The Pattern He Noticed",
+    "p3": "[NEEDS_TRANSLATION] After years of client work, T.C. kept seeing the same problem. Freedom Seekers had knowledge, experience, and expertise but no structured path to turn it into income. They wasted time on wrong priorities, built features nobody needed, and stalled because they lacked clarity. The problem was never talent. It was always direction.",
+    "sh4": "[NEEDS_TRANSLATION] Where He Operates",
+    "p4": "[NEEDS_TRANSLATION] T.C. lives in Bali, Indonesia, where he runs his coaching business, builds web platforms for clients worldwide, and renovates property acquired using creative funding strategies. He works with people who value speed and results over process.",
+    "sh5": "[NEEDS_TRANSLATION] His Approach",
+    "p5": "[NEEDS_TRANSLATION] T.C. treats every engagement the same way: identify the real problem, strip away what does not matter, and build something that works. Whether he is mentoring first-time entrepreneurs or shipping a web application for a hospitality brand in Bali, the principle holds. Clarity first. Action second. Results always.",
+    "mission": "[NEEDS_TRANSLATION] Clarity first. Action second. Results always.",
+    "credentials": {
+      "heading": "Kredensial",
+      "c1": "Perwira Angkatan Darat AS (8 tahun)",
+      "c2": "[NEEDS_TRANSLATION] 30+ Years in Business Development",
+      "c3": "Penulis Bestseller Amazon",
+      "c4": "[NEEDS_TRANSLATION] AI-First Business Success Strategist",
+      "c5": "[NEEDS_TRANSLATION] Web & PWA Developer (SE Asia & North America)",
+      "c6": "COO, Alpha & Omega Legacy Group",
+      "c7": "[NEEDS_TRANSLATION] Creator, AI-Powered 8-Week Superpower Business in a Box"
+    },
+    "fundingDisclaimer": "Jadwal pendanaan yang direferensikan didasarkan pada pengalaman pribadi T.C. Chambers dan hasil klien tertentu. Hasil individu akan bervariasi berdasarkan profil kredit, jenis bisnis, jumlah pendanaan, dan kriteria pemberi pinjaman. Tidak ada yang di sini merupakan jaminan persetujuan pendanaan, jadwal tertentu, atau jumlah tertentu. Konten ini hanya untuk tujuan pendidikan.",
+    "programDisclaimer": "[NEEDS_TRANSLATION] This is an educational mentorship program. Results vary based on individual effort, experience, and market conditions.",
+    "ctaHeading": "Siap bekerja dengan T.C.?",
+    "ctaButton": "Pesan Panggilan Strategi Gratis"
+  },
+  "teamPage": {
+    "meta": {
+      "title": "Kenali Tim - T.C. Chambers",
+      "description": "Orang-orang di balik strategi, operasi, dan pengalaman tamu."
+    },
+    "headline": "Kenali Tim",
+    "subheadline": "Orang-orang di balik strategi, operasi, dan pengalaman tamu.",
+    "m1": {
+      "name": "T.C. Chambers",
+      "title": "Pendiri & Direktur Teknis",
+      "bio": "[NEEDS_TRANSLATION] T.C. spent 8 years as a U.S. Army officer before launching his first business. After navigating bankruptcy and rebuilding through mentorship, he turned those lessons into a repeatable framework. He now helps entrepreneurs identify their strongest marketable skill, package it into a real business, and get it live in 8 weeks. He builds web applications for hospitality businesses, wellness practitioners, and online retailers across Southeast Asia and North America. He operates from Bali and works with clients who value speed and results over process.",
+      "tags": ["[NEEDS_TRANSLATION] Web & PWA Development", "[NEEDS_TRANSLATION] AI-First Strategy", "[NEEDS_TRANSLATION] Business Mentorship", "[NEEDS_TRANSLATION] SE Asia & North America"]
+    },
+    "m2": {
+      "name": "Rita Rosita",
+      "title": "Operasi & Pengembangan Bisnis",
+      "bio": "Rita menghabiskan 15 tahun memperbaiki apa yang rusak ketika bisnis mencoba berkembang. Ia telah mengelola pengadaan dan inventaris untuk merek F&B, menegosiasikan kontrak pemasok, mengendalikan biaya di berbagai lokasi, dan melatih tim garis depan untuk hasil yang konsisten. Ia berbicara bahasa Inggris dan Indonesia, penting saat berkoordinasi di lanskap pemasok dan mitra campuran Bali. Rita memastikan operasi digital klien mencerminkan standar yang mereka pertahankan secara offline. Pendekatannya: jika staf Anda kesulitan menggunakannya, atau jika itu menciptakan lebih banyak pekerjaan daripada yang diselesaikannya, ia menyederhanakannya dan membangunnya kembali. Rita memiliki gelar Sarjana Manajemen dari Universitas Maranatha.",
+      "tags": ["Manajemen Operasi", "Pengembangan Bisnis", "F&B & Perhotelan", "Dwibahasa EN/ID"]
+    },
+    "m3": {
+      "name": "Tami Rini",
+      "title": "Pengalaman Tamu & Operasi",
+      "bio": "Tami telah menghabiskan lima tahun di operasi resepsionis dan penjualan di Bali, Lombok, dan Malaysia. Ia saat ini menjabat sebagai Eksekutif Penjualan di Mandala Eco Resort Lombok, mengelola pertanyaan, pemesanan, dan gesekan operasional yang muncul ketika sistem gagal terhubung. Ia telah menangani operasi pra-pembukaan untuk hotel baru, mengelola reservasi OTA di berbagai properti, dan mendaftarkan tamu di resor mewah. Tami meninjau alur kerja perjalanan tamu dari pertanyaan hingga check-out, menguji proses pemesanan, dan mengidentifikasi titik gesekan yang merugikan konversi operator vila. Tami memiliki gelar Sarjana Manajemen Pariwisata dari Sahid Tourism High School Surakarta dan sedang mengejar gelar Master di Pariwisata Terapan di Politeknik Pariwisata Bali.",
+      "tags": ["Pengalaman Tamu", "Operasi OTA & Pemesanan", "Penjualan Vila & Resor", "Pasar Bali/Lombok"]
+    },
+    "placeholder": {
+      "name": "Bergabung dengan Tim",
+      "title": "Posisi Terbuka",
+      "bio": "Kami berkembang. Detail segera hadir.",
+      "tags": ["Segera Hadir"]
+    },
+    "ctaHeading": "Bekerja dengan tim.",
+    "ctaButton": "Pesan Panggilan Strategi Gratis"
+  },
+  "testimonialsPage": {
+    "meta": {
+      "title": "Hasil Klien - T.C. Chambers",
+      "description": "Hasil nyata dari pengusaha, pemilik vila, dan pembangun bisnis."
+    },
+    "headline": "Hasil dari Orang Nyata",
+    "subheadline": "Hasil nyata dari pengusaha, pemilik vila, dan pembangun bisnis.",
+    "filters": {
+      "all": "Semua",
+      "villa": "Lalu Lintas Pemesanan Vila",
+      "superpower": "Program Kekuatan Super",
+      "websites": "Website & PWA",
+      "funding": "Pendanaan & Strukturisasi",
+      "strategy": "Strategi Bisnis"
+    },
+    "placeholders": {
+      "p1": {
+        "name": "Nama Klien",
+        "business": "Pemilik Vila, Bali",
+        "quote": "Kutipan testimoni akan muncul di sini.",
+        "result": "Hasil: Menunggu",
+        "pillar": "villa"
+      },
+      "p2": {
+        "name": "Nama Klien",
+        "business": "Pemilik Vila, Lombok",
+        "quote": "Kutipan testimoni akan muncul di sini.",
+        "result": "Hasil: Menunggu",
+        "pillar": "villa"
+      },
+      "p3": {
+        "name": "Nama Klien",
+        "business": "Bisnis Online, AS",
+        "quote": "Kutipan testimoni akan muncul di sini.",
+        "result": "Hasil: Menunggu",
+        "pillar": "superpower"
+      },
+      "p4": {
+        "name": "Nama Klien",
+        "business": "Pengusaha, Asia Tenggara",
+        "quote": "Kutipan testimoni akan muncul di sini.",
+        "result": "Hasil: Menunggu",
+        "pillar": "superpower"
+      },
+      "p5": {
+        "name": "Nama Klien",
+        "business": "Merek Kebugaran, Bali",
+        "quote": "Kutipan testimoni akan muncul di sini.",
+        "result": "Hasil: Menunggu",
+        "pillar": "websites"
+      },
+      "p6": {
+        "name": "Nama Klien",
+        "business": "E-commerce, Amerika Utara",
+        "quote": "Kutipan testimoni akan muncul di sini.",
+        "result": "Hasil: Menunggu",
+        "pillar": "websites"
+      }
+    },
+    "disclaimer": "Testimoni mencerminkan pengalaman individu dan bukan jaminan hasil di masa depan. Hasil bervariasi berdasarkan upaya individu, pengalaman, dan kondisi pasar.",
+    "ctaHeading": "Siap membuat hasil Anda sendiri?",
+    "ctaButton": "Pesan Panggilan Strategi Gratis"
+  },
+  "quizPage": {
+    "meta": {
+      "title": "Kuis Kesiapan Bisnis - T.C. Chambers",
+      "description": "Temukan di mana bisnis Anda berdiri dan apa yang harus dilakukan selanjutnya. Hanya 60 detik."
+    },
+    "headline": "Di Mana Bisnis Anda Sekarang?",
+    "subheadline": "Ikuti Kuis Kesiapan Bisnis 60 detik dan temukan apa yang harus dilakukan selanjutnya."
+  },
+  "resourcesPage": {
+    "meta": {
+      "title": "Sumber Daya Bisnis Gratis - T.C. Chambers",
+      "description": "Unduh Cetak Biru Pendanaan Bisnis gratis dan akses alat untuk memulai, mendanai, dan membangun bisnis Anda."
+    },
+    "headline": "Sumber Daya Gratis untuk Memulai, Mendanai, dan Membangun",
+    "waitlist": {
+      "heading": "Bergabung dengan Daftar Tunggu Program Kekuatan Super",
+      "body": "Tanggal kohort berikutnya sedang dikonfirmasi. Tambahkan nama Anda ke daftar tunggu dan Anda akan menjadi yang pertama tahu, dengan akses prioritas untuk memesan tempat Anda.",
+      "firstNameLabel": "Nama Depan",
+      "firstNamePlaceholder": "Nama depan Anda",
+      "emailLabel": "Alamat Email",
+      "emailPlaceholder": "anda@contoh.com",
+      "button": "Bergabung dengan Daftar Tunggu",
+      "sending": "Mengirim...",
+      "success": "Anda ada di daftar. Kami akan menghubungi Anda.",
+      "error": "Terjadi kesalahan. Silakan coba lagi.",
+      "disclaimer": "Program Kekuatan Super adalah program pendidikan. Partisipasi tidak menjamin hasil bisnis tertentu, tingkat pendapatan, atau penghasilan pribadi. Hasil tergantung pada upaya individu, kondisi pasar, dan faktor lain di luar kendali kami."
+    }
+  },
+  "faqPage": {
+    "meta": {
+      "title": "FAQ - T.C. Chambers",
+      "description": "Jawaban untuk pertanyaan umum tentang lalu lintas pemesanan vila, Program Kekuatan Super, website dan PWA, pendanaan, dan bekerja dengan T.C."
+    },
+    "headline": "Pertanyaan yang Sering Diajukan",
+    "ctaHeading": "Masih punya pertanyaan?",
+    "ctaButton": "Pesan Panggilan Strategi Gratis"
+  },
+  "privacyPolicy": {
+    "meta": {
+      "title": "Kebijakan Privasi - T.C. Chambers",
+      "description": "Cara kami mengumpulkan, menggunakan, dan melindungi data Anda."
+    },
+    "heading": "Kebijakan Privasi",
+    "lastUpdated": "Terakhir diperbarui: Maret 2026",
+    "sections": {
+      "dataCollect": {
+        "heading": "Data yang Kami Kumpulkan",
+        "body": "Kami mengumpulkan nama dan alamat email Anda saat Anda mengirim formulir di situs web ini. Ini termasuk formulir email footer, formulir unduhan lead magnet, formulir pengambilan email kuis, formulir pengambilan email chatbot, dan formulir daftar tunggu Program Kekuatan Super."
+      },
+      "howWeUse": {
+        "heading": "Cara Kami Menggunakannya",
+        "body": "Kami menggunakan informasi yang Anda berikan untuk mengirimkan konten yang Anda minta (seperti Cetak Biru Pendanaan Bisnis) dan untuk mengirim notifikasi internal ke T.C. Chambers sehingga ia dapat menindaklanjuti dengan Anda jika sesuai."
+      },
+      "thirdParty": {
+        "heading": "Alat Pihak Ketiga",
+        "body": "Kami menggunakan layanan pihak ketiga berikut untuk mengoperasikan situs web ini: Resend untuk pengiriman email, Calendly untuk penjadwalan, PostHog untuk analitik produk, dan Google Analytics (GA4) untuk analitik web. Masing-masing layanan ini memiliki kebijakan privasinya sendiri."
+      },
+      "yourRights": {
+        "heading": "Hak Anda",
+        "body": "Anda dapat meminta penghapusan data Anda kapan saja dengan mengirim email ke tc@veteranbizcoach.com. Kami akan memproses permintaan Anda dalam 30 hari."
+      },
+      "dataSecurity": {
+        "heading": "Keamanan Data",
+        "body": "Kami tidak menjual data Anda kepada pihak ketiga. Kami mengambil langkah-langkah yang wajar untuk melindungi informasi yang Anda berikan. Namun, tidak ada metode transmisi melalui internet yang 100% aman."
+      }
+    }
+  },
+  "disclaimerPage": {
+    "meta": {
+      "title": "Penafian - T.C. Chambers",
+      "description": "Penafian hukum untuk veteranbizcoach.com."
+    },
+    "heading": "Penafian",
+    "general": {
+      "heading": "Penafian Umum Situs",
+      "body": "Informasi di situs web ini hanya untuk tujuan pendidikan dan informasi. Tidak ada yang di sini merupakan nasihat keuangan, hukum, atau investasi."
+    },
+    "funding": {
+      "heading": "Penafian Jadwal Pendanaan",
+      "body": "Jadwal pendanaan yang direferensikan didasarkan pada pengalaman pribadi T.C. Chambers dan hasil klien tertentu. Hasil individu akan bervariasi berdasarkan profil kredit, jenis bisnis, jumlah pendanaan, dan kriteria pemberi pinjaman. Tidak ada yang di sini merupakan jaminan persetujuan pendanaan, jadwal tertentu, atau jumlah tertentu. Konten ini hanya untuk tujuan pendidikan."
+    },
+    "program": {
+      "heading": "Penafian Hasil Program",
+      "body": "Program Kekuatan Super adalah program pendidikan. Partisipasi tidak menjamin hasil bisnis tertentu, tingkat pendapatan, atau penghasilan pribadi. Hasil tergantung pada upaya individu, kondisi pasar, dan faktor lain di luar kendali kami."
+    },
+    "testimonial": {
+      "heading": "Penafian Testimoni",
+      "body": "Testimoni mencerminkan pengalaman individu dan bukan jaminan hasil di masa depan. Hasil bervariasi berdasarkan upaya individu, pengalaman, dan kondisi pasar."
+    },
+    "villa": {
+      "heading": "Penafian Vila/Regulasi",
+      "body": "Informasi regulasi disediakan untuk kesadaran umum berdasarkan perkembangan yang dilaporkan secara publik. Regulasi dapat berubah. Konsultasikan dengan penasihat hukum lokal untuk panduan yang spesifik untuk properti Anda."
+    }
+  },
+  "termsPage": {
+    "meta": {
+      "title": "Ketentuan Penggunaan - T.C. Chambers",
+      "description": "Ketentuan penggunaan untuk veteranbizcoach.com."
+    },
+    "heading": "Ketentuan Penggunaan",
+    "sections": {
+      "acceptableUse": {
+        "heading": "Penggunaan yang Dapat Diterima",
+        "body": "Dengan mengakses dan menggunakan situs web ini, Anda setuju untuk menggunakannya hanya untuk tujuan yang sah. Anda tidak boleh menggunakan situs ini untuk mendistribusikan konten berbahaya, mencoba mendapatkan akses tidak sah ke sistem apa pun, atau terlibat dalam aktivitas apa pun yang mengganggu operasi situs."
+      },
+      "noGuarantee": {
+        "heading": "Tanpa Jaminan Hasil",
+        "body": "Semua konten di situs web ini, termasuk namun tidak terbatas pada Program Kekuatan Super, strategi pendanaan, dan layanan coaching bisnis, hanya untuk tujuan pendidikan dan informasi. Kami tidak menjamin hasil bisnis tertentu, tingkat pendapatan, persetujuan pendanaan, atau penghasilan pribadi."
+      },
+      "educational": {
+        "heading": "Tujuan Pendidikan",
+        "body": "Semua konten yang dipublikasikan di situs ini ditujukan untuk tujuan pendidikan. Ini bukan nasihat keuangan, hukum, atau investasi. Anda harus berkonsultasi dengan profesional yang berkualifikasi sebelum membuat keputusan berdasarkan informasi yang disediakan di sini."
+      },
+      "ip": {
+        "heading": "Kekayaan Intelektual",
+        "body": "Semua konten di situs web ini, termasuk teks, grafik, logo, dan gambar, adalah milik T.C. Chambers dan dilindungi oleh hukum kekayaan intelektual yang berlaku. Anda tidak boleh mereproduksi, mendistribusikan, atau membuat karya turunan dari konten ini tanpa izin tertulis."
+      },
+      "governingLaw": {
+        "heading": "Hukum yang Mengatur",
+        "body": "[Yurisdiksi akan dikonfirmasi]. Setiap sengketa yang timbul dari atau terkait dengan penggunaan situs web ini akan tunduk pada hukum yurisdiksi yang berlaku."
+      },
+      "contact": {
+        "heading": "Kontak",
+        "body": "Untuk pertanyaan tentang ketentuan ini, hubungi tc@veteranbizcoach.com."
+      }
+    }
+  },
+  "notFound": {
+    "headline": "Halaman ini tidak ada. Tapi bisnis Anda bisa.",
+    "subtext": "Berikut kemana harus pergi dari sini.",
+    "bookCall": "Pesan Panggilan Strategi",
+    "takeQuiz": "Ikuti Kuis",
+    "goHome": "Ke Beranda",
+    "backButton": "Kembali ke Beranda"
   }
 }

@@ -1,8 +1,9 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { X, Download } from 'lucide-react';
+import { track } from '@/lib/analytics';
 
 const DISMISS_KEY = 'pwa-install-dismissed';
 const VISIT_KEY = 'pwa-visit-count';
@@ -10,6 +11,7 @@ const SUPPRESS_DAYS = 7;
 
 export default function PwaInstallBanner() {
   const t = useTranslations('pwa');
+  const locale = useLocale();
   const [visible, setVisible] = useState(false);
   const [deferredPrompt, setDeferredPrompt] = useState<Event | null>(null);
 
@@ -78,13 +80,22 @@ export default function PwaInstallBanner() {
       (deferredPrompt as any).prompt();
       const result = await (deferredPrompt as any).userChoice;
       if (result.outcome === 'accepted') {
+        track('pwa_install_accepted', { locale });
         dismiss();
+      } else {
+        track('pwa_install_dismissed', { locale });
       }
       setDeferredPrompt(null);
     } else {
       // Fallback: just dismiss and let the user use browser's add to home screen
       dismiss();
     }
+  };
+
+  const handleMaybeLater = () => {
+    track('pwa_install_dismissed', { locale });
+    setVisible(false);
+    // Session-only hide — no localStorage write, so banner can reappear next visit
   };
 
   if (!visible) return null;
@@ -113,6 +124,12 @@ export default function PwaInstallBanner() {
               className="bg-gold text-navy font-heading font-semibold text-xs px-4 py-2 rounded-[var(--radius-button)] hover:bg-gold-light transition-colors whitespace-nowrap"
             >
               {t('addButton')}
+            </button>
+            <button
+              onClick={handleMaybeLater}
+              className="text-white/50 hover:text-white text-xs font-body underline underline-offset-2 transition-colors whitespace-nowrap"
+            >
+              {t('maybeLater')}
             </button>
             <button
               onClick={dismiss}

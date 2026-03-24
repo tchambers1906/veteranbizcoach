@@ -1,15 +1,15 @@
 import { getTranslations } from 'next-intl/server';
-import FaqPageContent from './FaqPageContent';
+import TermsContent from './TermsContent';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'faqPage' });
+  const t = await getTranslations({ locale, namespace: 'termsPage' });
   return {
     title: t('meta.title'),
     description: t('meta.description'),
   };
 }
 
-export default function FaqPage() {
-  return <FaqPageContent />;
+export default function TermsPage() {
+  return <TermsContent />;
 }

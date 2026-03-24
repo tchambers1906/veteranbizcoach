@@ -156,11 +156,11 @@ export default function Footer() {
             <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 text-xs text-white/50">
               <span>{t('footer.copyright')}</span>
               <div className="flex items-center gap-3">
-                <a href="#" className="hover:text-gold transition-colors">{t('footer.privacy')}</a>
+                <Link href="/privacy-policy" className="hover:text-gold transition-colors">{t('footer.privacy')}</Link>
                 <span>·</span>
-                <a href="#" className="hover:text-gold transition-colors">{t('footer.disclaimer')}</a>
+                <Link href="/disclaimer" className="hover:text-gold transition-colors">{t('footer.disclaimer')}</Link>
                 <span>·</span>
-                <a href="#" className="hover:text-gold transition-colors">{t('footer.terms')}</a>
+                <Link href="/terms" className="hover:text-gold transition-colors">{t('footer.terms')}</Link>
               </div>
             </div>
             <p className="text-xs text-white/40">

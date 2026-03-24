@@ -6,6 +6,8 @@ import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import PwaInstallBanner from '@/components/layout/PwaInstallBanner';
 import ChatbotWidget from '@/components/ChatbotWidget';
+import PostHogProvider from '@/components/PostHogProvider';
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -28,13 +30,16 @@ export default async function LocaleLayout({
 
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
-      <Navbar />
-      <PwaInstallBanner />
-      <main className="min-h-[calc(100vh-4rem)]">
-        {children}
-      </main>
-      <Footer />
-      <ChatbotWidget />
+      <PostHogProvider>
+        <GoogleAnalytics />
+        <Navbar />
+        <PwaInstallBanner />
+        <main className="min-h-[calc(100vh-4rem)]">
+          {children}
+        </main>
+        <Footer />
+        <ChatbotWidget />
+      </PostHogProvider>
     </NextIntlClientProvider>
   );
 }

@@ -177,7 +177,7 @@
         "body": "Chatbots, booking systems, and lead capture tools built in."
       },
       "c3": {
-        "heading": "SiteFlow AI Conversion Analysis",
+        "heading": "AI-Powered Conversion Analysis",
         "body": "Shows exactly where visitors leave, what stops bookings, and which changes move the needle."
       },
       "c4": {
@@ -216,20 +216,20 @@
   "about": {
     "eyebrow": "About T.C. Chambers",
     "headline": "Built from the Ground Up. Rebuilt from the Bottom.",
-    "p1": "T.C. Chambers grew up in Philadelphia. He spent 8 years as a U.S. Army Officer before entering the corporate world and building his first businesses in 1995.",
-    "p2": "In 1996, he hit a wall most entrepreneurs never talk about. Bankruptcy. A five-figure IRS bill. Everything he had built, gone. He rebuilt through mentorship, mastered funding structures most people never learn, and accessed capital at 0% interest. Then he wrote a book about it. An Amazon Bestseller.",
-    "p3": "For the next two decades, he helped entrepreneurs find capital, structure their entities, and build their businesses. Then AI changed what was possible. He spent years learning it not as a tool but as a core business system, building AI-powered platforms, custom GPTs, and PWAs for clients across Southeast Asia and North America.",
-    "p4": "In January 2023, he moved to Bali, Indonesia. He now runs the Superpower Program online for entrepreneurs worldwide, builds websites and PWAs for hospitality and wellness businesses, advises villa owners on direct booking traffic, and still helps entrepreneurs access funding in 14 to 30 days.",
-    "mission": "To demystify the business development process and empower entrepreneurs to leverage their expertise and external capital, so they can build businesses that let them live life on their own terms.",
+    "p1": "T.C. Chambers spent 8 years as a United States Army officer before transitioning into Corporate America and launching his first business. That early chapter included a bankruptcy, damaged credit, and hard lessons about money. Mentorship changed the trajectory.",
+    "p2": "He rebuilt, secured funding, and turned those lessons into a repeatable framework. Then he wrote a book about it. It became an Amazon Bestseller.",
+    "p3": "Today he helps entrepreneurs identify their strongest marketable skill, package it into a real business, and get it live in 8 weeks. He builds AI-powered platforms and web applications for clients across Southeast Asia and North America.",
+    "p4": "In January 2023, he moved to Bali, Indonesia. He works with people who value speed and results over process.",
+    "mission": "Clarity first. Action second. Results always.",
     "credentials": {
       "heading": "Credentials",
       "c1": "U.S. Army Officer (8 years)",
-      "c2": "Amazon Bestselling Author",
-      "c3": "Business Funding Expert, 14 to 30 day track record",
-      "c4": "AI-First Business Strategist",
-      "c5": "Web & PWA Developer (Bali, SE Asia, North America)",
+      "c2": "30+ Years in Business Development",
+      "c3": "Amazon Bestselling Author",
+      "c4": "AI-First Business Success Strategist",
+      "c5": "Web & PWA Developer (SE Asia & North America)",
       "c6": "COO, Alpha & Omega Legacy Group",
-      "c7": "Superpower Program Facilitator"
+      "c7": "Creator, AI-Powered 8-Week Superpower Business in a Box"
     },
     "readMore": "Read the full story"
   },
@@ -251,7 +251,7 @@
     "m3": {
       "name": "Tami Rini",
       "title": "Guest Experience & Operations",
-      "bio": "Tami has spent five years in front desk operations and sales across Bali, Lombok, and Malaysia. She currently serves as Sales Executive at Mandala Eco Resort Lombok. At SiteFlow AI, Tami reviews guest journey workflows from inquiry to checkout and identifies friction points that cost villa operators conversions.",
+      "bio": "Tami has spent five years in front desk operations and sales across Bali, Lombok, and Malaysia. She currently serves as Sales Executive at Mandala Eco Resort Lombok. Tami reviews guest journey workflows from inquiry to checkout and identifies friction points that cost villa operators conversions.",
       "tags": ["Guest Experience", "OTA & Booking Operations", "Villa & Resort Sales", "Bali/Lombok Market"]
     },
     "placeholder": {
@@ -594,5 +594,271 @@
     "loading": "Loading...",
     "error": "Something went wrong",
     "backHome": "Back to Home"
+  },
+  "aboutPage": {
+    "meta": {
+      "title": "About T.C. Chambers - Amazon Bestselling Author & AI Strategist",
+      "description": "Army Veteran. Amazon Bestselling Author. AI-First Strategist. Building businesses from Bali since 2023."
+    },
+    "eyebrow": "About T.C. Chambers",
+    "headline": "Built from the Ground Up. Rebuilt from the Bottom.",
+    "subheadline": "Army Veteran. Amazon Bestselling Author. AI-First Strategist. Based in Bali.",
+    "sh1": "From Service to Strategy",
+    "p1": "T.C. Chambers spent 8 years as a United States Army officer before transitioning into Corporate America and launching his first business. That early chapter included a bankruptcy, damaged credit, and hard lessons about money. Mentorship changed the trajectory. He rebuilt, secured funding, and turned those lessons into a repeatable framework he now teaches others.",
+    "sh2": "What He Does",
+    "p2": "T.C. is an AI-First Business Success Strategist who helps people identify their strongest marketable skill, package it into a real business, and get it live in 8 weeks. His approach is direct: figure out what your market needs, build only that, ship fast. He also builds web applications for hospitality businesses, wellness practitioners, and online retailers across Southeast Asia and North America.",
+    "sh3": "The Pattern He Noticed",
+    "p3": "After years of client work, T.C. kept seeing the same problem. Freedom Seekers had knowledge, experience, and expertise but no structured path to turn it into income. They wasted time on wrong priorities, built features nobody needed, and stalled because they lacked clarity. The problem was never talent. It was always direction.",
+    "sh4": "Where He Operates",
+    "p4": "T.C. lives in Bali, Indonesia, where he runs his coaching business, builds web platforms for clients worldwide, and renovates property acquired using creative funding strategies. He works with people who value speed and results over process.",
+    "sh5": "His Approach",
+    "p5": "T.C. treats every engagement the same way: identify the real problem, strip away what does not matter, and build something that works. Whether he is mentoring first-time entrepreneurs or shipping a web application for a hospitality brand in Bali, the principle holds. Clarity first. Action second. Results always.",
+    "mission": "Clarity first. Action second. Results always.",
+    "credentials": {
+      "heading": "Credentials",
+      "c1": "U.S. Army Officer (8 years)",
+      "c2": "30+ Years in Business Development",
+      "c3": "Amazon Bestselling Author",
+      "c4": "AI-First Business Success Strategist",
+      "c5": "Web & PWA Developer (SE Asia & North America)",
+      "c6": "COO, Alpha & Omega Legacy Group",
+      "c7": "Creator, AI-Powered 8-Week Superpower Business in a Box"
+    },
+    "fundingDisclaimer": "Funding timelines referenced are based on T.C. Chambers' personal experience and select client outcomes. Individual results will vary based on credit profile, business type, funding amount, and lender criteria. Nothing here constitutes a guarantee of funding approval, a specific timeline, or a specific amount. This content is for educational purposes only.",
+    "programDisclaimer": "This is an educational mentorship program. Results vary based on individual effort, experience, and market conditions.",
+    "ctaHeading": "Ready to work with T.C.?",
+    "ctaButton": "Book a Free Strategy Call"
+  },
+  "teamPage": {
+    "meta": {
+      "title": "Meet the Team - T.C. Chambers",
+      "description": "The people behind the strategy, the operations, and the guest experience."
+    },
+    "headline": "Meet the Team",
+    "subheadline": "The people behind the strategy, the operations, and the guest experience.",
+    "m1": {
+      "name": "T.C. Chambers",
+      "title": "Founder & Technical Director",
+      "bio": "T.C. spent 8 years as a U.S. Army officer before launching his first business. After navigating bankruptcy and rebuilding through mentorship, he turned those lessons into a repeatable framework. He now helps entrepreneurs identify their strongest marketable skill, package it into a real business, and get it live in 8 weeks. He builds web applications for hospitality businesses, wellness practitioners, and online retailers across Southeast Asia and North America. He operates from Bali and works with clients who value speed and results over process.",
+      "tags": ["Web & PWA Development", "AI-First Strategy", "Business Mentorship", "SE Asia & North America"]
+    },
+    "m2": {
+      "name": "Rita Rosita",
+      "title": "Operations & Business Development",
+      "bio": "Rita spent 15 years fixing what breaks when businesses try to scale. She has managed procurement and inventory for F&B brands, negotiated supplier contracts, controlled costs across multiple locations, and trained frontline teams for consistent results. She speaks English and Indonesian, essential when coordinating across Bali's mixed supplier and partner landscape. Rita ensures clients' digital operations mirror the standards they hold offline. Her approach: if your staff struggles to use it, or if it creates more work than it solves, she strips it down and rebuilds it. Rita holds a Bachelor of Management from Maranatha University.",
+      "tags": ["Operations Management", "Business Development", "F&B & Hospitality", "Bilingual EN/ID"]
+    },
+    "m3": {
+      "name": "Tami Rini",
+      "title": "Guest Experience & Operations",
+      "bio": "Tami has spent five years in front desk operations and sales across Bali, Lombok, and Malaysia. She currently serves as Sales Executive at Mandala Eco Resort Lombok, managing inquiries, bookings, and the operational friction that arises when systems fail to connect. She has handled pre-opening operations for new hotels, managed OTA reservations across multiple properties, and checked in guests at luxury resorts. Tami reviews guest journey workflows from inquiry to checkout, tests booking processes, and identifies friction points that cost villa operators conversions. Tami holds a Bachelor's in Tourism Management from Sahid Tourism High School Surakarta and is pursuing a Master's in Applied Tourism at Bali Tourism Polytechnic.",
+      "tags": ["Guest Experience", "OTA & Booking Operations", "Villa & Resort Sales", "Bali/Lombok Market"]
+    },
+    "placeholder": {
+      "name": "Join the Team",
+      "title": "Position Open",
+      "bio": "We're growing. Details coming soon.",
+      "tags": ["Coming Soon"]
+    },
+    "ctaHeading": "Work with the team.",
+    "ctaButton": "Book a Free Strategy Call"
+  },
+  "testimonialsPage": {
+    "meta": {
+      "title": "Client Results - T.C. Chambers",
+      "description": "Real outcomes from entrepreneurs, villa owners, and business builders."
+    },
+    "headline": "Results From Real People",
+    "subheadline": "Real outcomes from entrepreneurs, villa owners, and business builders.",
+    "filters": {
+      "all": "All",
+      "villa": "Villa Booking Traffic",
+      "superpower": "Superpower Program",
+      "websites": "Websites & PWAs",
+      "funding": "Funding & Structuring",
+      "strategy": "Business Strategy"
+    },
+    "placeholders": {
+      "p1": {
+        "name": "Client Name",
+        "business": "Villa Owner, Bali",
+        "quote": "Testimonial quote will appear here.",
+        "result": "Result: Pending",
+        "pillar": "villa"
+      },
+      "p2": {
+        "name": "Client Name",
+        "business": "Villa Owner, Lombok",
+        "quote": "Testimonial quote will appear here.",
+        "result": "Result: Pending",
+        "pillar": "villa"
+      },
+      "p3": {
+        "name": "Client Name",
+        "business": "Online Business, USA",
+        "quote": "Testimonial quote will appear here.",
+        "result": "Result: Pending",
+        "pillar": "superpower"
+      },
+      "p4": {
+        "name": "Client Name",
+        "business": "Entrepreneur, SE Asia",
+        "quote": "Testimonial quote will appear here.",
+        "result": "Result: Pending",
+        "pillar": "superpower"
+      },
+      "p5": {
+        "name": "Client Name",
+        "business": "Wellness Brand, Bali",
+        "quote": "Testimonial quote will appear here.",
+        "result": "Result: Pending",
+        "pillar": "websites"
+      },
+      "p6": {
+        "name": "Client Name",
+        "business": "E-commerce, North America",
+        "quote": "Testimonial quote will appear here.",
+        "result": "Result: Pending",
+        "pillar": "websites"
+      }
+    },
+    "disclaimer": "Testimonials reflect individual experiences and are not a guarantee of future results. Results vary based on individual effort, experience, and market conditions.",
+    "ctaHeading": "Ready to create your own result?",
+    "ctaButton": "Book a Free Strategy Call"
+  },
+  "quizPage": {
+    "meta": {
+      "title": "Business Readiness Quiz - T.C. Chambers",
+      "description": "Find out exactly where your business stands and what to do next. Takes 60 seconds."
+    },
+    "headline": "Where Is Your Business Right Now?",
+    "subheadline": "Take the 60-second Business Readiness Quiz and find out exactly what to do next."
+  },
+  "resourcesPage": {
+    "meta": {
+      "title": "Free Business Resources - T.C. Chambers",
+      "description": "Download the free Business Funding Blueprint and access tools to start, fund, and build your business."
+    },
+    "headline": "Free Resources to Start, Fund, and Build",
+    "waitlist": {
+      "heading": "Join the Superpower Program Waitlist",
+      "body": "The next cohort date is being confirmed. Add your name to the waitlist and you'll be first to know, with priority access to reserve your seat.",
+      "firstNameLabel": "First Name",
+      "firstNamePlaceholder": "Your first name",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "you@example.com",
+      "button": "Join the Waitlist",
+      "sending": "Sending...",
+      "success": "You're on the list. We'll be in touch.",
+      "error": "Something went wrong. Please try again.",
+      "disclaimer": "The Superpower Program is an educational program. Participation does not guarantee any specific business outcome, revenue level, or personal income. Results depend on individual effort, market conditions, and other factors outside our control."
+    }
+  },
+  "faqPage": {
+    "meta": {
+      "title": "FAQ - T.C. Chambers",
+      "description": "Answers to common questions about villa booking traffic, the Superpower Program, websites and PWAs, funding, and working with T.C."
+    },
+    "headline": "Frequently Asked Questions",
+    "ctaHeading": "Still have questions?",
+    "ctaButton": "Book a Free Strategy Call"
+  },
+  "privacyPolicy": {
+    "meta": {
+      "title": "Privacy Policy - T.C. Chambers",
+      "description": "How we collect, use, and protect your data."
+    },
+    "heading": "Privacy Policy",
+    "lastUpdated": "Last updated: March 2026",
+    "sections": {
+      "dataCollect": {
+        "heading": "Data We Collect",
+        "body": "We collect your name and email address when you submit a form on this website. This includes the footer email form, the lead magnet download form, the quiz email capture form, the chatbot email capture form, and the Superpower Program waitlist form."
+      },
+      "howWeUse": {
+        "heading": "How We Use It",
+        "body": "We use the information you provide to send you the content you requested (such as the Business Funding Blueprint) and to send internal notifications to T.C. Chambers so he can follow up with you if appropriate."
+      },
+      "thirdParty": {
+        "heading": "Third-Party Tools",
+        "body": "We use the following third-party services to operate this website: Resend for email delivery, Calendly for scheduling, PostHog for product analytics, and Google Analytics (GA4) for web analytics. Each of these services has its own privacy policy."
+      },
+      "yourRights": {
+        "heading": "Your Rights",
+        "body": "You may request deletion of your data at any time by emailing tc@veteranbizcoach.com. We will process your request within 30 days."
+      },
+      "dataSecurity": {
+        "heading": "Data Security",
+        "body": "We do not sell your data to third parties. We take reasonable measures to protect the information you provide. However, no method of transmission over the internet is 100% secure."
+      }
+    }
+  },
+  "disclaimerPage": {
+    "meta": {
+      "title": "Disclaimer - T.C. Chambers",
+      "description": "Legal disclaimers for veteranbizcoach.com."
+    },
+    "heading": "Disclaimer",
+    "general": {
+      "heading": "General Site Disclaimer",
+      "body": "The information on this website is for educational and informational purposes only. Nothing here constitutes financial, legal, or investment advice."
+    },
+    "funding": {
+      "heading": "Funding Timeline Disclaimer",
+      "body": "Funding timelines referenced are based on T.C. Chambers' personal experience and select client outcomes. Individual results will vary based on credit profile, business type, funding amount, and lender criteria. Nothing here constitutes a guarantee of funding approval, a specific timeline, or a specific amount. This content is for educational purposes only."
+    },
+    "program": {
+      "heading": "Program Outcome Disclaimer",
+      "body": "The Superpower Program is an educational program. Participation does not guarantee any specific business outcome, revenue level, or personal income. Results depend on individual effort, market conditions, and other factors outside our control."
+    },
+    "testimonial": {
+      "heading": "Testimonial Disclaimer",
+      "body": "Testimonials reflect individual experiences and are not a guarantee of future results. Results vary based on individual effort, experience, and market conditions."
+    },
+    "villa": {
+      "heading": "Villa/Regulatory Disclaimer",
+      "body": "Regulatory information is provided for general awareness based on publicly reported developments. Regulations may change. Consult a local legal advisor for guidance specific to your property."
+    }
+  },
+  "termsPage": {
+    "meta": {
+      "title": "Terms of Use - T.C. Chambers",
+      "description": "Terms of use for veteranbizcoach.com."
+    },
+    "heading": "Terms of Use",
+    "sections": {
+      "acceptableUse": {
+        "heading": "Acceptable Use",
+        "body": "By accessing and using this website, you agree to use it for lawful purposes only. You may not use this site to distribute harmful content, attempt to gain unauthorized access to any systems, or engage in any activity that disrupts the operation of the site."
+      },
+      "noGuarantee": {
+        "heading": "No Guarantee of Outcomes",
+        "body": "All content on this website, including but not limited to the Superpower Program, funding strategies, and business coaching services, is for educational and informational purposes only. We do not guarantee any specific business outcome, revenue level, funding approval, or personal income."
+      },
+      "educational": {
+        "heading": "Educational Purpose",
+        "body": "All content published on this site is intended for educational purposes. It is not financial, legal, or investment advice. You should consult a qualified professional before making decisions based on the information provided here."
+      },
+      "ip": {
+        "heading": "Intellectual Property",
+        "body": "All content on this website, including text, graphics, logos, and images, is owned by T.C. Chambers and is protected by applicable intellectual property laws. You may not reproduce, distribute, or create derivative works from this content without written permission."
+      },
+      "governingLaw": {
+        "heading": "Governing Law",
+        "body": "[Jurisdiction to be confirmed]. Any disputes arising from or related to the use of this website will be subject to the laws of the applicable jurisdiction."
+      },
+      "contact": {
+        "heading": "Contact",
+        "body": "For questions about these terms, contact tc@veteranbizcoach.com."
+      }
+    }
+  },
+  "notFound": {
+    "headline": "This page doesn't exist. But your business can.",
+    "subtext": "Here's where to go from here.",
+    "bookCall": "Book a Strategy Call",
+    "takeQuiz": "Take the Quiz",
+    "goHome": "Go Home",
+    "backButton": "Back to Home"
   }
 }

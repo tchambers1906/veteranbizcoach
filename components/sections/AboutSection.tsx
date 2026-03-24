@@ -28,8 +28,28 @@ export default function AboutSection() {
   };
 
   return (
-    <section id="about" className="bg-off-white">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-20">
+    <section
+      id="about"
+      className="relative bg-cover bg-scroll bg-[center_15%] md:bg-[center_top]"
+      style={{
+        backgroundImage: "url('/images/tc-about-bg.jpg')",
+        minHeight: undefined,
+      }}
+    >
+      {/* Overlay — mobile: solid dark for legibility; desktop: gradient left-heavy to reveal T.C. on right */}
+      <div
+        className="absolute inset-0 z-0 md:hidden"
+        style={{ backgroundColor: 'rgba(10,22,40,0.88)' }}
+      />
+      <div
+        className="absolute inset-0 z-0 hidden md:block"
+        style={{
+          background:
+            'linear-gradient(105deg, rgba(10,22,40,0.92) 0%, rgba(10,22,40,0.85) 40%, rgba(10,22,40,0.55) 65%, rgba(10,22,40,0.30) 100%)',
+        }}
+      />
+
+      <div className="relative z-[1] mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-20 md:min-h-[600px]">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-12 lg:gap-16">
           {/* LEFT — Narrative */}
           <div>
@@ -37,23 +57,23 @@ export default function AboutSection() {
               <p className="font-heading font-semibold text-[12px] text-teal uppercase tracking-widest mb-4">
                 {t('eyebrow')}
               </p>
-              <h2 className="font-heading font-extrabold text-[28px] lg:text-[42px] leading-[1.1] text-navy mb-8">
+              <h2 className="font-heading font-extrabold text-[28px] lg:text-[42px] leading-[1.1] text-white mb-8">
                 {t('headline')}
               </h2>
             </ScrollReveal>
 
             <ScrollReveal delay={100}>
               <div className="space-y-5">
-                <p className="font-body text-[17px] lg:text-[18px] leading-[1.7] text-text-secondary">
+                <p className="font-body text-[17px] lg:text-[18px] leading-[1.7] text-off-white">
                   {t('p1')}
                 </p>
-                <p className="font-body text-[17px] lg:text-[18px] leading-[1.7] text-text-secondary">
+                <p className="font-body text-[17px] lg:text-[18px] leading-[1.7] text-off-white">
                   {t('p2')}
                 </p>
-                <p className="font-body text-[17px] lg:text-[18px] leading-[1.7] text-text-secondary">
+                <p className="font-body text-[17px] lg:text-[18px] leading-[1.7] text-off-white">
                   {t('p3')}
                 </p>
-                <p className="font-body text-[17px] lg:text-[18px] leading-[1.7] text-text-secondary">
+                <p className="font-body text-[17px] lg:text-[18px] leading-[1.7] text-off-white">
                   {t('p4')}
                 </p>
               </div>

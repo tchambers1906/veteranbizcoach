@@ -30,44 +30,31 @@ interface QuizResult {
 }
 
 function computeResult(answers: Answers): QuizResult {
-  const stage = answers.q1;     // a=idea, b=launched, c=established, d=scaling
-  const challenge = answers.q2; // a=clarity, b=funded, c=digital, d=ai, e=all
-  const entity = answers.q3;    // a=yes, b=no, c=unsure
-  const website = answers.q4;   // a=converts, b=underperforms, c=no
-  const ai = answers.q5;        // a=yes, b=somewhat, c=want, d=no
-  const goal = answers.q6;      // a=launch, b=funded, c=digital, d=ai, e=all
+  const stage = answers.q1;
+  const challenge = answers.q2;
+  const entity = answers.q3;
+  const website = answers.q4;
+  const ai = answers.q5;
+  const goal = answers.q6;
 
-  // Idea stage + no clarity → superpower
   if (stage === 'a' && (challenge === 'a' || goal === 'a')) {
     return { pillar: 'superpower', ctaKey: 'superpower', href: '/resources?waitlist=superpower' };
   }
-
-  // Established + needs funding
   if ((stage === 'c' || stage === 'd') && (challenge === 'b' || goal === 'b')) {
     return { pillar: 'funding', ctaKey: 'funding', href: '/book?session=funding' };
   }
-
-  // Has business + no website
   if ((stage === 'b' || stage === 'c' || stage === 'd') && (website === 'c' || website === 'b' || challenge === 'c' || goal === 'c')) {
     return { pillar: 'website', ctaKey: 'website', href: '/book?session=website' };
   }
-
-  // Running business + no AI
   if ((stage === 'b' || stage === 'c' || stage === 'd') && (ai === 'c' || ai === 'd' || challenge === 'd' || goal === 'd')) {
     return { pillar: 'ai-strategy', ctaKey: 'ai', href: '/book?session=ai-strategy' };
   }
-
-  // Just launched + needs clarity → superpower
   if (stage === 'b' && challenge === 'a') {
     return { pillar: 'superpower', ctaKey: 'superpower', href: '/resources?waitlist=superpower' };
   }
-
-  // Needs funding at any stage
   if (challenge === 'b' || goal === 'b' || entity === 'b') {
     return { pillar: 'funding', ctaKey: 'funding', href: '/book?session=funding' };
   }
-
-  // Multiple needs / unclear → general strategy
   return { pillar: 'strategy', ctaKey: 'strategy', href: '/book?session=strategy' };
 }
 
@@ -82,7 +69,6 @@ export default function QuizSection() {
   const [answers, setAnswers] = useState<Answers>({});
   const [result, setResult] = useState<QuizResult | null>(null);
 
-  // Email capture after result
   const [quizEmail, setQuizEmail] = useState('');
   const [emailStatus, setEmailStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
 
@@ -96,7 +82,6 @@ export default function QuizSection() {
     if (currentStep < totalSteps - 1) {
       setCurrentStep(currentStep + 1);
     } else {
-      // Compute result
       const computed = computeResult(newAnswers);
       setResult(computed);
       track('quiz_completed', {
@@ -147,11 +132,11 @@ export default function QuizSection() {
   };
 
   return (
-    <section id="quiz" className="bg-off-white">
+    <section id="quiz" className="bg-navy">
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-20">
         {/* Header */}
         <ScrollReveal>
-          <h2 className="font-heading font-extrabold text-[28px] lg:text-[42px] leading-[1.1] text-navy text-center mb-2">
+          <h2 className="font-heading font-extrabold text-[28px] lg:text-[42px] leading-[1.1] text-white text-center mb-2">
             {t('headline')}
           </h2>
           <p className="font-body font-medium text-[18px] lg:text-[20px] text-teal text-center mb-10">
@@ -161,13 +146,16 @@ export default function QuizSection() {
 
         {/* Progress bar */}
         <div className="mb-8">
-          <div className="w-full h-2 bg-charcoal/20 rounded-full overflow-hidden">
+          <div
+            className="w-full h-2 rounded-full overflow-hidden"
+            style={{ backgroundColor: 'rgba(255,255,255,0.12)' }}
+          >
             <div
-              className="h-full bg-teal rounded-full transition-all duration-500"
+              className="h-full bg-gold rounded-full transition-all duration-500"
               style={{ width: `${progress}%` }}
             />
           </div>
-          <p className="font-body text-[13px] text-text-secondary mt-2 text-center">
+          <p className="font-body text-[13px] text-off-white/60 mt-2 text-center">
             {result ? t('complete') : t('progress', { current: currentStep + 1, total: totalSteps })}
           </p>
         </div>
@@ -175,8 +163,14 @@ export default function QuizSection() {
         {/* Quiz body */}
         {!result ? (
           /* ---------- Question step ---------- */
-          <div className="bg-white rounded-[var(--radius-card)] p-6 lg:p-8 shadow-sm">
-            <h3 className="font-heading font-bold text-[18px] lg:text-[20px] text-navy mb-6">
+          <div
+            className="rounded-2xl p-6 lg:p-10"
+            style={{
+              backgroundColor: '#1A1A2E',
+              boxShadow: '0 8px 32px rgba(0,0,0,0.3)',
+            }}
+          >
+            <h3 className="font-heading font-bold text-[20px] lg:text-[22px] text-white mb-6">
               {t(`questions.${QUESTIONS[currentStep].key}.text`)}
             </h3>
             <div className="space-y-3">
@@ -184,7 +178,21 @@ export default function QuizSection() {
                 <button
                   key={opt}
                   onClick={() => handleAnswer(QUESTIONS[currentStep].key, opt)}
-                  className="w-full text-left font-body text-[15px] text-navy bg-off-white hover:bg-teal/10 border border-gray-200 hover:border-teal rounded-[var(--radius-button)] px-5 py-3.5 transition-all"
+                  className="w-full text-left font-body text-[15px] lg:text-[16px] text-off-white rounded-lg px-5 lg:px-6 py-4 transition-all duration-150"
+                  style={{
+                    backgroundColor: '#1A1A2E',
+                    border: '1px solid rgba(255,255,255,0.12)',
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.backgroundColor = 'rgba(201,168,76,0.10)';
+                    e.currentTarget.style.borderColor = '#C9A84C';
+                    e.currentTarget.style.color = '#FFFFFF';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.backgroundColor = '#1A1A2E';
+                    e.currentTarget.style.borderColor = 'rgba(255,255,255,0.12)';
+                    e.currentTarget.style.color = '#F8F9FA';
+                  }}
                 >
                   {t(`questions.${QUESTIONS[currentStep].key}.${opt}`)}
                 </button>
@@ -194,7 +202,13 @@ export default function QuizSection() {
         ) : (
           /* ---------- Result card ---------- */
           <div>
-            <div className="bg-navy rounded-[var(--radius-card)] p-6 lg:p-8 text-center mb-6">
+            <div
+              className="rounded-2xl p-6 lg:p-8 text-center mb-6"
+              style={{
+                backgroundColor: '#1A1A2E',
+                boxShadow: '0 8px 32px rgba(0,0,0,0.3)',
+              }}
+            >
               <h3 className="font-heading font-bold text-[22px] lg:text-[26px] text-gold mb-4">
                 {t(`results.${result.ctaKey}.heading`)}
               </h3>
@@ -204,21 +218,27 @@ export default function QuizSection() {
               <Link
                 href={result.href}
                 onClick={() => handleCtaClick(t(`results.${result.ctaKey}.cta`))}
-                className="inline-flex items-center justify-center font-heading font-semibold text-base bg-teal text-white px-8 py-4 rounded-[var(--radius-button)] min-h-[44px] hover:brightness-110 transition-all"
+                className="inline-flex items-center justify-center font-heading font-semibold text-base bg-teal text-white px-8 py-4 rounded-lg min-h-[44px] hover:brightness-110 transition-all"
               >
                 {t(`results.${result.ctaKey}.cta`)}
               </Link>
             </div>
 
             {/* Email capture */}
-            <div className="bg-white rounded-[var(--radius-card)] p-6 shadow-sm">
+            <div
+              className="rounded-2xl p-6"
+              style={{
+                backgroundColor: '#1A1A2E',
+                boxShadow: '0 8px 32px rgba(0,0,0,0.3)',
+              }}
+            >
               {emailStatus === 'success' ? (
                 <p className="font-body text-[15px] text-teal text-center py-4">
                   {t('emailSuccess')}
                 </p>
               ) : (
                 <>
-                  <p className="font-body text-[15px] text-text-secondary text-center mb-4">
+                  <p className="font-body text-[15px] text-off-white/70 text-center mb-4">
                     {t('emailPrompt')}
                   </p>
                   <form onSubmit={handleEmailSubmit} className="flex flex-col sm:flex-row gap-3">
@@ -233,18 +253,18 @@ export default function QuizSection() {
                       placeholder={t('emailPlaceholder')}
                       maxLength={254}
                       required
-                      className="flex-1 border border-gray-200 rounded-[var(--radius-button)] px-4 py-3 font-body text-[15px] text-navy placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-teal/50"
+                      className="flex-1 bg-navy border border-white/10 rounded-lg px-4 py-3 font-body text-[15px] text-white placeholder:text-white/30 focus:outline-none focus:ring-2 focus:ring-teal/50"
                     />
                     <button
                       type="submit"
                       disabled={emailStatus === 'loading'}
-                      className="font-heading font-semibold text-[15px] bg-gold text-navy px-6 py-3 rounded-[var(--radius-button)] hover:brightness-110 transition-all disabled:opacity-60 whitespace-nowrap"
+                      className="font-heading font-semibold text-[15px] bg-gold text-navy px-6 py-3 rounded-lg hover:brightness-110 transition-all disabled:opacity-60 whitespace-nowrap"
                     >
                       {emailStatus === 'loading' ? t('emailSending') : t('emailButton')}
                     </button>
                   </form>
                   {emailStatus === 'error' && (
-                    <p className="font-body text-[13px] text-red-500 mt-2 text-center">
+                    <p className="font-body text-[13px] text-red-400 mt-2 text-center">
                       {t('emailError')}
                     </p>
                   )}
@@ -256,7 +276,7 @@ export default function QuizSection() {
             <div className="text-center mt-6">
               <button
                 onClick={restartQuiz}
-                className="font-body text-[14px] text-text-secondary hover:text-navy underline underline-offset-2 transition-colors"
+                className="font-body text-[14px] text-off-white/60 hover:text-white underline underline-offset-2 transition-colors"
               >
                 {t('restart')}
               </button>

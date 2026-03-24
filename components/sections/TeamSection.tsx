@@ -4,22 +4,6 @@ import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import Image from 'next/image';
-import { Plus } from 'lucide-react';
-
-/* ------------------------------------------------------------------ */
-/*  Avatar placeholder with initials                                  */
-/* ------------------------------------------------------------------ */
-function AvatarPlaceholder({ initials, isPlaceholderCard }: { initials: string; isPlaceholderCard?: boolean }) {
-  return (
-    <div className="w-20 h-20 rounded-full bg-charcoal flex items-center justify-center shrink-0">
-      {isPlaceholderCard ? (
-        <Plus className="w-7 h-7 text-gold" strokeWidth={2} />
-      ) : (
-        <span className="font-heading font-bold text-[22px] text-gold leading-none">{initials}</span>
-      )}
-    </div>
-  );
-}
 
 /* ------------------------------------------------------------------ */
 /*  Photo avatar with fallback to initials                            */
@@ -28,17 +12,21 @@ function PhotoAvatar({ src, alt, initials }: { src: string; alt: string; initial
   const [failed, setFailed] = useState(false);
 
   if (failed) {
-    return <AvatarPlaceholder initials={initials} />;
+    return (
+      <div className="w-20 h-20 rounded-full bg-charcoal flex items-center justify-center shrink-0 border-2 border-gold">
+        <span className="font-heading font-bold text-[22px] text-gold leading-none">{initials}</span>
+      </div>
+    );
   }
 
   return (
-    <div className="w-20 h-20 rounded-full overflow-hidden shrink-0 bg-charcoal">
+    <div className="w-20 h-20 rounded-full overflow-hidden shrink-0 bg-charcoal border-2 border-gold">
       <Image
         src={src}
         alt={alt}
         width={80}
         height={80}
-        className="w-full h-full object-cover object-center-top"
+        className="w-full h-full object-cover"
         style={{ objectPosition: 'center top' }}
         onError={() => setFailed(true)}
       />
@@ -60,11 +48,11 @@ export default function TeamSection() {
   ];
 
   return (
-    <section id="team" className="bg-white">
+    <section id="team" className="bg-navy">
       {/* Eyebrow bar */}
-      <div className="bg-navy">
+      <div className="bg-charcoal">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-4 text-center">
-          <p className="font-body text-[14px] lg:text-[15px] text-off-white/80 uppercase tracking-wide">
+          <p className="font-body font-medium text-[14px] lg:text-[15px] text-off-white uppercase tracking-wide">
             {t('eyebrowBar')}
           </p>
         </div>
@@ -73,7 +61,7 @@ export default function TeamSection() {
       {/* Headline */}
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 pt-16 pb-10 text-center">
         <ScrollReveal>
-          <h2 className="font-heading font-extrabold text-[28px] lg:text-[42px] leading-[1.1] text-navy">
+          <h2 className="font-heading font-extrabold text-[28px] lg:text-[42px] leading-[1.1] text-white">
             {t('headline')}
           </h2>
         </ScrollReveal>
@@ -82,62 +70,63 @@ export default function TeamSection() {
       {/* Team Cards — 2x2 grid */}
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 pb-20">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {members.map((member, idx) => {
-            const isPlaceholder = member.isPlaceholder;
-
-            return (
-              <ScrollReveal key={member.key} delay={idx * 80}>
-                <div
-                  className={`bg-white rounded-[var(--radius-card)] p-6 h-full transition-shadow ${
-                    isPlaceholder
-                      ? 'border-2 border-dashed border-gray-300 opacity-60'
-                      : 'border border-gray-100 shadow-sm hover:shadow-md'
-                  }`}
-                >
-                  {/* Avatar + Name row */}
-                  <div className="flex items-center gap-4 mb-4">
-                    {member.hasPhoto ? (
-                      <PhotoAvatar
-                        src={member.photo!}
-                        alt={t(`${member.key}.name`)}
-                        initials={member.initials!}
-                      />
-                    ) : (
-                      <AvatarPlaceholder
-                        initials={member.initials!}
-                        isPlaceholderCard={isPlaceholder}
-                      />
-                    )}
-                    <div>
-                      <h3 className="font-heading font-bold text-[17px] text-navy">
-                        {t(`${member.key}.name`)}
-                      </h3>
-                      <p className="font-body font-medium text-[14px] text-teal">
-                        {t(`${member.key}.title`)}
-                      </p>
-                    </div>
-                  </div>
-
-                  {/* Bio */}
-                  <p className="font-body text-[15px] leading-[1.6] text-text-secondary mb-4">
-                    {t(`${member.key}.bio`)}
-                  </p>
-
-                  {/* Expertise tags */}
-                  <div className="flex flex-wrap gap-2">
-                    {(t.raw(`${member.key}.tags`) as string[]).map((tag: string) => (
-                      <span
-                        key={tag}
-                        className="inline-block font-body text-[12px] text-gold bg-gold/10 px-2.5 py-1 rounded-full"
-                      >
-                        {tag}
-                      </span>
-                    ))}
+          {members.map((member, idx) => (
+            <ScrollReveal key={member.key} delay={idx * 80}>
+              <div
+                className="rounded-xl p-6 h-full transition-all"
+                style={{
+                  backgroundColor: '#1A1A2E',
+                  border: '1px solid rgba(201,168,76,0.15)',
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.borderColor = '#C9A84C';
+                  e.currentTarget.style.boxShadow = '0 8px 32px rgba(0,0,0,0.4)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.borderColor = 'rgba(201,168,76,0.15)';
+                  e.currentTarget.style.boxShadow = 'none';
+                }}
+              >
+                {/* Avatar + Name row */}
+                <div className="flex items-center gap-4 mb-4">
+                  <PhotoAvatar
+                    src={member.photo}
+                    alt={t(`${member.key}.name`)}
+                    initials={member.initials}
+                  />
+                  <div>
+                    <h3 className="font-heading font-bold text-[17px] text-white">
+                      {t(`${member.key}.name`)}
+                    </h3>
+                    <p className="font-body font-medium text-[14px] text-teal">
+                      {t(`${member.key}.title`)}
+                    </p>
                   </div>
                 </div>
-              </ScrollReveal>
-            );
-          })}
+
+                {/* Bio */}
+                <p className="font-body text-[15px] leading-[1.6] text-off-white mb-4">
+                  {t(`${member.key}.bio`)}
+                </p>
+
+                {/* Expertise tags */}
+                <div className="flex flex-wrap gap-2">
+                  {(t.raw(`${member.key}.tags`) as string[]).map((tag: string) => (
+                    <span
+                      key={tag}
+                      className="inline-block font-body text-[12px] text-gold px-2.5 py-1 rounded-[20px]"
+                      style={{
+                        backgroundColor: 'rgba(201,168,76,0.12)',
+                        border: '1px solid rgba(201,168,76,0.3)',
+                      }}
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </ScrollReveal>
+          ))}
         </div>
       </div>
     </section>

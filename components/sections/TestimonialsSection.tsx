@@ -35,11 +35,11 @@ export default function TestimonialsSection() {
       : PLACEHOLDER_CARDS.filter((c) => c.pillar === activeFilter);
 
   return (
-    <section id="testimonials" className="bg-off-white">
+    <section id="testimonials" className="bg-charcoal">
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-20">
         {/* Headline */}
         <ScrollReveal>
-          <h2 className="font-heading font-extrabold text-[28px] lg:text-[42px] leading-[1.1] text-navy text-center mb-8">
+          <h2 className="font-heading font-extrabold text-[28px] lg:text-[42px] leading-[1.1] text-white text-center mb-8">
             {t('headline')}
           </h2>
         </ScrollReveal>
@@ -53,8 +53,8 @@ export default function TestimonialsSection() {
                 onClick={() => setActiveFilter(key)}
                 className={`font-body text-[14px] px-4 py-2 rounded-full transition-all ${
                   activeFilter === key
-                    ? 'text-navy border-b-2 border-teal bg-white shadow-sm'
-                    : 'text-gray-400 hover:text-gray-600'
+                    ? 'text-gold border-b-2 border-gold'
+                    : 'text-off-white/60 hover:text-off-white'
                 }`}
               >
                 {t(`filters.${key}`)}
@@ -64,11 +64,24 @@ export default function TestimonialsSection() {
         </ScrollReveal>
 
         {/* Cards grid */}
+        {/* PLACEHOLDER — replace with real testimonials before launch */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-8">
-          {/* PLACEHOLDER — replace with real testimonials before launch */}
           {filteredCards.map((card) => (
             <ScrollReveal key={card.key} delay={60}>
-              <div className="bg-white rounded-[var(--radius-card)] p-6 shadow-sm">
+              <div
+                className="rounded-xl p-6 h-full transition-all"
+                style={{
+                  backgroundColor: '#0A1628',
+                  border: '1px solid rgba(255,255,255,0.08)',
+                  boxShadow: '0 4px 20px rgba(0,0,0,0.3)',
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.borderColor = '#00B4A6';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.borderColor = 'rgba(255,255,255,0.08)';
+                }}
+              >
                 {/* Avatar + Name */}
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-10 h-10 rounded-full bg-charcoal flex items-center justify-center shrink-0">
@@ -77,17 +90,17 @@ export default function TestimonialsSection() {
                     </span>
                   </div>
                   <div>
-                    <p className="font-heading font-semibold text-[15px] text-navy">
+                    <p className="font-heading font-semibold text-[15px] text-white">
                       {t(`placeholders.${card.key}.name`)}
                     </p>
-                    <p className="font-body text-[13px] text-gray-400">
+                    <p className="font-body text-[13px] text-off-white/60">
                       {t(`placeholders.${card.key}.business`)}
                     </p>
                   </div>
                 </div>
 
                 {/* Quote */}
-                <p className="font-body text-[15px] leading-[1.6] text-text-secondary italic mb-4">
+                <p className="font-body text-[15px] leading-[1.6] text-off-white italic mb-4">
                   &ldquo;{t(`placeholders.${card.key}.quote`)}&rdquo;
                 </p>
 
@@ -101,7 +114,7 @@ export default function TestimonialsSection() {
         </div>
 
         {/* Disclaimer */}
-        <p className="font-body text-[12px] leading-[1.5] text-text-secondary/60 text-center mb-6">
+        <p className="font-body text-[12px] leading-[1.5] text-off-white/50 text-center mb-6">
           {t('disclaimer')}
         </p>
 

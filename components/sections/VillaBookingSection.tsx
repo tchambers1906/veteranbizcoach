@@ -22,24 +22,24 @@ export default function VillaBookingSection() {
     <section id="villa-booking-traffic">
       {/* Section hero — Bali villa background */}
       <div
-        className="relative bg-cover bg-scroll min-h-[320px] md:min-h-[480px] md:bg-[center_30%] bg-[center_top]"
+        className="relative bg-cover bg-scroll min-h-[320px] md:min-h-[480px] md:bg-[center_40%] bg-[center_35%]"
         style={{
           backgroundImage: "url('/images/villa-bali-bg.jpg')",
         }}
       >
-        {/* Gradient overlay — mobile 5% stronger for smaller text contrast */}
+        {/* Gradient overlay — mobile 0.65 top for small-text contrast, desktop 0.55 to show teal pool and purple sky */}
         <div
           className="absolute inset-0 z-0 md:hidden"
           style={{
             background:
-              'linear-gradient(180deg, rgba(10,22,40,0.70) 0%, rgba(10,22,40,0.80) 60%, rgba(10,22,40,0.97) 100%)',
+              'linear-gradient(180deg, rgba(10,22,40,0.65) 0%, rgba(10,22,40,0.70) 55%, rgba(10,22,40,0.95) 100%)',
           }}
         />
         <div
           className="absolute inset-0 z-0 hidden md:block"
           style={{
             background:
-              'linear-gradient(180deg, rgba(10,22,40,0.75) 0%, rgba(10,22,40,0.85) 60%, rgba(10,22,40,0.97) 100%)',
+              'linear-gradient(180deg, rgba(10,22,40,0.55) 0%, rgba(10,22,40,0.70) 55%, rgba(10,22,40,0.95) 100%)',
           }}
         />
         <div className="relative z-[1] mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 pt-20 pb-12 text-center">

@@ -4,6 +4,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/src/i18n/navigation';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import { track } from '@/lib/analytics';
+import { DollarSign, Users, ShieldCheck, TrendingUp } from 'lucide-react';
 
 export default function VillaBookingSection() {
   const t = useTranslations('villa');
@@ -55,13 +56,13 @@ export default function VillaBookingSection() {
       </div>
 
       {/* Block 1 — The Problem */}
-      <div className="bg-white">
+      <div className="bg-navy">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-14">
           <ScrollReveal>
-            <h3 className="font-heading font-bold text-[24px] lg:text-[28px] text-navy mb-4">
+            <h3 className="font-heading font-bold text-[24px] lg:text-[28px] text-gold mb-4">
               {t('problem.heading')}
             </h3>
-            <p className="font-body text-[17px] lg:text-[18px] leading-[1.7] text-text-secondary">
+            <p className="font-body text-[17px] lg:text-[18px] leading-[1.7] text-off-white">
               {t('problem.body')}
             </p>
           </ScrollReveal>

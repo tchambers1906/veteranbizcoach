@@ -18,7 +18,7 @@ export function track(eventName: string, properties?: EventProperties): void {
   ) {
     try {
       // PostHog is loaded via script tag — access from window
-      const posthog = (window as Record<string, unknown>).posthog as
+      const posthog = (window as unknown as Record<string, unknown>).posthog as
         | { capture: (event: string, props?: EventProperties) => void }
         | undefined;
       posthog?.capture(eventName, properties);
@@ -33,7 +33,7 @@ export function track(eventName: string, properties?: EventProperties): void {
     process.env.NEXT_PUBLIC_GA4_MEASUREMENT_ID
   ) {
     try {
-      const gtag = (window as Record<string, unknown>).gtag as
+      const gtag = (window as unknown as Record<string, unknown>).gtag as
         | ((...args: unknown[]) => void)
         | undefined;
       gtag?.('event', eventName, properties);
@@ -56,7 +56,7 @@ export function identify(
     process.env.NEXT_PUBLIC_POSTHOG_KEY
   ) {
     try {
-      const posthog = (window as Record<string, unknown>).posthog as
+      const posthog = (window as unknown as Record<string, unknown>).posthog as
         | { identify: (id: string, props?: EventProperties) => void }
         | undefined;
       posthog?.identify(userId, traits);

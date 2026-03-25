@@ -19,12 +19,12 @@ const serwist = new Serwist({
     ...defaultCache,
     {
       matcher: /^\/api\//,
-      handler: 'NetworkFirst',
+      handler: 'NetworkFirst' as const,
       options: { cacheName: 'api-cache', networkTimeoutSeconds: 10 },
     },
     {
       matcher: /calendly\.com/,
-      handler: 'NetworkFirst',
+      handler: 'NetworkFirst' as const,
       options: { cacheName: 'calendly-cache', networkTimeoutSeconds: 10 },
     },
   ],

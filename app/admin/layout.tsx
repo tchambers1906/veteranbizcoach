@@ -185,7 +185,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
                 return (
                   <Tooltip key={item.href}>
                     <TooltipTrigger asChild>{navItem}</TooltipTrigger>
-                    <TooltipContent side="right" content={item.label} className="font-body text-[13px]" />
+                    <div className="bg-charcoal text-off-white px-2 py-1 rounded text-[13px] font-body ml-2">{item.label}</div>
                   </Tooltip>
                 );
               }

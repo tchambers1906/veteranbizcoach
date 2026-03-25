@@ -1,6 +1,6 @@
 import { defaultCache } from '@serwist/next/worker';
 import type { PrecacheEntry, SerwistGlobalConfig } from 'serwist';
-import { Serwist } from 'serwist';
+import { Serwist, NetworkFirst } from 'serwist';
 
 declare global {
   interface WorkerGlobalScope extends SerwistGlobalConfig {
@@ -19,13 +19,17 @@ const serwist = new Serwist({
     ...defaultCache,
     {
       matcher: /^\/api\//,
-      handler: 'NetworkFirst' as const,
-      options: { cacheName: 'api-cache', networkTimeoutSeconds: 10 },
+      handler: new NetworkFirst({
+        cacheName: 'api-cache',
+        networkTimeoutSeconds: 10,
+      }),
     },
     {
       matcher: /calendly\.com/,
-      handler: 'NetworkFirst' as const,
-      options: { cacheName: 'calendly-cache', networkTimeoutSeconds: 10 },
+      handler: new NetworkFirst({
+        cacheName: 'calendly-cache',
+        networkTimeoutSeconds: 10,
+      }),
     },
   ],
 });
